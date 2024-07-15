@@ -30,67 +30,67 @@
         {
             this.tbText = new Guna.UI2.WinForms.Guna2TextBox();
             this.KeyboardPanel = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Button61 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button60 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button59 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button58 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button57 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button55 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button54 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button56 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button44 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button45 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button46 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button47 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button48 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button49 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button50 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button51 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button52 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button53 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button43 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button42 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button31 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button32 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button33 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button34 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button35 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button36 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button37 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button38 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button39 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button40 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button41 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button30 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button29 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button14 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button28 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button15 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button18 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button19 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button20 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button21 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button22 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button23 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button24 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button25 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button26 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button27 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button16 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button17 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button10 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button11 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button12 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button13 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button9 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnWin2 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnAlt2 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnMenue = new Guna.UI2.WinForms.Guna2Button();
+            this.btnControl2 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnSpace = new Guna.UI2.WinForms.Guna2Button();
+            this.btnAlt1 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnWin1 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnControl = new Guna.UI2.WinForms.Guna2Button();
+            this.btnQuestionMark = new Guna.UI2.WinForms.Guna2Button();
+            this.btnGraterThan = new Guna.UI2.WinForms.Guna2Button();
+            this.btnLessThan = new Guna.UI2.WinForms.Guna2Button();
+            this.btnM = new Guna.UI2.WinForms.Guna2Button();
+            this.btnN = new Guna.UI2.WinForms.Guna2Button();
+            this.btnB = new Guna.UI2.WinForms.Guna2Button();
+            this.btnV = new Guna.UI2.WinForms.Guna2Button();
+            this.btnC = new Guna.UI2.WinForms.Guna2Button();
+            this.btnX = new Guna.UI2.WinForms.Guna2Button();
+            this.btnZ = new Guna.UI2.WinForms.Guna2Button();
+            this.btnShift = new Guna.UI2.WinForms.Guna2Button();
+            this.btnShift2 = new Guna.UI2.WinForms.Guna2Button();
+            this.btndDoubleQuotation = new Guna.UI2.WinForms.Guna2Button();
+            this.btnColon = new Guna.UI2.WinForms.Guna2Button();
+            this.btnL = new Guna.UI2.WinForms.Guna2Button();
+            this.btnK = new Guna.UI2.WinForms.Guna2Button();
+            this.btnJ = new Guna.UI2.WinForms.Guna2Button();
+            this.btnH = new Guna.UI2.WinForms.Guna2Button();
+            this.btnG = new Guna.UI2.WinForms.Guna2Button();
+            this.btnF = new Guna.UI2.WinForms.Guna2Button();
+            this.btnD = new Guna.UI2.WinForms.Guna2Button();
+            this.btnS = new Guna.UI2.WinForms.Guna2Button();
+            this.btnA = new Guna.UI2.WinForms.Guna2Button();
+            this.btnCapsLock = new Guna.UI2.WinForms.Guna2Button();
+            this.btnEnter = new Guna.UI2.WinForms.Guna2Button();
+            this.btnTab = new Guna.UI2.WinForms.Guna2Button();
+            this.btnLeftCurlyBrace = new Guna.UI2.WinForms.Guna2Button();
+            this.btnVerticalBar = new Guna.UI2.WinForms.Guna2Button();
+            this.btnP = new Guna.UI2.WinForms.Guna2Button();
+            this.btnO = new Guna.UI2.WinForms.Guna2Button();
+            this.btnI = new Guna.UI2.WinForms.Guna2Button();
+            this.btnRightCurlyBrace = new Guna.UI2.WinForms.Guna2Button();
+            this.btnU = new Guna.UI2.WinForms.Guna2Button();
+            this.btnY = new Guna.UI2.WinForms.Guna2Button();
+            this.btnT = new Guna.UI2.WinForms.Guna2Button();
+            this.btnR = new Guna.UI2.WinForms.Guna2Button();
+            this.btnE = new Guna.UI2.WinForms.Guna2Button();
+            this.btnW = new Guna.UI2.WinForms.Guna2Button();
+            this.btnQ = new Guna.UI2.WinForms.Guna2Button();
+            this.btnBackSpace = new Guna.UI2.WinForms.Guna2Button();
+            this.btnMinus = new Guna.UI2.WinForms.Guna2Button();
+            this.btnNoZero = new Guna.UI2.WinForms.Guna2Button();
+            this.btnNoNine = new Guna.UI2.WinForms.Guna2Button();
+            this.btnNoEight = new Guna.UI2.WinForms.Guna2Button();
+            this.btnPluse = new Guna.UI2.WinForms.Guna2Button();
+            this.btnNoSeven = new Guna.UI2.WinForms.Guna2Button();
+            this.btnNoSix = new Guna.UI2.WinForms.Guna2Button();
+            this.btnNoFive = new Guna.UI2.WinForms.Guna2Button();
+            this.btnNoFour = new Guna.UI2.WinForms.Guna2Button();
+            this.btnNoThree = new Guna.UI2.WinForms.Guna2Button();
+            this.btnNoTwo = new Guna.UI2.WinForms.Guna2Button();
+            this.btnNoOne = new Guna.UI2.WinForms.Guna2Button();
+            this.btnTilde = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.KeyboardPanel.SuspendLayout();
             this.SuspendLayout();
@@ -104,8 +104,10 @@
             this.tbText.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.tbText.DisabledState.Parent = this.tbText;
             this.tbText.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tbText.FillColor = System.Drawing.Color.Gray;
             this.tbText.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbText.FocusedState.Parent = this.tbText;
+            this.tbText.ForeColor = System.Drawing.Color.White;
             this.tbText.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbText.HoverState.Parent = this.tbText;
             this.tbText.Location = new System.Drawing.Point(209, 85);
@@ -116,70 +118,72 @@
             this.tbText.ShadowDecoration.Parent = this.tbText;
             this.tbText.Size = new System.Drawing.Size(896, 279);
             this.tbText.TabIndex = 0;
+            this.tbText.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tbText_KeyDown);
             // 
             // KeyboardPanel
             // 
-            this.KeyboardPanel.Controls.Add(this.guna2Button61);
-            this.KeyboardPanel.Controls.Add(this.guna2Button60);
-            this.KeyboardPanel.Controls.Add(this.guna2Button59);
-            this.KeyboardPanel.Controls.Add(this.guna2Button58);
-            this.KeyboardPanel.Controls.Add(this.guna2Button57);
-            this.KeyboardPanel.Controls.Add(this.guna2Button55);
-            this.KeyboardPanel.Controls.Add(this.guna2Button54);
-            this.KeyboardPanel.Controls.Add(this.guna2Button56);
-            this.KeyboardPanel.Controls.Add(this.guna2Button44);
-            this.KeyboardPanel.Controls.Add(this.guna2Button45);
-            this.KeyboardPanel.Controls.Add(this.guna2Button46);
-            this.KeyboardPanel.Controls.Add(this.guna2Button47);
-            this.KeyboardPanel.Controls.Add(this.guna2Button48);
-            this.KeyboardPanel.Controls.Add(this.guna2Button49);
-            this.KeyboardPanel.Controls.Add(this.guna2Button50);
-            this.KeyboardPanel.Controls.Add(this.guna2Button51);
-            this.KeyboardPanel.Controls.Add(this.guna2Button52);
-            this.KeyboardPanel.Controls.Add(this.guna2Button53);
-            this.KeyboardPanel.Controls.Add(this.guna2Button43);
-            this.KeyboardPanel.Controls.Add(this.guna2Button42);
-            this.KeyboardPanel.Controls.Add(this.guna2Button31);
-            this.KeyboardPanel.Controls.Add(this.guna2Button32);
-            this.KeyboardPanel.Controls.Add(this.guna2Button33);
-            this.KeyboardPanel.Controls.Add(this.guna2Button34);
-            this.KeyboardPanel.Controls.Add(this.guna2Button35);
-            this.KeyboardPanel.Controls.Add(this.guna2Button36);
-            this.KeyboardPanel.Controls.Add(this.guna2Button37);
-            this.KeyboardPanel.Controls.Add(this.guna2Button38);
-            this.KeyboardPanel.Controls.Add(this.guna2Button39);
-            this.KeyboardPanel.Controls.Add(this.guna2Button40);
-            this.KeyboardPanel.Controls.Add(this.guna2Button41);
-            this.KeyboardPanel.Controls.Add(this.guna2Button30);
-            this.KeyboardPanel.Controls.Add(this.guna2Button5);
-            this.KeyboardPanel.Controls.Add(this.guna2Button29);
-            this.KeyboardPanel.Controls.Add(this.guna2Button14);
-            this.KeyboardPanel.Controls.Add(this.guna2Button28);
-            this.KeyboardPanel.Controls.Add(this.guna2Button15);
-            this.KeyboardPanel.Controls.Add(this.guna2Button18);
-            this.KeyboardPanel.Controls.Add(this.guna2Button19);
-            this.KeyboardPanel.Controls.Add(this.guna2Button20);
-            this.KeyboardPanel.Controls.Add(this.guna2Button21);
-            this.KeyboardPanel.Controls.Add(this.guna2Button22);
-            this.KeyboardPanel.Controls.Add(this.guna2Button23);
-            this.KeyboardPanel.Controls.Add(this.guna2Button24);
-            this.KeyboardPanel.Controls.Add(this.guna2Button25);
-            this.KeyboardPanel.Controls.Add(this.guna2Button26);
-            this.KeyboardPanel.Controls.Add(this.guna2Button27);
-            this.KeyboardPanel.Controls.Add(this.guna2Button16);
-            this.KeyboardPanel.Controls.Add(this.guna2Button17);
-            this.KeyboardPanel.Controls.Add(this.guna2Button10);
-            this.KeyboardPanel.Controls.Add(this.guna2Button11);
-            this.KeyboardPanel.Controls.Add(this.guna2Button12);
-            this.KeyboardPanel.Controls.Add(this.guna2Button13);
-            this.KeyboardPanel.Controls.Add(this.guna2Button6);
-            this.KeyboardPanel.Controls.Add(this.guna2Button7);
-            this.KeyboardPanel.Controls.Add(this.guna2Button8);
-            this.KeyboardPanel.Controls.Add(this.guna2Button9);
-            this.KeyboardPanel.Controls.Add(this.guna2Button4);
-            this.KeyboardPanel.Controls.Add(this.guna2Button3);
-            this.KeyboardPanel.Controls.Add(this.guna2Button2);
-            this.KeyboardPanel.Controls.Add(this.guna2Button1);
+            this.KeyboardPanel.BackColor = System.Drawing.Color.Gray;
+            this.KeyboardPanel.Controls.Add(this.btnWin2);
+            this.KeyboardPanel.Controls.Add(this.btnAlt2);
+            this.KeyboardPanel.Controls.Add(this.btnMenue);
+            this.KeyboardPanel.Controls.Add(this.btnControl2);
+            this.KeyboardPanel.Controls.Add(this.btnSpace);
+            this.KeyboardPanel.Controls.Add(this.btnAlt1);
+            this.KeyboardPanel.Controls.Add(this.btnWin1);
+            this.KeyboardPanel.Controls.Add(this.btnControl);
+            this.KeyboardPanel.Controls.Add(this.btnQuestionMark);
+            this.KeyboardPanel.Controls.Add(this.btnGraterThan);
+            this.KeyboardPanel.Controls.Add(this.btnLessThan);
+            this.KeyboardPanel.Controls.Add(this.btnM);
+            this.KeyboardPanel.Controls.Add(this.btnN);
+            this.KeyboardPanel.Controls.Add(this.btnB);
+            this.KeyboardPanel.Controls.Add(this.btnV);
+            this.KeyboardPanel.Controls.Add(this.btnC);
+            this.KeyboardPanel.Controls.Add(this.btnX);
+            this.KeyboardPanel.Controls.Add(this.btnZ);
+            this.KeyboardPanel.Controls.Add(this.btnShift);
+            this.KeyboardPanel.Controls.Add(this.btnShift2);
+            this.KeyboardPanel.Controls.Add(this.btndDoubleQuotation);
+            this.KeyboardPanel.Controls.Add(this.btnColon);
+            this.KeyboardPanel.Controls.Add(this.btnL);
+            this.KeyboardPanel.Controls.Add(this.btnK);
+            this.KeyboardPanel.Controls.Add(this.btnJ);
+            this.KeyboardPanel.Controls.Add(this.btnH);
+            this.KeyboardPanel.Controls.Add(this.btnG);
+            this.KeyboardPanel.Controls.Add(this.btnF);
+            this.KeyboardPanel.Controls.Add(this.btnD);
+            this.KeyboardPanel.Controls.Add(this.btnS);
+            this.KeyboardPanel.Controls.Add(this.btnA);
+            this.KeyboardPanel.Controls.Add(this.btnCapsLock);
+            this.KeyboardPanel.Controls.Add(this.btnEnter);
+            this.KeyboardPanel.Controls.Add(this.btnTab);
+            this.KeyboardPanel.Controls.Add(this.btnLeftCurlyBrace);
+            this.KeyboardPanel.Controls.Add(this.btnVerticalBar);
+            this.KeyboardPanel.Controls.Add(this.btnP);
+            this.KeyboardPanel.Controls.Add(this.btnO);
+            this.KeyboardPanel.Controls.Add(this.btnI);
+            this.KeyboardPanel.Controls.Add(this.btnRightCurlyBrace);
+            this.KeyboardPanel.Controls.Add(this.btnU);
+            this.KeyboardPanel.Controls.Add(this.btnY);
+            this.KeyboardPanel.Controls.Add(this.btnT);
+            this.KeyboardPanel.Controls.Add(this.btnR);
+            this.KeyboardPanel.Controls.Add(this.btnE);
+            this.KeyboardPanel.Controls.Add(this.btnW);
+            this.KeyboardPanel.Controls.Add(this.btnQ);
+            this.KeyboardPanel.Controls.Add(this.btnBackSpace);
+            this.KeyboardPanel.Controls.Add(this.btnMinus);
+            this.KeyboardPanel.Controls.Add(this.btnNoZero);
+            this.KeyboardPanel.Controls.Add(this.btnNoNine);
+            this.KeyboardPanel.Controls.Add(this.btnNoEight);
+            this.KeyboardPanel.Controls.Add(this.btnPluse);
+            this.KeyboardPanel.Controls.Add(this.btnNoSeven);
+            this.KeyboardPanel.Controls.Add(this.btnNoSix);
+            this.KeyboardPanel.Controls.Add(this.btnNoFive);
+            this.KeyboardPanel.Controls.Add(this.btnNoFour);
+            this.KeyboardPanel.Controls.Add(this.btnNoThree);
+            this.KeyboardPanel.Controls.Add(this.btnNoTwo);
+            this.KeyboardPanel.Controls.Add(this.btnNoOne);
+            this.KeyboardPanel.Controls.Add(this.btnTilde);
             this.KeyboardPanel.Location = new System.Drawing.Point(271, 446);
             this.KeyboardPanel.Name = "KeyboardPanel";
             this.KeyboardPanel.ShadowDecoration.Parent = this.KeyboardPanel;
@@ -187,1061 +191,1065 @@
             this.KeyboardPanel.TabIndex = 1;
             this.KeyboardPanel.Tag = " ";
             // 
-            // guna2Button61
-            // 
-            this.guna2Button61.CheckedState.Parent = this.guna2Button61;
-            this.guna2Button61.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button61.CustomImages.Parent = this.guna2Button61;
-            this.guna2Button61.FillColor = System.Drawing.Color.White;
-            this.guna2Button61.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button61.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button61.HoverState.Parent = this.guna2Button61;
-            this.guna2Button61.Location = new System.Drawing.Point(608, 203);
-            this.guna2Button61.Name = "guna2Button61";
-            this.guna2Button61.ShadowDecoration.Parent = this.guna2Button61;
-            this.guna2Button61.Size = new System.Drawing.Size(54, 44);
-            this.guna2Button61.TabIndex = 68;
-            this.guna2Button61.Text = "WIN";
-            this.guna2Button61.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button60
-            // 
-            this.guna2Button60.CheckedState.Parent = this.guna2Button60;
-            this.guna2Button60.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button60.CustomImages.Parent = this.guna2Button60;
-            this.guna2Button60.FillColor = System.Drawing.Color.White;
-            this.guna2Button60.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button60.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button60.HoverState.Parent = this.guna2Button60;
-            this.guna2Button60.Location = new System.Drawing.Point(548, 203);
-            this.guna2Button60.Name = "guna2Button60";
-            this.guna2Button60.ShadowDecoration.Parent = this.guna2Button60;
-            this.guna2Button60.Size = new System.Drawing.Size(54, 44);
-            this.guna2Button60.TabIndex = 67;
-            this.guna2Button60.Text = "ALT";
-            this.guna2Button60.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button59
-            // 
-            this.guna2Button59.CheckedState.Parent = this.guna2Button59;
-            this.guna2Button59.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button59.CustomImages.Parent = this.guna2Button59;
-            this.guna2Button59.FillColor = System.Drawing.Color.White;
-            this.guna2Button59.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button59.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button59.HoverState.Parent = this.guna2Button59;
-            this.guna2Button59.Location = new System.Drawing.Point(668, 204);
-            this.guna2Button59.Name = "guna2Button59";
-            this.guna2Button59.ShadowDecoration.Parent = this.guna2Button59;
-            this.guna2Button59.Size = new System.Drawing.Size(54, 44);
-            this.guna2Button59.TabIndex = 66;
-            this.guna2Button59.Text = "MENU";
-            this.guna2Button59.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button58
-            // 
-            this.guna2Button58.CheckedState.Parent = this.guna2Button58;
-            this.guna2Button58.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button58.CustomImages.Parent = this.guna2Button58;
-            this.guna2Button58.FillColor = System.Drawing.Color.White;
-            this.guna2Button58.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button58.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button58.HoverState.Parent = this.guna2Button58;
-            this.guna2Button58.Location = new System.Drawing.Point(728, 203);
-            this.guna2Button58.Name = "guna2Button58";
-            this.guna2Button58.ShadowDecoration.Parent = this.guna2Button58;
-            this.guna2Button58.Size = new System.Drawing.Size(54, 44);
-            this.guna2Button58.TabIndex = 65;
-            this.guna2Button58.Text = "CTRL";
-            this.guna2Button58.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button57
-            // 
-            this.guna2Button57.CheckedState.Parent = this.guna2Button57;
-            this.guna2Button57.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button57.CustomImages.Parent = this.guna2Button57;
-            this.guna2Button57.FillColor = System.Drawing.Color.White;
-            this.guna2Button57.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button57.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button57.HoverState.Parent = this.guna2Button57;
-            this.guna2Button57.Location = new System.Drawing.Point(226, 203);
-            this.guna2Button57.Name = "guna2Button57";
-            this.guna2Button57.ShadowDecoration.Parent = this.guna2Button57;
-            this.guna2Button57.Size = new System.Drawing.Size(316, 44);
-            this.guna2Button57.TabIndex = 64;
-            this.guna2Button57.Text = "SPACE";
-            this.guna2Button57.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button55
-            // 
-            this.guna2Button55.CheckedState.Parent = this.guna2Button55;
-            this.guna2Button55.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button55.CustomImages.Parent = this.guna2Button55;
-            this.guna2Button55.FillColor = System.Drawing.Color.White;
-            this.guna2Button55.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button55.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button55.HoverState.Parent = this.guna2Button55;
-            this.guna2Button55.Location = new System.Drawing.Point(153, 203);
-            this.guna2Button55.Name = "guna2Button55";
-            this.guna2Button55.ShadowDecoration.Parent = this.guna2Button55;
-            this.guna2Button55.Size = new System.Drawing.Size(67, 44);
-            this.guna2Button55.TabIndex = 63;
-            this.guna2Button55.Text = "ALT";
-            this.guna2Button55.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button54
-            // 
-            this.guna2Button54.CheckedState.Parent = this.guna2Button54;
-            this.guna2Button54.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button54.CustomImages.Parent = this.guna2Button54;
-            this.guna2Button54.FillColor = System.Drawing.Color.White;
-            this.guna2Button54.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button54.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button54.HoverState.Parent = this.guna2Button54;
-            this.guna2Button54.Location = new System.Drawing.Point(79, 203);
-            this.guna2Button54.Name = "guna2Button54";
-            this.guna2Button54.ShadowDecoration.Parent = this.guna2Button54;
-            this.guna2Button54.Size = new System.Drawing.Size(67, 44);
-            this.guna2Button54.TabIndex = 62;
-            this.guna2Button54.Text = "WIN";
-            this.guna2Button54.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button56
-            // 
-            this.guna2Button56.CheckedState.Parent = this.guna2Button56;
-            this.guna2Button56.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button56.CustomImages.Parent = this.guna2Button56;
-            this.guna2Button56.FillColor = System.Drawing.Color.White;
-            this.guna2Button56.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button56.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button56.HoverState.Parent = this.guna2Button56;
-            this.guna2Button56.Location = new System.Drawing.Point(5, 203);
-            this.guna2Button56.Name = "guna2Button56";
-            this.guna2Button56.ShadowDecoration.Parent = this.guna2Button56;
-            this.guna2Button56.Size = new System.Drawing.Size(67, 44);
-            this.guna2Button56.TabIndex = 58;
-            this.guna2Button56.Text = "CTRL";
-            this.guna2Button56.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button44
-            // 
-            this.guna2Button44.CheckedState.Parent = this.guna2Button44;
-            this.guna2Button44.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button44.CustomImages.Parent = this.guna2Button44;
-            this.guna2Button44.FillColor = System.Drawing.Color.White;
-            this.guna2Button44.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button44.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button44.HoverState.Parent = this.guna2Button44;
-            this.guna2Button44.Location = new System.Drawing.Point(588, 153);
-            this.guna2Button44.Name = "guna2Button44";
-            this.guna2Button44.ShadowDecoration.Parent = this.guna2Button44;
-            this.guna2Button44.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button44.TabIndex = 57;
-            this.guna2Button44.Tag = "/";
-            this.guna2Button44.Text = "?    /";
-            this.guna2Button44.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button45
-            // 
-            this.guna2Button45.CheckedState.Parent = this.guna2Button45;
-            this.guna2Button45.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button45.CustomImages.Parent = this.guna2Button45;
-            this.guna2Button45.FillColor = System.Drawing.Color.White;
-            this.guna2Button45.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button45.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button45.HoverState.Parent = this.guna2Button45;
-            this.guna2Button45.Location = new System.Drawing.Point(537, 153);
-            this.guna2Button45.Name = "guna2Button45";
-            this.guna2Button45.ShadowDecoration.Parent = this.guna2Button45;
-            this.guna2Button45.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button45.TabIndex = 56;
-            this.guna2Button45.Tag = ".";
-            this.guna2Button45.Text = ">    .";
-            this.guna2Button45.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button46
-            // 
-            this.guna2Button46.CheckedState.Parent = this.guna2Button46;
-            this.guna2Button46.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button46.CustomImages.Parent = this.guna2Button46;
-            this.guna2Button46.FillColor = System.Drawing.Color.White;
-            this.guna2Button46.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button46.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button46.HoverState.Parent = this.guna2Button46;
-            this.guna2Button46.Location = new System.Drawing.Point(486, 153);
-            this.guna2Button46.Name = "guna2Button46";
-            this.guna2Button46.ShadowDecoration.Parent = this.guna2Button46;
-            this.guna2Button46.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button46.TabIndex = 55;
-            this.guna2Button46.Tag = ",";
-            this.guna2Button46.Text = "<    ,";
-            this.guna2Button46.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button47
-            // 
-            this.guna2Button47.CheckedState.Parent = this.guna2Button47;
-            this.guna2Button47.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button47.CustomImages.Parent = this.guna2Button47;
-            this.guna2Button47.FillColor = System.Drawing.Color.White;
-            this.guna2Button47.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button47.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button47.HoverState.Parent = this.guna2Button47;
-            this.guna2Button47.Location = new System.Drawing.Point(435, 153);
-            this.guna2Button47.Name = "guna2Button47";
-            this.guna2Button47.ShadowDecoration.Parent = this.guna2Button47;
-            this.guna2Button47.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button47.TabIndex = 54;
-            this.guna2Button47.Text = "M";
-            this.guna2Button47.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button48
-            // 
-            this.guna2Button48.CheckedState.Parent = this.guna2Button48;
-            this.guna2Button48.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button48.CustomImages.Parent = this.guna2Button48;
-            this.guna2Button48.FillColor = System.Drawing.Color.White;
-            this.guna2Button48.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button48.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button48.HoverState.Parent = this.guna2Button48;
-            this.guna2Button48.Location = new System.Drawing.Point(384, 153);
-            this.guna2Button48.Name = "guna2Button48";
-            this.guna2Button48.ShadowDecoration.Parent = this.guna2Button48;
-            this.guna2Button48.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button48.TabIndex = 53;
-            this.guna2Button48.Text = "N";
-            this.guna2Button48.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button49
-            // 
-            this.guna2Button49.CheckedState.Parent = this.guna2Button49;
-            this.guna2Button49.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button49.CustomImages.Parent = this.guna2Button49;
-            this.guna2Button49.FillColor = System.Drawing.Color.White;
-            this.guna2Button49.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button49.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button49.HoverState.Parent = this.guna2Button49;
-            this.guna2Button49.Location = new System.Drawing.Point(333, 153);
-            this.guna2Button49.Name = "guna2Button49";
-            this.guna2Button49.ShadowDecoration.Parent = this.guna2Button49;
-            this.guna2Button49.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button49.TabIndex = 52;
-            this.guna2Button49.Text = "B";
-            this.guna2Button49.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button50
-            // 
-            this.guna2Button50.CheckedState.Parent = this.guna2Button50;
-            this.guna2Button50.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button50.CustomImages.Parent = this.guna2Button50;
-            this.guna2Button50.FillColor = System.Drawing.Color.White;
-            this.guna2Button50.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button50.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button50.HoverState.Parent = this.guna2Button50;
-            this.guna2Button50.Location = new System.Drawing.Point(282, 153);
-            this.guna2Button50.Name = "guna2Button50";
-            this.guna2Button50.ShadowDecoration.Parent = this.guna2Button50;
-            this.guna2Button50.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button50.TabIndex = 51;
-            this.guna2Button50.Text = "V";
-            this.guna2Button50.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button51
-            // 
-            this.guna2Button51.CheckedState.Parent = this.guna2Button51;
-            this.guna2Button51.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button51.CustomImages.Parent = this.guna2Button51;
-            this.guna2Button51.FillColor = System.Drawing.Color.White;
-            this.guna2Button51.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button51.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button51.HoverState.Parent = this.guna2Button51;
-            this.guna2Button51.Location = new System.Drawing.Point(231, 153);
-            this.guna2Button51.Name = "guna2Button51";
-            this.guna2Button51.ShadowDecoration.Parent = this.guna2Button51;
-            this.guna2Button51.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button51.TabIndex = 50;
-            this.guna2Button51.Text = "C";
-            this.guna2Button51.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button52
-            // 
-            this.guna2Button52.CheckedState.Parent = this.guna2Button52;
-            this.guna2Button52.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button52.CustomImages.Parent = this.guna2Button52;
-            this.guna2Button52.FillColor = System.Drawing.Color.White;
-            this.guna2Button52.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button52.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button52.HoverState.Parent = this.guna2Button52;
-            this.guna2Button52.Location = new System.Drawing.Point(180, 153);
-            this.guna2Button52.Name = "guna2Button52";
-            this.guna2Button52.ShadowDecoration.Parent = this.guna2Button52;
-            this.guna2Button52.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button52.TabIndex = 49;
-            this.guna2Button52.Text = "X";
-            this.guna2Button52.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button53
-            // 
-            this.guna2Button53.CheckedState.Parent = this.guna2Button53;
-            this.guna2Button53.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button53.CustomImages.Parent = this.guna2Button53;
-            this.guna2Button53.FillColor = System.Drawing.Color.White;
-            this.guna2Button53.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button53.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button53.HoverState.Parent = this.guna2Button53;
-            this.guna2Button53.Location = new System.Drawing.Point(129, 153);
-            this.guna2Button53.Name = "guna2Button53";
-            this.guna2Button53.ShadowDecoration.Parent = this.guna2Button53;
-            this.guna2Button53.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button53.TabIndex = 48;
-            this.guna2Button53.Text = "Z";
-            this.guna2Button53.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button43
-            // 
-            this.guna2Button43.CheckedState.Parent = this.guna2Button43;
-            this.guna2Button43.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button43.CustomImages.Parent = this.guna2Button43;
-            this.guna2Button43.FillColor = System.Drawing.Color.White;
-            this.guna2Button43.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button43.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button43.HoverState.Parent = this.guna2Button43;
-            this.guna2Button43.Location = new System.Drawing.Point(5, 153);
-            this.guna2Button43.Name = "guna2Button43";
-            this.guna2Button43.ShadowDecoration.Parent = this.guna2Button43;
-            this.guna2Button43.Size = new System.Drawing.Size(119, 44);
-            this.guna2Button43.TabIndex = 47;
-            this.guna2Button43.Text = "SHIFT";
-            this.guna2Button43.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button42
-            // 
-            this.guna2Button42.CheckedState.Parent = this.guna2Button42;
-            this.guna2Button42.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button42.CustomImages.Parent = this.guna2Button42;
-            this.guna2Button42.FillColor = System.Drawing.Color.White;
-            this.guna2Button42.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button42.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button42.HoverState.Parent = this.guna2Button42;
-            this.guna2Button42.Location = new System.Drawing.Point(639, 153);
-            this.guna2Button42.Name = "guna2Button42";
-            this.guna2Button42.ShadowDecoration.Parent = this.guna2Button42;
-            this.guna2Button42.Size = new System.Drawing.Size(143, 44);
-            this.guna2Button42.TabIndex = 46;
-            this.guna2Button42.Text = "SHIFT";
-            this.guna2Button42.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button31
-            // 
-            this.guna2Button31.CheckedState.Parent = this.guna2Button31;
-            this.guna2Button31.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button31.CustomImages.Parent = this.guna2Button31;
-            this.guna2Button31.FillColor = System.Drawing.Color.White;
-            this.guna2Button31.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button31.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button31.HoverState.Parent = this.guna2Button31;
-            this.guna2Button31.Location = new System.Drawing.Point(618, 103);
-            this.guna2Button31.Name = "guna2Button31";
-            this.guna2Button31.ShadowDecoration.Parent = this.guna2Button31;
-            this.guna2Button31.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button31.TabIndex = 45;
-            this.guna2Button31.Text = "\"           \'";
-            this.guna2Button31.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button32
-            // 
-            this.guna2Button32.CheckedState.Parent = this.guna2Button32;
-            this.guna2Button32.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button32.CustomImages.Parent = this.guna2Button32;
-            this.guna2Button32.FillColor = System.Drawing.Color.White;
-            this.guna2Button32.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button32.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button32.HoverState.Parent = this.guna2Button32;
-            this.guna2Button32.Location = new System.Drawing.Point(567, 103);
-            this.guna2Button32.Name = "guna2Button32";
-            this.guna2Button32.ShadowDecoration.Parent = this.guna2Button32;
-            this.guna2Button32.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button32.TabIndex = 44;
-            this.guna2Button32.Text = ":            ; ";
-            this.guna2Button32.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button33
-            // 
-            this.guna2Button33.CheckedState.Parent = this.guna2Button33;
-            this.guna2Button33.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button33.CustomImages.Parent = this.guna2Button33;
-            this.guna2Button33.FillColor = System.Drawing.Color.White;
-            this.guna2Button33.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button33.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button33.HoverState.Parent = this.guna2Button33;
-            this.guna2Button33.Location = new System.Drawing.Point(516, 103);
-            this.guna2Button33.Name = "guna2Button33";
-            this.guna2Button33.ShadowDecoration.Parent = this.guna2Button33;
-            this.guna2Button33.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button33.TabIndex = 43;
-            this.guna2Button33.Text = "L";
-            this.guna2Button33.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button34
-            // 
-            this.guna2Button34.CheckedState.Parent = this.guna2Button34;
-            this.guna2Button34.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button34.CustomImages.Parent = this.guna2Button34;
-            this.guna2Button34.FillColor = System.Drawing.Color.White;
-            this.guna2Button34.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button34.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button34.HoverState.Parent = this.guna2Button34;
-            this.guna2Button34.Location = new System.Drawing.Point(465, 103);
-            this.guna2Button34.Name = "guna2Button34";
-            this.guna2Button34.ShadowDecoration.Parent = this.guna2Button34;
-            this.guna2Button34.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button34.TabIndex = 42;
-            this.guna2Button34.Text = "K";
-            this.guna2Button34.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button35
-            // 
-            this.guna2Button35.CheckedState.Parent = this.guna2Button35;
-            this.guna2Button35.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button35.CustomImages.Parent = this.guna2Button35;
-            this.guna2Button35.FillColor = System.Drawing.Color.White;
-            this.guna2Button35.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button35.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button35.HoverState.Parent = this.guna2Button35;
-            this.guna2Button35.Location = new System.Drawing.Point(414, 103);
-            this.guna2Button35.Name = "guna2Button35";
-            this.guna2Button35.ShadowDecoration.Parent = this.guna2Button35;
-            this.guna2Button35.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button35.TabIndex = 41;
-            this.guna2Button35.Text = "J";
-            this.guna2Button35.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button36
-            // 
-            this.guna2Button36.CheckedState.Parent = this.guna2Button36;
-            this.guna2Button36.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button36.CustomImages.Parent = this.guna2Button36;
-            this.guna2Button36.FillColor = System.Drawing.Color.White;
-            this.guna2Button36.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button36.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button36.HoverState.Parent = this.guna2Button36;
-            this.guna2Button36.Location = new System.Drawing.Point(363, 103);
-            this.guna2Button36.Name = "guna2Button36";
-            this.guna2Button36.ShadowDecoration.Parent = this.guna2Button36;
-            this.guna2Button36.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button36.TabIndex = 40;
-            this.guna2Button36.Text = "H";
-            this.guna2Button36.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button37
-            // 
-            this.guna2Button37.CheckedState.Parent = this.guna2Button37;
-            this.guna2Button37.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button37.CustomImages.Parent = this.guna2Button37;
-            this.guna2Button37.FillColor = System.Drawing.Color.White;
-            this.guna2Button37.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button37.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button37.HoverState.Parent = this.guna2Button37;
-            this.guna2Button37.Location = new System.Drawing.Point(312, 103);
-            this.guna2Button37.Name = "guna2Button37";
-            this.guna2Button37.ShadowDecoration.Parent = this.guna2Button37;
-            this.guna2Button37.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button37.TabIndex = 39;
-            this.guna2Button37.Text = "G";
-            this.guna2Button37.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button38
-            // 
-            this.guna2Button38.CheckedState.Parent = this.guna2Button38;
-            this.guna2Button38.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button38.CustomImages.Parent = this.guna2Button38;
-            this.guna2Button38.FillColor = System.Drawing.Color.White;
-            this.guna2Button38.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button38.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button38.HoverState.Parent = this.guna2Button38;
-            this.guna2Button38.Location = new System.Drawing.Point(261, 103);
-            this.guna2Button38.Name = "guna2Button38";
-            this.guna2Button38.ShadowDecoration.Parent = this.guna2Button38;
-            this.guna2Button38.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button38.TabIndex = 38;
-            this.guna2Button38.Text = "F";
-            this.guna2Button38.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button39
-            // 
-            this.guna2Button39.CheckedState.Parent = this.guna2Button39;
-            this.guna2Button39.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button39.CustomImages.Parent = this.guna2Button39;
-            this.guna2Button39.FillColor = System.Drawing.Color.White;
-            this.guna2Button39.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button39.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button39.HoverState.Parent = this.guna2Button39;
-            this.guna2Button39.Location = new System.Drawing.Point(210, 103);
-            this.guna2Button39.Name = "guna2Button39";
-            this.guna2Button39.ShadowDecoration.Parent = this.guna2Button39;
-            this.guna2Button39.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button39.TabIndex = 37;
-            this.guna2Button39.Text = "D";
-            this.guna2Button39.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button40
-            // 
-            this.guna2Button40.CheckedState.Parent = this.guna2Button40;
-            this.guna2Button40.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button40.CustomImages.Parent = this.guna2Button40;
-            this.guna2Button40.FillColor = System.Drawing.Color.White;
-            this.guna2Button40.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button40.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button40.HoverState.Parent = this.guna2Button40;
-            this.guna2Button40.Location = new System.Drawing.Point(159, 103);
-            this.guna2Button40.Name = "guna2Button40";
-            this.guna2Button40.ShadowDecoration.Parent = this.guna2Button40;
-            this.guna2Button40.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button40.TabIndex = 36;
-            this.guna2Button40.Text = "S";
-            this.guna2Button40.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button41
-            // 
-            this.guna2Button41.CheckedState.Parent = this.guna2Button41;
-            this.guna2Button41.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button41.CustomImages.Parent = this.guna2Button41;
-            this.guna2Button41.FillColor = System.Drawing.Color.White;
-            this.guna2Button41.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button41.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button41.HoverState.Parent = this.guna2Button41;
-            this.guna2Button41.Location = new System.Drawing.Point(108, 103);
-            this.guna2Button41.Name = "guna2Button41";
-            this.guna2Button41.ShadowDecoration.Parent = this.guna2Button41;
-            this.guna2Button41.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button41.TabIndex = 35;
-            this.guna2Button41.Text = "A";
-            this.guna2Button41.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button30
-            // 
-            this.guna2Button30.CheckedState.Parent = this.guna2Button30;
-            this.guna2Button30.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button30.CustomImages.Parent = this.guna2Button30;
-            this.guna2Button30.FillColor = System.Drawing.Color.White;
-            this.guna2Button30.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button30.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button30.HoverState.Parent = this.guna2Button30;
-            this.guna2Button30.Location = new System.Drawing.Point(5, 103);
-            this.guna2Button30.Name = "guna2Button30";
-            this.guna2Button30.ShadowDecoration.Parent = this.guna2Button30;
-            this.guna2Button30.Size = new System.Drawing.Size(98, 44);
-            this.guna2Button30.TabIndex = 34;
-            this.guna2Button30.Text = "CAPS LOCK";
-            this.guna2Button30.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button5
-            // 
-            this.guna2Button5.CheckedState.Parent = this.guna2Button5;
-            this.guna2Button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button5.CustomImages.Parent = this.guna2Button5;
-            this.guna2Button5.FillColor = System.Drawing.Color.White;
-            this.guna2Button5.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button5.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button5.HoverState.Parent = this.guna2Button5;
-            this.guna2Button5.Location = new System.Drawing.Point(670, 103);
-            this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.ShadowDecoration.Parent = this.guna2Button5;
-            this.guna2Button5.Size = new System.Drawing.Size(112, 44);
-            this.guna2Button5.TabIndex = 33;
-            this.guna2Button5.Text = "Enter";
-            this.guna2Button5.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button29
-            // 
-            this.guna2Button29.CheckedState.Parent = this.guna2Button29;
-            this.guna2Button29.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button29.CustomImages.Parent = this.guna2Button29;
-            this.guna2Button29.FillColor = System.Drawing.Color.White;
-            this.guna2Button29.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button29.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button29.HoverState.Parent = this.guna2Button29;
-            this.guna2Button29.Location = new System.Drawing.Point(5, 53);
-            this.guna2Button29.Name = "guna2Button29";
-            this.guna2Button29.ShadowDecoration.Parent = this.guna2Button29;
-            this.guna2Button29.Size = new System.Drawing.Size(79, 44);
-            this.guna2Button29.TabIndex = 32;
-            this.guna2Button29.Text = "TAB";
-            this.guna2Button29.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button14
-            // 
-            this.guna2Button14.CheckedState.Parent = this.guna2Button14;
-            this.guna2Button14.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button14.CustomImages.Parent = this.guna2Button14;
-            this.guna2Button14.FillColor = System.Drawing.Color.White;
-            this.guna2Button14.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button14.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button14.HoverState.Parent = this.guna2Button14;
-            this.guna2Button14.Location = new System.Drawing.Point(599, 53);
-            this.guna2Button14.Name = "guna2Button14";
-            this.guna2Button14.ShadowDecoration.Parent = this.guna2Button14;
-            this.guna2Button14.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button14.TabIndex = 27;
-            this.guna2Button14.Tag = "[";
-            this.guna2Button14.Text = "{    [";
-            this.guna2Button14.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button28
-            // 
-            this.guna2Button28.CheckedState.Parent = this.guna2Button28;
-            this.guna2Button28.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button28.CustomImages.Parent = this.guna2Button28;
-            this.guna2Button28.FillColor = System.Drawing.Color.White;
-            this.guna2Button28.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button28.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button28.HoverState.Parent = this.guna2Button28;
-            this.guna2Button28.Location = new System.Drawing.Point(701, 53);
-            this.guna2Button28.Name = "guna2Button28";
-            this.guna2Button28.ShadowDecoration.Parent = this.guna2Button28;
-            this.guna2Button28.Size = new System.Drawing.Size(81, 44);
-            this.guna2Button28.TabIndex = 31;
-            this.guna2Button28.Tag = "\\";
-            this.guna2Button28.Text = "|              \\";
-            this.guna2Button28.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button15
-            // 
-            this.guna2Button15.CheckedState.Parent = this.guna2Button15;
-            this.guna2Button15.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button15.CustomImages.Parent = this.guna2Button15;
-            this.guna2Button15.FillColor = System.Drawing.Color.White;
-            this.guna2Button15.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button15.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button15.HoverState.Parent = this.guna2Button15;
-            this.guna2Button15.Location = new System.Drawing.Point(548, 53);
-            this.guna2Button15.Name = "guna2Button15";
-            this.guna2Button15.ShadowDecoration.Parent = this.guna2Button15;
-            this.guna2Button15.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button15.TabIndex = 26;
-            this.guna2Button15.Text = "P";
-            this.guna2Button15.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button18
-            // 
-            this.guna2Button18.CheckedState.Parent = this.guna2Button18;
-            this.guna2Button18.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button18.CustomImages.Parent = this.guna2Button18;
-            this.guna2Button18.FillColor = System.Drawing.Color.White;
-            this.guna2Button18.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button18.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button18.HoverState.Parent = this.guna2Button18;
-            this.guna2Button18.Location = new System.Drawing.Point(497, 53);
-            this.guna2Button18.Name = "guna2Button18";
-            this.guna2Button18.ShadowDecoration.Parent = this.guna2Button18;
-            this.guna2Button18.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button18.TabIndex = 25;
-            this.guna2Button18.Text = "O";
-            this.guna2Button18.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button19
-            // 
-            this.guna2Button19.CheckedState.Parent = this.guna2Button19;
-            this.guna2Button19.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button19.CustomImages.Parent = this.guna2Button19;
-            this.guna2Button19.FillColor = System.Drawing.Color.White;
-            this.guna2Button19.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button19.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button19.HoverState.Parent = this.guna2Button19;
-            this.guna2Button19.Location = new System.Drawing.Point(446, 53);
-            this.guna2Button19.Name = "guna2Button19";
-            this.guna2Button19.ShadowDecoration.Parent = this.guna2Button19;
-            this.guna2Button19.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button19.TabIndex = 24;
-            this.guna2Button19.Text = "I";
-            this.guna2Button19.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button20
-            // 
-            this.guna2Button20.CheckedState.Parent = this.guna2Button20;
-            this.guna2Button20.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button20.CustomImages.Parent = this.guna2Button20;
-            this.guna2Button20.FillColor = System.Drawing.Color.White;
-            this.guna2Button20.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button20.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button20.HoverState.Parent = this.guna2Button20;
-            this.guna2Button20.Location = new System.Drawing.Point(650, 53);
-            this.guna2Button20.Name = "guna2Button20";
-            this.guna2Button20.ShadowDecoration.Parent = this.guna2Button20;
-            this.guna2Button20.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button20.TabIndex = 23;
-            this.guna2Button20.Tag = "]";
-            this.guna2Button20.Text = "}    ]";
-            this.guna2Button20.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button21
-            // 
-            this.guna2Button21.CheckedState.Parent = this.guna2Button21;
-            this.guna2Button21.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button21.CustomImages.Parent = this.guna2Button21;
-            this.guna2Button21.FillColor = System.Drawing.Color.White;
-            this.guna2Button21.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button21.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button21.HoverState.Parent = this.guna2Button21;
-            this.guna2Button21.Location = new System.Drawing.Point(395, 53);
-            this.guna2Button21.Name = "guna2Button21";
-            this.guna2Button21.ShadowDecoration.Parent = this.guna2Button21;
-            this.guna2Button21.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button21.TabIndex = 22;
-            this.guna2Button21.Text = "U";
-            this.guna2Button21.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button22
-            // 
-            this.guna2Button22.CheckedState.Parent = this.guna2Button22;
-            this.guna2Button22.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button22.CustomImages.Parent = this.guna2Button22;
-            this.guna2Button22.FillColor = System.Drawing.Color.White;
-            this.guna2Button22.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button22.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button22.HoverState.Parent = this.guna2Button22;
-            this.guna2Button22.Location = new System.Drawing.Point(344, 53);
-            this.guna2Button22.Name = "guna2Button22";
-            this.guna2Button22.ShadowDecoration.Parent = this.guna2Button22;
-            this.guna2Button22.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button22.TabIndex = 21;
-            this.guna2Button22.Text = "Y";
-            this.guna2Button22.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button23
-            // 
-            this.guna2Button23.CheckedState.Parent = this.guna2Button23;
-            this.guna2Button23.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button23.CustomImages.Parent = this.guna2Button23;
-            this.guna2Button23.FillColor = System.Drawing.Color.White;
-            this.guna2Button23.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button23.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button23.HoverState.Parent = this.guna2Button23;
-            this.guna2Button23.Location = new System.Drawing.Point(293, 53);
-            this.guna2Button23.Name = "guna2Button23";
-            this.guna2Button23.ShadowDecoration.Parent = this.guna2Button23;
-            this.guna2Button23.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button23.TabIndex = 20;
-            this.guna2Button23.Text = "T";
-            this.guna2Button23.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button24
-            // 
-            this.guna2Button24.CheckedState.Parent = this.guna2Button24;
-            this.guna2Button24.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button24.CustomImages.Parent = this.guna2Button24;
-            this.guna2Button24.FillColor = System.Drawing.Color.White;
-            this.guna2Button24.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button24.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button24.HoverState.Parent = this.guna2Button24;
-            this.guna2Button24.Location = new System.Drawing.Point(242, 53);
-            this.guna2Button24.Name = "guna2Button24";
-            this.guna2Button24.ShadowDecoration.Parent = this.guna2Button24;
-            this.guna2Button24.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button24.TabIndex = 19;
-            this.guna2Button24.Text = "R";
-            this.guna2Button24.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button25
-            // 
-            this.guna2Button25.CheckedState.Parent = this.guna2Button25;
-            this.guna2Button25.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button25.CustomImages.Parent = this.guna2Button25;
-            this.guna2Button25.FillColor = System.Drawing.Color.White;
-            this.guna2Button25.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button25.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button25.HoverState.Parent = this.guna2Button25;
-            this.guna2Button25.Location = new System.Drawing.Point(191, 53);
-            this.guna2Button25.Name = "guna2Button25";
-            this.guna2Button25.ShadowDecoration.Parent = this.guna2Button25;
-            this.guna2Button25.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button25.TabIndex = 18;
-            this.guna2Button25.Text = "E";
-            this.guna2Button25.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button26
-            // 
-            this.guna2Button26.CheckedState.Parent = this.guna2Button26;
-            this.guna2Button26.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button26.CustomImages.Parent = this.guna2Button26;
-            this.guna2Button26.FillColor = System.Drawing.Color.White;
-            this.guna2Button26.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button26.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button26.HoverState.Parent = this.guna2Button26;
-            this.guna2Button26.Location = new System.Drawing.Point(140, 53);
-            this.guna2Button26.Name = "guna2Button26";
-            this.guna2Button26.ShadowDecoration.Parent = this.guna2Button26;
-            this.guna2Button26.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button26.TabIndex = 17;
-            this.guna2Button26.Text = "W";
-            this.guna2Button26.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button27
-            // 
-            this.guna2Button27.CheckedState.Parent = this.guna2Button27;
-            this.guna2Button27.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button27.CustomImages.Parent = this.guna2Button27;
-            this.guna2Button27.FillColor = System.Drawing.Color.White;
-            this.guna2Button27.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button27.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button27.HoverState.Parent = this.guna2Button27;
-            this.guna2Button27.Location = new System.Drawing.Point(89, 53);
-            this.guna2Button27.Name = "guna2Button27";
-            this.guna2Button27.ShadowDecoration.Parent = this.guna2Button27;
-            this.guna2Button27.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button27.TabIndex = 16;
-            this.guna2Button27.Text = "Q";
-            this.guna2Button27.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button16
-            // 
-            this.guna2Button16.CheckedState.Parent = this.guna2Button16;
-            this.guna2Button16.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button16.CustomImages.Parent = this.guna2Button16;
-            this.guna2Button16.FillColor = System.Drawing.Color.White;
-            this.guna2Button16.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button16.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button16.HoverState.Parent = this.guna2Button16;
-            this.guna2Button16.Location = new System.Drawing.Point(681, 3);
-            this.guna2Button16.Name = "guna2Button16";
-            this.guna2Button16.ShadowDecoration.Parent = this.guna2Button16;
-            this.guna2Button16.Size = new System.Drawing.Size(101, 44);
-            this.guna2Button16.TabIndex = 14;
-            this.guna2Button16.Text = "BACKSPACE";
-            this.guna2Button16.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button17
-            // 
-            this.guna2Button17.CheckedState.Parent = this.guna2Button17;
-            this.guna2Button17.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button17.CustomImages.Parent = this.guna2Button17;
-            this.guna2Button17.FillColor = System.Drawing.Color.White;
-            this.guna2Button17.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button17.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button17.HoverState.Parent = this.guna2Button17;
-            this.guna2Button17.Location = new System.Drawing.Point(577, 3);
-            this.guna2Button17.Name = "guna2Button17";
-            this.guna2Button17.ShadowDecoration.Parent = this.guna2Button17;
-            this.guna2Button17.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button17.TabIndex = 13;
-            this.guna2Button17.Tag = "-";
-            this.guna2Button17.Text = "_          -";
-            this.guna2Button17.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button10
-            // 
-            this.guna2Button10.CheckedState.Parent = this.guna2Button10;
-            this.guna2Button10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button10.CustomImages.Parent = this.guna2Button10;
-            this.guna2Button10.FillColor = System.Drawing.Color.White;
-            this.guna2Button10.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button10.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button10.HoverState.Parent = this.guna2Button10;
-            this.guna2Button10.Location = new System.Drawing.Point(525, 3);
-            this.guna2Button10.Name = "guna2Button10";
-            this.guna2Button10.ShadowDecoration.Parent = this.guna2Button10;
-            this.guna2Button10.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button10.TabIndex = 12;
-            this.guna2Button10.Tag = "0";
-            this.guna2Button10.Text = ")          0";
-            this.guna2Button10.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button11
-            // 
-            this.guna2Button11.CheckedState.Parent = this.guna2Button11;
-            this.guna2Button11.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button11.CustomImages.Parent = this.guna2Button11;
-            this.guna2Button11.FillColor = System.Drawing.Color.White;
-            this.guna2Button11.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button11.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button11.HoverState.Parent = this.guna2Button11;
-            this.guna2Button11.Location = new System.Drawing.Point(473, 3);
-            this.guna2Button11.Name = "guna2Button11";
-            this.guna2Button11.ShadowDecoration.Parent = this.guna2Button11;
-            this.guna2Button11.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button11.TabIndex = 11;
-            this.guna2Button11.Tag = "9";
-            this.guna2Button11.Text = "(    9";
-            this.guna2Button11.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button12
-            // 
-            this.guna2Button12.CheckedState.Parent = this.guna2Button12;
-            this.guna2Button12.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button12.CustomImages.Parent = this.guna2Button12;
-            this.guna2Button12.FillColor = System.Drawing.Color.White;
-            this.guna2Button12.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button12.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button12.HoverState.Parent = this.guna2Button12;
-            this.guna2Button12.Location = new System.Drawing.Point(421, 3);
-            this.guna2Button12.Name = "guna2Button12";
-            this.guna2Button12.ShadowDecoration.Parent = this.guna2Button12;
-            this.guna2Button12.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button12.TabIndex = 10;
-            this.guna2Button12.Tag = "8";
-            this.guna2Button12.Text = "*           8";
-            this.guna2Button12.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button13
-            // 
-            this.guna2Button13.CheckedState.Parent = this.guna2Button13;
-            this.guna2Button13.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button13.CustomImages.Parent = this.guna2Button13;
-            this.guna2Button13.FillColor = System.Drawing.Color.White;
-            this.guna2Button13.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button13.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button13.HoverState.Parent = this.guna2Button13;
-            this.guna2Button13.Location = new System.Drawing.Point(629, 3);
-            this.guna2Button13.Name = "guna2Button13";
-            this.guna2Button13.ShadowDecoration.Parent = this.guna2Button13;
-            this.guna2Button13.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button13.TabIndex = 9;
-            this.guna2Button13.Tag = "=";
-            this.guna2Button13.Text = "+         =";
-            this.guna2Button13.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button6
-            // 
-            this.guna2Button6.CheckedState.Parent = this.guna2Button6;
-            this.guna2Button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button6.CustomImages.Parent = this.guna2Button6;
-            this.guna2Button6.FillColor = System.Drawing.Color.White;
-            this.guna2Button6.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button6.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button6.HoverState.Parent = this.guna2Button6;
-            this.guna2Button6.Location = new System.Drawing.Point(369, 3);
-            this.guna2Button6.Name = "guna2Button6";
-            this.guna2Button6.ShadowDecoration.Parent = this.guna2Button6;
-            this.guna2Button6.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button6.TabIndex = 8;
-            this.guna2Button6.Tag = "7";
-            this.guna2Button6.Text = "&           7";
-            this.guna2Button6.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button7
-            // 
-            this.guna2Button7.CheckedState.Parent = this.guna2Button7;
-            this.guna2Button7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button7.CustomImages.Parent = this.guna2Button7;
-            this.guna2Button7.FillColor = System.Drawing.Color.White;
-            this.guna2Button7.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button7.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button7.HoverState.Parent = this.guna2Button7;
-            this.guna2Button7.Location = new System.Drawing.Point(317, 3);
-            this.guna2Button7.Name = "guna2Button7";
-            this.guna2Button7.ShadowDecoration.Parent = this.guna2Button7;
-            this.guna2Button7.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button7.TabIndex = 7;
-            this.guna2Button7.Tag = "6";
-            this.guna2Button7.Text = "^         6";
-            this.guna2Button7.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button8
-            // 
-            this.guna2Button8.CheckedState.Parent = this.guna2Button8;
-            this.guna2Button8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button8.CustomImages.Parent = this.guna2Button8;
-            this.guna2Button8.FillColor = System.Drawing.Color.White;
-            this.guna2Button8.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button8.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button8.HoverState.Parent = this.guna2Button8;
-            this.guna2Button8.Location = new System.Drawing.Point(265, 3);
-            this.guna2Button8.Name = "guna2Button8";
-            this.guna2Button8.ShadowDecoration.Parent = this.guna2Button8;
-            this.guna2Button8.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button8.TabIndex = 6;
-            this.guna2Button8.Tag = "5";
-            this.guna2Button8.Text = "%         5";
-            this.guna2Button8.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button9
-            // 
-            this.guna2Button9.CheckedState.Parent = this.guna2Button9;
-            this.guna2Button9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button9.CustomImages.Parent = this.guna2Button9;
-            this.guna2Button9.FillColor = System.Drawing.Color.White;
-            this.guna2Button9.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button9.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button9.HoverState.Parent = this.guna2Button9;
-            this.guna2Button9.Location = new System.Drawing.Point(213, 3);
-            this.guna2Button9.Name = "guna2Button9";
-            this.guna2Button9.ShadowDecoration.Parent = this.guna2Button9;
-            this.guna2Button9.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button9.TabIndex = 5;
-            this.guna2Button9.Tag = "4";
-            this.guna2Button9.Text = "$            4";
-            this.guna2Button9.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button4
-            // 
-            this.guna2Button4.CheckedState.Parent = this.guna2Button4;
-            this.guna2Button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button4.CustomImages.Parent = this.guna2Button4;
-            this.guna2Button4.FillColor = System.Drawing.Color.White;
-            this.guna2Button4.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button4.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button4.HoverState.Parent = this.guna2Button4;
-            this.guna2Button4.Location = new System.Drawing.Point(161, 3);
-            this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.ShadowDecoration.Parent = this.guna2Button4;
-            this.guna2Button4.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button4.TabIndex = 3;
-            this.guna2Button4.Tag = "3";
-            this.guna2Button4.Text = "#            3";
-            this.guna2Button4.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button3
-            // 
-            this.guna2Button3.CheckedState.Parent = this.guna2Button3;
-            this.guna2Button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button3.CustomImages.Parent = this.guna2Button3;
-            this.guna2Button3.FillColor = System.Drawing.Color.White;
-            this.guna2Button3.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button3.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button3.HoverState.Parent = this.guna2Button3;
-            this.guna2Button3.Location = new System.Drawing.Point(109, 3);
-            this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.ShadowDecoration.Parent = this.guna2Button3;
-            this.guna2Button3.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button3.TabIndex = 2;
-            this.guna2Button3.Tag = "2";
-            this.guna2Button3.Text = "@                 2";
-            this.guna2Button3.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button2
-            // 
-            this.guna2Button2.CheckedState.Parent = this.guna2Button2;
-            this.guna2Button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button2.CustomImages.Parent = this.guna2Button2;
-            this.guna2Button2.FillColor = System.Drawing.Color.White;
-            this.guna2Button2.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button2.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button2.HoverState.Parent = this.guna2Button2;
-            this.guna2Button2.Location = new System.Drawing.Point(57, 3);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.ShadowDecoration.Parent = this.guna2Button2;
-            this.guna2Button2.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button2.TabIndex = 1;
-            this.guna2Button2.Tag = "1";
-            this.guna2Button2.Text = "!           1";
-            this.guna2Button2.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
-            // guna2Button1
-            // 
-            this.guna2Button1.CheckedState.Parent = this.guna2Button1;
-            this.guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button1.CustomImages.Parent = this.guna2Button1;
-            this.guna2Button1.FillColor = System.Drawing.Color.White;
-            this.guna2Button1.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button1.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button1.HoverState.Parent = this.guna2Button1;
-            this.guna2Button1.Location = new System.Drawing.Point(5, 3);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
-            this.guna2Button1.Size = new System.Drawing.Size(46, 44);
-            this.guna2Button1.TabIndex = 0;
-            this.guna2Button1.Tag = "`";
-            this.guna2Button1.Text = "~               `";
-            this.guna2Button1.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // btnWin2
+            // 
+            this.btnWin2.CheckedState.Parent = this.btnWin2;
+            this.btnWin2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnWin2.CustomImages.Parent = this.btnWin2;
+            this.btnWin2.FillColor = System.Drawing.Color.White;
+            this.btnWin2.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnWin2.ForeColor = System.Drawing.Color.Black;
+            this.btnWin2.HoverState.Parent = this.btnWin2;
+            this.btnWin2.Location = new System.Drawing.Point(608, 203);
+            this.btnWin2.Name = "btnWin2";
+            this.btnWin2.ShadowDecoration.Parent = this.btnWin2;
+            this.btnWin2.Size = new System.Drawing.Size(54, 44);
+            this.btnWin2.TabIndex = 68;
+            this.btnWin2.Text = "WIN";
+            this.btnWin2.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnAlt2
+            // 
+            this.btnAlt2.CheckedState.Parent = this.btnAlt2;
+            this.btnAlt2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAlt2.CustomImages.Parent = this.btnAlt2;
+            this.btnAlt2.FillColor = System.Drawing.Color.White;
+            this.btnAlt2.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAlt2.ForeColor = System.Drawing.Color.Black;
+            this.btnAlt2.HoverState.Parent = this.btnAlt2;
+            this.btnAlt2.Location = new System.Drawing.Point(548, 203);
+            this.btnAlt2.Name = "btnAlt2";
+            this.btnAlt2.ShadowDecoration.Parent = this.btnAlt2;
+            this.btnAlt2.Size = new System.Drawing.Size(54, 44);
+            this.btnAlt2.TabIndex = 67;
+            this.btnAlt2.Text = "ALT";
+            this.btnAlt2.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnMenue
+            // 
+            this.btnMenue.CheckedState.Parent = this.btnMenue;
+            this.btnMenue.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMenue.CustomImages.Parent = this.btnMenue;
+            this.btnMenue.FillColor = System.Drawing.Color.White;
+            this.btnMenue.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenue.ForeColor = System.Drawing.Color.Black;
+            this.btnMenue.HoverState.Parent = this.btnMenue;
+            this.btnMenue.Location = new System.Drawing.Point(668, 204);
+            this.btnMenue.Name = "btnMenue";
+            this.btnMenue.ShadowDecoration.Parent = this.btnMenue;
+            this.btnMenue.Size = new System.Drawing.Size(54, 44);
+            this.btnMenue.TabIndex = 66;
+            this.btnMenue.Text = "MENU";
+            this.btnMenue.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnControl2
+            // 
+            this.btnControl2.CheckedState.Parent = this.btnControl2;
+            this.btnControl2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnControl2.CustomImages.Parent = this.btnControl2;
+            this.btnControl2.FillColor = System.Drawing.Color.White;
+            this.btnControl2.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnControl2.ForeColor = System.Drawing.Color.Black;
+            this.btnControl2.HoverState.Parent = this.btnControl2;
+            this.btnControl2.Location = new System.Drawing.Point(728, 203);
+            this.btnControl2.Name = "btnControl2";
+            this.btnControl2.ShadowDecoration.Parent = this.btnControl2;
+            this.btnControl2.Size = new System.Drawing.Size(54, 44);
+            this.btnControl2.TabIndex = 65;
+            this.btnControl2.Text = "CTRL";
+            this.btnControl2.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnSpace
+            // 
+            this.btnSpace.CheckedState.Parent = this.btnSpace;
+            this.btnSpace.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSpace.CustomImages.Parent = this.btnSpace;
+            this.btnSpace.FillColor = System.Drawing.Color.White;
+            this.btnSpace.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSpace.ForeColor = System.Drawing.Color.Black;
+            this.btnSpace.HoverState.Parent = this.btnSpace;
+            this.btnSpace.Location = new System.Drawing.Point(226, 203);
+            this.btnSpace.Name = "btnSpace";
+            this.btnSpace.ShadowDecoration.Parent = this.btnSpace;
+            this.btnSpace.Size = new System.Drawing.Size(316, 44);
+            this.btnSpace.TabIndex = 64;
+            this.btnSpace.Text = "SPACE";
+            this.btnSpace.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnAlt1
+            // 
+            this.btnAlt1.CheckedState.Parent = this.btnAlt1;
+            this.btnAlt1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAlt1.CustomImages.Parent = this.btnAlt1;
+            this.btnAlt1.FillColor = System.Drawing.Color.White;
+            this.btnAlt1.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAlt1.ForeColor = System.Drawing.Color.Black;
+            this.btnAlt1.HoverState.Parent = this.btnAlt1;
+            this.btnAlt1.Location = new System.Drawing.Point(153, 203);
+            this.btnAlt1.Name = "btnAlt1";
+            this.btnAlt1.ShadowDecoration.Parent = this.btnAlt1;
+            this.btnAlt1.Size = new System.Drawing.Size(67, 44);
+            this.btnAlt1.TabIndex = 63;
+            this.btnAlt1.Text = "ALT";
+            this.btnAlt1.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnWin1
+            // 
+            this.btnWin1.CheckedState.Parent = this.btnWin1;
+            this.btnWin1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnWin1.CustomImages.Parent = this.btnWin1;
+            this.btnWin1.FillColor = System.Drawing.Color.White;
+            this.btnWin1.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnWin1.ForeColor = System.Drawing.Color.Black;
+            this.btnWin1.HoverState.Parent = this.btnWin1;
+            this.btnWin1.Location = new System.Drawing.Point(79, 203);
+            this.btnWin1.Name = "btnWin1";
+            this.btnWin1.ShadowDecoration.Parent = this.btnWin1;
+            this.btnWin1.Size = new System.Drawing.Size(67, 44);
+            this.btnWin1.TabIndex = 62;
+            this.btnWin1.Text = "WIN";
+            this.btnWin1.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnControl
+            // 
+            this.btnControl.CheckedState.Parent = this.btnControl;
+            this.btnControl.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnControl.CustomImages.Parent = this.btnControl;
+            this.btnControl.FillColor = System.Drawing.Color.White;
+            this.btnControl.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnControl.ForeColor = System.Drawing.Color.Black;
+            this.btnControl.HoverState.Parent = this.btnControl;
+            this.btnControl.Location = new System.Drawing.Point(5, 203);
+            this.btnControl.Name = "btnControl";
+            this.btnControl.ShadowDecoration.Parent = this.btnControl;
+            this.btnControl.Size = new System.Drawing.Size(67, 44);
+            this.btnControl.TabIndex = 58;
+            this.btnControl.Text = "CTRL";
+            this.btnControl.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnQuestionMark
+            // 
+            this.btnQuestionMark.CheckedState.Parent = this.btnQuestionMark;
+            this.btnQuestionMark.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnQuestionMark.CustomImages.Parent = this.btnQuestionMark;
+            this.btnQuestionMark.FillColor = System.Drawing.Color.White;
+            this.btnQuestionMark.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQuestionMark.ForeColor = System.Drawing.Color.Black;
+            this.btnQuestionMark.HoverState.Parent = this.btnQuestionMark;
+            this.btnQuestionMark.Location = new System.Drawing.Point(588, 153);
+            this.btnQuestionMark.Name = "btnQuestionMark";
+            this.btnQuestionMark.ShadowDecoration.Parent = this.btnQuestionMark;
+            this.btnQuestionMark.Size = new System.Drawing.Size(46, 44);
+            this.btnQuestionMark.TabIndex = 57;
+            this.btnQuestionMark.Tag = "/";
+            this.btnQuestionMark.Text = "?    /";
+            this.btnQuestionMark.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnGraterThan
+            // 
+            this.btnGraterThan.CheckedState.Parent = this.btnGraterThan;
+            this.btnGraterThan.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGraterThan.CustomImages.Parent = this.btnGraterThan;
+            this.btnGraterThan.FillColor = System.Drawing.Color.White;
+            this.btnGraterThan.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGraterThan.ForeColor = System.Drawing.Color.Black;
+            this.btnGraterThan.HoverState.Parent = this.btnGraterThan;
+            this.btnGraterThan.Location = new System.Drawing.Point(537, 153);
+            this.btnGraterThan.Name = "btnGraterThan";
+            this.btnGraterThan.ShadowDecoration.Parent = this.btnGraterThan;
+            this.btnGraterThan.Size = new System.Drawing.Size(46, 44);
+            this.btnGraterThan.TabIndex = 56;
+            this.btnGraterThan.Tag = ".";
+            this.btnGraterThan.Text = ">    .";
+            this.btnGraterThan.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnLessThan
+            // 
+            this.btnLessThan.CheckedState.Parent = this.btnLessThan;
+            this.btnLessThan.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLessThan.CustomImages.Parent = this.btnLessThan;
+            this.btnLessThan.FillColor = System.Drawing.Color.White;
+            this.btnLessThan.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLessThan.ForeColor = System.Drawing.Color.Black;
+            this.btnLessThan.HoverState.Parent = this.btnLessThan;
+            this.btnLessThan.Location = new System.Drawing.Point(486, 153);
+            this.btnLessThan.Name = "btnLessThan";
+            this.btnLessThan.ShadowDecoration.Parent = this.btnLessThan;
+            this.btnLessThan.Size = new System.Drawing.Size(46, 44);
+            this.btnLessThan.TabIndex = 55;
+            this.btnLessThan.Tag = ",";
+            this.btnLessThan.Text = "<    ,";
+            this.btnLessThan.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnM
+            // 
+            this.btnM.CheckedState.Parent = this.btnM;
+            this.btnM.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnM.CustomImages.Parent = this.btnM;
+            this.btnM.FillColor = System.Drawing.Color.White;
+            this.btnM.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnM.ForeColor = System.Drawing.Color.Black;
+            this.btnM.HoverState.Parent = this.btnM;
+            this.btnM.Location = new System.Drawing.Point(435, 153);
+            this.btnM.Name = "btnM";
+            this.btnM.ShadowDecoration.Parent = this.btnM;
+            this.btnM.Size = new System.Drawing.Size(46, 44);
+            this.btnM.TabIndex = 54;
+            this.btnM.Text = "M";
+            this.btnM.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnN
+            // 
+            this.btnN.CheckedState.Parent = this.btnN;
+            this.btnN.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnN.CustomImages.Parent = this.btnN;
+            this.btnN.FillColor = System.Drawing.Color.White;
+            this.btnN.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnN.ForeColor = System.Drawing.Color.Black;
+            this.btnN.HoverState.Parent = this.btnN;
+            this.btnN.Location = new System.Drawing.Point(384, 153);
+            this.btnN.Name = "btnN";
+            this.btnN.ShadowDecoration.Parent = this.btnN;
+            this.btnN.Size = new System.Drawing.Size(46, 44);
+            this.btnN.TabIndex = 53;
+            this.btnN.Text = "N";
+            this.btnN.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnB
+            // 
+            this.btnB.CheckedState.Parent = this.btnB;
+            this.btnB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnB.CustomImages.Parent = this.btnB;
+            this.btnB.FillColor = System.Drawing.Color.White;
+            this.btnB.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnB.ForeColor = System.Drawing.Color.Black;
+            this.btnB.HoverState.Parent = this.btnB;
+            this.btnB.Location = new System.Drawing.Point(333, 153);
+            this.btnB.Name = "btnB";
+            this.btnB.ShadowDecoration.Parent = this.btnB;
+            this.btnB.Size = new System.Drawing.Size(46, 44);
+            this.btnB.TabIndex = 52;
+            this.btnB.Text = "B";
+            this.btnB.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnV
+            // 
+            this.btnV.CheckedState.Parent = this.btnV;
+            this.btnV.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnV.CustomImages.Parent = this.btnV;
+            this.btnV.FillColor = System.Drawing.Color.White;
+            this.btnV.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnV.ForeColor = System.Drawing.Color.Black;
+            this.btnV.HoverState.Parent = this.btnV;
+            this.btnV.Location = new System.Drawing.Point(282, 153);
+            this.btnV.Name = "btnV";
+            this.btnV.ShadowDecoration.Parent = this.btnV;
+            this.btnV.Size = new System.Drawing.Size(46, 44);
+            this.btnV.TabIndex = 51;
+            this.btnV.Text = "V";
+            this.btnV.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnC
+            // 
+            this.btnC.CheckedState.Parent = this.btnC;
+            this.btnC.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnC.CustomImages.Parent = this.btnC;
+            this.btnC.FillColor = System.Drawing.Color.White;
+            this.btnC.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnC.ForeColor = System.Drawing.Color.Black;
+            this.btnC.HoverState.Parent = this.btnC;
+            this.btnC.Location = new System.Drawing.Point(231, 153);
+            this.btnC.Name = "btnC";
+            this.btnC.ShadowDecoration.Parent = this.btnC;
+            this.btnC.Size = new System.Drawing.Size(46, 44);
+            this.btnC.TabIndex = 50;
+            this.btnC.Text = "C";
+            this.btnC.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnX
+            // 
+            this.btnX.CheckedState.Parent = this.btnX;
+            this.btnX.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnX.CustomImages.Parent = this.btnX;
+            this.btnX.FillColor = System.Drawing.Color.White;
+            this.btnX.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnX.ForeColor = System.Drawing.Color.Black;
+            this.btnX.HoverState.Parent = this.btnX;
+            this.btnX.Location = new System.Drawing.Point(180, 153);
+            this.btnX.Name = "btnX";
+            this.btnX.ShadowDecoration.Parent = this.btnX;
+            this.btnX.Size = new System.Drawing.Size(46, 44);
+            this.btnX.TabIndex = 49;
+            this.btnX.Text = "X";
+            this.btnX.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnZ
+            // 
+            this.btnZ.CheckedState.Parent = this.btnZ;
+            this.btnZ.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnZ.CustomImages.Parent = this.btnZ;
+            this.btnZ.FillColor = System.Drawing.Color.White;
+            this.btnZ.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnZ.ForeColor = System.Drawing.Color.Black;
+            this.btnZ.HoverState.Parent = this.btnZ;
+            this.btnZ.Location = new System.Drawing.Point(129, 153);
+            this.btnZ.Name = "btnZ";
+            this.btnZ.ShadowDecoration.Parent = this.btnZ;
+            this.btnZ.Size = new System.Drawing.Size(46, 44);
+            this.btnZ.TabIndex = 48;
+            this.btnZ.Text = "Z";
+            this.btnZ.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnShift
+            // 
+            this.btnShift.CheckedState.Parent = this.btnShift;
+            this.btnShift.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnShift.CustomImages.Parent = this.btnShift;
+            this.btnShift.FillColor = System.Drawing.Color.White;
+            this.btnShift.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnShift.ForeColor = System.Drawing.Color.Black;
+            this.btnShift.HoverState.Parent = this.btnShift;
+            this.btnShift.Location = new System.Drawing.Point(5, 153);
+            this.btnShift.Name = "btnShift";
+            this.btnShift.ShadowDecoration.Parent = this.btnShift;
+            this.btnShift.Size = new System.Drawing.Size(119, 44);
+            this.btnShift.TabIndex = 47;
+            this.btnShift.Text = "SHIFT";
+            this.btnShift.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnShift2
+            // 
+            this.btnShift2.CheckedState.Parent = this.btnShift2;
+            this.btnShift2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnShift2.CustomImages.Parent = this.btnShift2;
+            this.btnShift2.FillColor = System.Drawing.Color.White;
+            this.btnShift2.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnShift2.ForeColor = System.Drawing.Color.Black;
+            this.btnShift2.HoverState.Parent = this.btnShift2;
+            this.btnShift2.Location = new System.Drawing.Point(639, 153);
+            this.btnShift2.Name = "btnShift2";
+            this.btnShift2.ShadowDecoration.Parent = this.btnShift2;
+            this.btnShift2.Size = new System.Drawing.Size(143, 44);
+            this.btnShift2.TabIndex = 46;
+            this.btnShift2.Text = "SHIFT";
+            this.btnShift2.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btndDoubleQuotation
+            // 
+            this.btndDoubleQuotation.CheckedState.Parent = this.btndDoubleQuotation;
+            this.btndDoubleQuotation.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btndDoubleQuotation.CustomImages.Parent = this.btndDoubleQuotation;
+            this.btndDoubleQuotation.FillColor = System.Drawing.Color.White;
+            this.btndDoubleQuotation.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btndDoubleQuotation.ForeColor = System.Drawing.Color.Black;
+            this.btndDoubleQuotation.HoverState.Parent = this.btndDoubleQuotation;
+            this.btndDoubleQuotation.Location = new System.Drawing.Point(618, 103);
+            this.btndDoubleQuotation.Name = "btndDoubleQuotation";
+            this.btndDoubleQuotation.ShadowDecoration.Parent = this.btndDoubleQuotation;
+            this.btndDoubleQuotation.Size = new System.Drawing.Size(46, 44);
+            this.btndDoubleQuotation.TabIndex = 45;
+            this.btndDoubleQuotation.Text = "\"           \'";
+            this.btndDoubleQuotation.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnColon
+            // 
+            this.btnColon.CheckedState.Parent = this.btnColon;
+            this.btnColon.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnColon.CustomImages.Parent = this.btnColon;
+            this.btnColon.FillColor = System.Drawing.Color.White;
+            this.btnColon.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnColon.ForeColor = System.Drawing.Color.Black;
+            this.btnColon.HoverState.Parent = this.btnColon;
+            this.btnColon.Location = new System.Drawing.Point(567, 103);
+            this.btnColon.Name = "btnColon";
+            this.btnColon.ShadowDecoration.Parent = this.btnColon;
+            this.btnColon.Size = new System.Drawing.Size(46, 44);
+            this.btnColon.TabIndex = 44;
+            this.btnColon.Text = ":            ; ";
+            this.btnColon.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnL
+            // 
+            this.btnL.CheckedState.Parent = this.btnL;
+            this.btnL.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnL.CustomImages.Parent = this.btnL;
+            this.btnL.FillColor = System.Drawing.Color.White;
+            this.btnL.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnL.ForeColor = System.Drawing.Color.Black;
+            this.btnL.HoverState.FillColor = System.Drawing.Color.Blue;
+            this.btnL.HoverState.Parent = this.btnL;
+            this.btnL.Location = new System.Drawing.Point(516, 103);
+            this.btnL.Name = "btnL";
+            this.btnL.ShadowDecoration.Parent = this.btnL;
+            this.btnL.Size = new System.Drawing.Size(46, 44);
+            this.btnL.TabIndex = 43;
+            this.btnL.Text = "L";
+            this.btnL.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnK
+            // 
+            this.btnK.CheckedState.Parent = this.btnK;
+            this.btnK.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnK.CustomImages.Parent = this.btnK;
+            this.btnK.FillColor = System.Drawing.Color.White;
+            this.btnK.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnK.ForeColor = System.Drawing.Color.Black;
+            this.btnK.HoverState.Parent = this.btnK;
+            this.btnK.Location = new System.Drawing.Point(465, 103);
+            this.btnK.Name = "btnK";
+            this.btnK.ShadowDecoration.Parent = this.btnK;
+            this.btnK.Size = new System.Drawing.Size(46, 44);
+            this.btnK.TabIndex = 42;
+            this.btnK.Text = "K";
+            this.btnK.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnJ
+            // 
+            this.btnJ.CheckedState.Parent = this.btnJ;
+            this.btnJ.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnJ.CustomImages.Parent = this.btnJ;
+            this.btnJ.FillColor = System.Drawing.Color.White;
+            this.btnJ.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnJ.ForeColor = System.Drawing.Color.Black;
+            this.btnJ.HoverState.Parent = this.btnJ;
+            this.btnJ.Location = new System.Drawing.Point(414, 103);
+            this.btnJ.Name = "btnJ";
+            this.btnJ.ShadowDecoration.Parent = this.btnJ;
+            this.btnJ.Size = new System.Drawing.Size(46, 44);
+            this.btnJ.TabIndex = 41;
+            this.btnJ.Text = "J";
+            this.btnJ.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnH
+            // 
+            this.btnH.CheckedState.Parent = this.btnH;
+            this.btnH.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnH.CustomImages.Parent = this.btnH;
+            this.btnH.FillColor = System.Drawing.Color.White;
+            this.btnH.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnH.ForeColor = System.Drawing.Color.Black;
+            this.btnH.HoverState.Parent = this.btnH;
+            this.btnH.Location = new System.Drawing.Point(363, 103);
+            this.btnH.Name = "btnH";
+            this.btnH.ShadowDecoration.Parent = this.btnH;
+            this.btnH.Size = new System.Drawing.Size(46, 44);
+            this.btnH.TabIndex = 40;
+            this.btnH.Text = "H";
+            this.btnH.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnG
+            // 
+            this.btnG.CheckedState.Parent = this.btnG;
+            this.btnG.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnG.CustomImages.Parent = this.btnG;
+            this.btnG.FillColor = System.Drawing.Color.White;
+            this.btnG.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnG.ForeColor = System.Drawing.Color.Black;
+            this.btnG.HoverState.Parent = this.btnG;
+            this.btnG.Location = new System.Drawing.Point(312, 103);
+            this.btnG.Name = "btnG";
+            this.btnG.ShadowDecoration.Parent = this.btnG;
+            this.btnG.Size = new System.Drawing.Size(46, 44);
+            this.btnG.TabIndex = 39;
+            this.btnG.Text = "G";
+            this.btnG.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnF
+            // 
+            this.btnF.CheckedState.Parent = this.btnF;
+            this.btnF.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnF.CustomImages.Parent = this.btnF;
+            this.btnF.FillColor = System.Drawing.Color.White;
+            this.btnF.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnF.ForeColor = System.Drawing.Color.Black;
+            this.btnF.HoverState.Parent = this.btnF;
+            this.btnF.Location = new System.Drawing.Point(261, 103);
+            this.btnF.Name = "btnF";
+            this.btnF.ShadowDecoration.Parent = this.btnF;
+            this.btnF.Size = new System.Drawing.Size(46, 44);
+            this.btnF.TabIndex = 38;
+            this.btnF.Text = "F";
+            this.btnF.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnD
+            // 
+            this.btnD.CheckedState.Parent = this.btnD;
+            this.btnD.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnD.CustomImages.Parent = this.btnD;
+            this.btnD.FillColor = System.Drawing.Color.White;
+            this.btnD.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnD.ForeColor = System.Drawing.Color.Black;
+            this.btnD.HoverState.Parent = this.btnD;
+            this.btnD.Location = new System.Drawing.Point(210, 103);
+            this.btnD.Name = "btnD";
+            this.btnD.ShadowDecoration.Parent = this.btnD;
+            this.btnD.Size = new System.Drawing.Size(46, 44);
+            this.btnD.TabIndex = 37;
+            this.btnD.Text = "D";
+            this.btnD.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnS
+            // 
+            this.btnS.CheckedState.Parent = this.btnS;
+            this.btnS.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnS.CustomImages.Parent = this.btnS;
+            this.btnS.FillColor = System.Drawing.Color.White;
+            this.btnS.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnS.ForeColor = System.Drawing.Color.Black;
+            this.btnS.HoverState.Parent = this.btnS;
+            this.btnS.Location = new System.Drawing.Point(159, 103);
+            this.btnS.Name = "btnS";
+            this.btnS.ShadowDecoration.Parent = this.btnS;
+            this.btnS.Size = new System.Drawing.Size(46, 44);
+            this.btnS.TabIndex = 36;
+            this.btnS.Text = "S";
+            this.btnS.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnA
+            // 
+            this.btnA.Animated = true;
+            this.btnA.CheckedState.FillColor = System.Drawing.Color.White;
+            this.btnA.CheckedState.Parent = this.btnA;
+            this.btnA.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnA.CustomImages.Parent = this.btnA;
+            this.btnA.FillColor = System.Drawing.Color.White;
+            this.btnA.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnA.ForeColor = System.Drawing.Color.Black;
+            this.btnA.HoverState.Parent = this.btnA;
+            this.btnA.Location = new System.Drawing.Point(108, 103);
+            this.btnA.Name = "btnA";
+            this.btnA.ShadowDecoration.Parent = this.btnA;
+            this.btnA.Size = new System.Drawing.Size(46, 44);
+            this.btnA.TabIndex = 35;
+            this.btnA.Text = "A";
+            this.btnA.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnCapsLock
+            // 
+            this.btnCapsLock.CheckedState.Parent = this.btnCapsLock;
+            this.btnCapsLock.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCapsLock.CustomImages.Parent = this.btnCapsLock;
+            this.btnCapsLock.FillColor = System.Drawing.Color.White;
+            this.btnCapsLock.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCapsLock.ForeColor = System.Drawing.Color.Black;
+            this.btnCapsLock.HoverState.Parent = this.btnCapsLock;
+            this.btnCapsLock.Location = new System.Drawing.Point(5, 103);
+            this.btnCapsLock.Name = "btnCapsLock";
+            this.btnCapsLock.ShadowDecoration.Parent = this.btnCapsLock;
+            this.btnCapsLock.Size = new System.Drawing.Size(98, 44);
+            this.btnCapsLock.TabIndex = 34;
+            this.btnCapsLock.Text = "CAPS LOCK";
+            this.btnCapsLock.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnEnter
+            // 
+            this.btnEnter.CheckedState.Parent = this.btnEnter;
+            this.btnEnter.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEnter.CustomImages.Parent = this.btnEnter;
+            this.btnEnter.FillColor = System.Drawing.Color.White;
+            this.btnEnter.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEnter.ForeColor = System.Drawing.Color.Black;
+            this.btnEnter.HoverState.Parent = this.btnEnter;
+            this.btnEnter.Location = new System.Drawing.Point(670, 103);
+            this.btnEnter.Name = "btnEnter";
+            this.btnEnter.ShadowDecoration.Parent = this.btnEnter;
+            this.btnEnter.Size = new System.Drawing.Size(112, 44);
+            this.btnEnter.TabIndex = 33;
+            this.btnEnter.Text = "Enter";
+            this.btnEnter.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnTab
+            // 
+            this.btnTab.CheckedState.Parent = this.btnTab;
+            this.btnTab.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnTab.CustomImages.Parent = this.btnTab;
+            this.btnTab.FillColor = System.Drawing.Color.White;
+            this.btnTab.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTab.ForeColor = System.Drawing.Color.Black;
+            this.btnTab.HoverState.Parent = this.btnTab;
+            this.btnTab.Location = new System.Drawing.Point(5, 53);
+            this.btnTab.Name = "btnTab";
+            this.btnTab.ShadowDecoration.Parent = this.btnTab;
+            this.btnTab.Size = new System.Drawing.Size(79, 44);
+            this.btnTab.TabIndex = 32;
+            this.btnTab.Text = "TAB";
+            this.btnTab.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnLeftCurlyBrace
+            // 
+            this.btnLeftCurlyBrace.CheckedState.Parent = this.btnLeftCurlyBrace;
+            this.btnLeftCurlyBrace.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLeftCurlyBrace.CustomImages.Parent = this.btnLeftCurlyBrace;
+            this.btnLeftCurlyBrace.FillColor = System.Drawing.Color.White;
+            this.btnLeftCurlyBrace.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLeftCurlyBrace.ForeColor = System.Drawing.Color.Black;
+            this.btnLeftCurlyBrace.HoverState.Parent = this.btnLeftCurlyBrace;
+            this.btnLeftCurlyBrace.Location = new System.Drawing.Point(599, 53);
+            this.btnLeftCurlyBrace.Name = "btnLeftCurlyBrace";
+            this.btnLeftCurlyBrace.ShadowDecoration.Parent = this.btnLeftCurlyBrace;
+            this.btnLeftCurlyBrace.Size = new System.Drawing.Size(46, 44);
+            this.btnLeftCurlyBrace.TabIndex = 27;
+            this.btnLeftCurlyBrace.Tag = "[";
+            this.btnLeftCurlyBrace.Text = "{    [";
+            this.btnLeftCurlyBrace.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnVerticalBar
+            // 
+            this.btnVerticalBar.CheckedState.Parent = this.btnVerticalBar;
+            this.btnVerticalBar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnVerticalBar.CustomImages.Parent = this.btnVerticalBar;
+            this.btnVerticalBar.FillColor = System.Drawing.Color.White;
+            this.btnVerticalBar.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVerticalBar.ForeColor = System.Drawing.Color.Black;
+            this.btnVerticalBar.HoverState.Parent = this.btnVerticalBar;
+            this.btnVerticalBar.Location = new System.Drawing.Point(701, 53);
+            this.btnVerticalBar.Name = "btnVerticalBar";
+            this.btnVerticalBar.ShadowDecoration.Parent = this.btnVerticalBar;
+            this.btnVerticalBar.Size = new System.Drawing.Size(81, 44);
+            this.btnVerticalBar.TabIndex = 31;
+            this.btnVerticalBar.Tag = "\\";
+            this.btnVerticalBar.Text = "|              \\";
+            this.btnVerticalBar.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnP
+            // 
+            this.btnP.CheckedState.Parent = this.btnP;
+            this.btnP.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnP.CustomImages.Parent = this.btnP;
+            this.btnP.FillColor = System.Drawing.Color.White;
+            this.btnP.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnP.ForeColor = System.Drawing.Color.Black;
+            this.btnP.HoverState.Parent = this.btnP;
+            this.btnP.Location = new System.Drawing.Point(548, 53);
+            this.btnP.Name = "btnP";
+            this.btnP.ShadowDecoration.Parent = this.btnP;
+            this.btnP.Size = new System.Drawing.Size(46, 44);
+            this.btnP.TabIndex = 26;
+            this.btnP.Text = "P";
+            this.btnP.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnO
+            // 
+            this.btnO.CheckedState.Parent = this.btnO;
+            this.btnO.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnO.CustomImages.Parent = this.btnO;
+            this.btnO.FillColor = System.Drawing.Color.White;
+            this.btnO.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnO.ForeColor = System.Drawing.Color.Black;
+            this.btnO.HoverState.Parent = this.btnO;
+            this.btnO.Location = new System.Drawing.Point(497, 53);
+            this.btnO.Name = "btnO";
+            this.btnO.ShadowDecoration.Parent = this.btnO;
+            this.btnO.Size = new System.Drawing.Size(46, 44);
+            this.btnO.TabIndex = 25;
+            this.btnO.Text = "O";
+            this.btnO.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnI
+            // 
+            this.btnI.CheckedState.Parent = this.btnI;
+            this.btnI.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnI.CustomImages.Parent = this.btnI;
+            this.btnI.FillColor = System.Drawing.Color.White;
+            this.btnI.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnI.ForeColor = System.Drawing.Color.Black;
+            this.btnI.HoverState.Parent = this.btnI;
+            this.btnI.Location = new System.Drawing.Point(446, 53);
+            this.btnI.Name = "btnI";
+            this.btnI.ShadowDecoration.Parent = this.btnI;
+            this.btnI.Size = new System.Drawing.Size(46, 44);
+            this.btnI.TabIndex = 24;
+            this.btnI.Text = "I";
+            this.btnI.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnRightCurlyBrace
+            // 
+            this.btnRightCurlyBrace.CheckedState.Parent = this.btnRightCurlyBrace;
+            this.btnRightCurlyBrace.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRightCurlyBrace.CustomImages.Parent = this.btnRightCurlyBrace;
+            this.btnRightCurlyBrace.FillColor = System.Drawing.Color.White;
+            this.btnRightCurlyBrace.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRightCurlyBrace.ForeColor = System.Drawing.Color.Black;
+            this.btnRightCurlyBrace.HoverState.Parent = this.btnRightCurlyBrace;
+            this.btnRightCurlyBrace.Location = new System.Drawing.Point(650, 53);
+            this.btnRightCurlyBrace.Name = "btnRightCurlyBrace";
+            this.btnRightCurlyBrace.ShadowDecoration.Parent = this.btnRightCurlyBrace;
+            this.btnRightCurlyBrace.Size = new System.Drawing.Size(46, 44);
+            this.btnRightCurlyBrace.TabIndex = 23;
+            this.btnRightCurlyBrace.Tag = "]";
+            this.btnRightCurlyBrace.Text = "}    ]";
+            this.btnRightCurlyBrace.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnU
+            // 
+            this.btnU.CheckedState.Parent = this.btnU;
+            this.btnU.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnU.CustomImages.Parent = this.btnU;
+            this.btnU.FillColor = System.Drawing.Color.White;
+            this.btnU.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnU.ForeColor = System.Drawing.Color.Black;
+            this.btnU.HoverState.FillColor = System.Drawing.SystemColors.Window;
+            this.btnU.HoverState.Parent = this.btnU;
+            this.btnU.Location = new System.Drawing.Point(395, 53);
+            this.btnU.Name = "btnU";
+            this.btnU.ShadowDecoration.Parent = this.btnU;
+            this.btnU.Size = new System.Drawing.Size(46, 44);
+            this.btnU.TabIndex = 22;
+            this.btnU.Text = "U";
+            this.btnU.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnY
+            // 
+            this.btnY.CheckedState.Parent = this.btnY;
+            this.btnY.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnY.CustomImages.Parent = this.btnY;
+            this.btnY.FillColor = System.Drawing.Color.White;
+            this.btnY.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnY.ForeColor = System.Drawing.Color.Black;
+            this.btnY.HoverState.Parent = this.btnY;
+            this.btnY.Location = new System.Drawing.Point(344, 53);
+            this.btnY.Name = "btnY";
+            this.btnY.ShadowDecoration.Parent = this.btnY;
+            this.btnY.Size = new System.Drawing.Size(46, 44);
+            this.btnY.TabIndex = 21;
+            this.btnY.Text = "Y";
+            this.btnY.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnT
+            // 
+            this.btnT.CheckedState.Parent = this.btnT;
+            this.btnT.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnT.CustomImages.Parent = this.btnT;
+            this.btnT.FillColor = System.Drawing.Color.White;
+            this.btnT.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnT.ForeColor = System.Drawing.Color.Black;
+            this.btnT.HoverState.Parent = this.btnT;
+            this.btnT.Location = new System.Drawing.Point(293, 53);
+            this.btnT.Name = "btnT";
+            this.btnT.ShadowDecoration.Parent = this.btnT;
+            this.btnT.Size = new System.Drawing.Size(46, 44);
+            this.btnT.TabIndex = 20;
+            this.btnT.Text = "T";
+            this.btnT.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnR
+            // 
+            this.btnR.CheckedState.Parent = this.btnR;
+            this.btnR.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnR.CustomImages.Parent = this.btnR;
+            this.btnR.FillColor = System.Drawing.Color.White;
+            this.btnR.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnR.ForeColor = System.Drawing.Color.Black;
+            this.btnR.HoverState.Parent = this.btnR;
+            this.btnR.Location = new System.Drawing.Point(242, 53);
+            this.btnR.Name = "btnR";
+            this.btnR.ShadowDecoration.Parent = this.btnR;
+            this.btnR.Size = new System.Drawing.Size(46, 44);
+            this.btnR.TabIndex = 19;
+            this.btnR.Text = "R";
+            this.btnR.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnE
+            // 
+            this.btnE.CheckedState.Parent = this.btnE;
+            this.btnE.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnE.CustomImages.Parent = this.btnE;
+            this.btnE.FillColor = System.Drawing.Color.White;
+            this.btnE.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnE.ForeColor = System.Drawing.Color.Black;
+            this.btnE.HoverState.Parent = this.btnE;
+            this.btnE.Location = new System.Drawing.Point(191, 53);
+            this.btnE.Name = "btnE";
+            this.btnE.ShadowDecoration.Parent = this.btnE;
+            this.btnE.Size = new System.Drawing.Size(46, 44);
+            this.btnE.TabIndex = 18;
+            this.btnE.Text = "E";
+            this.btnE.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnW
+            // 
+            this.btnW.CheckedState.Parent = this.btnW;
+            this.btnW.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnW.CustomImages.Parent = this.btnW;
+            this.btnW.FillColor = System.Drawing.Color.White;
+            this.btnW.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnW.ForeColor = System.Drawing.Color.Black;
+            this.btnW.HoverState.Parent = this.btnW;
+            this.btnW.Location = new System.Drawing.Point(140, 53);
+            this.btnW.Name = "btnW";
+            this.btnW.ShadowDecoration.Parent = this.btnW;
+            this.btnW.Size = new System.Drawing.Size(46, 44);
+            this.btnW.TabIndex = 17;
+            this.btnW.Text = "W";
+            this.btnW.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnQ
+            // 
+            this.btnQ.CheckedState.Parent = this.btnQ;
+            this.btnQ.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnQ.CustomImages.Parent = this.btnQ;
+            this.btnQ.FillColor = System.Drawing.Color.White;
+            this.btnQ.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQ.ForeColor = System.Drawing.Color.Black;
+            this.btnQ.HoverState.Parent = this.btnQ;
+            this.btnQ.Location = new System.Drawing.Point(89, 53);
+            this.btnQ.Name = "btnQ";
+            this.btnQ.ShadowDecoration.Parent = this.btnQ;
+            this.btnQ.Size = new System.Drawing.Size(46, 44);
+            this.btnQ.TabIndex = 16;
+            this.btnQ.Text = "Q";
+            this.btnQ.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnBackSpace
+            // 
+            this.btnBackSpace.CheckedState.Parent = this.btnBackSpace;
+            this.btnBackSpace.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBackSpace.CustomImages.Parent = this.btnBackSpace;
+            this.btnBackSpace.FillColor = System.Drawing.Color.White;
+            this.btnBackSpace.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBackSpace.ForeColor = System.Drawing.Color.Black;
+            this.btnBackSpace.HoverState.Parent = this.btnBackSpace;
+            this.btnBackSpace.Location = new System.Drawing.Point(681, 3);
+            this.btnBackSpace.Name = "btnBackSpace";
+            this.btnBackSpace.ShadowDecoration.Parent = this.btnBackSpace;
+            this.btnBackSpace.Size = new System.Drawing.Size(101, 44);
+            this.btnBackSpace.TabIndex = 14;
+            this.btnBackSpace.Text = "BACKSPACE";
+            this.btnBackSpace.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnMinus
+            // 
+            this.btnMinus.CheckedState.Parent = this.btnMinus;
+            this.btnMinus.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMinus.CustomImages.Parent = this.btnMinus;
+            this.btnMinus.FillColor = System.Drawing.Color.White;
+            this.btnMinus.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMinus.ForeColor = System.Drawing.Color.Black;
+            this.btnMinus.HoverState.Parent = this.btnMinus;
+            this.btnMinus.Location = new System.Drawing.Point(577, 3);
+            this.btnMinus.Name = "btnMinus";
+            this.btnMinus.ShadowDecoration.Parent = this.btnMinus;
+            this.btnMinus.Size = new System.Drawing.Size(46, 44);
+            this.btnMinus.TabIndex = 13;
+            this.btnMinus.Tag = "-";
+            this.btnMinus.Text = "_          -";
+            this.btnMinus.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnNoZero
+            // 
+            this.btnNoZero.CheckedState.Parent = this.btnNoZero;
+            this.btnNoZero.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnNoZero.CustomImages.Parent = this.btnNoZero;
+            this.btnNoZero.FillColor = System.Drawing.Color.White;
+            this.btnNoZero.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNoZero.ForeColor = System.Drawing.Color.Black;
+            this.btnNoZero.HoverState.Parent = this.btnNoZero;
+            this.btnNoZero.Location = new System.Drawing.Point(525, 3);
+            this.btnNoZero.Name = "btnNoZero";
+            this.btnNoZero.ShadowDecoration.Parent = this.btnNoZero;
+            this.btnNoZero.Size = new System.Drawing.Size(46, 44);
+            this.btnNoZero.TabIndex = 12;
+            this.btnNoZero.Tag = "0";
+            this.btnNoZero.Text = ")          0";
+            this.btnNoZero.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnNoNine
+            // 
+            this.btnNoNine.CheckedState.Parent = this.btnNoNine;
+            this.btnNoNine.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnNoNine.CustomImages.Parent = this.btnNoNine;
+            this.btnNoNine.FillColor = System.Drawing.Color.White;
+            this.btnNoNine.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNoNine.ForeColor = System.Drawing.Color.Black;
+            this.btnNoNine.HoverState.Parent = this.btnNoNine;
+            this.btnNoNine.Location = new System.Drawing.Point(473, 3);
+            this.btnNoNine.Name = "btnNoNine";
+            this.btnNoNine.ShadowDecoration.Parent = this.btnNoNine;
+            this.btnNoNine.Size = new System.Drawing.Size(46, 44);
+            this.btnNoNine.TabIndex = 11;
+            this.btnNoNine.Tag = "9";
+            this.btnNoNine.Text = "(    9";
+            this.btnNoNine.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnNoEight
+            // 
+            this.btnNoEight.CheckedState.Parent = this.btnNoEight;
+            this.btnNoEight.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnNoEight.CustomImages.Parent = this.btnNoEight;
+            this.btnNoEight.FillColor = System.Drawing.Color.White;
+            this.btnNoEight.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNoEight.ForeColor = System.Drawing.Color.Black;
+            this.btnNoEight.HoverState.Parent = this.btnNoEight;
+            this.btnNoEight.Location = new System.Drawing.Point(421, 3);
+            this.btnNoEight.Name = "btnNoEight";
+            this.btnNoEight.ShadowDecoration.Parent = this.btnNoEight;
+            this.btnNoEight.Size = new System.Drawing.Size(46, 44);
+            this.btnNoEight.TabIndex = 10;
+            this.btnNoEight.Tag = "8";
+            this.btnNoEight.Text = "*           8";
+            this.btnNoEight.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnPluse
+            // 
+            this.btnPluse.CheckedState.Parent = this.btnPluse;
+            this.btnPluse.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPluse.CustomImages.Parent = this.btnPluse;
+            this.btnPluse.FillColor = System.Drawing.Color.White;
+            this.btnPluse.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPluse.ForeColor = System.Drawing.Color.Black;
+            this.btnPluse.HoverState.Parent = this.btnPluse;
+            this.btnPluse.Location = new System.Drawing.Point(629, 3);
+            this.btnPluse.Name = "btnPluse";
+            this.btnPluse.ShadowDecoration.Parent = this.btnPluse;
+            this.btnPluse.Size = new System.Drawing.Size(46, 44);
+            this.btnPluse.TabIndex = 9;
+            this.btnPluse.Tag = "=";
+            this.btnPluse.Text = "+         =";
+            this.btnPluse.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnNoSeven
+            // 
+            this.btnNoSeven.CheckedState.Parent = this.btnNoSeven;
+            this.btnNoSeven.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnNoSeven.CustomImages.Parent = this.btnNoSeven;
+            this.btnNoSeven.FillColor = System.Drawing.Color.White;
+            this.btnNoSeven.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNoSeven.ForeColor = System.Drawing.Color.Black;
+            this.btnNoSeven.HoverState.Parent = this.btnNoSeven;
+            this.btnNoSeven.Location = new System.Drawing.Point(369, 3);
+            this.btnNoSeven.Name = "btnNoSeven";
+            this.btnNoSeven.ShadowDecoration.Parent = this.btnNoSeven;
+            this.btnNoSeven.Size = new System.Drawing.Size(46, 44);
+            this.btnNoSeven.TabIndex = 8;
+            this.btnNoSeven.Tag = "7";
+            this.btnNoSeven.Text = "&           7";
+            this.btnNoSeven.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnNoSix
+            // 
+            this.btnNoSix.CheckedState.Parent = this.btnNoSix;
+            this.btnNoSix.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnNoSix.CustomImages.Parent = this.btnNoSix;
+            this.btnNoSix.FillColor = System.Drawing.Color.White;
+            this.btnNoSix.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNoSix.ForeColor = System.Drawing.Color.Black;
+            this.btnNoSix.HoverState.Parent = this.btnNoSix;
+            this.btnNoSix.Location = new System.Drawing.Point(317, 3);
+            this.btnNoSix.Name = "btnNoSix";
+            this.btnNoSix.ShadowDecoration.Parent = this.btnNoSix;
+            this.btnNoSix.Size = new System.Drawing.Size(46, 44);
+            this.btnNoSix.TabIndex = 7;
+            this.btnNoSix.Tag = "6";
+            this.btnNoSix.Text = "^         6";
+            this.btnNoSix.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnNoFive
+            // 
+            this.btnNoFive.CheckedState.Parent = this.btnNoFive;
+            this.btnNoFive.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnNoFive.CustomImages.Parent = this.btnNoFive;
+            this.btnNoFive.FillColor = System.Drawing.Color.White;
+            this.btnNoFive.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNoFive.ForeColor = System.Drawing.Color.Black;
+            this.btnNoFive.HoverState.Parent = this.btnNoFive;
+            this.btnNoFive.Location = new System.Drawing.Point(265, 3);
+            this.btnNoFive.Name = "btnNoFive";
+            this.btnNoFive.ShadowDecoration.Parent = this.btnNoFive;
+            this.btnNoFive.Size = new System.Drawing.Size(46, 44);
+            this.btnNoFive.TabIndex = 6;
+            this.btnNoFive.Tag = "5";
+            this.btnNoFive.Text = "%         5";
+            this.btnNoFive.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnNoFour
+            // 
+            this.btnNoFour.CheckedState.Parent = this.btnNoFour;
+            this.btnNoFour.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnNoFour.CustomImages.Parent = this.btnNoFour;
+            this.btnNoFour.FillColor = System.Drawing.Color.White;
+            this.btnNoFour.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNoFour.ForeColor = System.Drawing.Color.Black;
+            this.btnNoFour.HoverState.Parent = this.btnNoFour;
+            this.btnNoFour.Location = new System.Drawing.Point(213, 3);
+            this.btnNoFour.Name = "btnNoFour";
+            this.btnNoFour.ShadowDecoration.Parent = this.btnNoFour;
+            this.btnNoFour.Size = new System.Drawing.Size(46, 44);
+            this.btnNoFour.TabIndex = 5;
+            this.btnNoFour.Tag = "4";
+            this.btnNoFour.Text = "$            4";
+            this.btnNoFour.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnNoThree
+            // 
+            this.btnNoThree.CheckedState.Parent = this.btnNoThree;
+            this.btnNoThree.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnNoThree.CustomImages.Parent = this.btnNoThree;
+            this.btnNoThree.FillColor = System.Drawing.Color.White;
+            this.btnNoThree.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNoThree.ForeColor = System.Drawing.Color.Black;
+            this.btnNoThree.HoverState.Parent = this.btnNoThree;
+            this.btnNoThree.Location = new System.Drawing.Point(161, 3);
+            this.btnNoThree.Name = "btnNoThree";
+            this.btnNoThree.ShadowDecoration.Parent = this.btnNoThree;
+            this.btnNoThree.Size = new System.Drawing.Size(46, 44);
+            this.btnNoThree.TabIndex = 3;
+            this.btnNoThree.Tag = "3";
+            this.btnNoThree.Text = "#            3";
+            this.btnNoThree.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnNoTwo
+            // 
+            this.btnNoTwo.CheckedState.Parent = this.btnNoTwo;
+            this.btnNoTwo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnNoTwo.CustomImages.Parent = this.btnNoTwo;
+            this.btnNoTwo.FillColor = System.Drawing.Color.White;
+            this.btnNoTwo.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNoTwo.ForeColor = System.Drawing.Color.Black;
+            this.btnNoTwo.HoverState.Parent = this.btnNoTwo;
+            this.btnNoTwo.Location = new System.Drawing.Point(109, 3);
+            this.btnNoTwo.Name = "btnNoTwo";
+            this.btnNoTwo.ShadowDecoration.Parent = this.btnNoTwo;
+            this.btnNoTwo.Size = new System.Drawing.Size(46, 44);
+            this.btnNoTwo.TabIndex = 2;
+            this.btnNoTwo.Tag = "2";
+            this.btnNoTwo.Text = "@                 2";
+            this.btnNoTwo.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnNoOne
+            // 
+            this.btnNoOne.CheckedState.Parent = this.btnNoOne;
+            this.btnNoOne.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnNoOne.CustomImages.Parent = this.btnNoOne;
+            this.btnNoOne.FillColor = System.Drawing.Color.White;
+            this.btnNoOne.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNoOne.ForeColor = System.Drawing.Color.Black;
+            this.btnNoOne.HoverState.Parent = this.btnNoOne;
+            this.btnNoOne.Location = new System.Drawing.Point(57, 3);
+            this.btnNoOne.Name = "btnNoOne";
+            this.btnNoOne.ShadowDecoration.Parent = this.btnNoOne;
+            this.btnNoOne.Size = new System.Drawing.Size(46, 44);
+            this.btnNoOne.TabIndex = 1;
+            this.btnNoOne.Tag = "1";
+            this.btnNoOne.Text = "!           1";
+            this.btnNoOne.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
+            // btnTilde
+            // 
+            this.btnTilde.CheckedState.Parent = this.btnTilde;
+            this.btnTilde.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnTilde.CustomImages.Parent = this.btnTilde;
+            this.btnTilde.FillColor = System.Drawing.Color.White;
+            this.btnTilde.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTilde.ForeColor = System.Drawing.Color.Black;
+            this.btnTilde.HoverState.Parent = this.btnTilde;
+            this.btnTilde.Location = new System.Drawing.Point(5, 3);
+            this.btnTilde.Name = "btnTilde";
+            this.btnTilde.ShadowDecoration.Parent = this.btnTilde;
+            this.btnTilde.Size = new System.Drawing.Size(46, 44);
+            this.btnTilde.TabIndex = 0;
+            this.btnTilde.Tag = "`";
+            this.btnTilde.Text = "~               `";
+            this.btnTilde.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // guna2Panel1
             // 
@@ -1249,7 +1257,7 @@
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
-            this.guna2Panel1.Size = new System.Drawing.Size(1321, 30);
+            this.guna2Panel1.Size = new System.Drawing.Size(1326, 30);
             this.guna2Panel1.TabIndex = 2;
             // 
             // Form1
@@ -1273,67 +1281,67 @@
         private Guna.UI2.WinForms.Guna2TextBox tbText;
         private Guna.UI2.WinForms.Guna2Panel KeyboardPanel;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button16;
-        private Guna.UI2.WinForms.Guna2Button guna2Button17;
-        private Guna.UI2.WinForms.Guna2Button guna2Button10;
-        private Guna.UI2.WinForms.Guna2Button guna2Button11;
-        private Guna.UI2.WinForms.Guna2Button guna2Button12;
-        private Guna.UI2.WinForms.Guna2Button guna2Button13;
-        private Guna.UI2.WinForms.Guna2Button guna2Button6;
-        private Guna.UI2.WinForms.Guna2Button guna2Button7;
-        private Guna.UI2.WinForms.Guna2Button guna2Button8;
-        private Guna.UI2.WinForms.Guna2Button guna2Button9;
-        private Guna.UI2.WinForms.Guna2Button guna2Button4;
-        private Guna.UI2.WinForms.Guna2Button guna2Button3;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button28;
-        private Guna.UI2.WinForms.Guna2Button guna2Button14;
-        private Guna.UI2.WinForms.Guna2Button guna2Button15;
-        private Guna.UI2.WinForms.Guna2Button guna2Button18;
-        private Guna.UI2.WinForms.Guna2Button guna2Button19;
-        private Guna.UI2.WinForms.Guna2Button guna2Button20;
-        private Guna.UI2.WinForms.Guna2Button guna2Button21;
-        private Guna.UI2.WinForms.Guna2Button guna2Button22;
-        private Guna.UI2.WinForms.Guna2Button guna2Button23;
-        private Guna.UI2.WinForms.Guna2Button guna2Button24;
-        private Guna.UI2.WinForms.Guna2Button guna2Button25;
-        private Guna.UI2.WinForms.Guna2Button guna2Button26;
-        private Guna.UI2.WinForms.Guna2Button guna2Button27;
-        private Guna.UI2.WinForms.Guna2Button guna2Button29;
-        private Guna.UI2.WinForms.Guna2Button guna2Button31;
-        private Guna.UI2.WinForms.Guna2Button guna2Button32;
-        private Guna.UI2.WinForms.Guna2Button guna2Button33;
-        private Guna.UI2.WinForms.Guna2Button guna2Button34;
-        private Guna.UI2.WinForms.Guna2Button guna2Button35;
-        private Guna.UI2.WinForms.Guna2Button guna2Button36;
-        private Guna.UI2.WinForms.Guna2Button guna2Button37;
-        private Guna.UI2.WinForms.Guna2Button guna2Button38;
-        private Guna.UI2.WinForms.Guna2Button guna2Button39;
-        private Guna.UI2.WinForms.Guna2Button guna2Button40;
-        private Guna.UI2.WinForms.Guna2Button guna2Button41;
-        private Guna.UI2.WinForms.Guna2Button guna2Button30;
-        private Guna.UI2.WinForms.Guna2Button guna2Button5;
-        private Guna.UI2.WinForms.Guna2Button guna2Button44;
-        private Guna.UI2.WinForms.Guna2Button guna2Button45;
-        private Guna.UI2.WinForms.Guna2Button guna2Button46;
-        private Guna.UI2.WinForms.Guna2Button guna2Button47;
-        private Guna.UI2.WinForms.Guna2Button guna2Button48;
-        private Guna.UI2.WinForms.Guna2Button guna2Button49;
-        private Guna.UI2.WinForms.Guna2Button guna2Button50;
-        private Guna.UI2.WinForms.Guna2Button guna2Button51;
-        private Guna.UI2.WinForms.Guna2Button guna2Button52;
-        private Guna.UI2.WinForms.Guna2Button guna2Button53;
-        private Guna.UI2.WinForms.Guna2Button guna2Button43;
-        private Guna.UI2.WinForms.Guna2Button guna2Button42;
-        private Guna.UI2.WinForms.Guna2Button guna2Button61;
-        private Guna.UI2.WinForms.Guna2Button guna2Button60;
-        private Guna.UI2.WinForms.Guna2Button guna2Button59;
-        private Guna.UI2.WinForms.Guna2Button guna2Button58;
-        private Guna.UI2.WinForms.Guna2Button guna2Button57;
-        private Guna.UI2.WinForms.Guna2Button guna2Button55;
-        private Guna.UI2.WinForms.Guna2Button guna2Button54;
-        private Guna.UI2.WinForms.Guna2Button guna2Button56;
+        private Guna.UI2.WinForms.Guna2Button btnBackSpace;
+        private Guna.UI2.WinForms.Guna2Button btnMinus;
+        private Guna.UI2.WinForms.Guna2Button btnNoZero;
+        private Guna.UI2.WinForms.Guna2Button btnNoNine;
+        private Guna.UI2.WinForms.Guna2Button btnNoEight;
+        private Guna.UI2.WinForms.Guna2Button btnPluse;
+        private Guna.UI2.WinForms.Guna2Button btnNoSeven;
+        private Guna.UI2.WinForms.Guna2Button btnNoSix;
+        private Guna.UI2.WinForms.Guna2Button btnNoFive;
+        private Guna.UI2.WinForms.Guna2Button btnNoFour;
+        private Guna.UI2.WinForms.Guna2Button btnNoThree;
+        private Guna.UI2.WinForms.Guna2Button btnNoTwo;
+        private Guna.UI2.WinForms.Guna2Button btnNoOne;
+        private Guna.UI2.WinForms.Guna2Button btnTilde;
+        private Guna.UI2.WinForms.Guna2Button btnVerticalBar;
+        private Guna.UI2.WinForms.Guna2Button btnLeftCurlyBrace;
+        private Guna.UI2.WinForms.Guna2Button btnP;
+        private Guna.UI2.WinForms.Guna2Button btnO;
+        private Guna.UI2.WinForms.Guna2Button btnI;
+        private Guna.UI2.WinForms.Guna2Button btnRightCurlyBrace;
+        private Guna.UI2.WinForms.Guna2Button btnU;
+        private Guna.UI2.WinForms.Guna2Button btnY;
+        private Guna.UI2.WinForms.Guna2Button btnT;
+        private Guna.UI2.WinForms.Guna2Button btnR;
+        private Guna.UI2.WinForms.Guna2Button btnE;
+        private Guna.UI2.WinForms.Guna2Button btnW;
+        private Guna.UI2.WinForms.Guna2Button btnQ;
+        private Guna.UI2.WinForms.Guna2Button btnTab;
+        private Guna.UI2.WinForms.Guna2Button btndDoubleQuotation;
+        private Guna.UI2.WinForms.Guna2Button btnColon;
+        private Guna.UI2.WinForms.Guna2Button btnL;
+        private Guna.UI2.WinForms.Guna2Button btnK;
+        private Guna.UI2.WinForms.Guna2Button btnJ;
+        private Guna.UI2.WinForms.Guna2Button btnH;
+        private Guna.UI2.WinForms.Guna2Button btnG;
+        private Guna.UI2.WinForms.Guna2Button btnF;
+        private Guna.UI2.WinForms.Guna2Button btnD;
+        private Guna.UI2.WinForms.Guna2Button btnS;
+        private Guna.UI2.WinForms.Guna2Button btnA;
+        private Guna.UI2.WinForms.Guna2Button btnCapsLock;
+        private Guna.UI2.WinForms.Guna2Button btnEnter;
+        private Guna.UI2.WinForms.Guna2Button btnQuestionMark;
+        private Guna.UI2.WinForms.Guna2Button btnGraterThan;
+        private Guna.UI2.WinForms.Guna2Button btnLessThan;
+        private Guna.UI2.WinForms.Guna2Button btnM;
+        private Guna.UI2.WinForms.Guna2Button btnN;
+        private Guna.UI2.WinForms.Guna2Button btnB;
+        private Guna.UI2.WinForms.Guna2Button btnV;
+        private Guna.UI2.WinForms.Guna2Button btnC;
+        private Guna.UI2.WinForms.Guna2Button btnX;
+        private Guna.UI2.WinForms.Guna2Button btnZ;
+        private Guna.UI2.WinForms.Guna2Button btnShift;
+        private Guna.UI2.WinForms.Guna2Button btnShift2;
+        private Guna.UI2.WinForms.Guna2Button btnWin2;
+        private Guna.UI2.WinForms.Guna2Button btnAlt2;
+        private Guna.UI2.WinForms.Guna2Button btnMenue;
+        private Guna.UI2.WinForms.Guna2Button btnControl2;
+        private Guna.UI2.WinForms.Guna2Button btnSpace;
+        private Guna.UI2.WinForms.Guna2Button btnAlt1;
+        private Guna.UI2.WinForms.Guna2Button btnWin1;
+        private Guna.UI2.WinForms.Guna2Button btnControl;
     }
 }
 
