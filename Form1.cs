@@ -16,25 +16,22 @@ namespace TypeTest
         public Form1()
         {
             InitializeComponent();
+            
         }
         private void btnKeyboard_Click(object sender, EventArgs e)
         {
             Guna.UI2.WinForms.Guna2Button btn = sender as Guna.UI2.WinForms.Guna2Button;
+            tbText.Text += btn.Text;
         }
 
         Color KeyboardHoverColor = Color.Orange;
         Color KeyboardNormalColor = Color.White;
+        Guna2Button CuurBtn = null;
+        Guna2Button PrevBtn = null;
 
-        bool CheckButtonStatus = false;
-        public Guna2Button DetermineButton(KeyEventArgs e)
-        {
-            if (CheckButtonStatus == false)
-            {
-                CheckButtonStatus = true;
-            }
-            else
-                CheckButtonStatus = false;
-
+        bool CheckButtonStatus = true;
+        public Guna2Button DetermineButton(object sender, KeyEventArgs e)
+        { 
             switch (e.KeyValue)
             {
                 case (char)Keys.A:
@@ -111,31 +108,84 @@ namespace TypeTest
                     return btnNoNine;
                 case (char)Keys.OemMinus:
                     return btnMinus;
+                case (char)Keys.Oemplus:
+                    return btnPluse;
                 case (char)Keys.Space:
                     return btnSpace;
+                case (char)Keys.Back:
+                    return btnBackSpace;
+                case (char)Keys.ControlKey:
+                    return btnControl;
+                case (char)Keys.Menu:
+                    return btnAlt1;
+                case (char)Keys.Tab:
+                    return btnTab;
+                case (char)Keys.Enter:
+                    return btnEnter;
+                case (char)Keys.CapsLock:
+                    return btnCapsLock;
+                case (char)Keys.OemOpenBrackets:
+                    return btnLeftCurlyBrace;
+                case (char)Keys.OemCloseBrackets:
+                    return btnRightCurlyBrace;
+                case (char)Keys.OemSemicolon:
+                    return btnColon;
+                case (char)Keys.OemQuotes:
+                    return btndDoubleQuotation;
+                case (char)Keys.OemQuestion:
+                    return btnQuestionMark;
+                case (char)Keys.Oemcomma:
+                    return btnLessThan;
+                case (char)Keys.OemPeriod:
+                    return btnGraterThan;
+                case (char)Keys.Oem3:
+                    return btnTilde;
+                case (char)Keys.LWin:
+                    return btnWin1;
+                case (char)Keys.RWin:
+                    return btnWin2;
+                case (char)Keys.LControlKey:
+                    return btnControl;
+                case (char)Keys.RControlKey:
+                    return btnControl2;
+                case (char)Keys.ShiftKey:
+                    return btnShift;
+                case (char)Keys.OemPipe:
+                    return btnVerticalBar;
+
             }
 
-            return btnAlt1;
+            return btnSpace;
         }
 
-
-        public void EditButtonStatus(Guna2Button btn)
+        
+        public void EditButtonStatus(Guna2Button PrevBtn, Guna2Button CuurBtn)
         {
-            btn.Checked = CheckButtonStatus;
-
-            if(btn.Checked == true)
+            if (CuurBtn == PrevBtn)
             {
-                btn.HoverState.FillColor = KeyboardHoverColor;
+                // if the user press one button multiple times
             }
-            else
-                btn.HoverState.FillColor = KeyboardNormalColor;
-        }
+            CuurBtn.Checked = true;
+            CuurBtn.HoverState.FillColor = KeyboardHoverColor;
 
+            PrevBtn.Checked = true;
+            PrevBtn.HoverState.FillColor = KeyboardNormalColor;            
+        }
         private void tbText_KeyDown(object sender, KeyEventArgs e)
         {
-            Guna2Button btn = DetermineButton(e);
 
-            EditButtonStatus(btn);
+            if (CuurBtn == null)
+            {
+                PrevBtn = btnEmpty;
+            }
+
+            else
+            {
+                PrevBtn = CuurBtn;
+            }
+
+            CuurBtn = DetermineButton(sender, e);
+            EditButtonStatus(PrevBtn, CuurBtn);
 
         }
 

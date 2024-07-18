@@ -60,7 +60,6 @@
             this.btnF = new Guna.UI2.WinForms.Guna2Button();
             this.btnD = new Guna.UI2.WinForms.Guna2Button();
             this.btnS = new Guna.UI2.WinForms.Guna2Button();
-            this.btnA = new Guna.UI2.WinForms.Guna2Button();
             this.btnCapsLock = new Guna.UI2.WinForms.Guna2Button();
             this.btnEnter = new Guna.UI2.WinForms.Guna2Button();
             this.btnTab = new Guna.UI2.WinForms.Guna2Button();
@@ -92,6 +91,8 @@
             this.btnNoOne = new Guna.UI2.WinForms.Guna2Button();
             this.btnTilde = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.btnEmpty = new Guna.UI2.WinForms.Guna2Button();
+            this.btnA = new Guna.UI2.WinForms.Guna2Button();
             this.KeyboardPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -123,6 +124,8 @@
             // KeyboardPanel
             // 
             this.KeyboardPanel.BackColor = System.Drawing.Color.Gray;
+            this.KeyboardPanel.Controls.Add(this.btnEmpty);
+            this.KeyboardPanel.Controls.Add(this.btnA);
             this.KeyboardPanel.Controls.Add(this.btnWin2);
             this.KeyboardPanel.Controls.Add(this.btnAlt2);
             this.KeyboardPanel.Controls.Add(this.btnMenue);
@@ -153,7 +156,6 @@
             this.KeyboardPanel.Controls.Add(this.btnF);
             this.KeyboardPanel.Controls.Add(this.btnD);
             this.KeyboardPanel.Controls.Add(this.btnS);
-            this.KeyboardPanel.Controls.Add(this.btnA);
             this.KeyboardPanel.Controls.Add(this.btnCapsLock);
             this.KeyboardPanel.Controls.Add(this.btnEnter);
             this.KeyboardPanel.Controls.Add(this.btnTab);
@@ -705,25 +707,6 @@
             this.btnS.Text = "S";
             this.btnS.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
-            // btnA
-            // 
-            this.btnA.Animated = true;
-            this.btnA.CheckedState.FillColor = System.Drawing.Color.White;
-            this.btnA.CheckedState.Parent = this.btnA;
-            this.btnA.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnA.CustomImages.Parent = this.btnA;
-            this.btnA.FillColor = System.Drawing.Color.White;
-            this.btnA.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnA.ForeColor = System.Drawing.Color.Black;
-            this.btnA.HoverState.Parent = this.btnA;
-            this.btnA.Location = new System.Drawing.Point(108, 103);
-            this.btnA.Name = "btnA";
-            this.btnA.ShadowDecoration.Parent = this.btnA;
-            this.btnA.Size = new System.Drawing.Size(46, 44);
-            this.btnA.TabIndex = 35;
-            this.btnA.Text = "A";
-            this.btnA.Click += new System.EventHandler(this.btnKeyboard_Click);
-            // 
             // btnCapsLock
             // 
             this.btnCapsLock.CheckedState.Parent = this.btnCapsLock;
@@ -1260,6 +1243,40 @@
             this.guna2Panel1.Size = new System.Drawing.Size(1326, 30);
             this.guna2Panel1.TabIndex = 2;
             // 
+            // btnEmpty
+            // 
+            this.btnEmpty.CheckedState.Parent = this.btnEmpty;
+            this.btnEmpty.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEmpty.CustomImages.Parent = this.btnEmpty;
+            this.btnEmpty.FillColor = System.Drawing.Color.White;
+            this.btnEmpty.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEmpty.ForeColor = System.Drawing.Color.Black;
+            this.btnEmpty.HoverState.Parent = this.btnEmpty;
+            this.btnEmpty.Location = new System.Drawing.Point(772, 87);
+            this.btnEmpty.Name = "btnEmpty";
+            this.btnEmpty.ShadowDecoration.Parent = this.btnEmpty;
+            this.btnEmpty.Size = new System.Drawing.Size(10, 10);
+            this.btnEmpty.TabIndex = 69;
+            this.btnEmpty.Text = "X";
+            this.btnEmpty.Visible = false;
+            // 
+            // btnA
+            // 
+            this.btnA.CheckedState.Parent = this.btnA;
+            this.btnA.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnA.CustomImages.Parent = this.btnA;
+            this.btnA.FillColor = System.Drawing.Color.White;
+            this.btnA.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnA.ForeColor = System.Drawing.Color.Black;
+            this.btnA.HoverState.Parent = this.btnA;
+            this.btnA.Location = new System.Drawing.Point(109, 103);
+            this.btnA.Name = "btnA";
+            this.btnA.ShadowDecoration.Parent = this.btnA;
+            this.btnA.Size = new System.Drawing.Size(46, 44);
+            this.btnA.TabIndex = 69;
+            this.btnA.Text = "A";
+            this.btnA.Click += new System.EventHandler(this.btnKeyboard_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1319,7 +1336,6 @@
         private Guna.UI2.WinForms.Guna2Button btnF;
         private Guna.UI2.WinForms.Guna2Button btnD;
         private Guna.UI2.WinForms.Guna2Button btnS;
-        private Guna.UI2.WinForms.Guna2Button btnA;
         private Guna.UI2.WinForms.Guna2Button btnCapsLock;
         private Guna.UI2.WinForms.Guna2Button btnEnter;
         private Guna.UI2.WinForms.Guna2Button btnQuestionMark;
@@ -1342,6 +1358,8 @@
         private Guna.UI2.WinForms.Guna2Button btnAlt1;
         private Guna.UI2.WinForms.Guna2Button btnWin1;
         private Guna.UI2.WinForms.Guna2Button btnControl;
+        private Guna.UI2.WinForms.Guna2Button btnEmpty;
+        private Guna.UI2.WinForms.Guna2Button btnA;
     }
 }
 
