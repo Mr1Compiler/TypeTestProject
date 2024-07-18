@@ -30,6 +30,8 @@
         {
             this.tbText = new Guna.UI2.WinForms.Guna2TextBox();
             this.KeyboardPanel = new Guna.UI2.WinForms.Guna2Panel();
+            this.btnEmpty = new Guna.UI2.WinForms.Guna2Button();
+            this.btnA = new Guna.UI2.WinForms.Guna2Button();
             this.btnWin2 = new Guna.UI2.WinForms.Guna2Button();
             this.btnAlt2 = new Guna.UI2.WinForms.Guna2Button();
             this.btnMenue = new Guna.UI2.WinForms.Guna2Button();
@@ -91,13 +93,13 @@
             this.btnNoOne = new Guna.UI2.WinForms.Guna2Button();
             this.btnTilde = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.btnEmpty = new Guna.UI2.WinForms.Guna2Button();
-            this.btnA = new Guna.UI2.WinForms.Guna2Button();
             this.KeyboardPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // tbText
             // 
+            this.tbText.BackColor = System.Drawing.Color.Red;
+            this.tbText.BorderColor = System.Drawing.Color.DimGray;
             this.tbText.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tbText.DefaultText = "";
             this.tbText.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -108,17 +110,21 @@
             this.tbText.FillColor = System.Drawing.Color.Gray;
             this.tbText.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbText.FocusedState.Parent = this.tbText;
+            this.tbText.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbText.ForeColor = System.Drawing.Color.White;
             this.tbText.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbText.HoverState.Parent = this.tbText;
-            this.tbText.Location = new System.Drawing.Point(209, 85);
+            this.tbText.Location = new System.Drawing.Point(267, 95);
+            this.tbText.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
+            this.tbText.Multiline = true;
             this.tbText.Name = "tbText";
             this.tbText.PasswordChar = '\0';
             this.tbText.PlaceholderText = "";
             this.tbText.SelectedText = "";
             this.tbText.ShadowDecoration.Parent = this.tbText;
-            this.tbText.Size = new System.Drawing.Size(896, 279);
+            this.tbText.Size = new System.Drawing.Size(787, 279);
             this.tbText.TabIndex = 0;
+            this.tbText.TextChanged += new System.EventHandler(this.tbText_TextChanged);
             this.tbText.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tbText_KeyDown);
             // 
             // KeyboardPanel
@@ -186,12 +192,46 @@
             this.KeyboardPanel.Controls.Add(this.btnNoTwo);
             this.KeyboardPanel.Controls.Add(this.btnNoOne);
             this.KeyboardPanel.Controls.Add(this.btnTilde);
-            this.KeyboardPanel.Location = new System.Drawing.Point(271, 446);
+            this.KeyboardPanel.Location = new System.Drawing.Point(267, 460);
             this.KeyboardPanel.Name = "KeyboardPanel";
             this.KeyboardPanel.ShadowDecoration.Parent = this.KeyboardPanel;
             this.KeyboardPanel.Size = new System.Drawing.Size(787, 251);
             this.KeyboardPanel.TabIndex = 1;
             this.KeyboardPanel.Tag = " ";
+            // 
+            // btnEmpty
+            // 
+            this.btnEmpty.CheckedState.Parent = this.btnEmpty;
+            this.btnEmpty.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEmpty.CustomImages.Parent = this.btnEmpty;
+            this.btnEmpty.FillColor = System.Drawing.Color.White;
+            this.btnEmpty.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEmpty.ForeColor = System.Drawing.Color.Black;
+            this.btnEmpty.HoverState.Parent = this.btnEmpty;
+            this.btnEmpty.Location = new System.Drawing.Point(772, 87);
+            this.btnEmpty.Name = "btnEmpty";
+            this.btnEmpty.ShadowDecoration.Parent = this.btnEmpty;
+            this.btnEmpty.Size = new System.Drawing.Size(10, 10);
+            this.btnEmpty.TabIndex = 69;
+            this.btnEmpty.Text = "X";
+            this.btnEmpty.Visible = false;
+            // 
+            // btnA
+            // 
+            this.btnA.CheckedState.Parent = this.btnA;
+            this.btnA.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnA.CustomImages.Parent = this.btnA;
+            this.btnA.FillColor = System.Drawing.Color.White;
+            this.btnA.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnA.ForeColor = System.Drawing.Color.Black;
+            this.btnA.HoverState.Parent = this.btnA;
+            this.btnA.Location = new System.Drawing.Point(109, 103);
+            this.btnA.Name = "btnA";
+            this.btnA.ShadowDecoration.Parent = this.btnA;
+            this.btnA.Size = new System.Drawing.Size(46, 44);
+            this.btnA.TabIndex = 69;
+            this.btnA.Text = "A";
+            this.btnA.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnWin2
             // 
@@ -1242,40 +1282,6 @@
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
             this.guna2Panel1.Size = new System.Drawing.Size(1326, 30);
             this.guna2Panel1.TabIndex = 2;
-            // 
-            // btnEmpty
-            // 
-            this.btnEmpty.CheckedState.Parent = this.btnEmpty;
-            this.btnEmpty.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnEmpty.CustomImages.Parent = this.btnEmpty;
-            this.btnEmpty.FillColor = System.Drawing.Color.White;
-            this.btnEmpty.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEmpty.ForeColor = System.Drawing.Color.Black;
-            this.btnEmpty.HoverState.Parent = this.btnEmpty;
-            this.btnEmpty.Location = new System.Drawing.Point(772, 87);
-            this.btnEmpty.Name = "btnEmpty";
-            this.btnEmpty.ShadowDecoration.Parent = this.btnEmpty;
-            this.btnEmpty.Size = new System.Drawing.Size(10, 10);
-            this.btnEmpty.TabIndex = 69;
-            this.btnEmpty.Text = "X";
-            this.btnEmpty.Visible = false;
-            // 
-            // btnA
-            // 
-            this.btnA.CheckedState.Parent = this.btnA;
-            this.btnA.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnA.CustomImages.Parent = this.btnA;
-            this.btnA.FillColor = System.Drawing.Color.White;
-            this.btnA.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnA.ForeColor = System.Drawing.Color.Black;
-            this.btnA.HoverState.Parent = this.btnA;
-            this.btnA.Location = new System.Drawing.Point(109, 103);
-            this.btnA.Name = "btnA";
-            this.btnA.ShadowDecoration.Parent = this.btnA;
-            this.btnA.Size = new System.Drawing.Size(46, 44);
-            this.btnA.TabIndex = 69;
-            this.btnA.Text = "A";
-            this.btnA.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // Form1
             // 

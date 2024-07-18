@@ -16,8 +16,31 @@ namespace TypeTest
         public Form1()
         {
             InitializeComponent();
+            tbText.Text = Paragraphs[GetRandomNumber(0, 10)];
+            
             
         }
+
+        int GetRandomNumber(int Num1, int Num2)
+        {
+            Random rand = new Random();
+            int RandomNumber = rand.Next(Num1, Num2);
+
+            return RandomNumber;
+        }
+
+        string[] Paragraphs =
+            { "The quick brown fox jumps over the lazy dog.",
+            "A journey of a thousand miles begins with a single step.",
+            "To be or not to be, that is the question.",
+            "All that glitters is not gold.",
+            "A picture is worth a thousand words.",
+            "Fortune favors the bold.",
+            "The early bird catches the worm.",
+            "Actions speak louder than words.",
+            "When in Rome, do as the Romans do.",
+            "You can lead a horse to water, but you can't make it drink."
+            };
         private void btnKeyboard_Click(object sender, EventArgs e)
         {
             Guna.UI2.WinForms.Guna2Button btn = sender as Guna.UI2.WinForms.Guna2Button;
@@ -189,5 +212,9 @@ namespace TypeTest
 
         }
 
+        private void tbText_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
