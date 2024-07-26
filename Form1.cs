@@ -2,23 +2,40 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.ComponentModel.Design;
 using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Serialization;
 
 namespace TypeTest
 {
     public partial class Form1 : Form
     {
+        void AddingParaghraph()
+        {
+            tbText.Text = Paragraphs[GetRandomNumber(0, 10)];
+            origntext = tbText.Text;
+        }
+        string origntext = "";
+        public void MainText()
+        {
+            AddingParaghraph();
+        }
         public Form1()
         {
             InitializeComponent();
-            tbText.Text = Paragraphs[GetRandomNumber(0, 10)];
-            
-            
+            MainText();
+            tbText.Focus();
+            this.KeyPreview = true;
+        }
+
+        public void Selection(int Counter, int SelectionIndex)
+        { 
+            tbText.Select(Counter, SelectionIndex);
         }
 
         int GetRandomNumber(int Num1, int Num2)
@@ -53,135 +70,136 @@ namespace TypeTest
         Guna2Button PrevBtn = null;
 
         bool CheckButtonStatus = true;
-        public Guna2Button DetermineButton(object sender, KeyEventArgs e)
-        { 
-            switch (e.KeyValue)
+        public Guna2Button DetermineButton(object sender, KeyPressEventArgs e)
+        {
+            switch (e.KeyChar)
             {
-                case (char)Keys.A:
+                case 'a':
                     return btnA;
-                case (char)Keys.B:
+                case 'b':
                     return btnB;
-                case (char)Keys.C:
+                case 'c':
                     return btnC;
-                case (char)Keys.D:
+                case 'd':
                     return btnD;
-                case (char)Keys.E:
+                case 'e':
                     return btnE;
-                case (char)Keys.F:
+                case 'f':
                     return btnF;
-                case (char)Keys.G:
+                case 'g':
                     return btnG;
-                case (char)Keys.H:
+                case 'h':
                     return btnH;
-                case (char)Keys.I:
+                case 'i':
                     return btnI;
-                case (char)Keys.J:
+                case 'j':
                     return btnJ;
-                case (char)Keys.K:
+                case 'k':
                     return btnK;
-                case (char)Keys.L:
+                case 'l':
                     return btnL;
-                case (char)Keys.M:
+                case 'm':
                     return btnM;
-                case (char)Keys.N:
+                case 'n':
                     return btnN;
-                case (char)Keys.O:
+                case 'o':
                     return btnO;
-                case (char)Keys.P:
+                case 'p':
                     return btnP;
-                case (char)Keys.Q:
+                case 'q':
                     return btnQ;
-                case (char)Keys.R:
+                case 'r':
                     return btnR;
-                case (char)Keys.S:
+                case 's':
                     return btnS;
-                case (char)Keys.T:
+                case 't':
                     return btnT;
-                case (char)Keys.U:
+                case 'u':
                     return btnU;
-                case (char)Keys.V:
+                case 'v':
                     return btnV;
-                case (char)Keys.W:
+                case 'w':
                     return btnW;
-                case (char)Keys.X:
+                case 'x':
                     return btnX;
-                case (char)Keys.Y:
+                case 'y':
                     return btnY;
-                case (char)Keys.Z:
+                case 'z':
                     return btnZ;
-                case (char)Keys.D0:
+                case '0':
                     return btnNoZero;
-                case (char)Keys.D1:
+                case '1':
                     return btnNoOne;
-                case (char)Keys.D2:
+                case '2':
                     return btnNoTwo;
-                case (char)Keys.D3:
+                case '3':
                     return btnNoThree;
-                case (char)Keys.D4:
+                case '4':
                     return btnNoFour;
-                case (char)Keys.D5:
+                case '5':
                     return btnNoFive;
-                case (char)Keys.D6:
+                case '6':
                     return btnNoSix;
-                case (char)Keys.D7:
+                case '7':
                     return btnNoSeven;
-                case (char)Keys.D8:
+                case '8':
                     return btnNoEight;
-                case (char)Keys.D9:
+                case '9':
                     return btnNoNine;
-                case (char)Keys.OemMinus:
+                case '-':
                     return btnMinus;
-                case (char)Keys.Oemplus:
+                case '=':
                     return btnPluse;
-                case (char)Keys.Space:
+                case ' ':
                     return btnSpace;
-                case (char)Keys.Back:
+                case '\b':
                     return btnBackSpace;
-                case (char)Keys.ControlKey:
-                    return btnControl;
-                case (char)Keys.Menu:
-                    return btnAlt1;
-                case (char)Keys.Tab:
-                    return btnTab;
-                case (char)Keys.Enter:
-                    return btnEnter;
-                case (char)Keys.CapsLock:
-                    return btnCapsLock;
-                case (char)Keys.OemOpenBrackets:
-                    return btnLeftCurlyBrace;
-                case (char)Keys.OemCloseBrackets:
-                    return btnRightCurlyBrace;
-                case (char)Keys.OemSemicolon:
-                    return btnColon;
-                case (char)Keys.OemQuotes:
-                    return btndDoubleQuotation;
-                case (char)Keys.OemQuestion:
-                    return btnQuestionMark;
-                case (char)Keys.Oemcomma:
-                    return btnLessThan;
-                case (char)Keys.OemPeriod:
-                    return btnGraterThan;
-                case (char)Keys.Oem3:
-                    return btnTilde;
-                case (char)Keys.LWin:
-                    return btnWin1;
-                case (char)Keys.RWin:
-                    return btnWin2;
-                case (char)Keys.LControlKey:
-                    return btnControl;
-                case (char)Keys.RControlKey:
-                    return btnControl2;
-                case (char)Keys.ShiftKey:
-                    return btnShift;
-                case (char)Keys.OemPipe:
-                    return btnVerticalBar;
+                //case '':
+                //    return btnControl;
+                //case '':
+                //    return btnAlt1;
+                //case '':
+                //    return btnTab;
+                //case '':
+                //    return btnEnter;
+                //case '':
+                //    return btnCapsLock;
+                //case '':
+                //    return btnLeftCurlyBrace;
+                //case '':
+                //    return btnRightCurlyBrace;
+                //case '':
+                //    return btnColon;
+                //case '':
+                //    return btndDoubleQuotation;
+                //case '':
+                //    return btnQuestionMark;
+                //case '':
+                //    return btnLessThan;
+                //case '':
+                //    return btnGraterThan;
+                //case '':
+                //    return btnTilde;
+                //case '':
+                //    return btnWin1;
+                //case '':
+                //    return btnWin2;
+                //case '':
+                //    return btnControl;
+                //case '':
+                //    return btnControl2;
+                //case '':
+                //    return btnShift;
+                //case '':
+                //    return btnVerticalBar;
 
             }
 
-            return btnSpace;
+
+            return btnTab;
         }
 
-        
+
         public void EditButtonStatus(Guna2Button PrevBtn, Guna2Button CuurBtn)
         {
             if (CuurBtn == PrevBtn)
@@ -192,9 +210,9 @@ namespace TypeTest
             CuurBtn.HoverState.FillColor = KeyboardHoverColor;
 
             PrevBtn.Checked = true;
-            PrevBtn.HoverState.FillColor = KeyboardNormalColor;            
+            PrevBtn.HoverState.FillColor = KeyboardNormalColor;
         }
-        private void tbText_KeyDown(object sender, KeyEventArgs e)
+        public void TurnTheKeyboard(object sender, KeyPressEventArgs e)
         {
 
             if (CuurBtn == null)
@@ -211,10 +229,37 @@ namespace TypeTest
             EditButtonStatus(PrevBtn, CuurBtn);
 
         }
-
-        private void tbText_TextChanged(object sender, EventArgs e)
+        public bool IsItTrue(char ch1, char ch2)
         {
+            return (ch1 == ch2);
+        }
 
+        public int Counter = 0;
+        private void Form1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            TurnTheKeyboard(sender, e);
+            tbText.Text = origntext;
+
+            Selection(Counter, 1);
+
+
+            char TrueChar = Convert.ToChar(tbText.SelectedText);
+            char EnteredChar = Convert.ToChar(e.KeyChar);
+
+            if (IsItTrue(TrueChar, EnteredChar))
+            {
+                tbText.SelectionColor = Color.Green;
+                tbText.SelectionStart++;
+                Counter++;
+            }
+
+            else
+            {
+                tbText.SelectionColor = Color.Red;
+                tbText.SelectionStart++;
+                Counter++;
+            }            
         }
     }
 }
+// when i pass the char correct it return it to balck color i need to make all the passed one in green or red
