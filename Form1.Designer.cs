@@ -1346,7 +1346,6 @@
             this.Controls.Add(this.KeyboardPanel);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
-            this.Text = "Form1";
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.KeyboardPanel.ResumeLayout(false);
             this.ResumeLayout(false);

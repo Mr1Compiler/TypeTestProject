@@ -1,12 +1,15 @@
-﻿using Guna.UI2.WinForms;
+﻿using Guna.UI2.HtmlRenderer.Adapters;
+using Guna.UI2.WinForms;
 using System;
 using System.Collections.Generic;
+using System.Collections.Specialized;
 using System.ComponentModel;
 using System.ComponentModel.Design;
 using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Serialization;
@@ -15,12 +18,28 @@ namespace TypeTest
 {
     public partial class Form1 : Form
     {
+        public static RichTextBox tbText2 = new RichTextBox();
+        public static int Counter = 0;
+        public static bool?[] Answer;
+        public bool IsArray = true;
+
+        public void TestArray()
+        {
+            if (IsArray)
+            {
+                Answer = new bool?[tbText2.Text.Length];
+            }
+            tbText.HideSelection = true;
+            tbText.Select(0, 1);
+            tbText.SelectionBackColor = Color.FromArgb(192, 192, 0);
+
+            IsArray = false;
+        }
         void AddingParaghraph()
         {
             tbText.Text = Paragraphs[GetRandomNumber(0, 10)];
-            origntext = tbText.Text;
+            tbText2.Text = tbText.Text;
         }
-        string origntext = "";
         public void MainText()
         {
             AddingParaghraph();
@@ -31,10 +50,10 @@ namespace TypeTest
             MainText();
             tbText.Focus();
             this.KeyPreview = true;
+            TestArray();
         }
-
         public void Selection(int Counter, int SelectionIndex)
-        { 
+        {
             tbText.Select(Counter, SelectionIndex);
         }
 
@@ -154,52 +173,50 @@ namespace TypeTest
                     return btnSpace;
                 case '\b':
                     return btnBackSpace;
-                //case '':
-                //    return btnControl;
-                //case '':
-                //    return btnAlt1;
-                //case '':
-                //    return btnTab;
-                //case '':
-                //    return btnEnter;
-                //case '':
-                //    return btnCapsLock;
-                //case '':
-                //    return btnLeftCurlyBrace;
-                //case '':
-                //    return btnRightCurlyBrace;
-                //case '':
-                //    return btnColon;
-                //case '':
-                //    return btndDoubleQuotation;
-                //case '':
-                //    return btnQuestionMark;
-                //case '':
-                //    return btnLessThan;
-                //case '':
-                //    return btnGraterThan;
-                //case '':
-                //    return btnTilde;
-                //case '':
-                //    return btnWin1;
-                //case '':
-                //    return btnWin2;
-                //case '':
-                //    return btnControl;
-                //case '':
-                //    return btnControl2;
-                //case '':
-                //    return btnShift;
-                //case '':
-                //    return btnVerticalBar;
+                    //case '':
+                    //    return btnControl;
+                    //case '':
+                    //    return btnAlt1;
+                    //case '':
+                    //    return btnTab;
+                    //case '':
+                    //    return btnEnter;
+                    //case '':
+                    //    return btnCapsLock;
+                    //case '':
+                    //    return btnLeftCurlyBrace;
+                    //case '':
+                    //    return btnRightCurlyBrace;
+                    //case '':
+                    //    return btnColon;
+                    //case '':
+                    //    return btndDoubleQuotation;
+                    //case '':
+                    //    return btnQuestionMark;
+                    //case '':
+                    //    return btnLessThan;
+                    //case '':
+                    //    return btnGraterThan;
+                    //case '':
+                    //    return btnTilde;
+                    //case '':
+                    //    return btnWin1;
+                    //case '':
+                    //    return btnWin2;
+                    //case '':
+                    //    return btnControl;
+                    //case '':
+                    //    return btnControl2;
+                    //case '':
+                    //    return btnShift;
+                    //case '':
+                    //    return btnVerticalBar;
 
             }
 
 
             return btnTab;
         }
-
-
         public void EditButtonStatus(Guna2Button PrevBtn, Guna2Button CuurBtn)
         {
             if (CuurBtn == PrevBtn)
@@ -214,7 +231,6 @@ namespace TypeTest
         }
         public void TurnTheKeyboard(object sender, KeyPressEventArgs e)
         {
-
             if (CuurBtn == null)
             {
                 PrevBtn = btnEmpty;
@@ -227,39 +243,63 @@ namespace TypeTest
 
             CuurBtn = DetermineButton(sender, e);
             EditButtonStatus(PrevBtn, CuurBtn);
-
         }
         public bool IsItTrue(char ch1, char ch2)
         {
             return (ch1 == ch2);
         }
 
-        public int Counter = 0;
+        public void TextColor()
+        {
+            tbText.Text = tbText2.Text;
+            tbText.HideSelection = true;
+
+
+            for (int i = 0; i < Answer.Length; i++)
+            {
+                tbText.Select(i, 1);
+
+                if (Answer[i] != true && Answer[i] != false)
+                {
+                    break;
+                }
+
+                else if (Answer[i] == true)
+                {
+                    tbText.SelectionColor = Color.Green;
+                }
+
+                else
+                {
+                    tbText.SelectionColor = Color.Red;
+                }
+
+            }
+            tbText.SelectionBackColor = Color.FromArgb(192, 192, 0);
+        }
+
         private void Form1_KeyPress(object sender, KeyPressEventArgs e)
         {
             TurnTheKeyboard(sender, e);
-            tbText.Text = origntext;
-
-            Selection(Counter, 1);
-
-
-            char TrueChar = Convert.ToChar(tbText.SelectedText);
+            tbText2.Select(Counter, 1);
+            char TrueChar = Convert.ToChar(tbText2.SelectedText);
             char EnteredChar = Convert.ToChar(e.KeyChar);
+            tbText2.SelectionStart++;
 
             if (IsItTrue(TrueChar, EnteredChar))
             {
-                tbText.SelectionColor = Color.Green;
-                tbText.SelectionStart++;
-                Counter++;
+                Answer[Counter] = true;
             }
 
             else
             {
-                tbText.SelectionColor = Color.Red;
-                tbText.SelectionStart++;
-                Counter++;
-            }            
+                Answer[Counter] = false;
+            }
+
+
+            TextColor();
+            tbText.Select(Counter, 1);
+            Counter++;
         }
     }
 }
-// when i pass the char correct it return it to balck color i need to make all the passed one in green or red
