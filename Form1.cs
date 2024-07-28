@@ -20,14 +20,14 @@ namespace TypeTest
     {
         public static RichTextBox tbText2 = new RichTextBox();
         public static int Counter = 0;
-        public static bool?[] Answer;
+        public static bool[] Answer;
         public bool IsArray = true;
 
         public void TestArray()
         {
             if (IsArray)
             {
-                Answer = new bool?[tbText2.Text.Length];
+                Answer = new bool[tbText2.Text.Length];
             }
             tbText.HideSelection = true;
             tbText.Select(0, 1);
@@ -254,19 +254,18 @@ namespace TypeTest
             tbText.Text = tbText2.Text;
             tbText.HideSelection = true;
 
-
-            for (int i = 0; i < Answer.Length; i++)
+            for (int i = 0; i < Counter + 1; i++)
             {
                 tbText.Select(i, 1);
 
-                if (Answer[i] != true && Answer[i] != false)
-                {
-                    break;
-                }
-
-                else if (Answer[i] == true)
+                if (Answer[i] == true)
                 {
                     tbText.SelectionColor = Color.Green;
+                }
+                
+                else if (tbText.Text[Counter] == ' ')
+                {
+                    tbText.SelectionColor = Color.Red;
                 }
 
                 else
@@ -296,10 +295,10 @@ namespace TypeTest
                 Answer[Counter] = false;
             }
 
-
+            Counter++;
             TextColor();
             tbText.Select(Counter, 1);
-            Counter++;
+            tbText.SelectionColor = Color.Black;
         }
     }
 }

@@ -1309,11 +1309,12 @@
             // guna2Panel1
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.IndianRed;
+            this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
-            this.guna2Panel1.Size = new System.Drawing.Size(1547, 37);
+            this.guna2Panel1.Size = new System.Drawing.Size(1561, 46);
             this.guna2Panel1.TabIndex = 2;
             // 
             // tbText
@@ -1324,13 +1325,13 @@
             this.tbText.Font = new System.Drawing.Font("Cascadia Mono", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbText.ForeColor = System.Drawing.Color.Black;
             this.tbText.HideSelection = false;
-            this.tbText.Location = new System.Drawing.Point(232, 94);
+            this.tbText.Location = new System.Drawing.Point(312, 71);
             this.tbText.Name = "tbText";
             this.tbText.ReadOnly = true;
             this.tbText.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Horizontal;
             this.tbText.ShortcutsEnabled = false;
             this.tbText.ShowSelectionMargin = true;
-            this.tbText.Size = new System.Drawing.Size(1045, 361);
+            this.tbText.Size = new System.Drawing.Size(918, 464);
             this.tbText.TabIndex = 3;
             this.tbText.Text = "";
             this.tbText.UseWaitCursor = true;
@@ -1340,7 +1341,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
-            this.ClientSize = new System.Drawing.Size(1542, 890);
+            this.ClientSize = new System.Drawing.Size(1561, 890);
             this.Controls.Add(this.tbText);
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.KeyboardPanel);
