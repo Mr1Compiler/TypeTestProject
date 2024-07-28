@@ -10,3 +10,15 @@ E:\Projects\TypeTest\obj\Debug\TypeTest.csproj.CoreCompileInputs.cache
 E:\Projects\TypeTest\obj\Debug\TypeTest.csproj.Up2Date
 E:\Projects\TypeTest\obj\Debug\TypeTest.exe
 E:\Projects\TypeTest\obj\Debug\TypeTest.pdb
+E:\Projects\CloneTypeTest\bin\Debug\TypeTest.exe.config
+E:\Projects\CloneTypeTest\bin\Debug\TypeTest.exe
+E:\Projects\CloneTypeTest\bin\Debug\TypeTest.pdb
+E:\Projects\CloneTypeTest\bin\Debug\Guna.UI2.dll
+E:\Projects\CloneTypeTest\obj\Debug\TypeTest.csproj.AssemblyReference.cache
+E:\Projects\CloneTypeTest\obj\Debug\TypeTest.Form1.resources
+E:\Projects\CloneTypeTest\obj\Debug\TypeTest.Properties.Resources.resources
+E:\Projects\CloneTypeTest\obj\Debug\TypeTest.csproj.GenerateResource.cache
+E:\Projects\CloneTypeTest\obj\Debug\TypeTest.csproj.CoreCompileInputs.cache
+E:\Projects\CloneTypeTest\obj\Debug\TypeTest.csproj.Up2Date
+E:\Projects\CloneTypeTest\obj\Debug\TypeTest.exe
+E:\Projects\CloneTypeTest\obj\Debug\TypeTest.pdb
