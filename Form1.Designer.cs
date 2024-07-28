@@ -1325,13 +1325,13 @@
             this.tbText.Font = new System.Drawing.Font("Cascadia Mono", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbText.ForeColor = System.Drawing.Color.Black;
             this.tbText.HideSelection = false;
-            this.tbText.Location = new System.Drawing.Point(312, 71);
+            this.tbText.Location = new System.Drawing.Point(318, 176);
             this.tbText.Name = "tbText";
             this.tbText.ReadOnly = true;
             this.tbText.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Horizontal;
             this.tbText.ShortcutsEnabled = false;
             this.tbText.ShowSelectionMargin = true;
-            this.tbText.Size = new System.Drawing.Size(918, 464);
+            this.tbText.Size = new System.Drawing.Size(918, 278);
             this.tbText.TabIndex = 3;
             this.tbText.Text = "";
             this.tbText.UseWaitCursor = true;

@@ -285,17 +285,24 @@ namespace TypeTest
             char EnteredChar = Convert.ToChar(e.KeyChar);
             tbText2.SelectionStart++;
 
-            if (IsItTrue(TrueChar, EnteredChar))
+            if(e.KeyChar == '\b')
+            {
+                Counter--;
+            }
+
+            else if (IsItTrue(TrueChar, EnteredChar))
             {
                 Answer[Counter] = true;
+                Counter++;
+
             }
 
             else
             {
                 Answer[Counter] = false;
+                Counter++;
             }
 
-            Counter++;
             TextColor();
             tbText.Select(Counter, 1);
             tbText.SelectionColor = Color.Black;
