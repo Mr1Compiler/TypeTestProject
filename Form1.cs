@@ -262,11 +262,6 @@ namespace TypeTest
                 {
                     tbText.SelectionColor = Color.Green;
                 }
-                
-                else if (tbText.Text[Counter] == ' ')
-                {
-                    tbText.SelectionColor = Color.Red;
-                }
 
                 else
                 {
