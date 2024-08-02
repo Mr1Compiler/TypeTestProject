@@ -11,3 +11,4 @@ E:\Projects\TypeTest\obj\Debug\TypeTest.csproj.Up2Date
 E:\Projects\TypeTest\obj\Debug\TypeTest.exe
 E:\Projects\TypeTest\obj\Debug\TypeTest.pdb
 E:\Projects\TypeTest\obj\Debug\TypeTest.frmSettings.resources
+E:\Projects\TypeTest\bin\Debug\MaterialSkin.dll

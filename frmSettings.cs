@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MaterialSkin;
 
 namespace TypeTest
 {
@@ -15,6 +16,11 @@ namespace TypeTest
         public frmSettings()
         {
             InitializeComponent();
+        }
+
+
+        private void lbTest_SelectedIndexChanged(object sender, MaterialListBoxItem selectedItem)
+        {
         }
     }
 }
