@@ -93,7 +93,9 @@
             this.btnTilde = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.tbText = new System.Windows.Forms.RichTextBox();
+            this.btnfrmSettings = new Guna.UI2.WinForms.Guna2ImageButton();
             this.KeyboardPanel.SuspendLayout();
+            this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // KeyboardPanel
@@ -1309,6 +1311,7 @@
             // guna2Panel1
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.IndianRed;
+            this.guna2Panel1.Controls.Add(this.btnfrmSettings);
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4);
@@ -1336,6 +1339,20 @@
             this.tbText.Text = "";
             this.tbText.UseWaitCursor = true;
             // 
+            // btnfrmSettings
+            // 
+            this.btnfrmSettings.BackgroundImage = global::TypeTest.Properties.Resources.Settings;
+            this.btnfrmSettings.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnfrmSettings.CheckedState.Parent = this.btnfrmSettings;
+            this.btnfrmSettings.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnfrmSettings.HoverState.Parent = this.btnfrmSettings;
+            this.btnfrmSettings.Location = new System.Drawing.Point(12, 6);
+            this.btnfrmSettings.Name = "btnfrmSettings";
+            this.btnfrmSettings.PressedState.Parent = this.btnfrmSettings;
+            this.btnfrmSettings.Size = new System.Drawing.Size(35, 37);
+            this.btnfrmSettings.TabIndex = 4;
+            this.btnfrmSettings.Click += new System.EventHandler(this.btnfrmSettings_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
@@ -1349,6 +1366,7 @@
             this.Name = "Form1";
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.KeyboardPanel.ResumeLayout(false);
+            this.guna2Panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1419,6 +1437,7 @@
         private Guna.UI2.WinForms.Guna2Button btnEmpty;
         private Guna.UI2.WinForms.Guna2Button btnA;
         private System.Windows.Forms.RichTextBox tbText;
+        private Guna.UI2.WinForms.Guna2ImageButton btnfrmSettings;
     }
 }
 

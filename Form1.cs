@@ -302,5 +302,11 @@ namespace TypeTest
             tbText.Select(Counter, 1);
             tbText.SelectionColor = Color.Black;
         }
+
+        private void btnfrmSettings_Click(object sender, EventArgs e)
+        {
+            frmSettings frmSettings = new frmSettings();
+            frmSettings.Show();
+        }
     }
 }
