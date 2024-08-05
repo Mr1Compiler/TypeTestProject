@@ -28,6 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            MaterialSkin.MaterialListBoxItem materialListBoxItem1 = new MaterialSkin.MaterialListBoxItem();
+            MaterialSkin.MaterialListBoxItem materialListBoxItem2 = new MaterialSkin.MaterialListBoxItem();
+            MaterialSkin.MaterialListBoxItem materialListBoxItem3 = new MaterialSkin.MaterialListBoxItem();
             this.KeyboardPanel = new Guna.UI2.WinForms.Guna2Panel();
             this.btnEmpty = new Guna.UI2.WinForms.Guna2Button();
             this.btnA = new Guna.UI2.WinForms.Guna2Button();
@@ -92,8 +95,10 @@
             this.btnNoOne = new Guna.UI2.WinForms.Guna2Button();
             this.btnTilde = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.tbText = new System.Windows.Forms.RichTextBox();
             this.btnfrmSettings = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.tbText = new System.Windows.Forms.RichTextBox();
+            this.listbox = new MaterialSkin.Controls.MaterialListBox();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.KeyboardPanel.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
@@ -1320,6 +1325,20 @@
             this.guna2Panel1.Size = new System.Drawing.Size(1561, 46);
             this.guna2Panel1.TabIndex = 2;
             // 
+            // btnfrmSettings
+            // 
+            this.btnfrmSettings.BackgroundImage = global::TypeTest.Properties.Resources.Settings;
+            this.btnfrmSettings.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnfrmSettings.CheckedState.Parent = this.btnfrmSettings;
+            this.btnfrmSettings.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnfrmSettings.HoverState.Parent = this.btnfrmSettings;
+            this.btnfrmSettings.Location = new System.Drawing.Point(12, 6);
+            this.btnfrmSettings.Name = "btnfrmSettings";
+            this.btnfrmSettings.PressedState.Parent = this.btnfrmSettings;
+            this.btnfrmSettings.Size = new System.Drawing.Size(35, 37);
+            this.btnfrmSettings.TabIndex = 4;
+            this.btnfrmSettings.Click += new System.EventHandler(this.btnfrmSettings_Click);
+            // 
             // tbText
             // 
             this.tbText.BackColor = System.Drawing.SystemColors.HighlightText;
@@ -1339,19 +1358,47 @@
             this.tbText.Text = "";
             this.tbText.UseWaitCursor = true;
             // 
-            // btnfrmSettings
+            // listbox
             // 
-            this.btnfrmSettings.BackgroundImage = global::TypeTest.Properties.Resources.Settings;
-            this.btnfrmSettings.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnfrmSettings.CheckedState.Parent = this.btnfrmSettings;
-            this.btnfrmSettings.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnfrmSettings.HoverState.Parent = this.btnfrmSettings;
-            this.btnfrmSettings.Location = new System.Drawing.Point(12, 6);
-            this.btnfrmSettings.Name = "btnfrmSettings";
-            this.btnfrmSettings.PressedState.Parent = this.btnfrmSettings;
-            this.btnfrmSettings.Size = new System.Drawing.Size(35, 37);
-            this.btnfrmSettings.TabIndex = 4;
-            this.btnfrmSettings.Click += new System.EventHandler(this.btnfrmSettings_Click);
+            this.listbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.listbox.BorderColor = System.Drawing.Color.LightGray;
+            this.listbox.Depth = 0;
+            this.listbox.Font = new System.Drawing.Font("Cascadia Mono", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            materialListBoxItem1.SecondaryText = "0";
+            materialListBoxItem1.Tag = null;
+            materialListBoxItem1.Text = "Text box";
+            materialListBoxItem2.SecondaryText = "1";
+            materialListBoxItem2.Tag = null;
+            materialListBoxItem2.Text = "Font";
+            materialListBoxItem3.SecondaryText = "2";
+            materialListBoxItem3.Tag = null;
+            materialListBoxItem3.Text = "Colors";
+            this.listbox.Items.Add(materialListBoxItem1);
+            this.listbox.Items.Add(materialListBoxItem2);
+            this.listbox.Items.Add(materialListBoxItem3);
+            this.listbox.Location = new System.Drawing.Point(1281, 196);
+            this.listbox.MouseState = MaterialSkin.MouseState.HOVER;
+            this.listbox.Name = "listbox";
+            this.listbox.SelectedIndex = -1;
+            this.listbox.SelectedItem = null;
+            this.listbox.Size = new System.Drawing.Size(268, 312);
+            this.listbox.TabIndex = 4;
+            // 
+            // listBox1
+            // 
+            this.listBox1.BackColor = System.Drawing.Color.IndianRed;
+            this.listBox1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.listBox1.Font = new System.Drawing.Font("Cascadia Mono", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 30;
+            this.listBox1.Items.AddRange(new object[] {
+            "Text Box",
+            "Font",
+            "Colors"});
+            this.listBox1.Location = new System.Drawing.Point(0, 46);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(210, 844);
+            this.listBox1.TabIndex = 5;
             // 
             // Form1
             // 
@@ -1359,6 +1406,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
             this.ClientSize = new System.Drawing.Size(1561, 890);
+            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.listbox);
             this.Controls.Add(this.tbText);
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.KeyboardPanel);
@@ -1438,6 +1487,8 @@
         private Guna.UI2.WinForms.Guna2Button btnA;
         private System.Windows.Forms.RichTextBox tbText;
         private Guna.UI2.WinForms.Guna2ImageButton btnfrmSettings;
+        private MaterialSkin.Controls.MaterialListBox listbox;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }
 

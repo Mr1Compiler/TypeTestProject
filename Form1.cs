@@ -51,6 +51,7 @@ namespace TypeTest
             tbText.Focus();
             this.KeyPreview = true;
             TestArray();
+            listBox1.Visible = false;
         }
         public void Selection(int Counter, int SelectionIndex)
         {
@@ -303,10 +304,23 @@ namespace TypeTest
             tbText.SelectionColor = Color.Black;
         }
 
+        public bool Close = false;
         private void btnfrmSettings_Click(object sender, EventArgs e)
         {
-            frmSettings frmSettings = new frmSettings();
-            frmSettings.Show();
+            //frmSettings frmSettings = new frmSettings();
+            //frmSettings.Show();
+
+            if (Close == false)
+            {
+                listBox1.Visible = true;
+                Close= true;
+            }
+            else
+            {
+                listBox1.Visible = false;
+                Close= false;
+            }
+
         }
     }
 }

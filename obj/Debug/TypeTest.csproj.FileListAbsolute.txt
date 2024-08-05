@@ -12,3 +12,13 @@ E:\Projects\TypeTest\obj\Debug\TypeTest.exe
 E:\Projects\TypeTest\obj\Debug\TypeTest.pdb
 E:\Projects\TypeTest\obj\Debug\TypeTest.frmSettings.resources
 E:\Projects\TypeTest\bin\Debug\MaterialSkin.dll
+E:\Projects\TypeTest\bin\Debug\Microsoft.Practices.CompositeUI.dll
+E:\Projects\TypeTest\bin\Debug\Microsoft.Practices.CompositeUI.WinForms.dll
+E:\Projects\TypeTest\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+E:\Projects\TypeTest\bin\Debug\Telerik.WinControls.CompositeUI.dll
+E:\Projects\TypeTest\bin\Debug\Telerik.WinControls.dll
+E:\Projects\TypeTest\bin\Debug\Telerik.WinControls.GridView.dll
+E:\Projects\TypeTest\bin\Debug\Telerik.WinControls.RadChart.dll
+E:\Projects\TypeTest\bin\Debug\Telerik.WinControls.RadDock.dll
+E:\Projects\TypeTest\bin\Debug\Telerik.WinControls.UI.dll
+E:\Projects\TypeTest\bin\Debug\TelerikCommon.dll
