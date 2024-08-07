@@ -3,7 +3,6 @@ E:\Projects\TypeTest\bin\Debug\TypeTest.exe
 E:\Projects\TypeTest\bin\Debug\TypeTest.pdb
 E:\Projects\TypeTest\bin\Debug\Guna.UI2.dll
 E:\Projects\TypeTest\obj\Debug\TypeTest.csproj.AssemblyReference.cache
-E:\Projects\TypeTest\obj\Debug\TypeTest.Form1.resources
 E:\Projects\TypeTest\obj\Debug\TypeTest.Properties.Resources.resources
 E:\Projects\TypeTest\obj\Debug\TypeTest.csproj.GenerateResource.cache
 E:\Projects\TypeTest\obj\Debug\TypeTest.csproj.CoreCompileInputs.cache
@@ -22,3 +21,4 @@ E:\Projects\TypeTest\bin\Debug\Telerik.WinControls.RadChart.dll
 E:\Projects\TypeTest\bin\Debug\Telerik.WinControls.RadDock.dll
 E:\Projects\TypeTest\bin\Debug\Telerik.WinControls.UI.dll
 E:\Projects\TypeTest\bin\Debug\TelerikCommon.dll
+E:\Projects\TypeTest\obj\Debug\TypeTest.MainForm.resources

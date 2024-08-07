@@ -1,6 +1,6 @@
 ﻿namespace TypeTest
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,9 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            MaterialSkin.MaterialListBoxItem materialListBoxItem1 = new MaterialSkin.MaterialListBoxItem();
-            MaterialSkin.MaterialListBoxItem materialListBoxItem2 = new MaterialSkin.MaterialListBoxItem();
-            MaterialSkin.MaterialListBoxItem materialListBoxItem3 = new MaterialSkin.MaterialListBoxItem();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.KeyboardPanel = new Guna.UI2.WinForms.Guna2Panel();
             this.btnEmpty = new Guna.UI2.WinForms.Guna2Button();
             this.btnA = new Guna.UI2.WinForms.Guna2Button();
@@ -94,13 +92,12 @@
             this.btnNoTwo = new Guna.UI2.WinForms.Guna2Button();
             this.btnNoOne = new Guna.UI2.WinForms.Guna2Button();
             this.btnTilde = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.MenuPanel = new Guna.UI2.WinForms.Guna2Panel();
             this.btnfrmSettings = new Guna.UI2.WinForms.Guna2ImageButton();
             this.tbText = new System.Windows.Forms.RichTextBox();
-            this.listbox = new MaterialSkin.Controls.MaterialListBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.KeyboardPanel.SuspendLayout();
-            this.guna2Panel1.SuspendLayout();
+            this.MenuPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // KeyboardPanel
@@ -1313,21 +1310,21 @@
             this.btnTilde.Text = "~               `";
             this.btnTilde.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
-            // guna2Panel1
+            // MenuPanel
             // 
-            this.guna2Panel1.BackColor = System.Drawing.Color.IndianRed;
-            this.guna2Panel1.Controls.Add(this.btnfrmSettings);
-            this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
-            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
-            this.guna2Panel1.Size = new System.Drawing.Size(1561, 46);
-            this.guna2Panel1.TabIndex = 2;
+            this.MenuPanel.BackColor = System.Drawing.Color.IndianRed;
+            this.MenuPanel.Controls.Add(this.btnfrmSettings);
+            this.MenuPanel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.MenuPanel.Location = new System.Drawing.Point(0, 0);
+            this.MenuPanel.Margin = new System.Windows.Forms.Padding(4);
+            this.MenuPanel.Name = "MenuPanel";
+            this.MenuPanel.ShadowDecoration.Parent = this.MenuPanel;
+            this.MenuPanel.Size = new System.Drawing.Size(1561, 46);
+            this.MenuPanel.TabIndex = 2;
             // 
             // btnfrmSettings
             // 
-            this.btnfrmSettings.BackgroundImage = global::TypeTest.Properties.Resources.Settings;
+            this.btnfrmSettings.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnfrmSettings.BackgroundImage")));
             this.btnfrmSettings.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnfrmSettings.CheckedState.Parent = this.btnfrmSettings;
             this.btnfrmSettings.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -1358,36 +1355,11 @@
             this.tbText.Text = "";
             this.tbText.UseWaitCursor = true;
             // 
-            // listbox
-            // 
-            this.listbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.listbox.BorderColor = System.Drawing.Color.LightGray;
-            this.listbox.Depth = 0;
-            this.listbox.Font = new System.Drawing.Font("Cascadia Mono", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            materialListBoxItem1.SecondaryText = "0";
-            materialListBoxItem1.Tag = null;
-            materialListBoxItem1.Text = "Text box";
-            materialListBoxItem2.SecondaryText = "1";
-            materialListBoxItem2.Tag = null;
-            materialListBoxItem2.Text = "Font";
-            materialListBoxItem3.SecondaryText = "2";
-            materialListBoxItem3.Tag = null;
-            materialListBoxItem3.Text = "Colors";
-            this.listbox.Items.Add(materialListBoxItem1);
-            this.listbox.Items.Add(materialListBoxItem2);
-            this.listbox.Items.Add(materialListBoxItem3);
-            this.listbox.Location = new System.Drawing.Point(1281, 196);
-            this.listbox.MouseState = MaterialSkin.MouseState.HOVER;
-            this.listbox.Name = "listbox";
-            this.listbox.SelectedIndex = -1;
-            this.listbox.SelectedItem = null;
-            this.listbox.Size = new System.Drawing.Size(268, 312);
-            this.listbox.TabIndex = 4;
-            // 
             // listBox1
             // 
             this.listBox1.BackColor = System.Drawing.Color.IndianRed;
-            this.listBox1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.listBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.listBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.listBox1.Font = new System.Drawing.Font("Cascadia Mono", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 30;
@@ -1395,34 +1367,33 @@
             "Text Box",
             "Font",
             "Colors"});
-            this.listBox1.Location = new System.Drawing.Point(0, 46);
+            this.listBox1.Location = new System.Drawing.Point(0, 49);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(210, 844);
+            this.listBox1.Size = new System.Drawing.Size(207, 330);
             this.listBox1.TabIndex = 5;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Gray;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(1561, 890);
             this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.listbox);
             this.Controls.Add(this.tbText);
-            this.Controls.Add(this.guna2Panel1);
+            this.Controls.Add(this.MenuPanel);
             this.Controls.Add(this.KeyboardPanel);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.KeyboardPanel.ResumeLayout(false);
-            this.guna2Panel1.ResumeLayout(false);
+            this.MenuPanel.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private Guna.UI2.WinForms.Guna2Panel KeyboardPanel;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2Button btnBackSpace;
         private Guna.UI2.WinForms.Guna2Button btnMinus;
         private Guna.UI2.WinForms.Guna2Button btnNoZero;
@@ -1435,8 +1406,6 @@
         private Guna.UI2.WinForms.Guna2Button btnNoFour;
         private Guna.UI2.WinForms.Guna2Button btnNoThree;
         private Guna.UI2.WinForms.Guna2Button btnNoTwo;
-        private Guna.UI2.WinForms.Guna2Button btnNoOne;
-        private Guna.UI2.WinForms.Guna2Button btnTilde;
         private Guna.UI2.WinForms.Guna2Button btnVerticalBar;
         private Guna.UI2.WinForms.Guna2Button btnLeftCurlyBrace;
         private Guna.UI2.WinForms.Guna2Button btnP;
@@ -1485,10 +1454,13 @@
         private Guna.UI2.WinForms.Guna2Button btnControl;
         private Guna.UI2.WinForms.Guna2Button btnEmpty;
         private Guna.UI2.WinForms.Guna2Button btnA;
-        private System.Windows.Forms.RichTextBox tbText;
         private Guna.UI2.WinForms.Guna2ImageButton btnfrmSettings;
-        private MaterialSkin.Controls.MaterialListBox listbox;
-        private System.Windows.Forms.ListBox listBox1;
+        public Guna.UI2.WinForms.Guna2Panel KeyboardPanel;
+        public Guna.UI2.WinForms.Guna2Button btnNoOne;
+        public Guna.UI2.WinForms.Guna2Button btnTilde;
+        public Guna.UI2.WinForms.Guna2Panel MenuPanel;
+        public System.Windows.Forms.RichTextBox tbText;
+        public System.Windows.Forms.ListBox listBox1;
     }
 }
 

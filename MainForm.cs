@@ -13,15 +13,18 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Serialization;
+using Telerik.WinControls.UI;
+using TypeTest.Colors;
 
 namespace TypeTest
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
         public static RichTextBox tbText2 = new RichTextBox();
         public static int Counter = 0;
         public static bool[] Answer;
         public bool IsArray = true;
+        clsColors MyColors;
 
         public void TestArray()
         {
@@ -31,9 +34,8 @@ namespace TypeTest
             }
             tbText.HideSelection = true;
             tbText.Select(0, 1);
-            tbText.SelectionBackColor = Color.FromArgb(192, 192, 0);
+            tbText.SelectionBackColor = clsColors.SelectionColorOfLetter();
 
-            IsArray = false;
         }
         void AddingParaghraph()
         {
@@ -44,14 +46,25 @@ namespace TypeTest
         {
             AddingParaghraph();
         }
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
+            
+        }
+
+        public void InitializingColors()
+        {
+            MyColors = new clsColors(this);
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
             MainText();
             tbText.Focus();
             this.KeyPreview = true;
             TestArray();
             listBox1.Visible = false;
+            InitializingColors();
         }
         public void Selection(int Counter, int SelectionIndex)
         {
@@ -275,6 +288,7 @@ namespace TypeTest
 
         private void Form1_KeyPress(object sender, KeyPressEventArgs e)
         {
+
             TurnTheKeyboard(sender, e);
             tbText2.Select(Counter, 1);
             char TrueChar = Convert.ToChar(tbText2.SelectedText);
@@ -301,14 +315,13 @@ namespace TypeTest
 
             TextColor();
             tbText.Select(Counter, 1);
-            tbText.SelectionColor = Color.Black;
+            tbText.SelectionBackColor = clsColors.SelectionColorOfLetter();
+            tbText.SelectionColor = clsColors.SelectedLetterBackColor();
         }
 
         public bool Close = false;
         private void btnfrmSettings_Click(object sender, EventArgs e)
         {
-            //frmSettings frmSettings = new frmSettings();
-            //frmSettings.Show();
 
             if (Close == false)
             {
@@ -322,5 +335,12 @@ namespace TypeTest
             }
 
         }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        
     }
 }
