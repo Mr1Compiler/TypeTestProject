@@ -16,6 +16,7 @@ using System.Xml.Serialization;
 using Telerik.WinControls.Themes.ControlDefault;
 using Telerik.WinControls.UI;
 using TypeTest.Colors;
+using TypeTest.Keyboard;
 
 namespace TypeTest.Colors 
 {
@@ -40,17 +41,18 @@ namespace TypeTest.Colors
             _Form.tbText.ForeColor = Color.White;
 
             //Keyboard Colors
-            SetKeyboardColors(_Form.KeyboardPanel);
+            SetKeyboardColors();
         }
-        public void SetKeyboardColors(Guna2Panel KeyBoardPanel)
+        public void SetKeyboardColors()
         {
-            KeyBoardPanel.BackColor = _Form.BackColor;
+            _Form.KeyboardPanel.BackColor = _Form.BackColor;
 
-            foreach (Control control in KeyBoardPanel.Controls)
+            foreach (Control control in _Form.KeyboardPanel.Controls)
             {
                 if (control is Guna2Button button)
                 {
-                    button.FillColor = _Form.MenuPanel.BackColor;
+                   
+                    button.FillColor = Color.FromArgb(27, 38, 59);
                     button.ForeColor = Color.White;
                 }
             }
@@ -64,6 +66,15 @@ namespace TypeTest.Colors
         public static Color SelectedLetterBackColor()
         {
             return Color.White;
+        }
+
+        public static Color HoverButtonColor(ref Color KeyboardHoverColor, ref Color KeyboardNormalColor)
+        {
+
+            KeyboardHoverColor = Color.FromArgb(139, 161, 189);
+            KeyboardNormalColor = Color.FromArgb(27, 38, 59);
+
+            return KeyboardHoverColor;
         }
     }
 

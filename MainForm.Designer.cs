@@ -182,13 +182,13 @@
             this.btnEmpty.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEmpty.ForeColor = System.Drawing.Color.Black;
             this.btnEmpty.HoverState.Parent = this.btnEmpty;
-            this.btnEmpty.Location = new System.Drawing.Point(901, 107);
+            this.btnEmpty.Location = new System.Drawing.Point(900, 91);
             this.btnEmpty.Margin = new System.Windows.Forms.Padding(4);
             this.btnEmpty.Name = "btnEmpty";
             this.btnEmpty.ShadowDecoration.Parent = this.btnEmpty;
             this.btnEmpty.Size = new System.Drawing.Size(12, 12);
             this.btnEmpty.TabIndex = 69;
-            this.btnEmpty.Text = "X";
+            this.btnEmpty.Text = "Empty";
             this.btnEmpty.Visible = false;
             // 
             // btnA
@@ -1373,7 +1373,7 @@
             this.listBox1.TabIndex = 5;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
-            // Form1
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -1384,7 +1384,7 @@
             this.Controls.Add(this.MenuPanel);
             this.Controls.Add(this.KeyboardPanel);
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "Form1";
+            this.Name = "MainForm";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.KeyboardPanel.ResumeLayout(false);
@@ -1394,66 +1394,6 @@
         }
 
         #endregion
-        private Guna.UI2.WinForms.Guna2Button btnBackSpace;
-        private Guna.UI2.WinForms.Guna2Button btnMinus;
-        private Guna.UI2.WinForms.Guna2Button btnNoZero;
-        private Guna.UI2.WinForms.Guna2Button btnNoNine;
-        private Guna.UI2.WinForms.Guna2Button btnNoEight;
-        private Guna.UI2.WinForms.Guna2Button btnPluse;
-        private Guna.UI2.WinForms.Guna2Button btnNoSeven;
-        private Guna.UI2.WinForms.Guna2Button btnNoSix;
-        private Guna.UI2.WinForms.Guna2Button btnNoFive;
-        private Guna.UI2.WinForms.Guna2Button btnNoFour;
-        private Guna.UI2.WinForms.Guna2Button btnNoThree;
-        private Guna.UI2.WinForms.Guna2Button btnNoTwo;
-        private Guna.UI2.WinForms.Guna2Button btnVerticalBar;
-        private Guna.UI2.WinForms.Guna2Button btnLeftCurlyBrace;
-        private Guna.UI2.WinForms.Guna2Button btnP;
-        private Guna.UI2.WinForms.Guna2Button btnO;
-        private Guna.UI2.WinForms.Guna2Button btnI;
-        private Guna.UI2.WinForms.Guna2Button btnRightCurlyBrace;
-        private Guna.UI2.WinForms.Guna2Button btnU;
-        private Guna.UI2.WinForms.Guna2Button btnY;
-        private Guna.UI2.WinForms.Guna2Button btnT;
-        private Guna.UI2.WinForms.Guna2Button btnR;
-        private Guna.UI2.WinForms.Guna2Button btnE;
-        private Guna.UI2.WinForms.Guna2Button btnW;
-        private Guna.UI2.WinForms.Guna2Button btnQ;
-        private Guna.UI2.WinForms.Guna2Button btnTab;
-        private Guna.UI2.WinForms.Guna2Button btndDoubleQuotation;
-        private Guna.UI2.WinForms.Guna2Button btnColon;
-        private Guna.UI2.WinForms.Guna2Button btnL;
-        private Guna.UI2.WinForms.Guna2Button btnK;
-        private Guna.UI2.WinForms.Guna2Button btnJ;
-        private Guna.UI2.WinForms.Guna2Button btnH;
-        private Guna.UI2.WinForms.Guna2Button btnG;
-        private Guna.UI2.WinForms.Guna2Button btnF;
-        private Guna.UI2.WinForms.Guna2Button btnD;
-        private Guna.UI2.WinForms.Guna2Button btnS;
-        private Guna.UI2.WinForms.Guna2Button btnCapsLock;
-        private Guna.UI2.WinForms.Guna2Button btnEnter;
-        private Guna.UI2.WinForms.Guna2Button btnQuestionMark;
-        private Guna.UI2.WinForms.Guna2Button btnGraterThan;
-        private Guna.UI2.WinForms.Guna2Button btnLessThan;
-        private Guna.UI2.WinForms.Guna2Button btnM;
-        private Guna.UI2.WinForms.Guna2Button btnN;
-        private Guna.UI2.WinForms.Guna2Button btnB;
-        private Guna.UI2.WinForms.Guna2Button btnV;
-        private Guna.UI2.WinForms.Guna2Button btnC;
-        private Guna.UI2.WinForms.Guna2Button btnX;
-        private Guna.UI2.WinForms.Guna2Button btnZ;
-        private Guna.UI2.WinForms.Guna2Button btnShift;
-        private Guna.UI2.WinForms.Guna2Button btnShift2;
-        private Guna.UI2.WinForms.Guna2Button btnWin2;
-        private Guna.UI2.WinForms.Guna2Button btnAlt2;
-        private Guna.UI2.WinForms.Guna2Button btnMenue;
-        private Guna.UI2.WinForms.Guna2Button btnControl2;
-        private Guna.UI2.WinForms.Guna2Button btnSpace;
-        private Guna.UI2.WinForms.Guna2Button btnAlt1;
-        private Guna.UI2.WinForms.Guna2Button btnWin1;
-        private Guna.UI2.WinForms.Guna2Button btnControl;
-        private Guna.UI2.WinForms.Guna2Button btnEmpty;
-        private Guna.UI2.WinForms.Guna2Button btnA;
         private Guna.UI2.WinForms.Guna2ImageButton btnfrmSettings;
         public Guna.UI2.WinForms.Guna2Panel KeyboardPanel;
         public Guna.UI2.WinForms.Guna2Button btnNoOne;
@@ -1461,6 +1401,66 @@
         public Guna.UI2.WinForms.Guna2Panel MenuPanel;
         public System.Windows.Forms.RichTextBox tbText;
         public System.Windows.Forms.ListBox listBox1;
+        public Guna.UI2.WinForms.Guna2Button btnD;
+        public Guna.UI2.WinForms.Guna2Button btnS;
+        public Guna.UI2.WinForms.Guna2Button btnControl2;
+        public Guna.UI2.WinForms.Guna2Button btnA;
+        public Guna.UI2.WinForms.Guna2Button btnBackSpace;
+        public Guna.UI2.WinForms.Guna2Button btnMinus;
+        public Guna.UI2.WinForms.Guna2Button btnNoZero;
+        public Guna.UI2.WinForms.Guna2Button btnNoNine;
+        public Guna.UI2.WinForms.Guna2Button btnNoEight;
+        public Guna.UI2.WinForms.Guna2Button btnPluse;
+        public Guna.UI2.WinForms.Guna2Button btnNoSeven;
+        public Guna.UI2.WinForms.Guna2Button btnNoSix;
+        public Guna.UI2.WinForms.Guna2Button btnNoFive;
+        public Guna.UI2.WinForms.Guna2Button btnNoFour;
+        public Guna.UI2.WinForms.Guna2Button btnNoTwo;
+        public Guna.UI2.WinForms.Guna2Button btnVerticalBar;
+        public Guna.UI2.WinForms.Guna2Button btnLeftCurlyBrace;
+        public Guna.UI2.WinForms.Guna2Button btnP;
+        public Guna.UI2.WinForms.Guna2Button btnO;
+        public Guna.UI2.WinForms.Guna2Button btnI;
+        public Guna.UI2.WinForms.Guna2Button btnRightCurlyBrace;
+        public Guna.UI2.WinForms.Guna2Button btnU;
+        public Guna.UI2.WinForms.Guna2Button btnY;
+        public Guna.UI2.WinForms.Guna2Button btnT;
+        public Guna.UI2.WinForms.Guna2Button btnR;
+        public Guna.UI2.WinForms.Guna2Button btnE;
+        public Guna.UI2.WinForms.Guna2Button btnW;
+        public Guna.UI2.WinForms.Guna2Button btnQ;
+        public Guna.UI2.WinForms.Guna2Button btnTab;
+        public Guna.UI2.WinForms.Guna2Button btndDoubleQuotation;
+        public Guna.UI2.WinForms.Guna2Button btnColon;
+        public Guna.UI2.WinForms.Guna2Button btnL;
+        public Guna.UI2.WinForms.Guna2Button btnJ;
+        public Guna.UI2.WinForms.Guna2Button btnH;
+        public Guna.UI2.WinForms.Guna2Button btnG;
+        public Guna.UI2.WinForms.Guna2Button btnF;
+        public Guna.UI2.WinForms.Guna2Button btnCapsLock;
+        public Guna.UI2.WinForms.Guna2Button btnEnter;
+        public Guna.UI2.WinForms.Guna2Button btnQuestionMark;
+        public Guna.UI2.WinForms.Guna2Button btnGraterThan;
+        public Guna.UI2.WinForms.Guna2Button btnLessThan;
+        public Guna.UI2.WinForms.Guna2Button btnM;
+        public Guna.UI2.WinForms.Guna2Button btnN;
+        public Guna.UI2.WinForms.Guna2Button btnB;
+        public Guna.UI2.WinForms.Guna2Button btnV;
+        public Guna.UI2.WinForms.Guna2Button btnC;
+        public Guna.UI2.WinForms.Guna2Button btnX;
+        public Guna.UI2.WinForms.Guna2Button btnZ;
+        public Guna.UI2.WinForms.Guna2Button btnShift;
+        public Guna.UI2.WinForms.Guna2Button btnShift2;
+        public Guna.UI2.WinForms.Guna2Button btnWin2;
+        public Guna.UI2.WinForms.Guna2Button btnAlt2;
+        public Guna.UI2.WinForms.Guna2Button btnMenue;
+        public Guna.UI2.WinForms.Guna2Button btnSpace;
+        public Guna.UI2.WinForms.Guna2Button btnAlt1;
+        public Guna.UI2.WinForms.Guna2Button btnWin1;
+        public Guna.UI2.WinForms.Guna2Button btnControl;
+        public Guna.UI2.WinForms.Guna2Button btnNoThree;
+        public Guna.UI2.WinForms.Guna2Button btnK;
+        public Guna.UI2.WinForms.Guna2Button btnEmpty;
     }
 }
 

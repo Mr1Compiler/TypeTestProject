@@ -15,6 +15,7 @@ using System.Windows.Forms;
 using System.Xml.Serialization;
 using Telerik.WinControls.UI;
 using TypeTest.Colors;
+using TypeTest.Keyboard;
 
 namespace TypeTest
 {
@@ -25,6 +26,7 @@ namespace TypeTest
         public static bool[] Answer;
         public bool IsArray = true;
         clsColors MyColors;
+        clsKeyboard MyKeyboard;
 
         public void TestArray()
         {
@@ -49,7 +51,6 @@ namespace TypeTest
         public MainForm()
         {
             InitializeComponent();
-            
         }
 
         public void InitializingColors()
@@ -57,6 +58,10 @@ namespace TypeTest
             MyColors = new clsColors(this);
         }
 
+        public void InitialzingKeyboard()
+        {
+            MyKeyboard = new clsKeyboard(this);
+        }
         private void Form1_Load(object sender, EventArgs e)
         {
             MainText();
@@ -65,6 +70,7 @@ namespace TypeTest
             TestArray();
             listBox1.Visible = false;
             InitializingColors();
+            InitialzingKeyboard();
         }
         public void Selection(int Counter, int SelectionIndex)
         {
@@ -97,167 +103,9 @@ namespace TypeTest
             tbText.Text += btn.Text;
         }
 
-        Color KeyboardHoverColor = Color.Orange;
-        Color KeyboardNormalColor = Color.White;
-        Guna2Button CuurBtn = null;
-        Guna2Button PrevBtn = null;
+        
 
-        bool CheckButtonStatus = true;
-        public Guna2Button DetermineButton(object sender, KeyPressEventArgs e)
-        {
-            switch (e.KeyChar)
-            {
-                case 'a':
-                    return btnA;
-                case 'b':
-                    return btnB;
-                case 'c':
-                    return btnC;
-                case 'd':
-                    return btnD;
-                case 'e':
-                    return btnE;
-                case 'f':
-                    return btnF;
-                case 'g':
-                    return btnG;
-                case 'h':
-                    return btnH;
-                case 'i':
-                    return btnI;
-                case 'j':
-                    return btnJ;
-                case 'k':
-                    return btnK;
-                case 'l':
-                    return btnL;
-                case 'm':
-                    return btnM;
-                case 'n':
-                    return btnN;
-                case 'o':
-                    return btnO;
-                case 'p':
-                    return btnP;
-                case 'q':
-                    return btnQ;
-                case 'r':
-                    return btnR;
-                case 's':
-                    return btnS;
-                case 't':
-                    return btnT;
-                case 'u':
-                    return btnU;
-                case 'v':
-                    return btnV;
-                case 'w':
-                    return btnW;
-                case 'x':
-                    return btnX;
-                case 'y':
-                    return btnY;
-                case 'z':
-                    return btnZ;
-                case '0':
-                    return btnNoZero;
-                case '1':
-                    return btnNoOne;
-                case '2':
-                    return btnNoTwo;
-                case '3':
-                    return btnNoThree;
-                case '4':
-                    return btnNoFour;
-                case '5':
-                    return btnNoFive;
-                case '6':
-                    return btnNoSix;
-                case '7':
-                    return btnNoSeven;
-                case '8':
-                    return btnNoEight;
-                case '9':
-                    return btnNoNine;
-                case '-':
-                    return btnMinus;
-                case '=':
-                    return btnPluse;
-                case ' ':
-                    return btnSpace;
-                case '\b':
-                    return btnBackSpace;
-                    //case '':
-                    //    return btnControl;
-                    //case '':
-                    //    return btnAlt1;
-                    //case '':
-                    //    return btnTab;
-                    //case '':
-                    //    return btnEnter;
-                    //case '':
-                    //    return btnCapsLock;
-                    //case '':
-                    //    return btnLeftCurlyBrace;
-                    //case '':
-                    //    return btnRightCurlyBrace;
-                    //case '':
-                    //    return btnColon;
-                    //case '':
-                    //    return btndDoubleQuotation;
-                    //case '':
-                    //    return btnQuestionMark;
-                    //case '':
-                    //    return btnLessThan;
-                    //case '':
-                    //    return btnGraterThan;
-                    //case '':
-                    //    return btnTilde;
-                    //case '':
-                    //    return btnWin1;
-                    //case '':
-                    //    return btnWin2;
-                    //case '':
-                    //    return btnControl;
-                    //case '':
-                    //    return btnControl2;
-                    //case '':
-                    //    return btnShift;
-                    //case '':
-                    //    return btnVerticalBar;
-
-            }
-
-
-            return btnTab;
-        }
-        public void EditButtonStatus(Guna2Button PrevBtn, Guna2Button CuurBtn)
-        {
-            if (CuurBtn == PrevBtn)
-            {
-                // if the user press one button multiple times
-            }
-            CuurBtn.Checked = true;
-            CuurBtn.HoverState.FillColor = KeyboardHoverColor;
-
-            PrevBtn.Checked = true;
-            PrevBtn.HoverState.FillColor = KeyboardNormalColor;
-        }
-        public void TurnTheKeyboard(object sender, KeyPressEventArgs e)
-        {
-            if (CuurBtn == null)
-            {
-                PrevBtn = btnEmpty;
-            }
-
-            else
-            {
-                PrevBtn = CuurBtn;
-            }
-
-            CuurBtn = DetermineButton(sender, e);
-            EditButtonStatus(PrevBtn, CuurBtn);
-        }
+        
         public bool IsItTrue(char ch1, char ch2)
         {
             return (ch1 == ch2);
@@ -288,8 +136,8 @@ namespace TypeTest
 
         private void Form1_KeyPress(object sender, KeyPressEventArgs e)
         {
+            MyKeyboard.TurnTheKeyboard(sender, e);
 
-            TurnTheKeyboard(sender, e);
             tbText2.Select(Counter, 1);
             char TrueChar = Convert.ToChar(tbText2.SelectedText);
             char EnteredChar = Convert.ToChar(e.KeyChar);
@@ -317,6 +165,7 @@ namespace TypeTest
             tbText.Select(Counter, 1);
             tbText.SelectionBackColor = clsColors.SelectionColorOfLetter();
             tbText.SelectionColor = clsColors.SelectedLetterBackColor();
+
         }
 
         public bool Close = false;
