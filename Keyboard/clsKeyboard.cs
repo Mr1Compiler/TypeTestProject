@@ -27,10 +27,12 @@ namespace TypeTest.Keyboard
         Guna2Button PrevBtn = null;
         Color KeyboardHoverColor;
         Color KeyboardNormalColor;
+        clsColors MyColors;
         public clsKeyboard(MainForm Form)
         {
             _Form = Form;
-            clsColors.HoverButtonColor(ref KeyboardHoverColor, ref KeyboardNormalColor);
+            MyColors = new clsColors(_Form);
+            MyColors.HoverButtonColor(ref KeyboardHoverColor, ref KeyboardNormalColor);
         }
 
     private Guna2Button DetermineButton(object sender, KeyPressEventArgs e)

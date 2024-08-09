@@ -27,10 +27,10 @@ namespace TypeTest.Colors
         {
             public Color MainFormBackColor;
         }
-        public static stMainFormColors _MainFormColors;
+        private stMainFormColors _MainFormColors;
 
 
-        public struct stTextBoxColors
+        private struct stTextBoxColors
         {
             public Color TextBoxBackColor;
             public Color TextBoxTextColor;
@@ -39,14 +39,14 @@ namespace TypeTest.Colors
             public Color SelectedLetterBackColor;
             public Color SelectionColor;
         }
-        public static stTextBoxColors TextBoxColors;
+        private stTextBoxColors _TextBoxColors;
 
 
         public struct stMenuPanelColors
         {
             public Color MenuPanelBackColor;
         }
-        public static stMenuPanelColors MenuPanelColors;
+        private stMenuPanelColors _MenuPanelColors;
 
 
         public struct stKeyboardColors
@@ -54,20 +54,20 @@ namespace TypeTest.Colors
             public Color KeyboardBackColor;
             public Color KeyboardTextColor;
         }
-        public static stKeyboardColors KeyboardColors;
+        private stKeyboardColors _KeyboardColors;
 
         public struct stListBoxColors
         {
             public Color ListBoxBackColor;
             public Color ListBoxTextColor;
         }
-        public static stListBoxColors ListBoxColors;
+        private stListBoxColors _ListBoxColors;
 
         public struct stHoverColors
         {
             public Color KeyboardHoverColor;
         }
-        public static stHoverColors KeyboardHoverColors;
+        private stHoverColors KeyboardHoverColors;
 
         public void GenerateColors(MainForm form)
         {
@@ -76,28 +76,28 @@ namespace TypeTest.Colors
             form.BackColor = _MainFormColors.MainFormBackColor;
 
             //Textbox colors
-            TextBoxColors.TextBoxBackColor = Color.FromArgb(27, 38, 59); // TextBox back color
-            form.tbText.BackColor = TextBoxColors.TextBoxBackColor;
-            TextBoxColors.TextBoxTextColor = Color.White; // TextBox text color
-            form.tbText.ForeColor = TextBoxColors.TextBoxTextColor;
-            TextBoxColors.TrueLetterColor = Color.Lime; //TextBox true letter color
-            TextBoxColors.WrongLetterColor = Color.Red; //Textbox wrong letter color
-            TextBoxColors.SelectedLetterBackColor = Color.White;
-            TextBoxColors.SelectionColor = Color.FromArgb(119, 141, 169);
+            _TextBoxColors.TextBoxBackColor = Color.FromArgb(27, 38, 59); // TextBox back color
+            form.tbText.BackColor = _TextBoxColors.TextBoxBackColor;
+            _TextBoxColors.TextBoxTextColor = Color.White; // TextBox text color
+            form.tbText.ForeColor = _TextBoxColors.TextBoxTextColor;
+            _TextBoxColors.TrueLetterColor = Color.Lime; //TextBox true letter color
+            _TextBoxColors.WrongLetterColor = Color.Red; //Textbox wrong letter color
+            _TextBoxColors.SelectedLetterBackColor = Color.White;
+            _TextBoxColors.SelectionColor = Color.FromArgb(119, 141, 169);
 
-            MenuPanelColors.MenuPanelBackColor = Color.FromArgb(27, 38, 59);
-            form.MenuPanel.BackColor = MenuPanelColors.MenuPanelBackColor; //Menu Panel back color
+            _MenuPanelColors.MenuPanelBackColor = Color.FromArgb(27, 38, 59);
+            form.MenuPanel.BackColor = _MenuPanelColors.MenuPanelBackColor; //Menu Panel back color
 
             //Keyboard colors
-            KeyboardColors.KeyboardBackColor = Color.FromArgb(27, 38, 59); //keyboard button back color
-            KeyboardColors.KeyboardTextColor = Color.White; //Keyboard text color
+            _KeyboardColors.KeyboardBackColor = Color.FromArgb(27, 38, 59); //keyboard button back color
+            _KeyboardColors.KeyboardTextColor = Color.White; //Keyboard text color
 
 
             //Listbox colors
-            ListBoxColors.ListBoxBackColor = Color.FromArgb(27, 38, 59); // listbox back color
-            form.listBox1.BackColor = ListBoxColors.ListBoxBackColor;
-            ListBoxColors.ListBoxTextColor = Color.White; // listbox text color
-            form.listBox1.ForeColor = ListBoxColors.ListBoxTextColor;
+            _ListBoxColors.ListBoxBackColor = Color.FromArgb(27, 38, 59); // listbox back color
+            form.listBox1.BackColor = _ListBoxColors.ListBoxBackColor;
+            _ListBoxColors.ListBoxTextColor = Color.White; // listbox text color
+            form.listBox1.ForeColor = _ListBoxColors.ListBoxTextColor;
 
         }
 
@@ -116,39 +116,39 @@ namespace TypeTest.Colors
                 if (control is Guna2Button button)
                 {
 
-                    button.FillColor = KeyboardColors.KeyboardBackColor;
-                    button.ForeColor = KeyboardColors.KeyboardTextColor;
+                    button.FillColor = _KeyboardColors.KeyboardBackColor;
+                    button.ForeColor = _KeyboardColors.KeyboardTextColor;
                 }
             }
         }
 
-        public  Color SelectionColorOfLetter()
+        public Color SelectionColorOfLetter()
         {
-            return TextBoxColors.SelectionColor;
+            return _TextBoxColors.SelectionColor;
         }
 
-        public  Color SelectedLetterBackColor()
+        public Color SelectedLetterBackColor()
         {
-            return TextBoxColors.SelectedLetterBackColor;
+            return _TextBoxColors.SelectedLetterBackColor;
         }
 
-        public static Color HoverButtonColor(ref Color KeyboardHoverColor, ref Color KeyboardNormalColor)
+        public Color HoverButtonColor(ref Color KeyboardHoverColor, ref Color KeyboardNormalColor)
         {
 
             KeyboardHoverColor = KeyboardHoverColors.KeyboardHoverColor;
-            KeyboardNormalColor = KeyboardColors.KeyboardBackColor;
+            KeyboardNormalColor = _KeyboardColors.KeyboardBackColor;
 
             return KeyboardHoverColor;
         }
 
         public Color ColoringTrueLetter()
         {
-            return TextBoxColors.TrueLetterColor;
+            return _TextBoxColors.TrueLetterColor;
         }
 
         public  Color ColoringWrongLetter()
         {
-            return TextBoxColors.WrongLetterColor;
+            return _TextBoxColors.WrongLetterColor;
         }
     }
 }
