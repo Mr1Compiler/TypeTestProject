@@ -36,7 +36,7 @@ namespace TypeTest
             }
             tbText.HideSelection = true;
             tbText.Select(0, 1);
-            tbText.SelectionBackColor = clsColors.SelectionColorOfLetter();
+            tbText.SelectionBackColor = MyColors.SelectionColorOfLetter();
 
         }
         void AddingParaghraph()
@@ -65,12 +65,12 @@ namespace TypeTest
         private void Form1_Load(object sender, EventArgs e)
         {
             MainText();
+            InitializingColors();
+            InitialzingKeyboard();
             tbText.Focus();
             this.KeyPreview = true;
             TestArray();
             listBox1.Visible = false;
-            InitializingColors();
-            InitialzingKeyboard();
         }
         public void Selection(int Counter, int SelectionIndex)
         {
@@ -122,12 +122,12 @@ namespace TypeTest
 
                 if (Answer[i] == true)
                 {
-                    tbText.SelectionColor = Color.Green;
+                    tbText.SelectionColor = MyColors.ColoringTrueLetter();
                 }
 
                 else
                 {
-                    tbText.SelectionColor = Color.Red;
+                    tbText.SelectionColor = MyColors.ColoringWrongLetter();
                 }
 
             }
@@ -163,8 +163,8 @@ namespace TypeTest
 
             TextColor();
             tbText.Select(Counter, 1);
-            tbText.SelectionBackColor = clsColors.SelectionColorOfLetter();
-            tbText.SelectionColor = clsColors.SelectedLetterBackColor();
+            tbText.SelectionBackColor = MyColors.SelectionColorOfLetter();
+            tbText.SelectionColor = MyColors.SelectedLetterBackColor();
 
         }
 
