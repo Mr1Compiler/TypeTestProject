@@ -207,7 +207,6 @@
             this.btnA.Size = new System.Drawing.Size(54, 54);
             this.btnA.TabIndex = 69;
             this.btnA.Text = "A";
-            this.btnA.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnWin2
             // 
@@ -225,7 +224,6 @@
             this.btnWin2.Size = new System.Drawing.Size(63, 54);
             this.btnWin2.TabIndex = 68;
             this.btnWin2.Text = "WIN";
-            this.btnWin2.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnAlt2
             // 
@@ -243,7 +241,6 @@
             this.btnAlt2.Size = new System.Drawing.Size(63, 54);
             this.btnAlt2.TabIndex = 67;
             this.btnAlt2.Text = "ALT";
-            this.btnAlt2.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnMenue
             // 
@@ -261,7 +258,6 @@
             this.btnMenue.Size = new System.Drawing.Size(63, 54);
             this.btnMenue.TabIndex = 66;
             this.btnMenue.Text = "MENU";
-            this.btnMenue.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnControl2
             // 
@@ -279,7 +275,6 @@
             this.btnControl2.Size = new System.Drawing.Size(63, 54);
             this.btnControl2.TabIndex = 65;
             this.btnControl2.Text = "CTRL";
-            this.btnControl2.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnSpace
             // 
@@ -297,7 +292,6 @@
             this.btnSpace.Size = new System.Drawing.Size(369, 54);
             this.btnSpace.TabIndex = 64;
             this.btnSpace.Text = "SPACE";
-            this.btnSpace.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnAlt1
             // 
@@ -315,7 +309,6 @@
             this.btnAlt1.Size = new System.Drawing.Size(78, 54);
             this.btnAlt1.TabIndex = 63;
             this.btnAlt1.Text = "ALT";
-            this.btnAlt1.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnWin1
             // 
@@ -333,7 +326,6 @@
             this.btnWin1.Size = new System.Drawing.Size(78, 54);
             this.btnWin1.TabIndex = 62;
             this.btnWin1.Text = "WIN";
-            this.btnWin1.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnControl
             // 
@@ -351,7 +343,6 @@
             this.btnControl.Size = new System.Drawing.Size(78, 54);
             this.btnControl.TabIndex = 58;
             this.btnControl.Text = "CTRL";
-            this.btnControl.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnQuestionMark
             // 
@@ -370,7 +361,6 @@
             this.btnQuestionMark.TabIndex = 57;
             this.btnQuestionMark.Tag = "/";
             this.btnQuestionMark.Text = "?    /";
-            this.btnQuestionMark.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnGraterThan
             // 
@@ -389,7 +379,6 @@
             this.btnGraterThan.TabIndex = 56;
             this.btnGraterThan.Tag = ".";
             this.btnGraterThan.Text = ">    .";
-            this.btnGraterThan.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnLessThan
             // 
@@ -408,7 +397,6 @@
             this.btnLessThan.TabIndex = 55;
             this.btnLessThan.Tag = ",";
             this.btnLessThan.Text = "<    ,";
-            this.btnLessThan.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnM
             // 
@@ -426,7 +414,6 @@
             this.btnM.Size = new System.Drawing.Size(54, 54);
             this.btnM.TabIndex = 54;
             this.btnM.Text = "M";
-            this.btnM.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnN
             // 
@@ -444,7 +431,6 @@
             this.btnN.Size = new System.Drawing.Size(54, 54);
             this.btnN.TabIndex = 53;
             this.btnN.Text = "N";
-            this.btnN.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnB
             // 
@@ -462,7 +448,6 @@
             this.btnB.Size = new System.Drawing.Size(54, 54);
             this.btnB.TabIndex = 52;
             this.btnB.Text = "B";
-            this.btnB.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnV
             // 
@@ -480,7 +465,6 @@
             this.btnV.Size = new System.Drawing.Size(54, 54);
             this.btnV.TabIndex = 51;
             this.btnV.Text = "V";
-            this.btnV.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnC
             // 
@@ -498,7 +482,6 @@
             this.btnC.Size = new System.Drawing.Size(54, 54);
             this.btnC.TabIndex = 50;
             this.btnC.Text = "C";
-            this.btnC.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnX
             // 
@@ -516,7 +499,6 @@
             this.btnX.Size = new System.Drawing.Size(54, 54);
             this.btnX.TabIndex = 49;
             this.btnX.Text = "X";
-            this.btnX.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnZ
             // 
@@ -534,7 +516,6 @@
             this.btnZ.Size = new System.Drawing.Size(54, 54);
             this.btnZ.TabIndex = 48;
             this.btnZ.Text = "Z";
-            this.btnZ.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnShift
             // 
@@ -552,7 +533,6 @@
             this.btnShift.Size = new System.Drawing.Size(139, 54);
             this.btnShift.TabIndex = 47;
             this.btnShift.Text = "SHIFT";
-            this.btnShift.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnShift2
             // 
@@ -570,7 +550,6 @@
             this.btnShift2.Size = new System.Drawing.Size(167, 54);
             this.btnShift2.TabIndex = 46;
             this.btnShift2.Text = "SHIFT";
-            this.btnShift2.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btndDoubleQuotation
             // 
@@ -588,7 +567,6 @@
             this.btndDoubleQuotation.Size = new System.Drawing.Size(54, 54);
             this.btndDoubleQuotation.TabIndex = 45;
             this.btndDoubleQuotation.Text = "\"           \'";
-            this.btndDoubleQuotation.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnColon
             // 
@@ -606,7 +584,6 @@
             this.btnColon.Size = new System.Drawing.Size(54, 54);
             this.btnColon.TabIndex = 44;
             this.btnColon.Text = ":            ; ";
-            this.btnColon.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnL
             // 
@@ -625,7 +602,6 @@
             this.btnL.Size = new System.Drawing.Size(54, 54);
             this.btnL.TabIndex = 43;
             this.btnL.Text = "L";
-            this.btnL.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnK
             // 
@@ -643,7 +619,6 @@
             this.btnK.Size = new System.Drawing.Size(54, 54);
             this.btnK.TabIndex = 42;
             this.btnK.Text = "K";
-            this.btnK.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnJ
             // 
@@ -661,7 +636,6 @@
             this.btnJ.Size = new System.Drawing.Size(54, 54);
             this.btnJ.TabIndex = 41;
             this.btnJ.Text = "J";
-            this.btnJ.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnH
             // 
@@ -679,7 +653,6 @@
             this.btnH.Size = new System.Drawing.Size(54, 54);
             this.btnH.TabIndex = 40;
             this.btnH.Text = "H";
-            this.btnH.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnG
             // 
@@ -697,7 +670,6 @@
             this.btnG.Size = new System.Drawing.Size(54, 54);
             this.btnG.TabIndex = 39;
             this.btnG.Text = "G";
-            this.btnG.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnF
             // 
@@ -715,7 +687,6 @@
             this.btnF.Size = new System.Drawing.Size(54, 54);
             this.btnF.TabIndex = 38;
             this.btnF.Text = "F";
-            this.btnF.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnD
             // 
@@ -733,7 +704,6 @@
             this.btnD.Size = new System.Drawing.Size(54, 54);
             this.btnD.TabIndex = 37;
             this.btnD.Text = "D";
-            this.btnD.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnS
             // 
@@ -751,7 +721,6 @@
             this.btnS.Size = new System.Drawing.Size(54, 54);
             this.btnS.TabIndex = 36;
             this.btnS.Text = "S";
-            this.btnS.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnCapsLock
             // 
@@ -769,7 +738,6 @@
             this.btnCapsLock.Size = new System.Drawing.Size(114, 54);
             this.btnCapsLock.TabIndex = 34;
             this.btnCapsLock.Text = "CAPS LOCK";
-            this.btnCapsLock.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnEnter
             // 
@@ -787,7 +755,6 @@
             this.btnEnter.Size = new System.Drawing.Size(131, 54);
             this.btnEnter.TabIndex = 33;
             this.btnEnter.Text = "Enter";
-            this.btnEnter.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnTab
             // 
@@ -805,7 +772,6 @@
             this.btnTab.Size = new System.Drawing.Size(92, 54);
             this.btnTab.TabIndex = 32;
             this.btnTab.Text = "TAB";
-            this.btnTab.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnLeftCurlyBrace
             // 
@@ -824,7 +790,6 @@
             this.btnLeftCurlyBrace.TabIndex = 27;
             this.btnLeftCurlyBrace.Tag = "[";
             this.btnLeftCurlyBrace.Text = "{    [";
-            this.btnLeftCurlyBrace.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnVerticalBar
             // 
@@ -843,7 +808,6 @@
             this.btnVerticalBar.TabIndex = 31;
             this.btnVerticalBar.Tag = "\\";
             this.btnVerticalBar.Text = "|              \\";
-            this.btnVerticalBar.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnP
             // 
@@ -861,7 +825,6 @@
             this.btnP.Size = new System.Drawing.Size(54, 54);
             this.btnP.TabIndex = 26;
             this.btnP.Text = "P";
-            this.btnP.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnO
             // 
@@ -879,7 +842,6 @@
             this.btnO.Size = new System.Drawing.Size(54, 54);
             this.btnO.TabIndex = 25;
             this.btnO.Text = "O";
-            this.btnO.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnI
             // 
@@ -897,7 +859,6 @@
             this.btnI.Size = new System.Drawing.Size(54, 54);
             this.btnI.TabIndex = 24;
             this.btnI.Text = "I";
-            this.btnI.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnRightCurlyBrace
             // 
@@ -916,7 +877,6 @@
             this.btnRightCurlyBrace.TabIndex = 23;
             this.btnRightCurlyBrace.Tag = "]";
             this.btnRightCurlyBrace.Text = "}    ]";
-            this.btnRightCurlyBrace.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnU
             // 
@@ -935,7 +895,6 @@
             this.btnU.Size = new System.Drawing.Size(54, 54);
             this.btnU.TabIndex = 22;
             this.btnU.Text = "U";
-            this.btnU.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnY
             // 
@@ -953,7 +912,6 @@
             this.btnY.Size = new System.Drawing.Size(54, 54);
             this.btnY.TabIndex = 21;
             this.btnY.Text = "Y";
-            this.btnY.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnT
             // 
@@ -971,7 +929,6 @@
             this.btnT.Size = new System.Drawing.Size(54, 54);
             this.btnT.TabIndex = 20;
             this.btnT.Text = "T";
-            this.btnT.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnR
             // 
@@ -989,7 +946,6 @@
             this.btnR.Size = new System.Drawing.Size(54, 54);
             this.btnR.TabIndex = 19;
             this.btnR.Text = "R";
-            this.btnR.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnE
             // 
@@ -1007,7 +963,6 @@
             this.btnE.Size = new System.Drawing.Size(54, 54);
             this.btnE.TabIndex = 18;
             this.btnE.Text = "E";
-            this.btnE.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnW
             // 
@@ -1025,7 +980,6 @@
             this.btnW.Size = new System.Drawing.Size(54, 54);
             this.btnW.TabIndex = 17;
             this.btnW.Text = "W";
-            this.btnW.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnQ
             // 
@@ -1043,7 +997,6 @@
             this.btnQ.Size = new System.Drawing.Size(54, 54);
             this.btnQ.TabIndex = 16;
             this.btnQ.Text = "Q";
-            this.btnQ.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnBackSpace
             // 
@@ -1061,7 +1014,6 @@
             this.btnBackSpace.Size = new System.Drawing.Size(118, 54);
             this.btnBackSpace.TabIndex = 14;
             this.btnBackSpace.Text = "BACKSPACE";
-            this.btnBackSpace.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnMinus
             // 
@@ -1080,7 +1032,6 @@
             this.btnMinus.TabIndex = 13;
             this.btnMinus.Tag = "-";
             this.btnMinus.Text = "_          -";
-            this.btnMinus.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnNoZero
             // 
@@ -1099,7 +1050,6 @@
             this.btnNoZero.TabIndex = 12;
             this.btnNoZero.Tag = "0";
             this.btnNoZero.Text = ")          0";
-            this.btnNoZero.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnNoNine
             // 
@@ -1118,7 +1068,6 @@
             this.btnNoNine.TabIndex = 11;
             this.btnNoNine.Tag = "9";
             this.btnNoNine.Text = "(    9";
-            this.btnNoNine.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnNoEight
             // 
@@ -1137,7 +1086,6 @@
             this.btnNoEight.TabIndex = 10;
             this.btnNoEight.Tag = "8";
             this.btnNoEight.Text = "*           8";
-            this.btnNoEight.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnPluse
             // 
@@ -1156,7 +1104,6 @@
             this.btnPluse.TabIndex = 9;
             this.btnPluse.Tag = "=";
             this.btnPluse.Text = "+         =";
-            this.btnPluse.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnNoSeven
             // 
@@ -1175,7 +1122,6 @@
             this.btnNoSeven.TabIndex = 8;
             this.btnNoSeven.Tag = "7";
             this.btnNoSeven.Text = "&           7";
-            this.btnNoSeven.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnNoSix
             // 
@@ -1194,7 +1140,6 @@
             this.btnNoSix.TabIndex = 7;
             this.btnNoSix.Tag = "6";
             this.btnNoSix.Text = "^         6";
-            this.btnNoSix.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnNoFive
             // 
@@ -1213,7 +1158,6 @@
             this.btnNoFive.TabIndex = 6;
             this.btnNoFive.Tag = "5";
             this.btnNoFive.Text = "%         5";
-            this.btnNoFive.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnNoFour
             // 
@@ -1232,7 +1176,6 @@
             this.btnNoFour.TabIndex = 5;
             this.btnNoFour.Tag = "4";
             this.btnNoFour.Text = "$            4";
-            this.btnNoFour.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnNoThree
             // 
@@ -1251,7 +1194,6 @@
             this.btnNoThree.TabIndex = 3;
             this.btnNoThree.Tag = "3";
             this.btnNoThree.Text = "#            3";
-            this.btnNoThree.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnNoTwo
             // 
@@ -1270,7 +1212,6 @@
             this.btnNoTwo.TabIndex = 2;
             this.btnNoTwo.Tag = "2";
             this.btnNoTwo.Text = "@                 2";
-            this.btnNoTwo.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnNoOne
             // 
@@ -1289,7 +1230,6 @@
             this.btnNoOne.TabIndex = 1;
             this.btnNoOne.Tag = "1";
             this.btnNoOne.Text = "!           1";
-            this.btnNoOne.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // btnTilde
             // 
@@ -1308,7 +1248,6 @@
             this.btnTilde.TabIndex = 0;
             this.btnTilde.Tag = "`";
             this.btnTilde.Text = "~               `";
-            this.btnTilde.Click += new System.EventHandler(this.btnKeyboard_Click);
             // 
             // MenuPanel
             // 
@@ -1371,7 +1310,6 @@
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(207, 330);
             this.listBox1.TabIndex = 5;
-            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // MainForm
             // 
@@ -1386,7 +1324,9 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainForm";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
+ 
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.MainForm_KeyPress);
+            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.MainForm_KeyUp);
             this.KeyboardPanel.ResumeLayout(false);
             this.MenuPanel.ResumeLayout(false);
             this.ResumeLayout(false);

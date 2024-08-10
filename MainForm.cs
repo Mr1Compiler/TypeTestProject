@@ -52,12 +52,10 @@ namespace TypeTest
         {
             InitializeComponent();
         }
-
         public void InitializingColors()
         {
             MyColors = new clsColors(this);
         }
-
         public void InitialzingKeyboard()
         {
             MyKeyboard = new clsKeyboard(this);
@@ -97,15 +95,7 @@ namespace TypeTest
             "When in Rome, do as the Romans do.",
             "You can lead a horse to water, but you can't make it drink."
             };
-        private void btnKeyboard_Click(object sender, EventArgs e)
-        {
-            Guna.UI2.WinForms.Guna2Button btn = sender as Guna.UI2.WinForms.Guna2Button;
-            tbText.Text += btn.Text;
-        }
 
-        
-
-        
         public bool IsItTrue(char ch1, char ch2)
         {
             return (ch1 == ch2);
@@ -134,16 +124,35 @@ namespace TypeTest
             tbText.SelectionBackColor = Color.FromArgb(192, 192, 0);
         }
 
-        private void Form1_KeyPress(object sender, KeyPressEventArgs e)
+        public bool Close = false;
+        private void btnfrmSettings_Click(object sender, EventArgs e)
         {
-            MyKeyboard.TurnTheKeyboard(sender, e);
 
+            if (Close == false)
+            {
+                listBox1.Visible = true;
+                Close = true;
+            }
+            else
+            {
+                listBox1.Visible = false;
+                Close = false;
+            }
+
+        }
+        private void MainForm_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            //if(Counter == tbText.Text.Length - 1)
+            //{
+            //    MessageBox.Show("The End");
+            //}
+            MyKeyboard.HoverTheButton(sender, e);
             tbText2.Select(Counter, 1);
             char TrueChar = Convert.ToChar(tbText2.SelectedText);
             char EnteredChar = Convert.ToChar(e.KeyChar);
             tbText2.SelectionStart++;
 
-            if(e.KeyChar == '\b')
+            if (e.KeyChar == '\b')
             {
                 Counter--;
             }
@@ -165,31 +174,11 @@ namespace TypeTest
             tbText.Select(Counter, 1);
             tbText.SelectionBackColor = MyColors.SelectionColorOfLetter();
             tbText.SelectionColor = MyColors.SelectedLetterBackColor();
-
         }
-
-        public bool Close = false;
-        private void btnfrmSettings_Click(object sender, EventArgs e)
+        private void MainForm_KeyUp(object sender, KeyEventArgs e)
         {
-
-            if (Close == false)
-            {
-                listBox1.Visible = true;
-                Close= true;
-            }
-            else
-            {
-                listBox1.Visible = false;
-                Close= false;
-            }
+            MyKeyboard.ButtonNormalColor(sender, e);
 
         }
-
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        
     }
 }

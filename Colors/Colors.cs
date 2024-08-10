@@ -67,7 +67,7 @@ namespace TypeTest.Colors
         {
             public Color KeyboardHoverColor;
         }
-        private stHoverColors KeyboardHoverColors;
+        private stHoverColors _KeyboardHoverColors;
 
         public void GenerateColors(MainForm form)
         {
@@ -132,10 +132,14 @@ namespace TypeTest.Colors
             return _TextBoxColors.SelectedLetterBackColor;
         }
 
+        public Color HoverButton()
+        {
+            return _KeyboardHoverColors.KeyboardHoverColor;
+        }
         public Color HoverButtonColor(ref Color KeyboardHoverColor, ref Color KeyboardNormalColor)
         {
 
-            KeyboardHoverColor = KeyboardHoverColors.KeyboardHoverColor;
+            KeyboardHoverColor = _KeyboardHoverColors.KeyboardHoverColor;
             KeyboardNormalColor = _KeyboardColors.KeyboardBackColor;
 
             return KeyboardHoverColor;
