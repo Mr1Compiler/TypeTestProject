@@ -7,8 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MaterialSkin;
-using Telerik.WinControls.UI;
+
 
 namespace TypeTest
 {
@@ -24,7 +23,7 @@ namespace TypeTest
         }
         private void frmSettings_Load(object sender, EventArgs e)
         {
-            listbox.SelectedIndex = 0;
+           // listbox.SelectedIndex = 0;
             Settings = enSettings.TextBox;
         }
 
@@ -63,8 +62,8 @@ namespace TypeTest
 
         //}
         bool isitvisiable = false;
-        private void listbox_SelectedIndexChanged(object sender, MaterialListBoxItem selectedItem)
-        {
+        //private void listbox_SelectedIndexChanged(object sender, MaterialListBoxItem selectedItem)
+        //{
             //ShowPanel(Convert.ToInt32(selectedItem.SecondaryText));
 
             //TextboxPanel.Visible= false;
@@ -109,4 +108,4 @@ namespace TypeTest
                 //}
         }
     }
-}
+

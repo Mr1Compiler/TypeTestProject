@@ -14,7 +14,6 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Serialization;
-using Telerik.WinControls.UI;
 using TypeTest.Colors;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.Rebar;
 

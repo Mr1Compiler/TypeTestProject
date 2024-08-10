@@ -1324,7 +1324,6 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainForm";
             this.Load += new System.EventHandler(this.Form1_Load);
- 
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.MainForm_KeyPress);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.MainForm_KeyUp);
             this.KeyboardPanel.ResumeLayout(false);
