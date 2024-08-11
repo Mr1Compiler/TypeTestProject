@@ -103,5 +103,8 @@
   <ItemGroup>
     <None Include="Images and Icons\icons8-settings-50.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Images and Icons\version.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -55,12 +55,14 @@ namespace TypeTest.Colors
         }
         private stKeyboardColors _KeyboardColors;
 
-        public struct stListBoxColors
+        public struct stSettingsPanel
         {
-            public Color ListBoxBackColor;
-            public Color ListBoxTextColor;
+            public Color SettingsPanelBackground;
+            public Color ButtonsBackColor1;
+            public Color ButtonBackColor2;
+            public Color ButtonTextColor;
         }
-        private stListBoxColors _ListBoxColors;
+        private stSettingsPanel _SettingsPanelColors;
 
         public struct stHoverColors
         {
@@ -71,11 +73,11 @@ namespace TypeTest.Colors
         public void GenerateColors(MainForm form)
         {
             //MainForm back color
-            _MainFormColors.MainFormBackColor = Color.FromArgb(139, 161, 189);
+            _MainFormColors.MainFormBackColor = Color.FromArgb(233, 236, 239);
             form.BackColor = _MainFormColors.MainFormBackColor;
 
             //Textbox colors
-            _TextBoxColors.TextBoxBackColor = Color.FromArgb(27, 38, 59); // TextBox back color
+            _TextBoxColors.TextBoxBackColor = Color.FromArgb(33, 37, 41); // TextBox back color
             form.tbText.BackColor = _TextBoxColors.TextBoxBackColor;
             _TextBoxColors.TextBoxTextColor = Color.White; // TextBox text color
             form.tbText.ForeColor = _TextBoxColors.TextBoxTextColor;
@@ -84,20 +86,35 @@ namespace TypeTest.Colors
             _TextBoxColors.SelectedLetterBackColor = Color.White;
             _TextBoxColors.SelectionColor = Color.FromArgb(119, 141, 169);
 
-            _MenuPanelColors.MenuPanelBackColor = Color.FromArgb(27, 38, 59);
+            _MenuPanelColors.MenuPanelBackColor = Color.FromArgb(33, 37, 41);
             form.MenuPanel.BackColor = _MenuPanelColors.MenuPanelBackColor; //Menu Panel back color
 
             //Keyboard colors
-            _KeyboardColors.KeyboardBackColor = Color.FromArgb(27, 38, 59); //keyboard button back color
+            _KeyboardColors.KeyboardBackColor = Color.FromArgb(33, 37, 41);//Color.FromArgb(27, 38, 59); //keyboard button back color
             _KeyboardColors.KeyboardTextColor = Color.White; //Keyboard text color
 
+            //Settings panel
+            form.lblVersion.ForeColor = Color.FromArgb(233, 236, 239);
+            _SettingsPanelColors.SettingsPanelBackground = Color.FromArgb(33, 37, 41);
+            form.SettingsPanel.FillColor = _SettingsPanelColors.SettingsPanelBackground;
+            form.SettingsPanel.FillColor2 = _SettingsPanelColors.SettingsPanelBackground;
+            form.SettingsPanel.FillColor3 = _SettingsPanelColors.SettingsPanelBackground;
+            form.SettingsPanel.FillColor4 = _SettingsPanelColors.SettingsPanelBackground;
+            _SettingsPanelColors.ButtonsBackColor1 = Color.FromArgb(33, 37, 41);
+            _SettingsPanelColors.ButtonBackColor2 = Color.FromArgb(233, 236, 239);
+            SettingsButtonsColors(ref form.btnColorsSettings);
+            SettingsButtonsColors(ref form.btnFontSettings);
 
-            //Listbox colors
-            _ListBoxColors.ListBoxBackColor = Color.FromArgb(27, 38, 59); // listbox back color
-            form.listBox1.BackColor = _ListBoxColors.ListBoxBackColor;
-            _ListBoxColors.ListBoxTextColor = Color.White; // listbox text color
-            form.listBox1.ForeColor = _ListBoxColors.ListBoxTextColor;
 
+            form.menuStrip1.BackColor = Color.FromArgb(33, 37, 41);
+            form.menuStrip1.ForeColor = Color.FromArgb(233, 236, 239);
+
+        }
+
+        private void SettingsButtonsColors(ref Guna2GradientButton btn)
+        {
+            btn.FillColor = _SettingsPanelColors.ButtonsBackColor1;
+            btn.FillColor = _SettingsPanelColors.ButtonBackColor2;
         }
 
         public clsColors(MainForm Form)

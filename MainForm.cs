@@ -67,7 +67,6 @@ namespace TypeTest
             tbText.Focus();
             this.KeyPreview = true;
             TestArray();
-            listBox1.Visible = false;
         }
         public void Selection(int Counter, int SelectionIndex)
         {
@@ -123,20 +122,10 @@ namespace TypeTest
             tbText.SelectionBackColor = Color.FromArgb(192, 192, 0);
         }
 
-        public bool Close = false;
+        public bool Close = true;
         private void btnfrmSettings_Click(object sender, EventArgs e)
         {
-
-            if (Close == false)
-            {
-                listBox1.Visible = true;
-                Close = true;
-            }
-            else
-            {
-                listBox1.Visible = false;
-                Close = false;
-            }
+            
 
         }
         private void MainForm_KeyPress(object sender, KeyPressEventArgs e)
@@ -178,6 +167,20 @@ namespace TypeTest
         {
             MyKeyboard.ButtonNormalColor(sender, e);
 
+        }
+
+        private void settingsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (Close)
+            {
+                SettingsPanel.Visible = true;
+                Close = false;
+            }
+            else
+            {
+                SettingsPanel.Visible = false;
+                Close = true;
+            }
         }
     }
 }
