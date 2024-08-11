@@ -13,26 +13,25 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Serialization;
-
 using TypeTest.Colors;
 using TypeTest.Keyboard;
 
-namespace TypeTest.Colors 
+namespace TypeTest.Colors
 {
     public class clsColors
     {
         private MainForm _Form;
         public struct stMainFormColors
         {
-            public Color MainFormBackColor;
+            public Color BackColor;
         }
         private stMainFormColors _MainFormColors;
 
 
         private struct stTextBoxColors
         {
-            public Color TextBoxBackColor;
-            public Color TextBoxTextColor;
+            public Color BackColor;
+            public Color TextColor;
             public Color TrueLetterColor;
             public Color WrongLetterColor;
             public Color SelectedLetterBackColor;
@@ -43,15 +42,15 @@ namespace TypeTest.Colors
 
         public struct stMenuPanelColors
         {
-            public Color MenuPanelBackColor;
+            public Color BackColor;
         }
         private stMenuPanelColors _MenuPanelColors;
 
 
         public struct stKeyboardColors
         {
-            public Color KeyboardBackColor;
-            public Color KeyboardTextColor;
+            public Color BackColor;
+            public Color TextColor;
         }
         private stKeyboardColors _KeyboardColors;
 
@@ -70,28 +69,33 @@ namespace TypeTest.Colors
         }
         private stHoverColors _KeyboardHoverColors;
 
+        public struct stMenuStrip
+        {
+            public Color BackColor;
+            public Color ForeColor;
+        }
         public void GenerateColors(MainForm form)
         {
             //MainForm back color
-            _MainFormColors.MainFormBackColor = Color.FromArgb(233, 236, 239);
-            form.BackColor = _MainFormColors.MainFormBackColor;
+            _MainFormColors.BackColor = Color.FromArgb(233, 236, 239);
+            form.BackColor = _MainFormColors.BackColor;
 
             //Textbox colors
-            _TextBoxColors.TextBoxBackColor = Color.FromArgb(33, 37, 41); // TextBox back color
-            form.tbText.BackColor = _TextBoxColors.TextBoxBackColor;
-            _TextBoxColors.TextBoxTextColor = Color.White; // TextBox text color
-            form.tbText.ForeColor = _TextBoxColors.TextBoxTextColor;
+            _TextBoxColors.BackColor = Color.FromArgb(33, 37, 41); // TextBox back color
+            form.tbText.BackColor = _TextBoxColors.BackColor;
+            _TextBoxColors.TextColor = Color.White; // TextBox text color
+            form.tbText.ForeColor = _TextBoxColors.TextColor;
             _TextBoxColors.TrueLetterColor = Color.Lime; //TextBox true letter color
             _TextBoxColors.WrongLetterColor = Color.Red; //Textbox wrong letter color
             _TextBoxColors.SelectedLetterBackColor = Color.White;
             _TextBoxColors.SelectionColor = Color.FromArgb(119, 141, 169);
 
-            _MenuPanelColors.MenuPanelBackColor = Color.FromArgb(33, 37, 41);
-            form.MenuPanel.BackColor = _MenuPanelColors.MenuPanelBackColor; //Menu Panel back color
+            _MenuPanelColors.BackColor = Color.FromArgb(33, 37, 41);
+            form.MenuPanel.BackColor = _MenuPanelColors.BackColor; //Menu Panel back color
 
             //Keyboard colors
-            _KeyboardColors.KeyboardBackColor = Color.FromArgb(33, 37, 41);//Color.FromArgb(27, 38, 59); //keyboard button back color
-            _KeyboardColors.KeyboardTextColor = Color.White; //Keyboard text color
+            _KeyboardColors.BackColor = Color.FromArgb(33, 37, 41);//Color.FromArgb(27, 38, 59); //keyboard button back color
+            _KeyboardColors.TextColor = Color.White; //Keyboard text color
 
             //Settings panel
             form.lblVersion.ForeColor = Color.FromArgb(233, 236, 239);
@@ -132,8 +136,8 @@ namespace TypeTest.Colors
                 if (control is Guna2Button button)
                 {
 
-                    button.FillColor = _KeyboardColors.KeyboardBackColor;
-                    button.ForeColor = _KeyboardColors.KeyboardTextColor;
+                    button.FillColor = _KeyboardColors.BackColor;
+                    button.ForeColor = _KeyboardColors.TextColor;
                 }
             }
         }
@@ -156,7 +160,7 @@ namespace TypeTest.Colors
         {
 
             KeyboardHoverColor = _KeyboardHoverColors.KeyboardHoverColor;
-            KeyboardNormalColor = _KeyboardColors.KeyboardBackColor;
+            KeyboardNormalColor = _KeyboardColors.BackColor;
 
             return KeyboardHoverColor;
         }
@@ -166,7 +170,7 @@ namespace TypeTest.Colors
             return _TextBoxColors.TrueLetterColor;
         }
 
-        public  Color ColoringWrongLetter()
+        public Color ColoringWrongLetter()
         {
             return _TextBoxColors.WrongLetterColor;
         }
