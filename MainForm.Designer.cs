@@ -94,22 +94,18 @@
             this.btnTilde = new Guna.UI2.WinForms.Guna2Button();
             this.tbText = new System.Windows.Forms.RichTextBox();
             this.SettingsPanel = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.btnColorsSettings = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.btnFontSettings = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.lblVersion = new System.Windows.Forms.Label();
-            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.btnViewSettings = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.lblVersion = new System.Windows.Forms.Label();
+            this.btnFontSettings = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.btnColorsSettings = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2ProgressBar1 = new Guna.UI2.WinForms.Guna2ProgressBar();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.settingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.viewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnfrmSettings = new Guna.UI2.WinForms.Guna2ImageButton();
             this.MenuPanel = new Guna.UI2.WinForms.Guna2Panel();
+            this.sdfsdfToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.KeyboardPanel.SuspendLayout();
             this.SettingsPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
-            this.menuStrip1.SuspendLayout();
             this.MenuPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -1295,84 +1291,19 @@
             this.SettingsPanel.FillColor2 = System.Drawing.Color.Transparent;
             this.SettingsPanel.FillColor3 = System.Drawing.Color.Transparent;
             this.SettingsPanel.FillColor4 = System.Drawing.Color.Transparent;
-            this.SettingsPanel.Location = new System.Drawing.Point(0, 33);
+            this.SettingsPanel.Location = new System.Drawing.Point(0, 35);
             this.SettingsPanel.Name = "SettingsPanel";
             this.SettingsPanel.ShadowDecoration.Parent = this.SettingsPanel;
-            this.SettingsPanel.Size = new System.Drawing.Size(247, 1706);
+            this.SettingsPanel.Size = new System.Drawing.Size(247, 1704);
             this.SettingsPanel.TabIndex = 4;
             this.SettingsPanel.Visible = false;
-            // 
-            // btnColorsSettings
-            // 
-            this.btnColorsSettings.Animated = true;
-            this.btnColorsSettings.AutoRoundedCorners = true;
-            this.btnColorsSettings.BackColor = System.Drawing.Color.Transparent;
-            this.btnColorsSettings.BorderRadius = 5;
-            this.btnColorsSettings.CheckedState.Parent = this.btnColorsSettings;
-            this.btnColorsSettings.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnColorsSettings.CustomImages.Parent = this.btnColorsSettings;
-            this.btnColorsSettings.FillColor = System.Drawing.Color.White;
-            this.btnColorsSettings.FillColor2 = System.Drawing.Color.Gray;
-            this.btnColorsSettings.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnColorsSettings.ForeColor = System.Drawing.Color.Black;
-            this.btnColorsSettings.HoverState.Parent = this.btnColorsSettings;
-            this.btnColorsSettings.Location = new System.Drawing.Point(6, 131);
-            this.btnColorsSettings.Name = "btnColorsSettings";
-            this.btnColorsSettings.ShadowDecoration.Parent = this.btnColorsSettings;
-            this.btnColorsSettings.Size = new System.Drawing.Size(233, 47);
-            this.btnColorsSettings.TabIndex = 0;
-            this.btnColorsSettings.Text = "Colors";
-            // 
-            // btnFontSettings
-            // 
-            this.btnFontSettings.Animated = true;
-            this.btnFontSettings.AutoRoundedCorners = true;
-            this.btnFontSettings.BackColor = System.Drawing.Color.Transparent;
-            this.btnFontSettings.BorderRadius = 5;
-            this.btnFontSettings.CheckedState.Parent = this.btnFontSettings;
-            this.btnFontSettings.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnFontSettings.CustomImages.Parent = this.btnFontSettings;
-            this.btnFontSettings.FillColor = System.Drawing.Color.White;
-            this.btnFontSettings.FillColor2 = System.Drawing.Color.Gray;
-            this.btnFontSettings.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFontSettings.ForeColor = System.Drawing.Color.Black;
-            this.btnFontSettings.HoverState.Parent = this.btnFontSettings;
-            this.btnFontSettings.Location = new System.Drawing.Point(6, 184);
-            this.btnFontSettings.Name = "btnFontSettings";
-            this.btnFontSettings.ShadowDecoration.Parent = this.btnFontSettings;
-            this.btnFontSettings.Size = new System.Drawing.Size(233, 47);
-            this.btnFontSettings.TabIndex = 1;
-            this.btnFontSettings.Text = "Fonts";
-            // 
-            // lblVersion
-            // 
-            this.lblVersion.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblVersion.ForeColor = System.Drawing.Color.Black;
-            this.lblVersion.Location = new System.Drawing.Point(71, 18);
-            this.lblVersion.Name = "lblVersion";
-            this.lblVersion.Size = new System.Drawing.Size(158, 28);
-            this.lblVersion.TabIndex = 5;
-            this.lblVersion.Text = "Version 1.0";
-            // 
-            // guna2CirclePictureBox1
-            // 
-            this.guna2CirclePictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox1.BackgroundImage")));
-            this.guna2CirclePictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(21, 11);
-            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
-            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.ShadowDecoration.Parent = this.guna2CirclePictureBox1;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(38, 38);
-            this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2CirclePictureBox1.TabIndex = 6;
-            this.guna2CirclePictureBox1.TabStop = false;
             // 
             // btnViewSettings
             // 
             this.btnViewSettings.Animated = true;
             this.btnViewSettings.AutoRoundedCorners = true;
             this.btnViewSettings.BackColor = System.Drawing.Color.Transparent;
-            this.btnViewSettings.BorderRadius = 5;
+            this.btnViewSettings.BorderRadius = 22;
             this.btnViewSettings.CheckedState.Parent = this.btnViewSettings;
             this.btnViewSettings.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnViewSettings.CustomImages.Parent = this.btnViewSettings;
@@ -1388,6 +1319,71 @@
             this.btnViewSettings.TabIndex = 7;
             this.btnViewSettings.Text = "View";
             // 
+            // guna2CirclePictureBox1
+            // 
+            this.guna2CirclePictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox1.BackgroundImage")));
+            this.guna2CirclePictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(21, 11);
+            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
+            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox1.ShadowDecoration.Parent = this.guna2CirclePictureBox1;
+            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(38, 38);
+            this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2CirclePictureBox1.TabIndex = 6;
+            this.guna2CirclePictureBox1.TabStop = false;
+            // 
+            // lblVersion
+            // 
+            this.lblVersion.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblVersion.ForeColor = System.Drawing.Color.Black;
+            this.lblVersion.Location = new System.Drawing.Point(71, 18);
+            this.lblVersion.Name = "lblVersion";
+            this.lblVersion.Size = new System.Drawing.Size(158, 28);
+            this.lblVersion.TabIndex = 5;
+            this.lblVersion.Text = "Version 1.0";
+            // 
+            // btnFontSettings
+            // 
+            this.btnFontSettings.Animated = true;
+            this.btnFontSettings.AutoRoundedCorners = true;
+            this.btnFontSettings.BackColor = System.Drawing.Color.Transparent;
+            this.btnFontSettings.BorderRadius = 22;
+            this.btnFontSettings.CheckedState.Parent = this.btnFontSettings;
+            this.btnFontSettings.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnFontSettings.CustomImages.Parent = this.btnFontSettings;
+            this.btnFontSettings.FillColor = System.Drawing.Color.White;
+            this.btnFontSettings.FillColor2 = System.Drawing.Color.Gray;
+            this.btnFontSettings.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFontSettings.ForeColor = System.Drawing.Color.Black;
+            this.btnFontSettings.HoverState.Parent = this.btnFontSettings;
+            this.btnFontSettings.Location = new System.Drawing.Point(6, 184);
+            this.btnFontSettings.Name = "btnFontSettings";
+            this.btnFontSettings.ShadowDecoration.Parent = this.btnFontSettings;
+            this.btnFontSettings.Size = new System.Drawing.Size(233, 47);
+            this.btnFontSettings.TabIndex = 1;
+            this.btnFontSettings.Text = "Fonts";
+            // 
+            // btnColorsSettings
+            // 
+            this.btnColorsSettings.Animated = true;
+            this.btnColorsSettings.AutoRoundedCorners = true;
+            this.btnColorsSettings.BackColor = System.Drawing.Color.Transparent;
+            this.btnColorsSettings.BorderRadius = 22;
+            this.btnColorsSettings.CheckedState.Parent = this.btnColorsSettings;
+            this.btnColorsSettings.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnColorsSettings.CustomImages.Parent = this.btnColorsSettings;
+            this.btnColorsSettings.FillColor = System.Drawing.Color.White;
+            this.btnColorsSettings.FillColor2 = System.Drawing.Color.Gray;
+            this.btnColorsSettings.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnColorsSettings.ForeColor = System.Drawing.Color.Black;
+            this.btnColorsSettings.HoverState.Parent = this.btnColorsSettings;
+            this.btnColorsSettings.Location = new System.Drawing.Point(6, 131);
+            this.btnColorsSettings.Name = "btnColorsSettings";
+            this.btnColorsSettings.ShadowDecoration.Parent = this.btnColorsSettings;
+            this.btnColorsSettings.Size = new System.Drawing.Size(233, 47);
+            this.btnColorsSettings.TabIndex = 0;
+            this.btnColorsSettings.Text = "Colors";
+            // 
             // guna2ProgressBar1
             // 
             this.guna2ProgressBar1.BorderRadius = 10;
@@ -1399,40 +1395,6 @@
             this.guna2ProgressBar1.Size = new System.Drawing.Size(742, 29);
             this.guna2ProgressBar1.TabIndex = 5;
             this.guna2ProgressBar1.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.AutoSize = false;
-            this.menuStrip1.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fileToolStripMenuItem,
-            this.settingsToolStripMenuItem,
-            this.viewToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1618, 41);
-            this.menuStrip1.TabIndex = 6;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // fileToolStripMenuItem
-            // 
-            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(53, 37);
-            this.fileToolStripMenuItem.Text = "file";
-            // 
-            // settingsToolStripMenuItem
-            // 
-            this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
-            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(85, 37);
-            this.settingsToolStripMenuItem.Text = "settings";
-            this.settingsToolStripMenuItem.Click += new System.EventHandler(this.settingsToolStripMenuItem_Click);
-            // 
-            // viewToolStripMenuItem
-            // 
-            this.viewToolStripMenuItem.Name = "viewToolStripMenuItem";
-            this.viewToolStripMenuItem.Size = new System.Drawing.Size(53, 37);
-            this.viewToolStripMenuItem.Text = "view";
             // 
             // btnfrmSettings
             // 
@@ -1455,13 +1417,18 @@
             this.MenuPanel.BorderColor = System.Drawing.Color.White;
             this.MenuPanel.Controls.Add(this.btnfrmSettings);
             this.MenuPanel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.MenuPanel.Location = new System.Drawing.Point(0, 41);
+            this.MenuPanel.Location = new System.Drawing.Point(0, 0);
             this.MenuPanel.Margin = new System.Windows.Forms.Padding(4);
             this.MenuPanel.Name = "MenuPanel";
             this.MenuPanel.ShadowDecoration.Parent = this.MenuPanel;
             this.MenuPanel.Size = new System.Drawing.Size(1618, 37);
             this.MenuPanel.TabIndex = 2;
-            this.MenuPanel.Visible = false;
+            // 
+            // sdfsdfToolStripMenuItem
+            // 
+            this.sdfsdfToolStripMenuItem.Name = "sdfsdfToolStripMenuItem";
+            this.sdfsdfToolStripMenuItem.Size = new System.Drawing.Size(63, 24);
+            this.sdfsdfToolStripMenuItem.Text = "sdfsdf";
             // 
             // MainForm
             // 
@@ -1474,18 +1441,18 @@
             this.Controls.Add(this.tbText);
             this.Controls.Add(this.MenuPanel);
             this.Controls.Add(this.KeyboardPanel);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainForm";
+            this.Text = "Type Testing";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.MainForm_KeyPress);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.MainForm_KeyUp);
             this.KeyboardPanel.ResumeLayout(false);
             this.SettingsPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             this.MenuPanel.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -1563,12 +1530,9 @@
         public System.Windows.Forms.Label lblVersion;
         public Guna.UI2.WinForms.Guna2GradientButton btnViewSettings;
         private Guna.UI2.WinForms.Guna2ProgressBar guna2ProgressBar1;
-        private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem settingsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem viewToolStripMenuItem;
-        public System.Windows.Forms.MenuStrip menuStrip1;
         private Guna.UI2.WinForms.Guna2ImageButton btnfrmSettings;
         public Guna.UI2.WinForms.Guna2Panel MenuPanel;
+        private System.Windows.Forms.ToolStripMenuItem sdfsdfToolStripMenuItem;
     }
 }
 

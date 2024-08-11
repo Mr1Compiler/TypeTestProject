@@ -126,6 +126,16 @@ namespace TypeTest
         private void btnfrmSettings_Click(object sender, EventArgs e)
         {
             
+            if(Close)
+            {
+                SettingsPanel.Visible = true;
+                Close = false;
+            }
+            else
+            {
+                SettingsPanel.Visible=false;
+                Close = true;
+            }
 
         }
         private void MainForm_KeyPress(object sender, KeyPressEventArgs e)
@@ -167,20 +177,6 @@ namespace TypeTest
         {
             MyKeyboard.ButtonNormalColor(sender, e);
 
-        }
-
-        private void settingsToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            if (Close)
-            {
-                SettingsPanel.Visible = true;
-                Close = false;
-            }
-            else
-            {
-                SettingsPanel.Visible = false;
-                Close = true;
-            }
         }
     }
 }

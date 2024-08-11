@@ -110,8 +110,7 @@ namespace TypeTest.Colors
             SettingsButtonsColors(ref form.btnFontSettings);
 
 
-            form.menuStrip1.BackColor = Color.FromArgb(33, 37, 41);
-            form.menuStrip1.ForeColor = Color.FromArgb(233, 236, 239);
+           
 
         }
 
