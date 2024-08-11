@@ -15,6 +15,8 @@ using System.Windows.Forms;
 using System.Xml.Serialization;
 using TypeTest.Colors;
 using TypeTest.Keyboard;
+using TypeTest.Settings;
+using TypeTest.Settings.Timer;
 
 namespace TypeTest
 {
@@ -26,7 +28,7 @@ namespace TypeTest
         public bool IsArray = true;
         clsColors MyColors;
         clsKeyboard MyKeyboard;
-
+        clsTimer MyTimer;
         public void TestArray()
         {
             if (IsArray)
@@ -51,22 +53,22 @@ namespace TypeTest
         {
             InitializeComponent();
         }
-        public void InitializingColors()
+        public void InitialzingObjest()
         {
             MyColors = new clsColors(this);
-        }
-        public void InitialzingKeyboard()
-        {
             MyKeyboard = new clsKeyboard(this);
+            MyTimer = new clsTimer(this);
         }
+
+
         private void Form1_Load(object sender, EventArgs e)
         {
             MainText();
-            InitializingColors();
-            InitialzingKeyboard();
-            tbText.Focus();
+            InitialzingObjest();
             this.KeyPreview = true;
+            tbText.Focus();
             TestArray();
+            
         }
         public void Selection(int Counter, int SelectionIndex)
         {
@@ -144,6 +146,14 @@ namespace TypeTest
             //{
             //    MessageBox.Show("The End");
             //}
+
+            if (Counter >= 0)
+            {
+                lblTimer.Visible = true;
+                timer1.Enabled = true;
+                pbRestart.Visible = true;
+            }
+
             MyKeyboard.HoverTheButton(sender, e);
             tbText2.Select(Counter, 1);
             char TrueChar = Convert.ToChar(tbText2.SelectedText);
@@ -172,11 +182,24 @@ namespace TypeTest
             tbText.Select(Counter, 1);
             tbText.SelectionBackColor = MyColors.SelectionColorOfLetter();
             tbText.SelectionColor = MyColors.SelectedLetterBackColor();
+            MyTimer.ProgressBar();
         }
         private void MainForm_KeyUp(object sender, KeyEventArgs e)
         {
             MyKeyboard.ButtonNormalColor(sender, e);
 
+        }
+
+        private void btnTimeSettings_Click(object sender, EventArgs e)
+        {
+            frmTime frmTimeSettings = new frmTime();
+            frmTimeSettings.ShowDialog();
+        }
+
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            MyTimer.TimerTick();
         }
     }
 }

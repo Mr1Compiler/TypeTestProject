@@ -110,8 +110,10 @@ namespace TypeTest.Colors
             SettingsButtonsColors(ref form.btnFontSettings);
 
 
-           
 
+            form.lblTimer.ForeColor = _TextBoxColors.BackColor;
+            form.ProgressBar.ProgressColor = _TextBoxColors.BackColor;
+            form.ProgressBar.ProgressColor2 = _TextBoxColors.BackColor;
         }
 
         private void SettingsButtonsColors(ref Guna2GradientButton btn)

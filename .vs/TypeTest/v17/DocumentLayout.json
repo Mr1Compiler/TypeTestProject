@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|E:\\Projects\\TypeTest_Colned\\TypeTestProject\\colors\\colors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|solutionrelative:colors\\colors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|e:\\projects\\typetest_colned\\typetestproject\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|E:\\Projects\\TypeTest_Colned\\TypeTestProject\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|e:\\projects\\typetest_colned\\typetestproject\\colors\\colors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|solutionrelative:colors\\colors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +38,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainForm.cs [Design]",
               "DocumentMoniker": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",
@@ -54,26 +50,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\MainForm.cs",
-              "RelativeDocumentMoniker": "MainForm.cs",
-              "ToolTip": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\MainForm.cs",
-              "RelativeToolTip": "MainForm.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAIwEwAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T17:05:34.856Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Colors.cs",
               "DocumentMoniker": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\Colors\\Colors.cs",
               "RelativeDocumentMoniker": "Colors\\Colors.cs",
               "ToolTip": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\Colors\\Colors.cs",
               "RelativeToolTip": "Colors\\Colors.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAAwBAAAAAYAAAA",
+              "ViewState": "AQIAAJcAAAAAAAAAAAAUwIgAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-10T21:41:27.563Z",
               "EditorCaption": ""
