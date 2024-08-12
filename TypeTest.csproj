@@ -53,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Colors\Colors.cs" />
+    <Compile Include="Results\clsResults.cs" />
     <Compile Include="Keyboard\clsKeyboard.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
@@ -63,6 +64,12 @@
     <Compile Include="Paragraphs\clsParagraphs.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Results\frmResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Results\frmResults.Designer.cs">
+      <DependentUpon>frmResults.cs</DependentUpon>
+    </Compile>
     <Compile Include="Settings\frmTime.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +84,9 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Results\frmResults.resx">
+      <DependentUpon>frmResults.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Settings\frmTime.resx">
       <DependentUpon>frmTime.cs</DependentUpon>
