@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TypeTest.Paragraphs;
 
 namespace TypeTest.Settings.Timer
 {
@@ -18,7 +19,7 @@ namespace TypeTest.Settings.Timer
         public clsTimer(MainForm Form)
         {
             form = Form;
-            form.ProgressBar.Maximum = form.tbText.Text.Length;
+            form.ProgressBar.Maximum = clsParagraphs.TextLength();
         }
 
         public void TimerTick()

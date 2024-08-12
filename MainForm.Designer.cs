@@ -181,7 +181,7 @@
             this.KeyboardPanel.Controls.Add(this.btnNoOne);
             this.KeyboardPanel.Controls.Add(this.btnTilde);
             this.KeyboardPanel.Location = new System.Drawing.Point(350, 562);
-            this.KeyboardPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.KeyboardPanel.Margin = new System.Windows.Forms.Padding(4);
             this.KeyboardPanel.Name = "KeyboardPanel";
             this.KeyboardPanel.ShadowDecoration.Parent = this.KeyboardPanel;
             this.KeyboardPanel.Size = new System.Drawing.Size(918, 309);
@@ -198,7 +198,7 @@
             this.btnEmpty.ForeColor = System.Drawing.Color.Black;
             this.btnEmpty.HoverState.Parent = this.btnEmpty;
             this.btnEmpty.Location = new System.Drawing.Point(899, 91);
-            this.btnEmpty.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEmpty.Margin = new System.Windows.Forms.Padding(4);
             this.btnEmpty.Name = "btnEmpty";
             this.btnEmpty.ShadowDecoration.Parent = this.btnEmpty;
             this.btnEmpty.Size = new System.Drawing.Size(12, 12);
@@ -216,7 +216,7 @@
             this.btnA.ForeColor = System.Drawing.Color.Black;
             this.btnA.HoverState.Parent = this.btnA;
             this.btnA.Location = new System.Drawing.Point(127, 127);
-            this.btnA.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnA.Margin = new System.Windows.Forms.Padding(4);
             this.btnA.Name = "btnA";
             this.btnA.ShadowDecoration.Parent = this.btnA;
             this.btnA.Size = new System.Drawing.Size(54, 54);
@@ -233,7 +233,7 @@
             this.btnWin2.ForeColor = System.Drawing.Color.Black;
             this.btnWin2.HoverState.Parent = this.btnWin2;
             this.btnWin2.Location = new System.Drawing.Point(709, 250);
-            this.btnWin2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnWin2.Margin = new System.Windows.Forms.Padding(4);
             this.btnWin2.Name = "btnWin2";
             this.btnWin2.ShadowDecoration.Parent = this.btnWin2;
             this.btnWin2.Size = new System.Drawing.Size(63, 54);
@@ -250,7 +250,7 @@
             this.btnAlt2.ForeColor = System.Drawing.Color.Black;
             this.btnAlt2.HoverState.Parent = this.btnAlt2;
             this.btnAlt2.Location = new System.Drawing.Point(639, 250);
-            this.btnAlt2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAlt2.Margin = new System.Windows.Forms.Padding(4);
             this.btnAlt2.Name = "btnAlt2";
             this.btnAlt2.ShadowDecoration.Parent = this.btnAlt2;
             this.btnAlt2.Size = new System.Drawing.Size(63, 54);
@@ -267,7 +267,7 @@
             this.btnMenue.ForeColor = System.Drawing.Color.Black;
             this.btnMenue.HoverState.Parent = this.btnMenue;
             this.btnMenue.Location = new System.Drawing.Point(779, 251);
-            this.btnMenue.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMenue.Margin = new System.Windows.Forms.Padding(4);
             this.btnMenue.Name = "btnMenue";
             this.btnMenue.ShadowDecoration.Parent = this.btnMenue;
             this.btnMenue.Size = new System.Drawing.Size(63, 54);
@@ -284,7 +284,7 @@
             this.btnControl2.ForeColor = System.Drawing.Color.Black;
             this.btnControl2.HoverState.Parent = this.btnControl2;
             this.btnControl2.Location = new System.Drawing.Point(849, 250);
-            this.btnControl2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnControl2.Margin = new System.Windows.Forms.Padding(4);
             this.btnControl2.Name = "btnControl2";
             this.btnControl2.ShadowDecoration.Parent = this.btnControl2;
             this.btnControl2.Size = new System.Drawing.Size(63, 54);
@@ -301,7 +301,7 @@
             this.btnSpace.ForeColor = System.Drawing.Color.Black;
             this.btnSpace.HoverState.Parent = this.btnSpace;
             this.btnSpace.Location = new System.Drawing.Point(264, 250);
-            this.btnSpace.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSpace.Margin = new System.Windows.Forms.Padding(4);
             this.btnSpace.Name = "btnSpace";
             this.btnSpace.ShadowDecoration.Parent = this.btnSpace;
             this.btnSpace.Size = new System.Drawing.Size(369, 54);
@@ -318,7 +318,7 @@
             this.btnAlt1.ForeColor = System.Drawing.Color.Black;
             this.btnAlt1.HoverState.Parent = this.btnAlt1;
             this.btnAlt1.Location = new System.Drawing.Point(178, 250);
-            this.btnAlt1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAlt1.Margin = new System.Windows.Forms.Padding(4);
             this.btnAlt1.Name = "btnAlt1";
             this.btnAlt1.ShadowDecoration.Parent = this.btnAlt1;
             this.btnAlt1.Size = new System.Drawing.Size(78, 54);
@@ -335,7 +335,7 @@
             this.btnWin1.ForeColor = System.Drawing.Color.Black;
             this.btnWin1.HoverState.Parent = this.btnWin1;
             this.btnWin1.Location = new System.Drawing.Point(92, 250);
-            this.btnWin1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnWin1.Margin = new System.Windows.Forms.Padding(4);
             this.btnWin1.Name = "btnWin1";
             this.btnWin1.ShadowDecoration.Parent = this.btnWin1;
             this.btnWin1.Size = new System.Drawing.Size(78, 54);
@@ -352,7 +352,7 @@
             this.btnControl.ForeColor = System.Drawing.Color.Black;
             this.btnControl.HoverState.Parent = this.btnControl;
             this.btnControl.Location = new System.Drawing.Point(6, 250);
-            this.btnControl.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnControl.Margin = new System.Windows.Forms.Padding(4);
             this.btnControl.Name = "btnControl";
             this.btnControl.ShadowDecoration.Parent = this.btnControl;
             this.btnControl.Size = new System.Drawing.Size(78, 54);
@@ -369,7 +369,7 @@
             this.btnQuestionMark.ForeColor = System.Drawing.Color.Black;
             this.btnQuestionMark.HoverState.Parent = this.btnQuestionMark;
             this.btnQuestionMark.Location = new System.Drawing.Point(686, 188);
-            this.btnQuestionMark.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnQuestionMark.Margin = new System.Windows.Forms.Padding(4);
             this.btnQuestionMark.Name = "btnQuestionMark";
             this.btnQuestionMark.ShadowDecoration.Parent = this.btnQuestionMark;
             this.btnQuestionMark.Size = new System.Drawing.Size(54, 54);
@@ -387,7 +387,7 @@
             this.btnGraterThan.ForeColor = System.Drawing.Color.Black;
             this.btnGraterThan.HoverState.Parent = this.btnGraterThan;
             this.btnGraterThan.Location = new System.Drawing.Point(626, 188);
-            this.btnGraterThan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnGraterThan.Margin = new System.Windows.Forms.Padding(4);
             this.btnGraterThan.Name = "btnGraterThan";
             this.btnGraterThan.ShadowDecoration.Parent = this.btnGraterThan;
             this.btnGraterThan.Size = new System.Drawing.Size(54, 54);
@@ -405,7 +405,7 @@
             this.btnLessThan.ForeColor = System.Drawing.Color.Black;
             this.btnLessThan.HoverState.Parent = this.btnLessThan;
             this.btnLessThan.Location = new System.Drawing.Point(567, 188);
-            this.btnLessThan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnLessThan.Margin = new System.Windows.Forms.Padding(4);
             this.btnLessThan.Name = "btnLessThan";
             this.btnLessThan.ShadowDecoration.Parent = this.btnLessThan;
             this.btnLessThan.Size = new System.Drawing.Size(54, 54);
@@ -423,7 +423,7 @@
             this.btnM.ForeColor = System.Drawing.Color.Black;
             this.btnM.HoverState.Parent = this.btnM;
             this.btnM.Location = new System.Drawing.Point(507, 188);
-            this.btnM.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnM.Margin = new System.Windows.Forms.Padding(4);
             this.btnM.Name = "btnM";
             this.btnM.ShadowDecoration.Parent = this.btnM;
             this.btnM.Size = new System.Drawing.Size(54, 54);
@@ -440,7 +440,7 @@
             this.btnN.ForeColor = System.Drawing.Color.Black;
             this.btnN.HoverState.Parent = this.btnN;
             this.btnN.Location = new System.Drawing.Point(448, 188);
-            this.btnN.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnN.Margin = new System.Windows.Forms.Padding(4);
             this.btnN.Name = "btnN";
             this.btnN.ShadowDecoration.Parent = this.btnN;
             this.btnN.Size = new System.Drawing.Size(54, 54);
@@ -457,7 +457,7 @@
             this.btnB.ForeColor = System.Drawing.Color.Black;
             this.btnB.HoverState.Parent = this.btnB;
             this.btnB.Location = new System.Drawing.Point(388, 188);
-            this.btnB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnB.Margin = new System.Windows.Forms.Padding(4);
             this.btnB.Name = "btnB";
             this.btnB.ShadowDecoration.Parent = this.btnB;
             this.btnB.Size = new System.Drawing.Size(54, 54);
@@ -474,7 +474,7 @@
             this.btnV.ForeColor = System.Drawing.Color.Black;
             this.btnV.HoverState.Parent = this.btnV;
             this.btnV.Location = new System.Drawing.Point(329, 188);
-            this.btnV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnV.Margin = new System.Windows.Forms.Padding(4);
             this.btnV.Name = "btnV";
             this.btnV.ShadowDecoration.Parent = this.btnV;
             this.btnV.Size = new System.Drawing.Size(54, 54);
@@ -491,7 +491,7 @@
             this.btnC.ForeColor = System.Drawing.Color.Black;
             this.btnC.HoverState.Parent = this.btnC;
             this.btnC.Location = new System.Drawing.Point(270, 188);
-            this.btnC.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnC.Margin = new System.Windows.Forms.Padding(4);
             this.btnC.Name = "btnC";
             this.btnC.ShadowDecoration.Parent = this.btnC;
             this.btnC.Size = new System.Drawing.Size(54, 54);
@@ -508,7 +508,7 @@
             this.btnX.ForeColor = System.Drawing.Color.Black;
             this.btnX.HoverState.Parent = this.btnX;
             this.btnX.Location = new System.Drawing.Point(210, 188);
-            this.btnX.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnX.Margin = new System.Windows.Forms.Padding(4);
             this.btnX.Name = "btnX";
             this.btnX.ShadowDecoration.Parent = this.btnX;
             this.btnX.Size = new System.Drawing.Size(54, 54);
@@ -525,7 +525,7 @@
             this.btnZ.ForeColor = System.Drawing.Color.Black;
             this.btnZ.HoverState.Parent = this.btnZ;
             this.btnZ.Location = new System.Drawing.Point(150, 188);
-            this.btnZ.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnZ.Margin = new System.Windows.Forms.Padding(4);
             this.btnZ.Name = "btnZ";
             this.btnZ.ShadowDecoration.Parent = this.btnZ;
             this.btnZ.Size = new System.Drawing.Size(54, 54);
@@ -542,7 +542,7 @@
             this.btnShift.ForeColor = System.Drawing.Color.Black;
             this.btnShift.HoverState.Parent = this.btnShift;
             this.btnShift.Location = new System.Drawing.Point(6, 188);
-            this.btnShift.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnShift.Margin = new System.Windows.Forms.Padding(4);
             this.btnShift.Name = "btnShift";
             this.btnShift.ShadowDecoration.Parent = this.btnShift;
             this.btnShift.Size = new System.Drawing.Size(139, 54);
@@ -559,7 +559,7 @@
             this.btnShift2.ForeColor = System.Drawing.Color.Black;
             this.btnShift2.HoverState.Parent = this.btnShift2;
             this.btnShift2.Location = new System.Drawing.Point(746, 188);
-            this.btnShift2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnShift2.Margin = new System.Windows.Forms.Padding(4);
             this.btnShift2.Name = "btnShift2";
             this.btnShift2.ShadowDecoration.Parent = this.btnShift2;
             this.btnShift2.Size = new System.Drawing.Size(167, 54);
@@ -576,7 +576,7 @@
             this.btndDoubleQuotation.ForeColor = System.Drawing.Color.Black;
             this.btndDoubleQuotation.HoverState.Parent = this.btndDoubleQuotation;
             this.btndDoubleQuotation.Location = new System.Drawing.Point(721, 127);
-            this.btndDoubleQuotation.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btndDoubleQuotation.Margin = new System.Windows.Forms.Padding(4);
             this.btndDoubleQuotation.Name = "btndDoubleQuotation";
             this.btndDoubleQuotation.ShadowDecoration.Parent = this.btndDoubleQuotation;
             this.btndDoubleQuotation.Size = new System.Drawing.Size(54, 54);
@@ -593,7 +593,7 @@
             this.btnColon.ForeColor = System.Drawing.Color.Black;
             this.btnColon.HoverState.Parent = this.btnColon;
             this.btnColon.Location = new System.Drawing.Point(662, 127);
-            this.btnColon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnColon.Margin = new System.Windows.Forms.Padding(4);
             this.btnColon.Name = "btnColon";
             this.btnColon.ShadowDecoration.Parent = this.btnColon;
             this.btnColon.Size = new System.Drawing.Size(54, 54);
@@ -611,7 +611,7 @@
             this.btnL.HoverState.FillColor = System.Drawing.Color.Blue;
             this.btnL.HoverState.Parent = this.btnL;
             this.btnL.Location = new System.Drawing.Point(602, 127);
-            this.btnL.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnL.Margin = new System.Windows.Forms.Padding(4);
             this.btnL.Name = "btnL";
             this.btnL.ShadowDecoration.Parent = this.btnL;
             this.btnL.Size = new System.Drawing.Size(54, 54);
@@ -628,7 +628,7 @@
             this.btnK.ForeColor = System.Drawing.Color.Black;
             this.btnK.HoverState.Parent = this.btnK;
             this.btnK.Location = new System.Drawing.Point(542, 127);
-            this.btnK.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnK.Margin = new System.Windows.Forms.Padding(4);
             this.btnK.Name = "btnK";
             this.btnK.ShadowDecoration.Parent = this.btnK;
             this.btnK.Size = new System.Drawing.Size(54, 54);
@@ -645,7 +645,7 @@
             this.btnJ.ForeColor = System.Drawing.Color.Black;
             this.btnJ.HoverState.Parent = this.btnJ;
             this.btnJ.Location = new System.Drawing.Point(483, 127);
-            this.btnJ.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnJ.Margin = new System.Windows.Forms.Padding(4);
             this.btnJ.Name = "btnJ";
             this.btnJ.ShadowDecoration.Parent = this.btnJ;
             this.btnJ.Size = new System.Drawing.Size(54, 54);
@@ -662,7 +662,7 @@
             this.btnH.ForeColor = System.Drawing.Color.Black;
             this.btnH.HoverState.Parent = this.btnH;
             this.btnH.Location = new System.Drawing.Point(424, 127);
-            this.btnH.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnH.Margin = new System.Windows.Forms.Padding(4);
             this.btnH.Name = "btnH";
             this.btnH.ShadowDecoration.Parent = this.btnH;
             this.btnH.Size = new System.Drawing.Size(54, 54);
@@ -679,7 +679,7 @@
             this.btnG.ForeColor = System.Drawing.Color.Black;
             this.btnG.HoverState.Parent = this.btnG;
             this.btnG.Location = new System.Drawing.Point(364, 127);
-            this.btnG.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnG.Margin = new System.Windows.Forms.Padding(4);
             this.btnG.Name = "btnG";
             this.btnG.ShadowDecoration.Parent = this.btnG;
             this.btnG.Size = new System.Drawing.Size(54, 54);
@@ -696,7 +696,7 @@
             this.btnF.ForeColor = System.Drawing.Color.Black;
             this.btnF.HoverState.Parent = this.btnF;
             this.btnF.Location = new System.Drawing.Point(304, 127);
-            this.btnF.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnF.Margin = new System.Windows.Forms.Padding(4);
             this.btnF.Name = "btnF";
             this.btnF.ShadowDecoration.Parent = this.btnF;
             this.btnF.Size = new System.Drawing.Size(54, 54);
@@ -713,7 +713,7 @@
             this.btnD.ForeColor = System.Drawing.Color.Black;
             this.btnD.HoverState.Parent = this.btnD;
             this.btnD.Location = new System.Drawing.Point(245, 127);
-            this.btnD.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnD.Margin = new System.Windows.Forms.Padding(4);
             this.btnD.Name = "btnD";
             this.btnD.ShadowDecoration.Parent = this.btnD;
             this.btnD.Size = new System.Drawing.Size(54, 54);
@@ -730,7 +730,7 @@
             this.btnS.ForeColor = System.Drawing.Color.Black;
             this.btnS.HoverState.Parent = this.btnS;
             this.btnS.Location = new System.Drawing.Point(186, 127);
-            this.btnS.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnS.Margin = new System.Windows.Forms.Padding(4);
             this.btnS.Name = "btnS";
             this.btnS.ShadowDecoration.Parent = this.btnS;
             this.btnS.Size = new System.Drawing.Size(54, 54);
@@ -747,7 +747,7 @@
             this.btnCapsLock.ForeColor = System.Drawing.Color.Black;
             this.btnCapsLock.HoverState.Parent = this.btnCapsLock;
             this.btnCapsLock.Location = new System.Drawing.Point(6, 127);
-            this.btnCapsLock.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCapsLock.Margin = new System.Windows.Forms.Padding(4);
             this.btnCapsLock.Name = "btnCapsLock";
             this.btnCapsLock.ShadowDecoration.Parent = this.btnCapsLock;
             this.btnCapsLock.Size = new System.Drawing.Size(114, 54);
@@ -764,7 +764,7 @@
             this.btnEnter.ForeColor = System.Drawing.Color.Black;
             this.btnEnter.HoverState.Parent = this.btnEnter;
             this.btnEnter.Location = new System.Drawing.Point(782, 127);
-            this.btnEnter.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEnter.Margin = new System.Windows.Forms.Padding(4);
             this.btnEnter.Name = "btnEnter";
             this.btnEnter.ShadowDecoration.Parent = this.btnEnter;
             this.btnEnter.Size = new System.Drawing.Size(131, 54);
@@ -781,7 +781,7 @@
             this.btnTab.ForeColor = System.Drawing.Color.Black;
             this.btnTab.HoverState.Parent = this.btnTab;
             this.btnTab.Location = new System.Drawing.Point(6, 65);
-            this.btnTab.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnTab.Margin = new System.Windows.Forms.Padding(4);
             this.btnTab.Name = "btnTab";
             this.btnTab.ShadowDecoration.Parent = this.btnTab;
             this.btnTab.Size = new System.Drawing.Size(92, 54);
@@ -798,7 +798,7 @@
             this.btnLeftCurlyBrace.ForeColor = System.Drawing.Color.Black;
             this.btnLeftCurlyBrace.HoverState.Parent = this.btnLeftCurlyBrace;
             this.btnLeftCurlyBrace.Location = new System.Drawing.Point(699, 65);
-            this.btnLeftCurlyBrace.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnLeftCurlyBrace.Margin = new System.Windows.Forms.Padding(4);
             this.btnLeftCurlyBrace.Name = "btnLeftCurlyBrace";
             this.btnLeftCurlyBrace.ShadowDecoration.Parent = this.btnLeftCurlyBrace;
             this.btnLeftCurlyBrace.Size = new System.Drawing.Size(54, 54);
@@ -816,7 +816,7 @@
             this.btnVerticalBar.ForeColor = System.Drawing.Color.Black;
             this.btnVerticalBar.HoverState.Parent = this.btnVerticalBar;
             this.btnVerticalBar.Location = new System.Drawing.Point(818, 65);
-            this.btnVerticalBar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnVerticalBar.Margin = new System.Windows.Forms.Padding(4);
             this.btnVerticalBar.Name = "btnVerticalBar";
             this.btnVerticalBar.ShadowDecoration.Parent = this.btnVerticalBar;
             this.btnVerticalBar.Size = new System.Drawing.Size(94, 54);
@@ -834,7 +834,7 @@
             this.btnP.ForeColor = System.Drawing.Color.Black;
             this.btnP.HoverState.Parent = this.btnP;
             this.btnP.Location = new System.Drawing.Point(639, 65);
-            this.btnP.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnP.Margin = new System.Windows.Forms.Padding(4);
             this.btnP.Name = "btnP";
             this.btnP.ShadowDecoration.Parent = this.btnP;
             this.btnP.Size = new System.Drawing.Size(54, 54);
@@ -851,7 +851,7 @@
             this.btnO.ForeColor = System.Drawing.Color.Black;
             this.btnO.HoverState.Parent = this.btnO;
             this.btnO.Location = new System.Drawing.Point(580, 65);
-            this.btnO.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnO.Margin = new System.Windows.Forms.Padding(4);
             this.btnO.Name = "btnO";
             this.btnO.ShadowDecoration.Parent = this.btnO;
             this.btnO.Size = new System.Drawing.Size(54, 54);
@@ -868,7 +868,7 @@
             this.btnI.ForeColor = System.Drawing.Color.Black;
             this.btnI.HoverState.Parent = this.btnI;
             this.btnI.Location = new System.Drawing.Point(520, 65);
-            this.btnI.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnI.Margin = new System.Windows.Forms.Padding(4);
             this.btnI.Name = "btnI";
             this.btnI.ShadowDecoration.Parent = this.btnI;
             this.btnI.Size = new System.Drawing.Size(54, 54);
@@ -885,7 +885,7 @@
             this.btnRightCurlyBrace.ForeColor = System.Drawing.Color.Black;
             this.btnRightCurlyBrace.HoverState.Parent = this.btnRightCurlyBrace;
             this.btnRightCurlyBrace.Location = new System.Drawing.Point(758, 65);
-            this.btnRightCurlyBrace.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRightCurlyBrace.Margin = new System.Windows.Forms.Padding(4);
             this.btnRightCurlyBrace.Name = "btnRightCurlyBrace";
             this.btnRightCurlyBrace.ShadowDecoration.Parent = this.btnRightCurlyBrace;
             this.btnRightCurlyBrace.Size = new System.Drawing.Size(54, 54);
@@ -904,7 +904,7 @@
             this.btnU.HoverState.FillColor = System.Drawing.SystemColors.Window;
             this.btnU.HoverState.Parent = this.btnU;
             this.btnU.Location = new System.Drawing.Point(461, 65);
-            this.btnU.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnU.Margin = new System.Windows.Forms.Padding(4);
             this.btnU.Name = "btnU";
             this.btnU.ShadowDecoration.Parent = this.btnU;
             this.btnU.Size = new System.Drawing.Size(54, 54);
@@ -921,7 +921,7 @@
             this.btnY.ForeColor = System.Drawing.Color.Black;
             this.btnY.HoverState.Parent = this.btnY;
             this.btnY.Location = new System.Drawing.Point(401, 65);
-            this.btnY.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnY.Margin = new System.Windows.Forms.Padding(4);
             this.btnY.Name = "btnY";
             this.btnY.ShadowDecoration.Parent = this.btnY;
             this.btnY.Size = new System.Drawing.Size(54, 54);
@@ -938,7 +938,7 @@
             this.btnT.ForeColor = System.Drawing.Color.Black;
             this.btnT.HoverState.Parent = this.btnT;
             this.btnT.Location = new System.Drawing.Point(342, 65);
-            this.btnT.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnT.Margin = new System.Windows.Forms.Padding(4);
             this.btnT.Name = "btnT";
             this.btnT.ShadowDecoration.Parent = this.btnT;
             this.btnT.Size = new System.Drawing.Size(54, 54);
@@ -955,7 +955,7 @@
             this.btnR.ForeColor = System.Drawing.Color.Black;
             this.btnR.HoverState.Parent = this.btnR;
             this.btnR.Location = new System.Drawing.Point(282, 65);
-            this.btnR.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnR.Margin = new System.Windows.Forms.Padding(4);
             this.btnR.Name = "btnR";
             this.btnR.ShadowDecoration.Parent = this.btnR;
             this.btnR.Size = new System.Drawing.Size(54, 54);
@@ -972,7 +972,7 @@
             this.btnE.ForeColor = System.Drawing.Color.Black;
             this.btnE.HoverState.Parent = this.btnE;
             this.btnE.Location = new System.Drawing.Point(223, 65);
-            this.btnE.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnE.Margin = new System.Windows.Forms.Padding(4);
             this.btnE.Name = "btnE";
             this.btnE.ShadowDecoration.Parent = this.btnE;
             this.btnE.Size = new System.Drawing.Size(54, 54);
@@ -989,7 +989,7 @@
             this.btnW.ForeColor = System.Drawing.Color.Black;
             this.btnW.HoverState.Parent = this.btnW;
             this.btnW.Location = new System.Drawing.Point(163, 65);
-            this.btnW.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnW.Margin = new System.Windows.Forms.Padding(4);
             this.btnW.Name = "btnW";
             this.btnW.ShadowDecoration.Parent = this.btnW;
             this.btnW.Size = new System.Drawing.Size(54, 54);
@@ -1006,7 +1006,7 @@
             this.btnQ.ForeColor = System.Drawing.Color.Black;
             this.btnQ.HoverState.Parent = this.btnQ;
             this.btnQ.Location = new System.Drawing.Point(104, 65);
-            this.btnQ.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnQ.Margin = new System.Windows.Forms.Padding(4);
             this.btnQ.Name = "btnQ";
             this.btnQ.ShadowDecoration.Parent = this.btnQ;
             this.btnQ.Size = new System.Drawing.Size(54, 54);
@@ -1023,7 +1023,7 @@
             this.btnBackSpace.ForeColor = System.Drawing.Color.Black;
             this.btnBackSpace.HoverState.Parent = this.btnBackSpace;
             this.btnBackSpace.Location = new System.Drawing.Point(794, 4);
-            this.btnBackSpace.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBackSpace.Margin = new System.Windows.Forms.Padding(4);
             this.btnBackSpace.Name = "btnBackSpace";
             this.btnBackSpace.ShadowDecoration.Parent = this.btnBackSpace;
             this.btnBackSpace.Size = new System.Drawing.Size(118, 54);
@@ -1040,7 +1040,7 @@
             this.btnMinus.ForeColor = System.Drawing.Color.Black;
             this.btnMinus.HoverState.Parent = this.btnMinus;
             this.btnMinus.Location = new System.Drawing.Point(673, 4);
-            this.btnMinus.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMinus.Margin = new System.Windows.Forms.Padding(4);
             this.btnMinus.Name = "btnMinus";
             this.btnMinus.ShadowDecoration.Parent = this.btnMinus;
             this.btnMinus.Size = new System.Drawing.Size(54, 54);
@@ -1058,7 +1058,7 @@
             this.btnNoZero.ForeColor = System.Drawing.Color.Black;
             this.btnNoZero.HoverState.Parent = this.btnNoZero;
             this.btnNoZero.Location = new System.Drawing.Point(612, 4);
-            this.btnNoZero.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnNoZero.Margin = new System.Windows.Forms.Padding(4);
             this.btnNoZero.Name = "btnNoZero";
             this.btnNoZero.ShadowDecoration.Parent = this.btnNoZero;
             this.btnNoZero.Size = new System.Drawing.Size(54, 54);
@@ -1076,7 +1076,7 @@
             this.btnNoNine.ForeColor = System.Drawing.Color.Black;
             this.btnNoNine.HoverState.Parent = this.btnNoNine;
             this.btnNoNine.Location = new System.Drawing.Point(552, 4);
-            this.btnNoNine.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnNoNine.Margin = new System.Windows.Forms.Padding(4);
             this.btnNoNine.Name = "btnNoNine";
             this.btnNoNine.ShadowDecoration.Parent = this.btnNoNine;
             this.btnNoNine.Size = new System.Drawing.Size(54, 54);
@@ -1094,7 +1094,7 @@
             this.btnNoEight.ForeColor = System.Drawing.Color.Black;
             this.btnNoEight.HoverState.Parent = this.btnNoEight;
             this.btnNoEight.Location = new System.Drawing.Point(491, 4);
-            this.btnNoEight.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnNoEight.Margin = new System.Windows.Forms.Padding(4);
             this.btnNoEight.Name = "btnNoEight";
             this.btnNoEight.ShadowDecoration.Parent = this.btnNoEight;
             this.btnNoEight.Size = new System.Drawing.Size(54, 54);
@@ -1112,7 +1112,7 @@
             this.btnPluse.ForeColor = System.Drawing.Color.Black;
             this.btnPluse.HoverState.Parent = this.btnPluse;
             this.btnPluse.Location = new System.Drawing.Point(734, 4);
-            this.btnPluse.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPluse.Margin = new System.Windows.Forms.Padding(4);
             this.btnPluse.Name = "btnPluse";
             this.btnPluse.ShadowDecoration.Parent = this.btnPluse;
             this.btnPluse.Size = new System.Drawing.Size(54, 54);
@@ -1130,7 +1130,7 @@
             this.btnNoSeven.ForeColor = System.Drawing.Color.Black;
             this.btnNoSeven.HoverState.Parent = this.btnNoSeven;
             this.btnNoSeven.Location = new System.Drawing.Point(430, 4);
-            this.btnNoSeven.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnNoSeven.Margin = new System.Windows.Forms.Padding(4);
             this.btnNoSeven.Name = "btnNoSeven";
             this.btnNoSeven.ShadowDecoration.Parent = this.btnNoSeven;
             this.btnNoSeven.Size = new System.Drawing.Size(54, 54);
@@ -1148,7 +1148,7 @@
             this.btnNoSix.ForeColor = System.Drawing.Color.Black;
             this.btnNoSix.HoverState.Parent = this.btnNoSix;
             this.btnNoSix.Location = new System.Drawing.Point(370, 4);
-            this.btnNoSix.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnNoSix.Margin = new System.Windows.Forms.Padding(4);
             this.btnNoSix.Name = "btnNoSix";
             this.btnNoSix.ShadowDecoration.Parent = this.btnNoSix;
             this.btnNoSix.Size = new System.Drawing.Size(54, 54);
@@ -1166,7 +1166,7 @@
             this.btnNoFive.ForeColor = System.Drawing.Color.Black;
             this.btnNoFive.HoverState.Parent = this.btnNoFive;
             this.btnNoFive.Location = new System.Drawing.Point(309, 4);
-            this.btnNoFive.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnNoFive.Margin = new System.Windows.Forms.Padding(4);
             this.btnNoFive.Name = "btnNoFive";
             this.btnNoFive.ShadowDecoration.Parent = this.btnNoFive;
             this.btnNoFive.Size = new System.Drawing.Size(54, 54);
@@ -1184,7 +1184,7 @@
             this.btnNoFour.ForeColor = System.Drawing.Color.Black;
             this.btnNoFour.HoverState.Parent = this.btnNoFour;
             this.btnNoFour.Location = new System.Drawing.Point(248, 4);
-            this.btnNoFour.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnNoFour.Margin = new System.Windows.Forms.Padding(4);
             this.btnNoFour.Name = "btnNoFour";
             this.btnNoFour.ShadowDecoration.Parent = this.btnNoFour;
             this.btnNoFour.Size = new System.Drawing.Size(54, 54);
@@ -1202,7 +1202,7 @@
             this.btnNoThree.ForeColor = System.Drawing.Color.Black;
             this.btnNoThree.HoverState.Parent = this.btnNoThree;
             this.btnNoThree.Location = new System.Drawing.Point(188, 4);
-            this.btnNoThree.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnNoThree.Margin = new System.Windows.Forms.Padding(4);
             this.btnNoThree.Name = "btnNoThree";
             this.btnNoThree.ShadowDecoration.Parent = this.btnNoThree;
             this.btnNoThree.Size = new System.Drawing.Size(54, 54);
@@ -1220,7 +1220,7 @@
             this.btnNoTwo.ForeColor = System.Drawing.Color.Black;
             this.btnNoTwo.HoverState.Parent = this.btnNoTwo;
             this.btnNoTwo.Location = new System.Drawing.Point(127, 4);
-            this.btnNoTwo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnNoTwo.Margin = new System.Windows.Forms.Padding(4);
             this.btnNoTwo.Name = "btnNoTwo";
             this.btnNoTwo.ShadowDecoration.Parent = this.btnNoTwo;
             this.btnNoTwo.Size = new System.Drawing.Size(54, 54);
@@ -1238,7 +1238,7 @@
             this.btnNoOne.ForeColor = System.Drawing.Color.Black;
             this.btnNoOne.HoverState.Parent = this.btnNoOne;
             this.btnNoOne.Location = new System.Drawing.Point(66, 4);
-            this.btnNoOne.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnNoOne.Margin = new System.Windows.Forms.Padding(4);
             this.btnNoOne.Name = "btnNoOne";
             this.btnNoOne.ShadowDecoration.Parent = this.btnNoOne;
             this.btnNoOne.Size = new System.Drawing.Size(54, 54);
@@ -1256,7 +1256,7 @@
             this.btnTilde.ForeColor = System.Drawing.Color.Black;
             this.btnTilde.HoverState.Parent = this.btnTilde;
             this.btnTilde.Location = new System.Drawing.Point(6, 4);
-            this.btnTilde.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnTilde.Margin = new System.Windows.Forms.Padding(4);
             this.btnTilde.Name = "btnTilde";
             this.btnTilde.ShadowDecoration.Parent = this.btnTilde;
             this.btnTilde.Size = new System.Drawing.Size(54, 54);
@@ -1456,7 +1456,7 @@
             this.MenuPanel.Controls.Add(this.btnfrmSettings);
             this.MenuPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.MenuPanel.Location = new System.Drawing.Point(0, 0);
-            this.MenuPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MenuPanel.Margin = new System.Windows.Forms.Padding(4);
             this.MenuPanel.Name = "MenuPanel";
             this.MenuPanel.ShadowDecoration.Parent = this.MenuPanel;
             this.MenuPanel.Size = new System.Drawing.Size(1618, 37);
@@ -1488,7 +1488,7 @@
             this.pbRestart.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pbRestart.Image = ((System.Drawing.Image)(resources.GetObject("pbRestart.Image")));
             this.pbRestart.Location = new System.Drawing.Point(351, 160);
-            this.pbRestart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbRestart.Margin = new System.Windows.Forms.Padding(4);
             this.pbRestart.Name = "pbRestart";
             this.pbRestart.ShadowDecoration.Parent = this.pbRestart;
             this.pbRestart.Size = new System.Drawing.Size(38, 32);
@@ -1512,7 +1512,7 @@
             this.Controls.Add(this.KeyboardPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainForm";
             this.Text = "Type Testing";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -1605,7 +1605,7 @@
         public System.Windows.Forms.Label lblTimer;
         public System.Windows.Forms.Timer timer1;
         public Guna.UI2.WinForms.Guna2ProgressBar ProgressBar;
-        private Guna.UI2.WinForms.Guna2PictureBox pbRestart;
+        public Guna.UI2.WinForms.Guna2PictureBox pbRestart;
     }
 }
 

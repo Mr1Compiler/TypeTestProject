@@ -15,6 +15,7 @@ using System.Windows.Forms;
 using System.Xml.Serialization;
 using TypeTest.Colors;
 using TypeTest.Keyboard;
+using TypeTest.Paragraphs;
 using TypeTest.Settings;
 using TypeTest.Settings.Timer;
 
@@ -22,33 +23,12 @@ namespace TypeTest
 {
     public partial class MainForm : Form
     {
-        public static RichTextBox tbText2 = new RichTextBox();
-        public static int Counter = 0;
-        public static bool[] Answer;
-        public bool IsArray = true;
-        clsColors MyColors;
-        clsKeyboard MyKeyboard;
-        clsTimer MyTimer;
-        public void TestArray()
-        {
-            if (IsArray)
-            {
-                Answer = new bool[tbText2.Text.Length];
-            }
-            tbText.HideSelection = true;
-            tbText.Select(0, 1);
-            tbText.SelectionBackColor = MyColors.SelectionColorOfLetter();
+        public static clsParagraphs MyParagraph;
+        public static clsColors MyColors;
+        public static clsKeyboard MyKeyboard;
+        public static clsTimer MyTimer;
+        
 
-        }
-        void AddingParaghraph()
-        {
-            tbText.Text = Paragraphs[GetRandomNumber(0, 10)];
-            tbText2.Text = tbText.Text;
-        }
-        public void MainText()
-        {
-            AddingParaghraph();
-        }
         public MainForm()
         {
             InitializeComponent();
@@ -56,72 +36,15 @@ namespace TypeTest
         public void InitialzingObjest()
         {
             MyColors = new clsColors(this);
+            MyParagraph = new clsParagraphs(this);
             MyKeyboard = new clsKeyboard(this);
             MyTimer = new clsTimer(this);
         }
-
-
         private void Form1_Load(object sender, EventArgs e)
         {
-            MainText();
             InitialzingObjest();
             this.KeyPreview = true;
-            tbText.Focus();
-            TestArray();
-            
-        }
-        public void Selection(int Counter, int SelectionIndex)
-        {
-            tbText.Select(Counter, SelectionIndex);
-        }
-
-        int GetRandomNumber(int Num1, int Num2)
-        {
-            Random rand = new Random();
-            int RandomNumber = rand.Next(Num1, Num2);
-
-            return RandomNumber;
-        }
-
-        string[] Paragraphs =
-            { "The quick brown fox jumps over the lazy dog.",
-            "A journey of a thousand miles begins with a single step.",
-            "To be or not to be, that is the question.",
-            "All that glitters is not gold.",
-            "A picture is worth a thousand words.",
-            "Fortune favors the bold.",
-            "The early bird catches the worm.",
-            "Actions speak louder than words.",
-            "When in Rome, do as the Romans do.",
-            "You can lead a horse to water, but you can't make it drink."
-            };
-
-        public bool IsItTrue(char ch1, char ch2)
-        {
-            return (ch1 == ch2);
-        }
-
-        public void TextColor()
-        {
-            tbText.Text = tbText2.Text;
-            tbText.HideSelection = true;
-
-            for (int i = 0; i < Counter + 1; i++)
-            {
-                tbText.Select(i, 1);
-
-                if (Answer[i] == true)
-                {
-                    tbText.SelectionColor = MyColors.ColoringTrueLetter();
-                }
-
-                else
-                {
-                    tbText.SelectionColor = MyColors.ColoringWrongLetter();
-                }
-
-            }
-            tbText.SelectionBackColor = Color.FromArgb(192, 192, 0);
+            tbText.Focus();            
         }
 
         public bool Close = true;
@@ -142,52 +65,11 @@ namespace TypeTest
         }
         private void MainForm_KeyPress(object sender, KeyPressEventArgs e)
         {
-            //if(Counter == tbText.Text.Length - 1)
-            //{
-            //    MessageBox.Show("The End");
-            //}
-
-            if (Counter >= 0)
-            {
-                lblTimer.Visible = true;
-                timer1.Enabled = true;
-                pbRestart.Visible = true;
-            }
-
-            MyKeyboard.HoverTheButton(sender, e);
-            tbText2.Select(Counter, 1);
-            char TrueChar = Convert.ToChar(tbText2.SelectedText);
-            char EnteredChar = Convert.ToChar(e.KeyChar);
-            tbText2.SelectionStart++;
-
-            if (e.KeyChar == '\b')
-            {
-                Counter--;
-            }
-
-            else if (IsItTrue(TrueChar, EnteredChar))
-            {
-                Answer[Counter] = true;
-                Counter++;
-
-            }
-
-            else
-            {
-                Answer[Counter] = false;
-                Counter++;
-            }
-
-            TextColor();
-            tbText.Select(Counter, 1);
-            tbText.SelectionBackColor = MyColors.SelectionColorOfLetter();
-            tbText.SelectionColor = MyColors.SelectedLetterBackColor();
-            MyTimer.ProgressBar();
+            MyParagraph.KeyPress(sender, e);
         }
         private void MainForm_KeyUp(object sender, KeyEventArgs e)
         {
-            MyKeyboard.ButtonNormalColor(sender, e);
-
+           MyParagraph.KeyUp(sender, e);
         }
 
         private void btnTimeSettings_Click(object sender, EventArgs e)
@@ -195,7 +77,6 @@ namespace TypeTest
             frmTime frmTimeSettings = new frmTime();
             frmTimeSettings.ShowDialog();
         }
-
 
         private void timer1_Tick(object sender, EventArgs e)
         {
