@@ -13,13 +13,20 @@ namespace TypeTest.Settings.Timer
     public class clsTimer
     {
         MainForm form;
-        public static int Value = 30;
-        
+        public static int Value;
+        public int ProgressBarValue;
 
         public clsTimer(MainForm Form)
         {
             form = Form;
-            form.ProgressBar.Maximum = clsParagraphs.TextLength();
+            Value = 30;
+            form.timer1.Enabled = false;
+            form.ProgressBar.Enabled = true;
+            ProgressBarValue = MainForm.MyParagraph.TextLength();
+            form.ProgressBar.Value = 0;
+            form.ProgressBar.Minimum = 0;
+            form.ProgressBar.Maximum = ProgressBarValue;
+
         }
 
         public void TimerTick()
@@ -37,9 +44,12 @@ namespace TypeTest.Settings.Timer
             }
         }
 
-        public void ProgressBar()
+        public void ProgressBar(bool IsBackSpace)
         {
-            form.ProgressBar.Value++;
+            if (IsBackSpace)
+                form.ProgressBar.Value--;
+            else
+                form.ProgressBar.Value++;
         }
 
         public bool IsTimerEnd()

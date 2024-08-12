@@ -1496,6 +1496,7 @@
             this.pbRestart.TabIndex = 7;
             this.pbRestart.TabStop = false;
             this.pbRestart.Visible = false;
+            this.pbRestart.Click += new System.EventHandler(this.pbRestart_Click);
             // 
             // MainForm
             // 

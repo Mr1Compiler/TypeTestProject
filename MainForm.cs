@@ -17,6 +17,7 @@ using TypeTest.Colors;
 using TypeTest.Keyboard;
 using TypeTest.Paragraphs;
 using TypeTest.Settings;
+using TypeTest.Settings.Restart;
 using TypeTest.Settings.Timer;
 
 namespace TypeTest
@@ -27,7 +28,8 @@ namespace TypeTest
         public static clsColors MyColors;
         public static clsKeyboard MyKeyboard;
         public static clsTimer MyTimer;
-        
+        public static clsRestart MyRestart;
+        public static bool SameText = false;
 
         public MainForm()
         {
@@ -39,12 +41,13 @@ namespace TypeTest
             MyParagraph = new clsParagraphs(this);
             MyKeyboard = new clsKeyboard(this);
             MyTimer = new clsTimer(this);
+            MyRestart = new clsRestart(this);
         }
         private void Form1_Load(object sender, EventArgs e)
         {
             InitialzingObjest();
             this.KeyPreview = true;
-            tbText.Focus();            
+          //  tbText.Focus();
         }
 
         public bool Close = true;
@@ -81,6 +84,13 @@ namespace TypeTest
         private void timer1_Tick(object sender, EventArgs e)
         {
             MyTimer.TimerTick();
+        }
+
+        private void pbRestart_Click(object sender, EventArgs e)
+        {
+            SameText = true;
+            MyRestart.RestartAll();
+            SameText = false;
         }
     }
 }
