@@ -41,7 +41,6 @@ namespace TypeTest.Paragraphs
 
             if (MainForm.SameText)
             {
-                //GetRandomParagraph();
                 ShowenParagraph = form.tbText.Text;
             }
             else
@@ -53,6 +52,14 @@ namespace TypeTest.Paragraphs
             form.tbText.Text = ShowenParagraph;
             tbText2.Text = ShowenParagraph;
             TestArray();
+        }
+
+        public void AnotherParagragh()
+        {
+            form.lblTimer.Visible = false;
+            MainForm.MyParagraph = new clsParagraphs(form);
+            MainForm.MyTimer = new clsTimer(form);
+            form.tbText.Enabled = true;
         }
 
         public int TextLength()
@@ -96,7 +103,7 @@ namespace TypeTest.Paragraphs
                 Answer = new bool[tbText2.Text.Length + 1];
             }
             form.tbText.HideSelection = true;
-            //form.tbText.Select(0, 1);
+            form.tbText.Select(0, 1);
             form.tbText.SelectionBackColor = MainForm.MyColors.SelectionColorOfLetter();
 
         }

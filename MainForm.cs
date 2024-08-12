@@ -92,5 +92,10 @@ namespace TypeTest
             MyRestart.RestartAll();
             SameText = false;
         }
+
+        private void pbNextText_Click(object sender, EventArgs e)
+        {
+            MyParagraph.AnotherParagragh();
+        }
     }
 }

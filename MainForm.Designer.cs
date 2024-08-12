@@ -108,11 +108,13 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.lblTimer = new System.Windows.Forms.Label();
             this.pbRestart = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.pbNextText = new Guna.UI2.WinForms.Guna2PictureBox();
             this.KeyboardPanel.SuspendLayout();
             this.SettingsPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.MenuPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbRestart)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbNextText)).BeginInit();
             this.SuspendLayout();
             // 
             // KeyboardPanel
@@ -1498,12 +1500,26 @@
             this.pbRestart.Visible = false;
             this.pbRestart.Click += new System.EventHandler(this.pbRestart_Click);
             // 
+            // pbNextText
+            // 
+            this.pbNextText.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pbNextText.Image = ((System.Drawing.Image)(resources.GetObject("pbNextText.Image")));
+            this.pbNextText.Location = new System.Drawing.Point(1224, 514);
+            this.pbNextText.Name = "pbNextText";
+            this.pbNextText.ShadowDecoration.Parent = this.pbNextText;
+            this.pbNextText.Size = new System.Drawing.Size(47, 35);
+            this.pbNextText.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbNextText.TabIndex = 8;
+            this.pbNextText.TabStop = false;
+            this.pbNextText.Click += new System.EventHandler(this.pbNextText_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(1618, 908);
+            this.Controls.Add(this.pbNextText);
             this.Controls.Add(this.pbRestart);
             this.Controls.Add(this.lblTimer);
             this.Controls.Add(this.ProgressBar);
@@ -1524,6 +1540,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             this.MenuPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbRestart)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbNextText)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1607,6 +1624,7 @@
         public System.Windows.Forms.Timer timer1;
         public Guna.UI2.WinForms.Guna2ProgressBar ProgressBar;
         public Guna.UI2.WinForms.Guna2PictureBox pbRestart;
+        private Guna.UI2.WinForms.Guna2PictureBox pbNextText;
     }
 }
 
