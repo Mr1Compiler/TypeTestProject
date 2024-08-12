@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using TypeTest.Colors;
+using TypeTest.End_Screen;
 using TypeTest.Keyboard;
 using TypeTest.Settings.Timer;
 
@@ -20,6 +21,7 @@ namespace TypeTest.Paragraphs
         public string ShowenParagraph = "";
         private string _PrevParagraph = "";
         private int _TotalNumberOfParagraphs = 10;
+        public static int NumbersOfRightWords;
         private RichTextBox tbText2;
         private int Counter;
         private bool[] Answer;
@@ -36,6 +38,7 @@ namespace TypeTest.Paragraphs
             IsArray = true;
             NumbersOfTrueLetters = 0;
             NumbersOfWrongLetters = 0;
+            NumbersOfRightWords = 0;
             IsBackSpace = false;
             form = Form;
 
@@ -172,6 +175,11 @@ namespace TypeTest.Paragraphs
                 }
             }
 
+            if(e.KeyChar == ' ')
+            {
+
+            }
+
             else if (IsItTrue(TrueChar, EnteredChar))
             {
                 Answer[Counter] = true;
@@ -192,15 +200,15 @@ namespace TypeTest.Paragraphs
             form.tbText.SelectionColor = MainForm.MyColors.SelectedLetterBackColor();
             MainForm.MyTimer.ProgressBar(IsBackSpace);
             IsBackSpace = false;
-            if (IsItTheLastLetter()) EndOfText();
+            if (IsItTheLastLetter()) ShowResultsForm();
         }
 
-        public void EndOfText()
+        public void ShowResultsForm()
         {
-            form.timer1.Enabled = false;
-            form.tbText.Enabled = false;
-            MessageBox.Show("The end");
+            MainForm.MyResults = new clsResults(form);
         }
+
+
         
         public void KeyUp(object sender, KeyEventArgs e)
         {

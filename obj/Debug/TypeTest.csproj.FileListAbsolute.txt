@@ -35,3 +35,4 @@ E:\Projects\TypeTest_Colned\TypeTestProject\obj\Debug\TypeTest.csproj.CoreCompil
 E:\Projects\TypeTest_Colned\TypeTestProject\obj\Debug\TypeTest.csproj.Up2Date
 E:\Projects\TypeTest_Colned\TypeTestProject\obj\Debug\TypeTest.exe
 E:\Projects\TypeTest_Colned\TypeTestProject\obj\Debug\TypeTest.pdb
+E:\Projects\TypeTest_Colned\TypeTestProject\obj\Debug\TypeTest.Results.frmResults.resources

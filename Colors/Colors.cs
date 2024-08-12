@@ -15,6 +15,7 @@ using System.Windows.Forms;
 using System.Xml.Serialization;
 using TypeTest.Colors;
 using TypeTest.Keyboard;
+using TypeTest.Results;
 
 namespace TypeTest.Colors
 {
@@ -174,6 +175,30 @@ namespace TypeTest.Colors
         public Color ColoringWrongLetter()
         {
             return _TextBoxColors.WrongLetterColor;
+        }
+
+        public void frmResultColors(frmResults frmResult)
+        {
+            frmResult.tbResult.BackColor = _TextBoxColors.BackColor;
+            frmResult.lblWpm.ForeColor = _KeyboardColors.BackColor;
+            frmResult.lblWpmResult.ForeColor = _KeyboardColors.BackColor;
+            frmResult.lbltbResult.ForeColor = _KeyboardColors.BackColor;
+            frmResult.lblAccuracy.ForeColor = _KeyboardColors.BackColor;
+            frmResult.lblAccuracyPrec.ForeColor = _KeyboardColors.BackColor;
+            frmResult.lblRightLettersPrec.ForeColor = _KeyboardColors.BackColor;
+            frmResult.lblRightLetters.ForeColor = _KeyboardColors.BackColor;
+            frmResult.lblWrongLettersPrec.ForeColor = _KeyboardColors.BackColor;
+            frmResult.lblWrongLetters.ForeColor = _KeyboardColors.BackColor;
+
+            frmResult.PBAccuracy.ProgressColor = _TextBoxColors.BackColor;
+            frmResult.PBAccuracy.ProgressColor2 = _TextBoxColors.BackColor;
+
+            frmResult.btnRestart.FillColor = _TextBoxColors.BackColor;
+            frmResult.btnRestart.FillColor2 = _TextBoxColors.BackColor;
+
+            frmResult.btnNext.FillColor = _TextBoxColors.BackColor;
+            frmResult.btnNext.FillColor2 = _TextBoxColors.BackColor;
+
         }
     }
 }

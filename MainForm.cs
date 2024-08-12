@@ -14,6 +14,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Serialization;
 using TypeTest.Colors;
+using TypeTest.End_Screen;
 using TypeTest.Keyboard;
 using TypeTest.Paragraphs;
 using TypeTest.Settings;
@@ -29,6 +30,7 @@ namespace TypeTest
         public static clsKeyboard MyKeyboard;
         public static clsTimer MyTimer;
         public static clsRestart MyRestart;
+        public static clsResults MyResults;
         public static bool SameText = false;
 
         public MainForm()
@@ -47,7 +49,7 @@ namespace TypeTest
         {
             InitialzingObjest();
             this.KeyPreview = true;
-          //  tbText.Focus();
+            //  tbText.Focus();
         }
 
         public bool Close = true;
