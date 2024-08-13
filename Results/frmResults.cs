@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using TypeTest.End_Screen;
-
+using TypeTest.Paragraphs;
 namespace TypeTest.Results
 {
     public partial class frmResults : Form
@@ -22,8 +22,23 @@ namespace TypeTest.Results
         private void frmResults_Load(object sender, EventArgs e)
         {
             MainForm.MyColors.frmResultColors(this);
-            //tbResult = MainForm.
-           // MainForm.MyResults = new  clsResults(this);
+
+            MainForm.MyResults = new clsResults(this);
+
+        }
+
+        private void btnRestart_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            MainForm.SameText = true;
+            MainForm.MyRestart.RestartAll();
+            MainForm.SameText = false;
+        }
+
+        private void btnNext_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            MainForm.MyParagraph.AnotherParagragh();
         }
     }
 }

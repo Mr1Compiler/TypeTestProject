@@ -56,5 +56,10 @@ namespace TypeTest.Settings.Timer
         {
             return (Value == 0);
         }
+
+        public void StopTimer()
+        {
+            form.timer1.Enabled = false;
+        }
     }
 }

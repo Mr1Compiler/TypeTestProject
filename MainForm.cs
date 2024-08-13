@@ -49,7 +49,6 @@ namespace TypeTest
         {
             InitialzingObjest();
             this.KeyPreview = true;
-            //  tbText.Focus();
         }
 
         public bool Close = true;

@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using TypeTest.Colors;
 using TypeTest.End_Screen;
 using TypeTest.Keyboard;
+using TypeTest.Results;
 using TypeTest.Settings.Timer;
 
 namespace TypeTest.Paragraphs
@@ -21,8 +22,10 @@ namespace TypeTest.Paragraphs
         public string ShowenParagraph = "";
         private string _PrevParagraph = "";
         private int _TotalNumberOfParagraphs = 10;
-        public static int NumbersOfRightWords;
+        private int RightWords;
+        private int _BeginIndexOfWord;
         private RichTextBox tbText2;
+        public static RichTextBox tbCloned;
         private int Counter;
         private bool[] Answer;
         private bool IsArray = false;
@@ -34,11 +37,13 @@ namespace TypeTest.Paragraphs
         public clsParagraphs(MainForm Form)
         {
             tbText2 = new RichTextBox();
+            tbCloned = new RichTextBox();
+            RightWords = 0;
+            _BeginIndexOfWord = 0;
             Counter = 0;
             IsArray = true;
             NumbersOfTrueLetters = 0;
             NumbersOfWrongLetters = 0;
-            NumbersOfRightWords = 0;
             IsBackSpace = false;
             form = Form;
 
@@ -57,8 +62,14 @@ namespace TypeTest.Paragraphs
             TestArray();
         }
 
+        public int NumberOfRightWords()
+        {
+            return RightWords;
+        }
+
         public void AnotherParagragh()
         {
+            MainForm.MyColors.SetKeyboardColors();
             form.lblTimer.Visible = false;
             MainForm.MyParagraph = new clsParagraphs(form);
             MainForm.MyTimer = new clsTimer(form);
@@ -110,27 +121,25 @@ namespace TypeTest.Paragraphs
             form.tbText.SelectionBackColor = MainForm.MyColors.SelectionColorOfLetter();
 
         }
-
-        private void TextColor()
+        public void TextColor(ref RichTextBox tb)
         {
-            form.tbText.Text = tbText2.Text;
-            //form.tbText.HideSelection = true;
+            tb.Text = tbText2.Text;
 
             for (int i = 0; i < Counter + 1; i++)
             {
-                form.tbText.Select(i, 1);
+                tb.Select(i, 1);
 
                 if (Answer[i] == true)
                 {
-                    form.tbText.SelectionColor = MainForm.MyColors.ColoringTrueLetter(); 
+                    tb.SelectionColor = MainForm.MyColors.ColoringTrueLetter();
                 }
 
                 else
                 {
-                    form.tbText.SelectionColor = MainForm.MyColors.ColoringWrongLetter();           
+                    tb.SelectionColor = MainForm.MyColors.ColoringWrongLetter();
                 }
             }
-            form.tbText.SelectionBackColor = MainForm.MyColors.SelectedLetterBackColor();
+            tb.SelectionBackColor = MainForm.MyColors.SelectedLetterBackColor();
         }
         private void Selection(int Counter, int SelectionIndex)
         {
@@ -161,23 +170,27 @@ namespace TypeTest.Paragraphs
             char EnteredChar = Convert.ToChar(e.KeyChar);
             tbText2.SelectionStart++;
 
-            if (e.KeyChar == '\b')
+
+            if (e.KeyChar == '\b' )
             {
-                Counter--;
-                IsBackSpace = true;
-                if (Answer[Counter] == true)
+                if (Counter == 0)
                 {
-                    NumbersOfTrueLetters--;
+                    form.ProgressBar.Value = 0;
                 }
                 else
                 {
-                    NumbersOfWrongLetters--;
+                    Counter--;
+                    IsBackSpace = true;
+                    if (Answer[Counter] == true)
+                    {
+                        NumbersOfTrueLetters--;
+                    }
+                    else
+                    {
+                        NumbersOfWrongLetters--;
+                    }
                 }
-            }
-
-            if(e.KeyChar == ' ')
-            {
-
+                
             }
 
             else if (IsItTrue(TrueChar, EnteredChar))
@@ -194,7 +207,7 @@ namespace TypeTest.Paragraphs
                 NumbersOfWrongLetters++;
             }
 
-            TextColor();
+            TextColor(ref form.tbText);
             form.tbText.Select(Counter, 1);
             form.tbText.SelectionBackColor = MainForm.MyColors.SelectionColorOfLetter();
             form.tbText.SelectionColor = MainForm.MyColors.SelectedLetterBackColor();
@@ -203,17 +216,83 @@ namespace TypeTest.Paragraphs
             if (IsItTheLastLetter()) ShowResultsForm();
         }
 
-        public void ShowResultsForm()
-        {
-            MainForm.MyResults = new clsResults(form);
-        }
-
-
-        
         public void KeyUp(object sender, KeyEventArgs e)
         {
             MainForm.MyKeyboard.ButtonNormalColor(sender, e);
         }
+
+        private void IsAllLettersRight()
+        {
+            bool isRight = true;
+            int AnsCounter = 0;
+            string Text = ShowenParagraph;
+            string[] Words = Text.Split(' ');
+
+
+            for (int i = 0; i < Words.Length; i++)
+            {
+                for (int j = 0; j < Words[i].Length; j++)
+                {
+                    if (Answer[AnsCounter] == false)
+                    {
+                        AnsCounter++;
+                        isRight = false;
+                        break;
+                    }
+                    
+                        AnsCounter++;
+                }
+                AnsCounter++;
+
+                if (isRight) RightWords++;
+                isRight = true;
+            }
+
+
+            //string check = "";
+
+            //for (int i = 0; i < Answer.Length - 1; i++) 
+            //{
+            //    if (Answer[i] == true) check += "True";
+            //    else check += "False";
+
+            //    check += " ";
+            //}
+            MessageBox.Show($"{ShowenParagraph.Length}\n{AnsCounter}\n{Answer.Length - 1}");
+
+            //for (int i = 0; i < ; i++)
+            //{
+            //    if (ShowenParagraph[i] == ' ' && isRight)
+            //    {
+            //        RightWords++;
+            //        isRight = false;
+            //    }
+
+            //    else
+            //    {
+            //        if (Answer[i] == true)
+            //        {
+            //            isRight = true;
+            //        }
+            //        else
+            //            isRight = false;
+            //    }
+
+            //}
+
+            //if (isRight) RightWords++;
+
+        }
+            
+
+        public void ShowResultsForm()
+        {
+          //  IsAllLettersRight();
+            frmResults Result = new frmResults();
+            Result.ShowDialog();
+
+        }
+
 
     }
 }

@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using TypeTest.Colors;
 using TypeTest.Keyboard;
 using TypeTest.Paragraphs;
@@ -15,28 +17,39 @@ namespace TypeTest.End_Screen
 {
     public class clsResults
     {
-        MainForm form;
-        frmResults frmResults;
+        frmResults form;
+
         public short Wpm;
         public short AccurancyPrec;
         public short RightLettersPrec;
         public short WrongLettersPrec;
         public int TotalLetters;
         public int TotalWords;
+        public int NumOfRightWords;
+        public RichTextBox tbResult;
 
-        public clsResults(MainForm Form)
+        public clsResults(frmResults Form)
         {
             form = Form;
-            frmResults.ShowDialog();
-            form.timer1.Enabled = false;
-
+            tbResult = new RichTextBox();
+            MainForm.MyTimer.StopTimer();
             TotalLetters = MainForm.MyParagraph.TextLength();
             TotalWords = MainForm.MyParagraph.ShowenParagraph.Split().Length;
+            MainForm.MyParagraph.TextColor(ref tbResult);
+            NumOfRightWords = MainForm.MyParagraph.NumberOfRightWords();
 
-            frmResults.tbResult.Text = form.tbText.Text;
+            //MessageBox.Show($"Total: {TotalWords}\n Right:  {NumOfRightWords}");
 
         }
-        
+
+
+
+     
+
+
+
+
+
         public void WPM()
         {
             
