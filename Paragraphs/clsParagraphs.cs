@@ -19,13 +19,12 @@ namespace TypeTest.Paragraphs
     public class clsParagraphs
     {
         MainForm form;
-        public string ShowenParagraph = "";
+        public static string ShowenParagraph = "";
         private string _PrevParagraph = "";
         private int _TotalNumberOfParagraphs = 10;
         private int RightWords;
-        private int _BeginIndexOfWord;
+        public static int TotalWords;
         private RichTextBox tbText2;
-        public static RichTextBox tbCloned;
         private int Counter;
         private bool[] Answer;
         private bool IsArray = false;
@@ -37,9 +36,8 @@ namespace TypeTest.Paragraphs
         public clsParagraphs(MainForm Form)
         {
             tbText2 = new RichTextBox();
-            tbCloned = new RichTextBox();
             RightWords = 0;
-            _BeginIndexOfWord = 0;
+            TotalWords = 0;
             Counter = 0;
             IsArray = true;
             NumbersOfTrueLetters = 0;
@@ -76,7 +74,7 @@ namespace TypeTest.Paragraphs
             form.tbText.Enabled = true;
         }
 
-        public int TextLength()
+        public static int TextLength()
         {
             return ShowenParagraph.Length;
         }
@@ -223,71 +221,39 @@ namespace TypeTest.Paragraphs
 
         private void IsAllLettersRight()
         {
-            bool isRight = true;
             int AnsCounter = 0;
-            string Text = ShowenParagraph;
-            string[] Words = Text.Split(' ');
-
+            string[] Words = ShowenParagraph.Split(' ');
+            bool[] CheckWord;
+            TotalWords = Words.Length;
 
             for (int i = 0; i < Words.Length; i++)
             {
+                CheckWord = new bool[Words[i].Length];
+
                 for (int j = 0; j < Words[i].Length; j++)
                 {
+
                     if (Answer[AnsCounter] == false)
                     {
-                        AnsCounter++;
-                        isRight = false;
-                        break;
+                        CheckWord[j] = false;
                     }
-                    
-                        AnsCounter++;
+                    else
+                        CheckWord[j] = true;
+
+                    AnsCounter++;
                 }
                 AnsCounter++;
 
-                if (isRight) RightWords++;
-                isRight = true;
+                if (!CheckWord.Contains(false))
+                    RightWords++;
             }
-
-
-            //string check = "";
-
-            //for (int i = 0; i < Answer.Length - 1; i++) 
-            //{
-            //    if (Answer[i] == true) check += "True";
-            //    else check += "False";
-
-            //    check += " ";
-            //}
-            MessageBox.Show($"{ShowenParagraph.Length}\n{AnsCounter}\n{Answer.Length - 1}");
-
-            //for (int i = 0; i < ; i++)
-            //{
-            //    if (ShowenParagraph[i] == ' ' && isRight)
-            //    {
-            //        RightWords++;
-            //        isRight = false;
-            //    }
-
-            //    else
-            //    {
-            //        if (Answer[i] == true)
-            //        {
-            //            isRight = true;
-            //        }
-            //        else
-            //            isRight = false;
-            //    }
-
-            //}
-
-            //if (isRight) RightWords++;
 
         }
             
 
         public void ShowResultsForm()
         {
-          //  IsAllLettersRight();
+            IsAllLettersRight();
             frmResults Result = new frmResults();
             Result.ShowDialog();
 

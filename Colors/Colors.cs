@@ -190,12 +190,14 @@ namespace TypeTest.Colors
             frmResult.lblRightLetters.ForeColor = _KeyboardColors.BackColor;
             frmResult.lblWrongLettersPrec.ForeColor = _KeyboardColors.BackColor;
             frmResult.lblWrongLetters.ForeColor = _KeyboardColors.BackColor;
-            frmResult.PBAccuracy.ProgressColor = _TextBoxColors.BackColor;
-            frmResult.PBAccuracy.ProgressColor2 = _TextBoxColors.BackColor;
+
             frmResult.btnRestart.FillColor = _TextBoxColors.BackColor;
             frmResult.btnRestart.FillColor2 = _TextBoxColors.BackColor;
             frmResult.btnNext.FillColor = _TextBoxColors.BackColor;
             frmResult.btnNext.FillColor2 = _TextBoxColors.BackColor;
+            frmResult.PBRightLetters.FillColor = _TextBoxColors.BackColor;
+            frmResult.PBWrongLetters.FillColor = _TextBoxColors.BackColor;
+            frmResult.PBAccuracy.FillColor = _TextBoxColors.BackColor;
         }
     }
 }

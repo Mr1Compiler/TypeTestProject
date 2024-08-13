@@ -21,41 +21,58 @@ namespace TypeTest.End_Screen
 
         public short Wpm;
         public short AccurancyPrec;
-        public short RightLettersPrec;
-        public short WrongLettersPrec;
         public int TotalLetters;
         public int TotalWords;
         public int NumOfRightWords;
-        public RichTextBox tbResult;
 
         public clsResults(frmResults Form)
         {
             form = Form;
-            tbResult = new RichTextBox();
             MainForm.MyTimer.StopTimer();
-            TotalLetters = MainForm.MyParagraph.TextLength();
-            TotalWords = MainForm.MyParagraph.ShowenParagraph.Split().Length;
-            MainForm.MyParagraph.TextColor(ref tbResult);
+            TotalLetters = clsParagraphs.TextLength();
+            TotalWords = clsParagraphs.TotalWords;
             NumOfRightWords = MainForm.MyParagraph.NumberOfRightWords();
 
-            //MessageBox.Show($"Total: {TotalWords}\n Right:  {NumOfRightWords}");
+            MainForm.MyParagraph.TextColor(ref form.tbResult);
 
+            form.PBAccuracy.Maximum = 100;
+            form.PBRightLetters.Maximum = 100;
+            form.PBWrongLetters.Maximum = 100;
+
+
+            form.lblWpmResult.Text = Math.Round(WPM()).ToString();
+
+            form.PBAccuracy.Value = Convert.ToInt32(Accurancy());
+            form.lblAccuracyPrec.Text = form.PBAccuracy.Value.ToString() + "%";
+
+            form.PBRightLetters.Value = Convert.ToInt32(CorrectLettersPrec());
+            form.lblRightLettersPrec.Text = form.PBRightLetters.Value.ToString() + "%";
+
+            form.PBWrongLetters.Value = Convert.ToInt32(WrongLettersPrec());
+            form.lblWrongLettersPrec.Text = form.PBWrongLetters.Value.ToString() + "%";
         }
 
-
-
-     
-
-
-
-
-
-        public void WPM()
+        public double WPM()
         {
-            
+            double Time = Convert.ToDouble(MainForm.MyTimer.TimerValue()) / 60;
+
+            return Convert.ToDouble(NumOfRightWords) / Time;
         }
 
+        public double Accurancy()
+        {
+            return ((double)NumOfRightWords / TotalWords) * 100;
+        }
 
+        public double CorrectLettersPrec()
+        {
+            return ((double)clsParagraphs.NumbersOfTrueLetters / TotalLetters ) * 100;
+        }
+
+        public double WrongLettersPrec()
+        {
+            return ((double)clsParagraphs.NumbersOfWrongLetters / TotalLetters) * 100;
+        }
         public void RestartPressed()
         {
 

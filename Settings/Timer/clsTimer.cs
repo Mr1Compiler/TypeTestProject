@@ -22,7 +22,7 @@ namespace TypeTest.Settings.Timer
             Value = 30;
             form.timer1.Enabled = false;
             form.ProgressBar.Enabled = true;
-            ProgressBarValue = MainForm.MyParagraph.TextLength();
+            ProgressBarValue = clsParagraphs.TextLength();
             form.ProgressBar.Value = 0;
             form.ProgressBar.Minimum = 0;
             form.ProgressBar.Maximum = ProgressBarValue;
@@ -50,6 +50,11 @@ namespace TypeTest.Settings.Timer
                 form.ProgressBar.Value--;
             else
                 form.ProgressBar.Value++;
+        }
+
+        public int TimerValue()
+        {
+            return Value;
         }
 
         public bool IsTimerEnd()

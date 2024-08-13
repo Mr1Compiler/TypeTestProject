@@ -62,7 +62,7 @@
             this.lblWpmResult.Location = new System.Drawing.Point(364, 37);
             this.lblWpmResult.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblWpmResult.Name = "lblWpmResult";
-            this.lblWpmResult.Size = new System.Drawing.Size(64, 31);
+            this.lblWpmResult.Size = new System.Drawing.Size(86, 42);
             this.lblWpmResult.TabIndex = 1;
             this.lblWpmResult.Text = "0";
             // 
@@ -179,7 +179,7 @@
             this.btnRestart.ForeColor = System.Drawing.Color.White;
             this.btnRestart.HoverState.Parent = this.btnRestart;
             this.btnRestart.Location = new System.Drawing.Point(200, 512);
-            this.btnRestart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRestart.Margin = new System.Windows.Forms.Padding(4);
             this.btnRestart.Name = "btnRestart";
             this.btnRestart.ShadowDecoration.Parent = this.btnRestart;
             this.btnRestart.Size = new System.Drawing.Size(145, 48);
@@ -201,7 +201,7 @@
             this.btnNext.ForeColor = System.Drawing.Color.White;
             this.btnNext.HoverState.Parent = this.btnNext;
             this.btnNext.Location = new System.Drawing.Point(387, 512);
-            this.btnNext.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnNext.Margin = new System.Windows.Forms.Padding(4);
             this.btnNext.Name = "btnNext";
             this.btnNext.ShadowDecoration.Parent = this.btnNext;
             this.btnNext.Size = new System.Drawing.Size(145, 48);
@@ -223,7 +223,7 @@
             // 
             this.tbResult.BackColor = System.Drawing.SystemColors.HighlightText;
             this.tbResult.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.tbResult.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbResult.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbResult.ForeColor = System.Drawing.Color.Black;
             this.tbResult.HideSelection = false;
             this.tbResult.Location = new System.Drawing.Point(47, 127);
