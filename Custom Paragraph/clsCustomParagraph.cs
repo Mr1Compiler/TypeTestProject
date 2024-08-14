@@ -15,9 +15,8 @@ namespace TypeTest.Custom_Paragraph
         public clsCustomParagraph(frmCustomParagraph Form)
         {
             form = Form;
-            MainForm.MyColors.ColoringTextBox(ref form.tbAddCustom);
+            MainForm.MyColors.frmCustomParagraph(form);
         }
-
         public void AddBtnPressed()
         {
             if (Validating())

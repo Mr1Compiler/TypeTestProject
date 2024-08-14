@@ -16,5 +16,11 @@ namespace TypeTest.Settings
         {
             InitializeComponent();
         }
+
+        private void frmTime_Load(object sender, EventArgs e)
+        {
+
+            MainForm.MyColors.frmTimeColors(this);
+        }
     }
 }

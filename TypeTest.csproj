@@ -133,6 +133,8 @@
   <ItemGroup>
     <None Include="Images and Icons\TimerPng.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Settings\Time\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

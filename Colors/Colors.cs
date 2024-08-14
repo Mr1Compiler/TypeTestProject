@@ -14,8 +14,10 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Serialization;
 using TypeTest.Colors;
+using TypeTest.Custom_Paragraph;
 using TypeTest.Keyboard;
 using TypeTest.Results;
+using TypeTest.Settings;
 
 namespace TypeTest.Colors
 {
@@ -116,11 +118,11 @@ namespace TypeTest.Colors
 
         public void ColoringTextBox(ref RichTextBox tb)
         {
-            
+
             tb.BackColor = _TextBoxColors.BackColor;
 
             tb.ForeColor = _TextBoxColors.TextColor;
-            
+
             tb.ForeColor = _TextBoxColors.TextColor;
 
 
@@ -205,6 +207,47 @@ namespace TypeTest.Colors
             frmResult.PBRightLetters.FillColor = _TextBoxColors.BackColor;
             frmResult.PBWrongLetters.FillColor = _TextBoxColors.BackColor;
             frmResult.PBAccuracy.FillColor = _TextBoxColors.BackColor;
+        }
+
+        public void ColoringButton(ref Guna2GradientButton btn)
+        {
+            btn.FillColor = _TextBoxColors.BackColor;
+            btn.FillColor2 = _TextBoxColors.BackColor;
+        }
+        public void frmTimeColors(frmTime frmTime)
+        {
+            frmTime.BackColor = _MainFormColors.BackColor;
+            frmTime.cbSelectTime.BackColor = _TextBoxColors.BackColor;
+            frmTime.cbSelectTime.FillColor = _TextBoxColors.BackColor;
+            frmTime.cbSelectTime.ForeColor = _TextBoxColors.TextColor;
+            frmTime.cbSelectTime.BorderColor = _TextBoxColors.BackColor;
+
+            frmTime.gbCustomTime.BackColor = _TextBoxColors.BackColor;
+            frmTime.gbCustomTime.ForeColor = _TextBoxColors.TextColor;
+            frmTime.gbCustomTime.BorderColor = _TextBoxColors.BackColor;
+            frmTime.gbCustomTime.CustomBorderColor = _TextBoxColors.BackColor;
+            frmTime.gbCustomTime.FillColor = _MainFormColors.BackColor;
+
+            frmTime.cbSelectCustomTime.BackColor = _TextBoxColors.BackColor;
+            frmTime.cbSelectCustomTime.FillColor = _TextBoxColors.BackColor;
+            frmTime.cbSelectCustomTime.ForeColor = _TextBoxColors.TextColor;
+            frmTime.cbSelectCustomTime.BorderColor = _TextBoxColors.BackColor;
+
+            frmTime.cbSelectCustomNumber.BackColor = _TextBoxColors.BackColor;
+            frmTime.cbSelectCustomNumber.FillColor = _TextBoxColors.BackColor;
+            frmTime.cbSelectCustomNumber.ForeColor = _TextBoxColors.TextColor;
+            frmTime.cbSelectCustomNumber.BorderColor = _TextBoxColors.BackColor;
+
+
+            ColoringButton(ref frmTime.btnCancel);
+            ColoringButton(ref frmTime.btnApplay);
+        }
+
+        public void frmCustomParagraph(frmCustomParagraph frmCustomParagraph)
+        {
+            ColoringTextBox(ref frmCustomParagraph.tbAddCustom);
+            ColoringButton(ref frmCustomParagraph.btnCancel);
+            ColoringButton(ref frmCustomParagraph.btnAdd);
         }
     }
 }
