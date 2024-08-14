@@ -190,7 +190,6 @@ namespace TypeTest.Colors
             frmResult.lblRightLetters.ForeColor = _KeyboardColors.BackColor;
             frmResult.lblWrongLettersPrec.ForeColor = _KeyboardColors.BackColor;
             frmResult.lblWrongLetters.ForeColor = _KeyboardColors.BackColor;
-
             frmResult.btnRestart.FillColor = _TextBoxColors.BackColor;
             frmResult.btnRestart.FillColor2 = _TextBoxColors.BackColor;
             frmResult.btnNext.FillColor = _TextBoxColors.BackColor;

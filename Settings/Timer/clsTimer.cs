@@ -13,13 +13,16 @@ namespace TypeTest.Settings.Timer
     public class clsTimer
     {
         MainForm form;
-        public static int Value;
         public int ProgressBarValue;
+        public static int TimerValue;
+        public int CurrentValue;
 
         public clsTimer(MainForm Form)
         {
             form = Form;
-            Value = 30;
+
+            TimerValue = 30;
+            CurrentValue = 0;
             form.timer1.Enabled = false;
             form.ProgressBar.Enabled = true;
             ProgressBarValue = clsParagraphs.TextLength();
@@ -33,8 +36,9 @@ namespace TypeTest.Settings.Timer
         {
             if (!IsTimerEnd())
             {
-                form.lblTimer.Text = Value.ToString();
-                Value--;
+                form.lblTimer.Text = TimerValue.ToString();
+                TimerValue--;
+                CurrentValue++;
             }
 
             else
@@ -52,14 +56,19 @@ namespace TypeTest.Settings.Timer
                 form.ProgressBar.Value++;
         }
 
-        public int TimerValue()
+        public int GetTimerValue()
         {
-            return Value;
+            return TimerValue;
+        }
+
+        public int GetCurrentTimerValue()
+        {
+            return CurrentValue;
         }
 
         public bool IsTimerEnd()
         {
-            return (Value == 0);
+            return (TimerValue == 0);
         }
 
         public void StopTimer()

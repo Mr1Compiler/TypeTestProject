@@ -158,7 +158,7 @@ namespace TypeTest.Paragraphs
             {
                 form.lblTimer.Visible = true;
                 form.timer1.Enabled = true;
-                form.lblTimer.Text = clsTimer.Value.ToString();
+                form.lblTimer.Text = clsTimer.TimerValue.ToString();
                 form.pbRestart.Visible = true;
             }
 

@@ -54,7 +54,7 @@ namespace TypeTest.End_Screen
 
         public double WPM()
         {
-            double Time = Convert.ToDouble(MainForm.MyTimer.TimerValue()) / 60;
+            double Time = Convert.ToDouble(MainForm.MyTimer.GetCurrentTimerValue()) / 60;
 
             return Convert.ToDouble(NumOfRightWords) / Time;
         }
