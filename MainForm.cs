@@ -35,6 +35,7 @@ namespace TypeTest
         public static clsCustomParagraph MyCustomParagraph;
         public static clsCustomParagraph clsCustomParagraph;
         public static bool SameText = false;
+        public static bool CustomTime = false;
         public bool Close = true;
         public MainForm()
         {
@@ -53,14 +54,25 @@ namespace TypeTest
             InitialzingObjest();
             this.KeyPreview = true;
         }
-
         public void CustomText(string CustomParagraph)
         {
             clsParagraphs.CustomText = true;
             clsParagraphs.CustomParagraph = CustomParagraph;
             MyParagraph = new clsParagraphs(this);
             MyTimer = new clsTimer(this);
-            clsParagraphs.CustomText = false;
+            clsParagraphs.CustomText = false;  
+        }
+        public void CustomTimer(int CustomTimer)
+        {
+            CustomTime = true;
+            clsTimer.CustomValue = CustomTimer;
+            MyTimer = new clsTimer(this);
+            clsTimer.isCustomValue = false;
+            MyParagraph = new clsParagraphs(this);
+            SettingsPanel.Enabled = false;
+            SettingsPanel.Visible = false;
+            Close = true;
+
         }
         private void btnfrmSettings_Click(object sender, EventArgs e)
         {
@@ -90,24 +102,20 @@ namespace TypeTest
             frmTime frmTimeSettings = new frmTime();
             frmTimeSettings.ShowDialog();
         }
-
         private void timer1_Tick(object sender, EventArgs e)
         {
             MyTimer.TimerTick();
         }
-
         private void pbRestart_Click(object sender, EventArgs e)
         {
             SameText = true;
             MyRestart.RestartAll();
             SameText = false;
         }
-
         private void pbNextText_Click(object sender, EventArgs e)
         {
             MyParagraph.AnotherParagragh();
         }
-
         private void pbAdd_Click(object sender, EventArgs e)
         {
             frmCustomParagraph frm = new frmCustomParagraph();

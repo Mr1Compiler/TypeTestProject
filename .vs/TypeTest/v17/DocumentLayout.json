@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|e:\\projects\\typetest_colned\\typetestproject\\colors\\colors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|solutionrelative:colors\\colors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|e:\\projects\\typetest_colned\\typetestproject\\settings\\timer\\clstimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|solutionrelative:settings\\timer\\clstimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|e:\\projects\\typetest_colned\\typetestproject\\settings\\frmtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|solutionrelative:settings\\frmtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|e:\\projects\\typetest_colned\\typetestproject\\paragraphs\\clsparagraphs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|solutionrelative:paragraphs\\clsparagraphs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|e:\\projects\\typetest_colned\\typetestproject\\settings\\frmtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|solutionrelative:settings\\frmtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|e:\\projects\\typetest_colned\\typetestproject\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|e:\\projects\\typetest_colned\\typetestproject\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|E:\\Projects\\TypeTest_Colned\\TypeTestProject\\settings\\time\\frmtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|solutionrelative:settings\\time\\frmtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|E:\\Projects\\TypeTest_Colned\\TypeTestProject\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|e:\\projects\\typetest_colned\\typetestproject\\custom paragraph\\clscustomparagraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|solutionrelative:custom paragraph\\clscustomparagraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|e:\\projects\\typetest_colned\\typetestproject\\custom paragraph\\frmcustomparagraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,6 +29,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|e:\\projects\\typetest_colned\\typetestproject\\custom paragraph\\frmcustomparagraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|solutionrelative:custom paragraph\\frmcustomparagraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|e:\\projects\\typetest_colned\\typetestproject\\settings\\time\\frmtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|solutionrelative:settings\\time\\frmtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|E:\\Projects\\TypeTest_Colned\\TypeTestProject\\colors\\colors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|solutionrelative:colors\\colors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,8 +45,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 209,
-          "SelectedChildIndex": 9,
+          "DockedWidth": 207,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -64,9 +72,9 @@
               "RelativeDocumentMoniker": "Custom Paragraph\\frmCustomParagraph.cs",
               "ToolTip": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\Custom Paragraph\\frmCustomParagraph.cs",
               "RelativeToolTip": "Custom Paragraph\\frmCustomParagraph.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAUwBsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T15:48:58.153Z",
+              "WhenOpened": "2024-08-14T19:13:18.201Z",
               "EditorCaption": ""
             },
             {
@@ -78,56 +86,55 @@
               "ToolTip": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\Custom Paragraph\\frmCustomParagraph.cs [Design]",
               "RelativeToolTip": "Custom Paragraph\\frmCustomParagraph.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T14:43:38.168Z",
+              "WhenOpened": "2024-08-14T19:13:13.409Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "frmTime.cs",
-              "DocumentMoniker": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\Settings\\frmTime.cs",
-              "RelativeDocumentMoniker": "Settings\\frmTime.cs",
-              "ToolTip": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\Settings\\frmTime.cs",
-              "RelativeToolTip": "Settings\\frmTime.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAArwBUAAAAAAAAA",
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\MainForm.cs [Design]",
+              "RelativeToolTip": "MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T14:39:05.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-14T18:37:19.48Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MainForm.cs",
               "DocumentMoniker": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",
               "ToolTip": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\MainForm.cs",
               "RelativeToolTip": "MainForm.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAkwFkAAAAxAAAA",
+              "ViewState": "AQIAAB4AAACABzMzM7MewEMAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T14:35:45.394Z",
+              "WhenOpened": "2024-08-14T16:34:54.301Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "clsCustomParagraph.cs",
-              "DocumentMoniker": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\Custom Paragraph\\clsCustomParagraph.cs",
-              "RelativeDocumentMoniker": "Custom Paragraph\\clsCustomParagraph.cs",
-              "ToolTip": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\Custom Paragraph\\clsCustomParagraph.cs",
-              "RelativeToolTip": "Custom Paragraph\\clsCustomParagraph.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA3AAAA",
+              "DocumentIndex": 0,
+              "Title": "clsTimer.cs",
+              "DocumentMoniker": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\Settings\\Timer\\clsTimer.cs",
+              "RelativeDocumentMoniker": "Settings\\Timer\\clsTimer.cs",
+              "ToolTip": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\Settings\\Timer\\clsTimer.cs",
+              "RelativeToolTip": "Settings\\Timer\\clsTimer.cs",
+              "ViewState": "AQIAAA0AAABg9////z81wDgAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T15:49:37.521Z",
+              "WhenOpened": "2024-08-14T16:26:28.061Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "frmTime.cs [Design]",
-              "DocumentMoniker": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\Settings\\frmTime.cs",
-              "RelativeDocumentMoniker": "Settings\\frmTime.cs",
-              "ToolTip": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\Settings\\frmTime.cs [Design]",
-              "RelativeToolTip": "Settings\\frmTime.cs [Design]",
+              "DocumentMoniker": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\Settings\\Time\\frmTime.cs",
+              "RelativeDocumentMoniker": "Settings\\Time\\frmTime.cs",
+              "ToolTip": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\Settings\\Time\\frmTime.cs [Design]",
+              "RelativeToolTip": "Settings\\Time\\frmTime.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-14T14:36:15.695Z",
               "EditorCaption": " [Design]"
@@ -135,21 +142,46 @@
           ]
         },
         {
-          "DockedWidth": 209,
+          "DockedWidth": 211,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "clsParagraphs.cs",
+              "DocumentMoniker": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\Paragraphs\\clsParagraphs.cs",
+              "RelativeDocumentMoniker": "Paragraphs\\clsParagraphs.cs",
+              "ToolTip": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\Paragraphs\\clsParagraphs.cs",
+              "RelativeToolTip": "Paragraphs\\clsParagraphs.cs",
+              "ViewState": "AQIAAEgAAACAxczMzIwrwFQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T18:16:04.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmTime.cs",
+              "DocumentMoniker": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\Settings\\Time\\frmTime.cs",
+              "RelativeDocumentMoniker": "Settings\\Time\\frmTime.cs",
+              "ToolTip": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\Settings\\Time\\frmTime.cs",
+              "RelativeToolTip": "Settings\\Time\\frmTime.cs",
+              "ViewState": "AQIAABIAAABAMDMzMzMgwHIAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T14:39:05.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Colors.cs",
               "DocumentMoniker": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\Colors\\Colors.cs",
               "RelativeDocumentMoniker": "Colors\\Colors.cs",
               "ToolTip": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\Colors\\Colors.cs",
               "RelativeToolTip": "Colors\\Colors.cs",
-              "ViewState": "AQIAAJwAAAAAm5mZmdkqwLwAAAAAAAAA",
+              "ViewState": "AQIAADEAAAAgzMzMzAwzwHYAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T15:23:26.222Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-14T15:23:26.222Z"
             }
           ]
         }

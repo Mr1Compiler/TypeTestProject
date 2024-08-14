@@ -78,10 +78,10 @@
     <Compile Include="Results\frmResults.Designer.cs">
       <DependentUpon>frmResults.cs</DependentUpon>
     </Compile>
-    <Compile Include="Settings\frmTime.cs">
+    <Compile Include="Settings\Time\frmTime.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Settings\frmTime.Designer.cs">
+    <Compile Include="Settings\Time\frmTime.Designer.cs">
       <DependentUpon>frmTime.cs</DependentUpon>
     </Compile>
     <Compile Include="Settings\Restart\clsRestart.cs" />
@@ -99,7 +99,7 @@
     <EmbeddedResource Include="Results\frmResults.resx">
       <DependentUpon>frmResults.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Settings\frmTime.resx">
+    <EmbeddedResource Include="Settings\Time\frmTime.resx">
       <DependentUpon>frmTime.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
@@ -133,8 +133,6 @@
   <ItemGroup>
     <None Include="Images and Icons\TimerPng.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Settings\Time\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

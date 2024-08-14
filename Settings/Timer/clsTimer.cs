@@ -17,12 +17,21 @@ namespace TypeTest.Settings.Timer
         public int ProgressBarValue;
         public static int TimerValue;
         public int CurrentValue;
-
+        public static bool isCustomValue = false;
+        public static int CustomValue = 0;
         public clsTimer(MainForm Form)
         {
             form = Form;
 
-            TimerValue = InitializingTimerValue();
+            if(MainForm.CustomTime)
+            {
+                TimerValue = CustomValue;
+            }
+            else
+            {
+                TimerValue = InitializingTimerValue();
+            }
+            
             CurrentValue = 0;
             form.timer1.Enabled = false;
             form.ProgressBar.Enabled = true;
@@ -32,11 +41,23 @@ namespace TypeTest.Settings.Timer
             form.ProgressBar.Maximum = ProgressBarValue;
         }
 
+        public void SetCustomValue(int Value)
+        {
+            form.CustomTimer(Value);
+        }
         public int InitializingTimerValue()
         {
-            return 15;
-        }
+            if (isCustomValue)
+            {
+                isCustomValue = false;
+                return CustomValue;
+            }
 
+            else
+            {
+                return 30;
+            }
+        }
         public void TimerTick()
         {
             if (!IsTimerEnd())
@@ -52,7 +73,6 @@ namespace TypeTest.Settings.Timer
                 MainForm.MyParagraph.ShowResultsForm();
             }
         }
-
         public void ProgressBar(bool IsBackSpace)
         {
             if (IsBackSpace)
@@ -60,7 +80,6 @@ namespace TypeTest.Settings.Timer
             else
                 form.ProgressBar.Value++;
         }
-
         public int GetTimerValue()
         {
             return TimerValue;

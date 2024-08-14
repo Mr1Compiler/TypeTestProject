@@ -34,8 +34,8 @@
             this.btnApplay = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnCancel = new Guna.UI2.WinForms.Guna2GradientButton();
             this.gbCustomTime = new Guna.UI2.WinForms.Guna2GroupBox();
-            this.cbSelectCustomNumber = new Guna.UI2.WinForms.Guna2ComboBox();
             this.cbSelectCustomTime = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.cbSelectCustomNumber = new Guna.UI2.WinForms.Guna2ComboBox();
             this.gbCustomTime.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,6 +62,7 @@
             this.cbSelectTime.ShadowDecoration.Parent = this.cbSelectTime;
             this.cbSelectTime.Size = new System.Drawing.Size(195, 36);
             this.cbSelectTime.TabIndex = 0;
+            this.cbSelectTime.SelectedIndexChanged += new System.EventHandler(this.cbSelectTime_SelectedIndexChanged);
             // 
             // lblSelect
             // 
@@ -94,6 +95,7 @@
             this.btnApplay.Size = new System.Drawing.Size(145, 48);
             this.btnApplay.TabIndex = 21;
             this.btnApplay.Text = "Applay";
+            this.btnApplay.Click += new System.EventHandler(this.btnApplay_Click);
             // 
             // btnCancel
             // 
@@ -115,11 +117,13 @@
             this.btnCancel.Size = new System.Drawing.Size(145, 48);
             this.btnCancel.TabIndex = 22;
             this.btnCancel.Text = "Cancel";
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // gbCustomTime
             // 
             this.gbCustomTime.Controls.Add(this.cbSelectCustomTime);
             this.gbCustomTime.Controls.Add(this.cbSelectCustomNumber);
+            this.gbCustomTime.Enabled = false;
             this.gbCustomTime.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbCustomTime.ForeColor = System.Drawing.Color.Black;
             this.gbCustomTime.Location = new System.Drawing.Point(85, 210);
@@ -129,11 +133,35 @@
             this.gbCustomTime.TabIndex = 25;
             this.gbCustomTime.Text = "Custom Time";
             // 
+            // cbSelectCustomTime
+            // 
+            this.cbSelectCustomTime.BackColor = System.Drawing.Color.Transparent;
+            this.cbSelectCustomTime.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cbSelectCustomTime.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbSelectCustomTime.FocusedColor = System.Drawing.Color.Empty;
+            this.cbSelectCustomTime.FocusedState.Parent = this.cbSelectCustomTime;
+            this.cbSelectCustomTime.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cbSelectCustomTime.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cbSelectCustomTime.FormattingEnabled = true;
+            this.cbSelectCustomTime.HoverState.Parent = this.cbSelectCustomTime;
+            this.cbSelectCustomTime.ItemHeight = 30;
+            this.cbSelectCustomTime.Items.AddRange(new object[] {
+            "Sec",
+            "Min"});
+            this.cbSelectCustomTime.ItemsAppearance.Parent = this.cbSelectCustomTime;
+            this.cbSelectCustomTime.Location = new System.Drawing.Point(173, 72);
+            this.cbSelectCustomTime.Name = "cbSelectCustomTime";
+            this.cbSelectCustomTime.ShadowDecoration.Parent = this.cbSelectCustomTime;
+            this.cbSelectCustomTime.Size = new System.Drawing.Size(86, 36);
+            this.cbSelectCustomTime.TabIndex = 27;
+            this.cbSelectCustomTime.SelectedIndexChanged += new System.EventHandler(this.cbSelectCustomTime_SelectedIndexChanged);
+            // 
             // cbSelectCustomNumber
             // 
             this.cbSelectCustomNumber.BackColor = System.Drawing.Color.Transparent;
             this.cbSelectCustomNumber.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cbSelectCustomNumber.DropDownHeight = 100;
+            this.cbSelectCustomNumber.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbSelectCustomNumber.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.cbSelectCustomNumber.FocusedColor = System.Drawing.Color.Empty;
             this.cbSelectCustomNumber.FocusedState.Parent = this.cbSelectCustomNumber;
@@ -209,28 +237,7 @@
             this.cbSelectCustomNumber.ShadowDecoration.Parent = this.cbSelectCustomNumber;
             this.cbSelectCustomNumber.Size = new System.Drawing.Size(106, 36);
             this.cbSelectCustomNumber.TabIndex = 26;
-            // 
-            // cbSelectCustomTime
-            // 
-            this.cbSelectCustomTime.BackColor = System.Drawing.Color.Transparent;
-            this.cbSelectCustomTime.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cbSelectCustomTime.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbSelectCustomTime.FocusedColor = System.Drawing.Color.Empty;
-            this.cbSelectCustomTime.FocusedState.Parent = this.cbSelectCustomTime;
-            this.cbSelectCustomTime.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.cbSelectCustomTime.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.cbSelectCustomTime.FormattingEnabled = true;
-            this.cbSelectCustomTime.HoverState.Parent = this.cbSelectCustomTime;
-            this.cbSelectCustomTime.ItemHeight = 30;
-            this.cbSelectCustomTime.Items.AddRange(new object[] {
-            "Sec",
-            "Min"});
-            this.cbSelectCustomTime.ItemsAppearance.Parent = this.cbSelectCustomTime;
-            this.cbSelectCustomTime.Location = new System.Drawing.Point(173, 72);
-            this.cbSelectCustomTime.Name = "cbSelectCustomTime";
-            this.cbSelectCustomTime.ShadowDecoration.Parent = this.cbSelectCustomTime;
-            this.cbSelectCustomTime.Size = new System.Drawing.Size(86, 36);
-            this.cbSelectCustomTime.TabIndex = 27;
+            this.cbSelectCustomNumber.SelectedIndexChanged += new System.EventHandler(this.cbSelectCustomNumber_SelectedIndexChanged);
             // 
             // frmTime
             // 
@@ -247,7 +254,6 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmTime";
-            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Time Settings";
             this.Load += new System.EventHandler(this.frmTime_Load);

@@ -1498,7 +1498,7 @@
             this.lblTimer.Location = new System.Drawing.Point(1225, 159);
             this.lblTimer.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTimer.Name = "lblTimer";
-            this.lblTimer.Size = new System.Drawing.Size(43, 34);
+            this.lblTimer.Size = new System.Drawing.Size(90, 34);
             this.lblTimer.TabIndex = 6;
             this.lblTimer.Visible = false;
             // 

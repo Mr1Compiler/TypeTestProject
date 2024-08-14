@@ -131,7 +131,6 @@ namespace TypeTest.Paragraphs
         {
             return ShowenParagraph = Paragraphs(GetRandomNumber(0,_TotalNumberOfParagraphs));
         }
-
         private void TestArray()
         {
             if (IsArray)
@@ -143,7 +142,6 @@ namespace TypeTest.Paragraphs
             form.tbText.SelectionBackColor = MainForm.MyColors.SelectionColorOfLetter();
 
         }
-
         public void TextColor(ref RichTextBox tb)
         {
             tb.Text = ShowenParagraph;
@@ -197,7 +195,6 @@ namespace TypeTest.Paragraphs
         {
             return (ch1 == ch2);
         }
-
         private bool IsItTheLastLetter()
         {
             return (Counter == TextLength());
@@ -263,12 +260,10 @@ namespace TypeTest.Paragraphs
             IsBackSpace = false;
             if (IsItTheLastLetter()) ShowResultsForm();
         }
-
         public void KeyUp(object sender, KeyEventArgs e)
         {
             MainForm.MyKeyboard.ButtonNormalColor(sender, e);
         }
-
         private void IsAllLettersRight()
         {
             int AnsCounter = 0;
@@ -298,9 +293,7 @@ namespace TypeTest.Paragraphs
                     RightWords++;
             }
 
-        }
-            
-
+        }          
         public void ShowResultsForm()
         {
             IsAllLettersRight();
