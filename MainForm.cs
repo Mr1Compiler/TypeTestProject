@@ -14,6 +14,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Serialization;
 using TypeTest.Colors;
+using TypeTest.Custom_Paragraph;
 using TypeTest.End_Screen;
 using TypeTest.Keyboard;
 using TypeTest.Paragraphs;
@@ -31,6 +32,8 @@ namespace TypeTest
         public static clsTimer MyTimer;
         public static clsRestart MyRestart;
         public static clsResults MyResults;
+        public static clsCustomParagraph MyCustomParagraph;
+        public static clsCustomParagraph clsCustomParagraph;
         public static bool SameText = false;
         public bool Close = true;
         public MainForm()
@@ -51,6 +54,14 @@ namespace TypeTest
             this.KeyPreview = true;
         }
 
+        public void CustomText(string CustomParagraph)
+        {
+            clsParagraphs.CustomText = true;
+            clsParagraphs.CustomParagraph = CustomParagraph;
+            MyParagraph = new clsParagraphs(this);
+            MyTimer = new clsTimer(this);
+            clsParagraphs.CustomText = false;
+        }
         private void btnfrmSettings_Click(object sender, EventArgs e)
         {
             
@@ -74,7 +85,6 @@ namespace TypeTest
         {
            MyParagraph.KeyUp(sender, e);
         }
-
         private void btnTimeSettings_Click(object sender, EventArgs e)
         {
             frmTime frmTimeSettings = new frmTime();
@@ -96,6 +106,12 @@ namespace TypeTest
         private void pbNextText_Click(object sender, EventArgs e)
         {
             MyParagraph.AnotherParagragh();
+        }
+
+        private void pbAdd_Click(object sender, EventArgs e)
+        {
+            frmCustomParagraph frm = new frmCustomParagraph();
+            frm.ShowDialog();
         }
     }
 }

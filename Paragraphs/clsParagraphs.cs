@@ -19,8 +19,8 @@ namespace TypeTest.Paragraphs
 {
     public class clsParagraphs
     {
-        MainForm form;
-        public static string ShowenParagraph = "";
+        MainForm form = null;
+        public string ShowenParagraph = "";
         private string _PrevParagraph = "";
         private int _TotalNumberOfParagraphs;
         private int RightWords;
@@ -32,9 +32,49 @@ namespace TypeTest.Paragraphs
         public static int NumbersOfTrueLetters;
         public static int NumbersOfWrongLetters;
         public bool IsBackSpace = false;
+        public static bool CustomText = false;
+        public static string CustomParagraph = "";
 
-        
         public clsParagraphs(MainForm Form)
+        {
+            form = Form;
+            tbText2 = new RichTextBox();
+            _TotalNumberOfParagraphs = Texts.Paragraphs.Length;
+            RightWords = 0;
+            TotalWords = 0;
+            Counter = 0;
+            IsArray = true;
+            NumbersOfTrueLetters = 0;
+            NumbersOfWrongLetters = 0;
+            IsBackSpace = false;
+            
+
+            if (CustomText)
+            {
+                ShowenParagraph = CustomParagraph;
+            }
+            else
+            {
+                if (MainForm.SameText)
+                {
+                    ShowenParagraph = form.tbText.Text;
+                }
+                else
+                {
+                    GetRandomParagraph();
+                    _PrevParagraph = ShowenParagraph;
+                }
+            }
+
+            form.tbText.Text = ShowenParagraph;
+            tbText2.Text = ShowenParagraph;
+            TestArray();
+        }
+        public void AsiggnNewParagraph(string Paragraph)
+        {
+            form.CustomText(Paragraph);
+        }
+        public clsParagraphs(MainForm form,string Paragraph)
         {
             tbText2 = new RichTextBox();
             _TotalNumberOfParagraphs = Texts.Paragraphs.Length;
@@ -45,7 +85,6 @@ namespace TypeTest.Paragraphs
             NumbersOfTrueLetters = 0;
             NumbersOfWrongLetters = 0;
             IsBackSpace = false;
-            form = Form;
 
             if (MainForm.SameText)
             {
@@ -53,7 +92,7 @@ namespace TypeTest.Paragraphs
             }
             else
             {
-                GetRandomParagraph();
+                ShowenParagraph = Paragraph;
                 _PrevParagraph = ShowenParagraph;
             }
 
@@ -61,12 +100,10 @@ namespace TypeTest.Paragraphs
             tbText2.Text = ShowenParagraph;
             TestArray();
         }
-
         public int NumberOfRightWords()
         {
             return RightWords;
         }
-
         public void AnotherParagragh()
         {
             MainForm.MyColors.SetKeyboardColors();
@@ -75,8 +112,7 @@ namespace TypeTest.Paragraphs
             MainForm.MyTimer = new clsTimer(form);
             form.tbText.Enabled = true;
         }
-
-        public static int TextLength()
+        public int TextLength()
         {
             return ShowenParagraph.Length;
         }

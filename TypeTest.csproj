@@ -53,6 +53,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Colors\Colors.cs" />
+    <Compile Include="Custom Paragraph\clsCustomParagraph.cs" />
+    <Compile Include="Custom Paragraph\frmCustomParagraph.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Custom Paragraph\frmCustomParagraph.Designer.cs">
+      <DependentUpon>frmCustomParagraph.cs</DependentUpon>
+    </Compile>
     <Compile Include="Paragraphs\Texts.cs" />
     <Compile Include="Results\clsResults.cs" />
     <Compile Include="Keyboard\clsKeyboard.cs" />
@@ -79,6 +86,9 @@
     </Compile>
     <Compile Include="Settings\Restart\clsRestart.cs" />
     <Compile Include="Settings\Timer\clsTimer.cs" />
+    <EmbeddedResource Include="Custom Paragraph\frmCustomParagraph.resx">
+      <DependentUpon>frmCustomParagraph.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>

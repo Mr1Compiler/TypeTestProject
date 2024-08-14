@@ -29,7 +29,7 @@ namespace TypeTest.End_Screen
         {
             form = Form;
             MainForm.MyTimer.StopTimer();
-            TotalLetters = clsParagraphs.TextLength();
+            TotalLetters = MainForm.MyParagraph.TextLength();
             TotalWords = clsParagraphs.TotalWords;
             NumOfRightWords = MainForm.MyParagraph.NumberOfRightWords();
 
