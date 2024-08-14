@@ -13,6 +13,7 @@ using TypeTest.End_Screen;
 using TypeTest.Keyboard;
 using TypeTest.Results;
 using TypeTest.Settings.Timer;
+using TypeTest.Paragraphs;
 
 namespace TypeTest.Paragraphs
 {
@@ -21,7 +22,7 @@ namespace TypeTest.Paragraphs
         MainForm form;
         public static string ShowenParagraph = "";
         private string _PrevParagraph = "";
-        private int _TotalNumberOfParagraphs = 10;
+        private int _TotalNumberOfParagraphs;
         private int RightWords;
         public static int TotalWords;
         private RichTextBox tbText2;
@@ -36,6 +37,7 @@ namespace TypeTest.Paragraphs
         public clsParagraphs(MainForm Form)
         {
             tbText2 = new RichTextBox();
+            _TotalNumberOfParagraphs = Texts.Paragraphs.Length;
             RightWords = 0;
             TotalWords = 0;
             Counter = 0;
@@ -87,21 +89,7 @@ namespace TypeTest.Paragraphs
         }
         private string Paragraphs(int Index)
         {
-            string[] Paragraphs =
-            {
-            "The quick brown fox jumps over the lazy dog",
-            "A journey of a thousand miles begins with a single step",
-            "To be or not to be, that is the question",
-            "All that glitters is not gold",
-            "A picture is worth a thousand words",
-            "Fortune favors the bold",
-            "The early bird catches the worm",
-            "Actions speak louder than words",
-            "When in Rome, do as the Romans do",
-            "You can lead a horse to water, but you can't make it drink"
-            };
-
-            return Paragraphs[Index];
+            return Texts.Paragraphs[Index];
         }
         private string GetRandomParagraph()
         {
@@ -119,9 +107,13 @@ namespace TypeTest.Paragraphs
             form.tbText.SelectionBackColor = MainForm.MyColors.SelectionColorOfLetter();
 
         }
+
         public void TextColor(ref RichTextBox tb)
         {
-            tb.Text = tbText2.Text;
+            tb.Text = ShowenParagraph;
+            tb.HideSelection = true;
+
+            MainForm.MyColors.ColoringTextBox(ref tb);
 
             for (int i = 0; i < Counter + 1; i++)
             {
@@ -137,7 +129,29 @@ namespace TypeTest.Paragraphs
                     tb.SelectionColor = MainForm.MyColors.ColoringWrongLetter();
                 }
             }
-            tb.SelectionBackColor = MainForm.MyColors.SelectedLetterBackColor();
+           // tb.SelectionBackColor = MainForm.MyColors.SelectedLetterBackColor();
+        }
+        public void TextColor()
+        {
+            form.tbText.Text = tbText2.Text;
+            form.tbText.HideSelection = true;
+
+            for (int i = 0; i < Counter + 1; i++)
+            {
+                form.tbText.Select(i, 1);
+
+                if (Answer[i] == true)
+                {
+                    form.tbText.SelectionColor = MainForm.MyColors.ColoringTrueLetter();
+                }
+
+                else
+                {
+                    form.tbText.SelectionColor = MainForm.MyColors.ColoringWrongLetter();
+                }
+
+            }
+            form.tbText.SelectionBackColor = MainForm.MyColors.SelectedLetterBackColor();
         }
         private void Selection(int Counter, int SelectionIndex)
         {
@@ -205,7 +219,7 @@ namespace TypeTest.Paragraphs
                 NumbersOfWrongLetters++;
             }
 
-            TextColor(ref form.tbText);
+            TextColor();
             form.tbText.Select(Counter, 1);
             form.tbText.SelectionBackColor = MainForm.MyColors.SelectionColorOfLetter();
             form.tbText.SelectionColor = MainForm.MyColors.SelectedLetterBackColor();

@@ -32,7 +32,7 @@ namespace TypeTest
         public static clsRestart MyRestart;
         public static clsResults MyResults;
         public static bool SameText = false;
-
+        public bool Close = true;
         public MainForm()
         {
             InitializeComponent();
@@ -51,7 +51,6 @@ namespace TypeTest
             this.KeyPreview = true;
         }
 
-        public bool Close = true;
         private void btnfrmSettings_Click(object sender, EventArgs e)
         {
             

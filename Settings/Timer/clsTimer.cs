@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using TypeTest.Paragraphs;
+using TypeTest.Results;
 
 namespace TypeTest.Settings.Timer
 {
@@ -21,7 +22,7 @@ namespace TypeTest.Settings.Timer
         {
             form = Form;
 
-            TimerValue = 30;
+            TimerValue = InitializingTimerValue();
             CurrentValue = 0;
             form.timer1.Enabled = false;
             form.ProgressBar.Enabled = true;
@@ -30,6 +31,11 @@ namespace TypeTest.Settings.Timer
             form.ProgressBar.Minimum = 0;
             form.ProgressBar.Maximum = ProgressBarValue;
 
+        }
+
+        public int InitializingTimerValue()
+        {
+            return 3;
         }
 
         public void TimerTick()
@@ -44,7 +50,7 @@ namespace TypeTest.Settings.Timer
             else
             {
                 form.timer1.Enabled = false;
-                MessageBox.Show("Time end");
+                MainForm.MyParagraph.ShowResultsForm();
             }
         }
 

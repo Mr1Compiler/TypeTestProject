@@ -42,7 +42,7 @@ namespace TypeTest.End_Screen
 
             form.lblWpmResult.Text = Math.Round(WPM()).ToString();
 
-            form.PBAccuracy.Value = Convert.ToInt32(Accurancy());
+            form.PBAccuracy.Value = Convert.ToInt16(Accurancy());
             form.lblAccuracyPrec.Text = form.PBAccuracy.Value.ToString() + "%";
 
             form.PBRightLetters.Value = Convert.ToInt32(CorrectLettersPrec());
@@ -75,12 +75,16 @@ namespace TypeTest.End_Screen
         }
         public void RestartPressed()
         {
-
+            form.Close();
+            MainForm.SameText = true;
+            MainForm.MyRestart.RestartAll();
+            MainForm.SameText = false;
         }
 
         public void NextPressed()
         {
-
+            form.Close();
+            MainForm.MyParagraph.AnotherParagragh();
         }
     }
 }

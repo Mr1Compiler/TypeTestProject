@@ -12,8 +12,8 @@ using TypeTest.Paragraphs;
 namespace TypeTest.Results
 {
     public partial class frmResults : Form
-    {
-     //   clsResults MyResult;
+    { 
+         clsResults MyResult;
         public frmResults()
         {
             InitializeComponent();
@@ -23,22 +23,18 @@ namespace TypeTest.Results
         {
             MainForm.MyColors.frmResultColors(this);
 
-            MainForm.MyResults = new clsResults(this);
+            MyResult = new clsResults(this);
 
         }
 
         private void btnRestart_Click(object sender, EventArgs e)
         {
-            this.Close();
-            MainForm.SameText = true;
-            MainForm.MyRestart.RestartAll();
-            MainForm.SameText = false;
+            MyResult.RestartPressed();
         }
 
         private void btnNext_Click(object sender, EventArgs e)
         {
-            this.Close();
-            MainForm.MyParagraph.AnotherParagragh();
+            MyResult.NextPressed();
         }
     }
 }

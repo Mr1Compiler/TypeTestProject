@@ -49,7 +49,7 @@
             // lblWpm
             // 
             this.lblWpm.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWpm.Location = new System.Drawing.Point(293, 37);
+            this.lblWpm.Location = new System.Drawing.Point(300, 30);
             this.lblWpm.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblWpm.Name = "lblWpm";
             this.lblWpm.Size = new System.Drawing.Size(74, 31);
@@ -59,7 +59,7 @@
             // lblWpmResult
             // 
             this.lblWpmResult.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWpmResult.Location = new System.Drawing.Point(364, 37);
+            this.lblWpmResult.Location = new System.Drawing.Point(371, 30);
             this.lblWpmResult.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblWpmResult.Name = "lblWpmResult";
             this.lblWpmResult.Size = new System.Drawing.Size(86, 42);
@@ -69,7 +69,7 @@
             // lblAccuracy
             // 
             this.lblAccuracy.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAccuracy.Location = new System.Drawing.Point(9, 327);
+            this.lblAccuracy.Location = new System.Drawing.Point(9, 376);
             this.lblAccuracy.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblAccuracy.Name = "lblAccuracy";
             this.lblAccuracy.Size = new System.Drawing.Size(142, 31);
@@ -81,7 +81,7 @@
             this.PBAccuracy.BorderRadius = 10;
             this.PBAccuracy.BorderThickness = 2;
             this.PBAccuracy.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
-            this.PBAccuracy.Location = new System.Drawing.Point(188, 327);
+            this.PBAccuracy.Location = new System.Drawing.Point(188, 376);
             this.PBAccuracy.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.PBAccuracy.Name = "PBAccuracy";
             this.PBAccuracy.ShadowDecoration.Parent = this.PBAccuracy;
@@ -92,7 +92,7 @@
             // lblRightLetters
             // 
             this.lblRightLetters.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRightLetters.Location = new System.Drawing.Point(9, 375);
+            this.lblRightLetters.Location = new System.Drawing.Point(9, 424);
             this.lblRightLetters.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRightLetters.Name = "lblRightLetters";
             this.lblRightLetters.Size = new System.Drawing.Size(172, 31);
@@ -102,7 +102,7 @@
             // lblWrongLetters
             // 
             this.lblWrongLetters.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWrongLetters.Location = new System.Drawing.Point(9, 423);
+            this.lblWrongLetters.Location = new System.Drawing.Point(9, 472);
             this.lblWrongLetters.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblWrongLetters.Name = "lblWrongLetters";
             this.lblWrongLetters.Size = new System.Drawing.Size(172, 31);
@@ -114,7 +114,7 @@
             this.PBWrongLetters.BorderRadius = 10;
             this.PBWrongLetters.BorderThickness = 2;
             this.PBWrongLetters.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
-            this.PBWrongLetters.Location = new System.Drawing.Point(188, 423);
+            this.PBWrongLetters.Location = new System.Drawing.Point(188, 472);
             this.PBWrongLetters.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.PBWrongLetters.Name = "PBWrongLetters";
             this.PBWrongLetters.ShadowDecoration.Parent = this.PBWrongLetters;
@@ -127,7 +127,7 @@
             this.PBRightLetters.BorderRadius = 10;
             this.PBRightLetters.BorderThickness = 2;
             this.PBRightLetters.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
-            this.PBRightLetters.Location = new System.Drawing.Point(188, 375);
+            this.PBRightLetters.Location = new System.Drawing.Point(188, 424);
             this.PBRightLetters.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.PBRightLetters.Name = "PBRightLetters";
             this.PBRightLetters.ShadowDecoration.Parent = this.PBRightLetters;
@@ -138,7 +138,7 @@
             // lblAccuracyPrec
             // 
             this.lblAccuracyPrec.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAccuracyPrec.Location = new System.Drawing.Point(677, 327);
+            this.lblAccuracyPrec.Location = new System.Drawing.Point(677, 376);
             this.lblAccuracyPrec.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblAccuracyPrec.Name = "lblAccuracyPrec";
             this.lblAccuracyPrec.Size = new System.Drawing.Size(82, 31);
@@ -148,7 +148,7 @@
             // lblRightLettersPrec
             // 
             this.lblRightLettersPrec.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRightLettersPrec.Location = new System.Drawing.Point(677, 375);
+            this.lblRightLettersPrec.Location = new System.Drawing.Point(677, 424);
             this.lblRightLettersPrec.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRightLettersPrec.Name = "lblRightLettersPrec";
             this.lblRightLettersPrec.Size = new System.Drawing.Size(82, 31);
@@ -158,7 +158,7 @@
             // lblWrongLettersPrec
             // 
             this.lblWrongLettersPrec.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWrongLettersPrec.Location = new System.Drawing.Point(677, 423);
+            this.lblWrongLettersPrec.Location = new System.Drawing.Point(677, 472);
             this.lblWrongLettersPrec.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblWrongLettersPrec.Name = "lblWrongLettersPrec";
             this.lblWrongLettersPrec.Size = new System.Drawing.Size(82, 31);
@@ -178,7 +178,7 @@
             this.btnRestart.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRestart.ForeColor = System.Drawing.Color.White;
             this.btnRestart.HoverState.Parent = this.btnRestart;
-            this.btnRestart.Location = new System.Drawing.Point(200, 512);
+            this.btnRestart.Location = new System.Drawing.Point(200, 553);
             this.btnRestart.Margin = new System.Windows.Forms.Padding(4);
             this.btnRestart.Name = "btnRestart";
             this.btnRestart.ShadowDecoration.Parent = this.btnRestart;
@@ -200,7 +200,7 @@
             this.btnNext.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNext.ForeColor = System.Drawing.Color.White;
             this.btnNext.HoverState.Parent = this.btnNext;
-            this.btnNext.Location = new System.Drawing.Point(387, 512);
+            this.btnNext.Location = new System.Drawing.Point(387, 553);
             this.btnNext.Margin = new System.Windows.Forms.Padding(4);
             this.btnNext.Name = "btnNext";
             this.btnNext.ShadowDecoration.Parent = this.btnNext;
@@ -212,7 +212,7 @@
             // lbltbResult
             // 
             this.lbltbResult.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbltbResult.Location = new System.Drawing.Point(42, 95);
+            this.lbltbResult.Location = new System.Drawing.Point(41, 87);
             this.lbltbResult.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbltbResult.Name = "lbltbResult";
             this.lbltbResult.Size = new System.Drawing.Size(142, 31);
@@ -226,14 +226,14 @@
             this.tbResult.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbResult.ForeColor = System.Drawing.Color.Black;
             this.tbResult.HideSelection = false;
-            this.tbResult.Location = new System.Drawing.Point(47, 127);
+            this.tbResult.Location = new System.Drawing.Point(46, 119);
             this.tbResult.Margin = new System.Windows.Forms.Padding(10, 20, 0, 0);
             this.tbResult.Name = "tbResult";
             this.tbResult.ReadOnly = true;
             this.tbResult.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Horizontal;
             this.tbResult.ShortcutsEnabled = false;
             this.tbResult.ShowSelectionMargin = true;
-            this.tbResult.Size = new System.Drawing.Size(622, 154);
+            this.tbResult.Size = new System.Drawing.Size(658, 200);
             this.tbResult.TabIndex = 21;
             this.tbResult.Text = "";
             this.tbResult.UseWaitCursor = true;

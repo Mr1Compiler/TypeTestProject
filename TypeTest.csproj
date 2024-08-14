@@ -53,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Colors\Colors.cs" />
+    <Compile Include="Paragraphs\Texts.cs" />
     <Compile Include="Results\clsResults.cs" />
     <Compile Include="Keyboard\clsKeyboard.cs" />
     <Compile Include="MainForm.cs">

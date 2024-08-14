@@ -28,7 +28,6 @@ namespace TypeTest.Colors
         }
         private stMainFormColors _MainFormColors;
 
-
         private struct stTextBoxColors
         {
             public Color BackColor;
@@ -40,13 +39,11 @@ namespace TypeTest.Colors
         }
         private stTextBoxColors _TextBoxColors;
 
-
         public struct stMenuPanelColors
         {
             public Color BackColor;
         }
         private stMenuPanelColors _MenuPanelColors;
-
 
         public struct stKeyboardColors
         {
@@ -117,6 +114,17 @@ namespace TypeTest.Colors
             form.ProgressBar.ProgressColor2 = _TextBoxColors.BackColor;
         }
 
+        public void ColoringTextBox(ref RichTextBox tb)
+        {
+            
+            tb.BackColor = _TextBoxColors.BackColor;
+
+            tb.ForeColor = _TextBoxColors.TextColor;
+            
+            tb.ForeColor = _TextBoxColors.TextColor;
+
+
+        }
         private void SettingsButtonsColors(ref Guna2GradientButton btn)
         {
             btn.FillColor = _SettingsPanelColors.ButtonsBackColor1;

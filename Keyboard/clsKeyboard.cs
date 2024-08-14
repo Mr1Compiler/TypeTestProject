@@ -21,18 +21,16 @@ namespace TypeTest.Keyboard
 {
     public class clsKeyboard
     {
-        private MainForm _Form;
+        MainForm form;
 
         Guna2Button CuurBtn;
         Guna2Button PrevBtn;
         Color KeyboardHoverColor;
         Color KeyboardNormalColor;
-        clsColors MyColors;
         public clsKeyboard(MainForm Form)
         {
-            _Form = Form;
-            MyColors = new clsColors(_Form);
-            MyColors.HoverButtonColor(ref KeyboardHoverColor, ref KeyboardNormalColor);
+            form = Form;
+            MainForm.MyColors.HoverButtonColor(ref KeyboardHoverColor, ref KeyboardNormalColor);
         }
 
         private Guna2Button DetermineOFFButton(object sender, KeyEventArgs e)
@@ -40,126 +38,126 @@ namespace TypeTest.Keyboard
             switch (e.KeyValue)
             {
                 case(char)Keys.A:
-                    return _Form.btnA;
+                    return form.btnA;
                 case (char)Keys.B:
-                    return _Form.btnB;
+                    return form.btnB;
                 case (char)Keys.C:
-                    return _Form.btnC;
+                    return form.btnC;
                 case (char)Keys.D:
-                    return _Form.btnD;
+                    return form.btnD;
                 case (char)Keys.E:
-                    return _Form.btnE;
+                    return form.btnE;
                 case (char)Keys.F:
-                    return _Form.btnF;
+                    return form.btnF;
                 case (char)Keys.G:
-                    return _Form.btnG;
+                    return form.btnG;
                 case (char)Keys.H:
-                    return _Form.btnH;
+                    return form.btnH;
                 case (char)Keys.I:
-                    return _Form.btnI;
+                    return form.btnI;
                 case (char)Keys.J:
-                    return _Form.btnJ;
+                    return form.btnJ;
                 case (char)Keys.K:
-                    return _Form.btnK;
+                    return form.btnK;
                 case (char)Keys.L:
-                    return _Form.btnL;
+                    return form.btnL;
                 case (char)Keys.M:
-                    return _Form.btnM;
+                    return form.btnM;
                 case (char)Keys.N:
-                    return _Form.btnN;
+                    return form.btnN;
                 case (char)Keys.O:
-                    return _Form.btnO;
+                    return form.btnO;
                 case (char)Keys.P:
-                    return _Form.btnP;
+                    return form.btnP;
                 case (char)Keys.Q:
-                    return _Form.btnQ;
+                    return form.btnQ;
                 case (char)Keys.R:
-                    return _Form.btnR;
+                    return form.btnR;
                 case (char)Keys.S:
-                    return _Form.btnS;
+                    return form.btnS;
                 case (char)Keys.T:
-                    return _Form.btnT;
+                    return form.btnT;
                 case (char)Keys.U:
-                    return _Form.btnU;
+                    return form.btnU;
                 case (char)Keys.V:
-                    return _Form.btnV;
+                    return form.btnV;
                 case (char)Keys.W:
-                    return _Form.btnW;
+                    return form.btnW;
                 case (char)Keys.X:
-                    return _Form.btnX;
+                    return form.btnX;
                 case (char)Keys.Y:
-                    return _Form.btnY;
+                    return form.btnY;
                 case (char)Keys.Z:
-                    return _Form.btnZ;
+                    return form.btnZ;
                 case (char)Keys.D0:
-                    return _Form.btnNoZero;
+                    return form.btnNoZero;
                 case (char)Keys.D1:
-                    return _Form.btnNoOne;
+                    return form.btnNoOne;
                 case (char)Keys.D2:
-                    return _Form.btnNoTwo;
+                    return form.btnNoTwo;
                 case (char)Keys.D3:
-                    return _Form.btnNoThree;
+                    return form.btnNoThree;
                 case (char)Keys.D4:
-                    return _Form.btnNoFour;
+                    return form.btnNoFour;
                 case (char)Keys.D5:
-                    return _Form.btnNoFive;
+                    return form.btnNoFive;
                 case (char)Keys.D6:
-                    return _Form.btnNoSix;
+                    return form.btnNoSix;
                 case (char)Keys.D7:
-                    return _Form.btnNoSeven;
+                    return form.btnNoSeven;
                 case (char)Keys.D8:
-                    return _Form.btnNoEight;
+                    return form.btnNoEight;
                 case (char)Keys.D9:
-                    return _Form.btnNoNine;
+                    return form.btnNoNine;
                 case (char)Keys.OemMinus:
-                    return _Form.btnMinus;
+                    return form.btnMinus;
                 case (char)Keys.Oemplus:
-                    return _Form.btnPluse;
+                    return form.btnPluse;
                 case (char)Keys.Space:
-                        return _Form.btnSpace;
+                        return form.btnSpace;
                 case (char)Keys.Back:
-                    return _Form.btnBackSpace;
+                    return form.btnBackSpace;
                 case (char)Keys.ControlKey:
-                    return _Form.btnControl;
+                    return form.btnControl;
                 case (char)Keys.Menu:
-                    return _Form.btnAlt1;
+                    return form.btnAlt1;
                 case (char)Keys.Tab:
-                    return _Form.btnTab;
+                    return form.btnTab;
                 case (char)Keys.Enter:
-                    return _Form.btnEnter;
+                    return form.btnEnter;
                 case (char)Keys.CapsLock:
-                    return _Form.btnCapsLock;
+                    return form.btnCapsLock;
                 case (char)Keys.OemOpenBrackets:
-                    return _Form.btnLeftCurlyBrace;
+                    return form.btnLeftCurlyBrace;
                 case (char)Keys.OemCloseBrackets:
-                    return _Form.btnRightCurlyBrace;
+                    return form.btnRightCurlyBrace;
                 case (char)Keys.OemSemicolon:
-                    return _Form.btnColon;
+                    return form.btnColon;
                 case (char)Keys.OemQuotes:
-                    return _Form.btndDoubleQuotation;
+                    return form.btndDoubleQuotation;
                 case (char)Keys.OemQuestion:
-                    return _Form.btnQuestionMark;
+                    return form.btnQuestionMark;
                 case (char)Keys.Oemcomma:
-                    return _Form.btnLessThan;
+                    return form.btnLessThan;
                 case (char)Keys.OemPeriod:
-                    return _Form.btnGraterThan;
+                    return form.btnGraterThan;
                 case (char)Keys.Oem3:
-                    return _Form.btnTilde;
+                    return form.btnTilde;
                 case (char)Keys.LWin:
-                    return _Form.btnWin1;
+                    return form.btnWin1;
                 case (char)Keys.RWin:
-                    return _Form.btnWin2;
+                    return form.btnWin2;
                 case (char)Keys.LControlKey:
-                    return _Form.btnControl;
+                    return form.btnControl;
                 case (char)Keys.RControlKey:
-                    return _Form.btnControl2;
+                    return form.btnControl2;
                 case (char)Keys.ShiftKey: 
-                        return _Form.btnShift;
+                        return form.btnShift;
                 case (char)Keys.OemPipe:
-                    return _Form.btnVerticalBar;
+                    return form.btnVerticalBar;
 
             }
-            return _Form.btnEmpty;
+            return form.btnEmpty;
         }
 
         private Guna2Button DetermineButton(object sender, KeyPressEventArgs e)
@@ -167,103 +165,103 @@ namespace TypeTest.Keyboard
             switch (e.KeyChar)
             {          
                 case 'a':
-                    return _Form.btnA;
+                    return form.btnA;
                 case 'b':
-                    return _Form.btnB;
+                    return form.btnB;
                 case 'c':
-                    return _Form.btnC;
+                    return form.btnC;
                 case 'd':
-                    return _Form.btnD;
+                    return form.btnD;
                 case 'e':
-                    return _Form.btnE;
+                    return form.btnE;
                 case 'f':
-                    return _Form.btnF;
+                    return form.btnF;
                 case 'g':
-                    return _Form.btnG;
+                    return form.btnG;
                 case 'h':
-                    return _Form.btnH;
+                    return form.btnH;
                 case 'i':
-                    return _Form.btnI;
+                    return form.btnI;
                 case 'j':
-                    return _Form.btnJ;
+                    return form.btnJ;
                 case 'k':
-                    return _Form.btnK;
+                    return form.btnK;
                 case 'l':
-                    return _Form.btnL;
+                    return form.btnL;
                 case 'm':
-                    return _Form.btnM;
+                    return form.btnM;
                 case 'n':
-                    return _Form.btnN;
+                    return form.btnN;
                 case 'o':
-                    return _Form.btnO;
+                    return form.btnO;
                 case 'p':
-                    return _Form.btnP;
+                    return form.btnP;
                 case 'q':
-                    return _Form.btnQ;
+                    return form.btnQ;
                 case 'r':
-                    return _Form.btnR;
+                    return form.btnR;
                 case 's':
-                    return _Form.btnS;
+                    return form.btnS;
                 case 't':
-                    return _Form.btnT;
+                    return form.btnT;
                 case 'u':
-                    return _Form.btnU;
+                    return form.btnU;
                 case 'v':
-                    return _Form.btnV;
+                    return form.btnV;
                 case 'w':
-                    return _Form.btnW;
+                    return form.btnW;
                 case 'x':
-                    return _Form.btnX;
+                    return form.btnX;
                 case 'y':
-                    return _Form.btnY;
+                    return form.btnY;
                 case 'z':
-                    return _Form.btnZ;
+                    return form.btnZ;
                 case '0':
-                    return _Form.btnNoZero;
+                    return form.btnNoZero;
                 case '1':
-                    return _Form.btnNoOne;
+                    return form.btnNoOne;
                 case '2':
-                    return _Form.btnNoTwo;
+                    return form.btnNoTwo;
                 case '3':
-                    return _Form.btnNoThree;
+                    return form.btnNoThree;
                 case '4':
-                    return _Form.btnNoFour;
+                    return form.btnNoFour;
                 case '5':
-                    return _Form.btnNoFive;
+                    return form.btnNoFive;
                 case '6':
-                    return _Form.btnNoSix;
+                    return form.btnNoSix;
                 case '7':
-                    return _Form.btnNoSeven;
+                    return form.btnNoSeven;
                 case '8':
-                    return _Form.btnNoEight;
+                    return form.btnNoEight;
                 case '9':
-                    return _Form.btnNoNine;
+                    return form.btnNoNine;
                 case '-':
-                    return _Form.btnMinus;
+                    return form.btnMinus;
                 case '=':
-                    return _Form.btnPluse;
+                    return form.btnPluse;
                 case ' ':
-                     return _Form.btnSpace;
+                     return form.btnSpace;
                 case '\b':
-                    return _Form.btnBackSpace;
+                    return form.btnBackSpace;
                 case '\'':
-                    return _Form.btndDoubleQuotation;
+                    return form.btndDoubleQuotation;
                 case ';':
-                    return _Form.btnColon;
+                    return form.btnColon;
                 case '[':
-                    return _Form.btnLeftCurlyBrace;
+                    return form.btnLeftCurlyBrace;
                 case ']':
-                    return _Form.btnRightCurlyBrace;
+                    return form.btnRightCurlyBrace;
                 case '\\':
-                    return _Form.btnVerticalBar;
+                    return form.btnVerticalBar;
                 case '/':
-                    return _Form.btnQuestionMark;
+                    return form.btnQuestionMark;
                 case ',':
-                    return _Form.btnLessThan;
+                    return form.btnLessThan;
                 case '.':
-                    return _Form.btnGraterThan;
+                    return form.btnGraterThan;
             }
-            return _Form.btnEmpty;
+            return form.btnEmpty;
         }
         private void AssignButton()
         {
@@ -276,7 +274,7 @@ namespace TypeTest.Keyboard
             if (CuurBtn == null)
             {
                 //I put an empty button in Form so i can handle that
-                PrevBtn = _Form.btnEmpty;
+                PrevBtn = form.btnEmpty;
             }
             else
             {
