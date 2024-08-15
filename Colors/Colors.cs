@@ -249,6 +249,7 @@ namespace TypeTest.Colors
         {
             ColoringTextBox(ref frmCustomParagraph.tbAddCustom);
             ColoringButton(ref frmCustomParagraph.btnCancel);
+            ColoringButton(ref frmCustomParagraph.btnNew);
             ColoringButton(ref frmCustomParagraph.btnAdd);
         }
 

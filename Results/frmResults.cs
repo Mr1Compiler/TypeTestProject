@@ -17,14 +17,12 @@ namespace TypeTest.Results
         public frmResults()
         {
             InitializeComponent();
+            MainForm.MyColors.frmResultColors(this);
         }
 
         private void frmResults_Load(object sender, EventArgs e)
-        {
-            MainForm.MyColors.frmResultColors(this);
-
+        {           
             MyResult = new clsResults(this);
-
         }
 
         private void btnRestart_Click(object sender, EventArgs e)

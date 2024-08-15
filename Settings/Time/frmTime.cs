@@ -19,11 +19,11 @@ namespace TypeTest.Settings
         public frmTime()
         {
             InitializeComponent();
+            MainForm.MyColors.frmTimeColors(this);
         }
 
         private void frmTime_Load(object sender, EventArgs e)
-        {
-            MainForm.MyColors.frmTimeColors(this);
+        {     
             InitilizingComboBoxes();
         }
 

@@ -15,7 +15,6 @@ namespace TypeTest.Custom_Paragraph
         public clsCustomParagraph(frmCustomParagraph Form)
         {
             form = Form;
-            MainForm.MyColors.frmCustomParagraph(form);
         }
         public void AddBtnPressed()
         {
@@ -31,12 +30,15 @@ namespace TypeTest.Custom_Paragraph
             {
                 if(MessageBox.Show("Are you sure?", "Confirm", MessageBoxButtons.OKCancel) == DialogResult.OK)
                 {
+                    form.tbAddCustom.Text = string.Empty;
                     form.Close();
+                    
                 }
             }
             else
                 form.Close();
         }
+
         public bool Validating()
         {
             if (string.IsNullOrEmpty(form.tbAddCustom.Text) || string.IsNullOrWhiteSpace(form.tbAddCustom.Text))

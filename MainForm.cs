@@ -56,7 +56,6 @@ namespace TypeTest
             MyRestart = new clsRestart(this);
             MyView = new clsView();
         }
-
         public void InitializingForms()
         {
             frmView = new frmView(this);
@@ -140,14 +139,10 @@ namespace TypeTest
         {
             frmCustomParagraph.ShowDialog();
         }
-
         private void btnViewSettings_Click(object sender, EventArgs e)
         {
             //MyView = new clsView();
             frmView.ShowDialog();
         }
-
-       
-
     }
 }
