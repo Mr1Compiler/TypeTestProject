@@ -86,6 +86,13 @@
     </Compile>
     <Compile Include="Settings\Restart\clsRestart.cs" />
     <Compile Include="Settings\Timer\clsTimer.cs" />
+    <Compile Include="Settings\View\clsView.cs" />
+    <Compile Include="Settings\View\frmView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\View\frmView.Designer.cs">
+      <DependentUpon>frmView.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Custom Paragraph\frmCustomParagraph.resx">
       <DependentUpon>frmCustomParagraph.cs</DependentUpon>
     </EmbeddedResource>
@@ -101,6 +108,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Settings\Time\frmTime.resx">
       <DependentUpon>frmTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\View\frmView.resx">
+      <DependentUpon>frmView.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

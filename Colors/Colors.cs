@@ -18,6 +18,7 @@ using TypeTest.Custom_Paragraph;
 using TypeTest.Keyboard;
 using TypeTest.Results;
 using TypeTest.Settings;
+using TypeTest.Settings.View;
 
 namespace TypeTest.Colors
 {
@@ -249,6 +250,33 @@ namespace TypeTest.Colors
             ColoringTextBox(ref frmCustomParagraph.tbAddCustom);
             ColoringButton(ref frmCustomParagraph.btnCancel);
             ColoringButton(ref frmCustomParagraph.btnAdd);
+        }
+
+        public void frmView(frmView frmView)
+        {
+            frmView.BackColor = _MainFormColors.BackColor;
+
+            ColoringButton(ref frmView.btnApplay);
+            ColoringButton(ref frmView.btnCancel);
+
+            frmView.chbShowKeyboard.CheckMarkColor = _TextBoxColors.BackColor;
+            frmView.chbShowKeyboard.ForeColor = _TextBoxColors.BackColor;
+
+            frmView.chbShowNextButton.CheckMarkColor = _TextBoxColors.BackColor;
+            frmView.chbShowNextButton.ForeColor = _TextBoxColors.BackColor;
+
+            frmView.chbShowProgressBar.CheckMarkColor = _TextBoxColors.BackColor;
+            frmView.chbShowProgressBar.ForeColor = _TextBoxColors.BackColor;
+
+            frmView.chbShowRestartButton.CheckMarkColor = _TextBoxColors.BackColor;
+            frmView.chbShowRestartButton.ForeColor = _TextBoxColors.BackColor;
+
+            frmView.chbShowProgressBar.CheckMarkColor = _TextBoxColors.BackColor;
+            frmView.chbShowProgressBar.ForeColor = _TextBoxColors.BackColor;
+
+            frmView.chbShowTimer.CheckMarkColor = _TextBoxColors.BackColor;
+            frmView.chbShowTimer.ForeColor = _TextBoxColors.BackColor;
+            
         }
     }
 }

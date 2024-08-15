@@ -37,3 +37,4 @@ E:\Projects\TypeTest_Colned\TypeTestProject\obj\Debug\TypeTest.exe
 E:\Projects\TypeTest_Colned\TypeTestProject\obj\Debug\TypeTest.pdb
 E:\Projects\TypeTest_Colned\TypeTestProject\obj\Debug\TypeTest.Results.frmResults.resources
 E:\Projects\TypeTest_Colned\TypeTestProject\obj\Debug\TypeTest.Custom_Paragraph.frmCustomParagraph.resources
+E:\Projects\TypeTest_Colned\TypeTestProject\obj\Debug\TypeTest.Settings.View.frmView.resources

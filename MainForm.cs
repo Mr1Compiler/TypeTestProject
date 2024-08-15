@@ -8,6 +8,7 @@ using System.ComponentModel.Design;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -21,6 +22,7 @@ using TypeTest.Paragraphs;
 using TypeTest.Settings;
 using TypeTest.Settings.Restart;
 using TypeTest.Settings.Timer;
+using TypeTest.Settings.View;
 
 namespace TypeTest
 {
@@ -34,6 +36,10 @@ namespace TypeTest
         public static clsResults MyResults;
         public static clsCustomParagraph MyCustomParagraph;
         public static clsCustomParagraph clsCustomParagraph;
+        public static clsView MyView;
+        public frmView frmView;
+        frmTime frmTime;
+        frmCustomParagraph frmCustomParagraph; 
         public static bool SameText = false;
         public static bool CustomTime = false;
         public bool isClose = true;
@@ -48,10 +54,19 @@ namespace TypeTest
             MyKeyboard = new clsKeyboard(this);
             MyTimer = new clsTimer(this);
             MyRestart = new clsRestart(this);
+            MyView = new clsView();
+        }
+
+        public void InitializingForms()
+        {
+            frmView = new frmView(this);
+            frmTime = new frmTime();
+            frmCustomParagraph = new frmCustomParagraph();
         }
         private void Form1_Load(object sender, EventArgs e)
         {
             InitialzingObjest();
+            InitializingForms();
             this.KeyPreview = true;
         }
         public void CustomText(string CustomParagraph)
@@ -104,8 +119,8 @@ namespace TypeTest
         }
         private void btnTimeSettings_Click(object sender, EventArgs e)
         {
-            frmTime frmTimeSettings = new frmTime();
-            frmTimeSettings.ShowDialog();
+            
+            frmTime.ShowDialog();
         }
         private void timer1_Tick(object sender, EventArgs e)
         {
@@ -123,8 +138,16 @@ namespace TypeTest
         }
         private void pbAdd_Click(object sender, EventArgs e)
         {
-            frmCustomParagraph frm = new frmCustomParagraph();
-            frm.ShowDialog();
+            frmCustomParagraph.ShowDialog();
         }
+
+        private void btnViewSettings_Click(object sender, EventArgs e)
+        {
+            //MyView = new clsView();
+            frmView.ShowDialog();
+        }
+
+       
+
     }
 }

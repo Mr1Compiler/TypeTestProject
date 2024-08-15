@@ -1355,6 +1355,7 @@
             this.btnViewSettings.Size = new System.Drawing.Size(233, 47);
             this.btnViewSettings.TabIndex = 7;
             this.btnViewSettings.Text = "View";
+            this.btnViewSettings.Click += new System.EventHandler(this.btnViewSettings_Click);
             // 
             // guna2CirclePictureBox1
             // 
@@ -1644,8 +1645,8 @@
         public System.Windows.Forms.Timer timer1;
         public Guna.UI2.WinForms.Guna2ProgressBar ProgressBar;
         public Guna.UI2.WinForms.Guna2PictureBox pbRestart;
-        private Guna.UI2.WinForms.Guna2PictureBox pbNextText;
         private Guna.UI2.WinForms.Guna2CirclePictureBox pbAdd;
+        public Guna.UI2.WinForms.Guna2PictureBox pbNextText;
     }
 }
 

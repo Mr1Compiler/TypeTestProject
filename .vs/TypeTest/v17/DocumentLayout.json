@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|E:\\Projects\\TypeTest_Colned\\TypeTestProject\\custom paragraph\\frmcustomparagraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|solutionrelative:custom paragraph\\frmcustomparagraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|e:\\projects\\typetest_colned\\typetestproject\\settings\\view\\clsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|solutionrelative:settings\\view\\clsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|e:\\projects\\typetest_colned\\typetestproject\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|e:\\projects\\typetest_colned\\typetestproject\\settings\\view\\frmview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|solutionrelative:settings\\view\\frmview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|E:\\Projects\\TypeTest_Colned\\TypeTestProject\\settings\\view\\frmview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|solutionrelative:settings\\view\\frmview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|E:\\Projects\\TypeTest_Colned\\TypeTestProject\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 207,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,20 +50,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmCustomParagraph.cs",
-              "DocumentMoniker": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\Custom Paragraph\\frmCustomParagraph.cs",
-              "RelativeDocumentMoniker": "Custom Paragraph\\frmCustomParagraph.cs",
-              "ToolTip": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\Custom Paragraph\\frmCustomParagraph.cs",
-              "RelativeToolTip": "Custom Paragraph\\frmCustomParagraph.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T19:13:18.201Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MainForm.cs [Design]",
               "DocumentMoniker": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",
@@ -67,15 +62,59 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmView.cs [Design]",
+              "DocumentMoniker": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\Settings\\View\\frmView.cs",
+              "RelativeDocumentMoniker": "Settings\\View\\frmView.cs",
+              "ToolTip": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\Settings\\View\\frmView.cs [Design]",
+              "RelativeToolTip": "Settings\\View\\frmView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T11:58:56.109Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "frmView.cs",
+              "DocumentMoniker": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\Settings\\View\\frmView.cs",
+              "RelativeDocumentMoniker": "Settings\\View\\frmView.cs",
+              "ToolTip": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\Settings\\View\\frmView.cs",
+              "RelativeToolTip": "Settings\\View\\frmView.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAnwFkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T12:18:52.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MainForm.cs",
               "DocumentMoniker": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",
               "ToolTip": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\MainForm.cs",
               "RelativeToolTip": "MainForm.cs",
-              "ViewState": "AQIAADMAAAAAb5mZmRkvwEsAAABFAAAA",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAIwIwAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-14T16:34:54.301Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 207,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "clsView.cs",
+              "DocumentMoniker": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\Settings\\View\\clsView.cs",
+              "RelativeDocumentMoniker": "Settings\\View\\clsView.cs",
+              "ToolTip": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\Settings\\View\\clsView.cs",
+              "RelativeToolTip": "Settings\\View\\clsView.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwB0AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T13:29:31.518Z",
               "EditorCaption": ""
             }
           ]
