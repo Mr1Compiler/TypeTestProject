@@ -111,9 +111,10 @@ namespace TypeTest.Colors
 
 
 
-            form.lblTimer.ForeColor = _TextBoxColors.BackColor;
-            form.ProgressBar.ProgressColor = _TextBoxColors.BackColor;
-            form.ProgressBar.ProgressColor2 = _TextBoxColors.BackColor;
+            //form.lblTimer.ForeColor = _TextBoxColors.BackColor;
+            form.ProgressBar.FillColor = _TextBoxColors.BackColor;
+            //form.ProgressBar.ProgressColor = _TextBoxColors.BackColor;
+            //form.ProgressBar.ProgressColor2 = _TextBoxColors.BackColor;
         }
 
         public void ColoringTextBox(ref RichTextBox tb)

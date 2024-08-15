@@ -1302,6 +1302,7 @@
             this.SettingsPanel.FillColor2 = System.Drawing.Color.Transparent;
             this.SettingsPanel.FillColor3 = System.Drawing.Color.Transparent;
             this.SettingsPanel.FillColor4 = System.Drawing.Color.Transparent;
+            this.SettingsPanel.ImeMode = System.Windows.Forms.ImeMode.Off;
             this.SettingsPanel.Location = new System.Drawing.Point(0, 34);
             this.SettingsPanel.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.SettingsPanel.Name = "SettingsPanel";

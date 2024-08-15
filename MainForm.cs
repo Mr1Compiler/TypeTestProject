@@ -36,7 +36,7 @@ namespace TypeTest
         public static clsCustomParagraph clsCustomParagraph;
         public static bool SameText = false;
         public static bool CustomTime = false;
-        public bool Close = true;
+        public bool isClose = true;
         public MainForm()
         {
             InitializeComponent();
@@ -64,33 +64,38 @@ namespace TypeTest
         }
         public void CustomTimer(int CustomTimer)
         {
+            lblTimer.Visible = false;
             CustomTime = true;
             clsTimer.CustomValue = CustomTimer;
             MyTimer = new clsTimer(this);
             clsTimer.isCustomValue = false;
             MyParagraph = new clsParagraphs(this);
-            SettingsPanel.Enabled = false;
             SettingsPanel.Visible = false;
-            Close = true;
-
+            isClose = true;
         }
         private void btnfrmSettings_Click(object sender, EventArgs e)
         {
-            
-            if(Close)
+            if(isClose)
             {
                 SettingsPanel.Visible = true;
-                Close = false;
+                isClose = false;
             }
             else
             {
-                SettingsPanel.Visible=false;
-                Close = true;
+                SettingsPanel.Visible = false;
+                isClose = true;
             }
-
+            
         }
         private void MainForm_KeyPress(object sender, KeyPressEventArgs e)
         {
+            if (e.KeyChar == ' ')
+            {
+                SettingsPanel.Visible = false;
+                isClose = true;
+            }
+            
+            this.Focus();
             MyParagraph.KeyPress(sender, e);
         }
         private void MainForm_KeyUp(object sender, KeyEventArgs e)

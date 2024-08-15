@@ -43,12 +43,15 @@ namespace TypeTest.Settings
 
         private void cbSelectTime_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if(cbSelectTime.SelectedIndex == 3)
+            if (cbSelectTime.SelectedIndex == 3)
             {
                 gbCustomTime.Enabled = true;
                 isCustomClicked = true;
             }
-            
+            else
+            {
+                gbCustomTime.Enabled = false;
+            }
         }
 
         private void cbSelectCustomNumber_SelectedIndexChanged(object sender, EventArgs e)
@@ -111,7 +114,6 @@ namespace TypeTest.Settings
         private void btnApplay_Click(object sender, EventArgs e)
         {
             Value = TimeInSec();
-           
             MainForm.MyTimer.SetCustomValue(Value);          
             this.Close();
         }
