@@ -14,6 +14,7 @@ using TypeTest.Keyboard;
 using TypeTest.Results;
 using TypeTest.Settings.Timer;
 using TypeTest.Paragraphs;
+using TypeTest.Settings.View;
 
 namespace TypeTest.Paragraphs
 {
@@ -206,7 +207,7 @@ namespace TypeTest.Paragraphs
                 form.lblTimer.Visible = true;
                 form.timer1.Enabled = true;
                 form.lblTimer.Text = clsTimer.TimerValue.ToString();
-                form.pbRestart.Visible = true;
+                form.pbRestart.Visible = MainForm.MyView.isShowRestartButton;
             }
 
             MainForm.MyKeyboard.HoverTheButton(sender, e);

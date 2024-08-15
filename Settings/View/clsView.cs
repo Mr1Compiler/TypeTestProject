@@ -10,11 +10,11 @@ namespace TypeTest.Settings.View
     {
         frmView view;
 
-        private bool _isShowKeyboard ;
-        private bool _isShowTimer;
-        private bool _isShowNextButton ;
-        private bool _isShowRestartButton ;
-        private bool _isShowProgressBar ;
+        private bool _isShowKeyboard = true;
+        private bool _isShowTimer = true;
+        private bool _isShowNextButton = true ;
+        private bool _isShowRestartButton = true ;
+        private bool _isShowProgressBar = true ;
 
         private bool PrevisShowKeyboard;
         private bool PrevisShowTimer;
