@@ -1,6 +1,6 @@
 Adding ReadME file
 
-Check the video: [Watch on YouTube]([https://www.youtube.com/watch?v=VIDEO_ID](https://www.youtube.com/watch?v=L04ylEdflOQ))
+Check the video: [Watch on YouTube](https://www.youtube.com/watch?v=L04ylEdflOQ)
 
 
 About the Project:
