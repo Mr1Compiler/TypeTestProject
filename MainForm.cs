@@ -38,7 +38,7 @@ namespace TypeTest
         public static clsCustomParagraph clsCustomParagraph;
         public static clsView MyView;
         public frmView frmView;
-        frmTime frmTime;
+        public frmTime frmTime;
         frmCustomParagraph frmCustomParagraph; 
         public static bool SameText = false;
         public static bool CustomTime = false;
@@ -83,9 +83,10 @@ namespace TypeTest
             clsTimer.CustomValue = CustomTimer;
             MyTimer = new clsTimer(this);
             clsTimer.isCustomValue = false;
-            MyParagraph = new clsParagraphs(this);
+            MyParagraph = new clsParagraphs(this); 
             SettingsPanel.Visible = false;
             isClose = true;
+            
         }
         private void btnfrmSettings_Click(object sender, EventArgs e)
         {
@@ -105,7 +106,9 @@ namespace TypeTest
         {
             if (e.KeyChar == ' ')
             {
+                //frmView.Hide = false;
                 SettingsPanel.Visible = false;
+                frmView.Visible = false;
                 isClose = true;
             }
             
@@ -142,7 +145,11 @@ namespace TypeTest
         private void btnViewSettings_Click(object sender, EventArgs e)
         {
             //MyView = new clsView();
+            //frmView.Enabled = true;
             frmView.ShowDialog();
+            //frmView.Enabled = false;
         }
+
+
     }
 }

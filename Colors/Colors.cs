@@ -107,15 +107,11 @@ namespace TypeTest.Colors
             form.SettingsPanel.FillColor4 = _SettingsPanelColors.SettingsPanelBackground;
             _SettingsPanelColors.ButtonsBackColor1 = Color.FromArgb(33, 37, 41);
             _SettingsPanelColors.ButtonBackColor2 = Color.FromArgb(233, 236, 239);
-            SettingsButtonsColors(ref form.btnColorsSettings);
-            SettingsButtonsColors(ref form.btnFontSettings);
 
 
 
-            //form.lblTimer.ForeColor = _TextBoxColors.BackColor;
             form.ProgressBar.FillColor = _TextBoxColors.BackColor;
-            //form.ProgressBar.ProgressColor = _TextBoxColors.BackColor;
-            //form.ProgressBar.ProgressColor2 = _TextBoxColors.BackColor;
+
         }
 
         public void ColoringTextBox(ref RichTextBox tb)
@@ -139,6 +135,19 @@ namespace TypeTest.Colors
         {
             _Form = Form;
             GenerateColors(_Form);
+            SetKeyboardColors();
+        }
+
+        public void SetNewKeyboardBackColor(Color NewBackColor)
+        {
+            _KeyboardColors.BackColor = NewBackColor;
+            SetKeyboardColors();
+            MainForm.MyColors = new clsColors(_Form);
+        }
+
+        public void SetNewKeyboardTextColor(Color NewTextColor)
+        {
+            _KeyboardColors.TextColor = NewTextColor;
             SetKeyboardColors();
         }
         public void SetKeyboardColors()
@@ -168,12 +177,12 @@ namespace TypeTest.Colors
 
         public Color HoverButton()
         {
-            return _KeyboardHoverColors.KeyboardHoverColor;
+            return _MainFormColors.BackColor;
         }
         public Color HoverButtonColor(ref Color KeyboardHoverColor, ref Color KeyboardNormalColor)
         {
 
-            KeyboardHoverColor = _KeyboardHoverColors.KeyboardHoverColor;
+            KeyboardHoverColor = _MainFormColors.BackColor;//_KeyboardHoverColors.KeyboardHoverColor;
             KeyboardNormalColor = _KeyboardColors.BackColor;
 
             return KeyboardHoverColor;
@@ -216,6 +225,15 @@ namespace TypeTest.Colors
             btn.FillColor = _TextBoxColors.BackColor;
             btn.FillColor2 = _TextBoxColors.BackColor;
         }
+
+        public void ColoringGroupBox(ref Guna2GroupBox GB)
+        {
+            GB.BackColor = _TextBoxColors.BackColor;
+            GB.ForeColor = _TextBoxColors.TextColor;
+            GB.BorderColor = _TextBoxColors.BackColor;
+            GB.CustomBorderColor = _TextBoxColors.BackColor;
+            GB.FillColor = _MainFormColors.BackColor;
+        }
         public void frmTimeColors(frmTime frmTime)
         {
             frmTime.BackColor = _MainFormColors.BackColor;
@@ -224,11 +242,7 @@ namespace TypeTest.Colors
             frmTime.cbSelectTime.ForeColor = _TextBoxColors.TextColor;
             frmTime.cbSelectTime.BorderColor = _TextBoxColors.BackColor;
 
-            frmTime.gbCustomTime.BackColor = _TextBoxColors.BackColor;
-            frmTime.gbCustomTime.ForeColor = _TextBoxColors.TextColor;
-            frmTime.gbCustomTime.BorderColor = _TextBoxColors.BackColor;
-            frmTime.gbCustomTime.CustomBorderColor = _TextBoxColors.BackColor;
-            frmTime.gbCustomTime.FillColor = _MainFormColors.BackColor;
+            ColoringGroupBox(ref frmTime.gbCustomTime);
 
             frmTime.cbSelectCustomTime.BackColor = _TextBoxColors.BackColor;
             frmTime.cbSelectCustomTime.FillColor = _TextBoxColors.BackColor;
@@ -279,5 +293,7 @@ namespace TypeTest.Colors
             frmView.chbShowTimer.ForeColor = _TextBoxColors.BackColor;
             
         }
+
+      
     }
 }

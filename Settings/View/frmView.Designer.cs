@@ -53,9 +53,10 @@
             this.chbShowKeyboard.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chbShowKeyboard.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chbShowKeyboard.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chbShowKeyboard.Location = new System.Drawing.Point(23, 65);
+            this.chbShowKeyboard.Location = new System.Drawing.Point(20, 53);
+            this.chbShowKeyboard.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chbShowKeyboard.Name = "chbShowKeyboard";
-            this.chbShowKeyboard.Size = new System.Drawing.Size(317, 40);
+            this.chbShowKeyboard.Size = new System.Drawing.Size(272, 32);
             this.chbShowKeyboard.TabIndex = 1;
             this.chbShowKeyboard.Text = "Show Keyboard";
             this.chbShowKeyboard.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
@@ -76,9 +77,10 @@
             this.chbShowNextButton.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chbShowNextButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chbShowNextButton.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chbShowNextButton.Location = new System.Drawing.Point(23, 157);
+            this.chbShowNextButton.Location = new System.Drawing.Point(20, 128);
+            this.chbShowNextButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chbShowNextButton.Name = "chbShowNextButton";
-            this.chbShowNextButton.Size = new System.Drawing.Size(317, 40);
+            this.chbShowNextButton.Size = new System.Drawing.Size(272, 32);
             this.chbShowNextButton.TabIndex = 3;
             this.chbShowNextButton.Text = "Show Next Button";
             this.chbShowNextButton.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
@@ -99,9 +101,10 @@
             this.chbShowTimer.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chbShowTimer.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chbShowTimer.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chbShowTimer.Location = new System.Drawing.Point(23, 111);
+            this.chbShowTimer.Location = new System.Drawing.Point(20, 90);
+            this.chbShowTimer.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chbShowTimer.Name = "chbShowTimer";
-            this.chbShowTimer.Size = new System.Drawing.Size(317, 40);
+            this.chbShowTimer.Size = new System.Drawing.Size(272, 32);
             this.chbShowTimer.TabIndex = 4;
             this.chbShowTimer.Text = "Show Timer";
             this.chbShowTimer.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
@@ -210,9 +213,10 @@
             this.chbShowProgressBar.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chbShowProgressBar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chbShowProgressBar.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chbShowProgressBar.Location = new System.Drawing.Point(23, 249);
+            this.chbShowProgressBar.Location = new System.Drawing.Point(20, 202);
+            this.chbShowProgressBar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chbShowProgressBar.Name = "chbShowProgressBar";
-            this.chbShowProgressBar.Size = new System.Drawing.Size(317, 40);
+            this.chbShowProgressBar.Size = new System.Drawing.Size(272, 32);
             this.chbShowProgressBar.TabIndex = 5;
             this.chbShowProgressBar.Text = "Show Porgress Bar";
             this.chbShowProgressBar.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
@@ -233,9 +237,10 @@
             this.chbShowRestartButton.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chbShowRestartButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chbShowRestartButton.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chbShowRestartButton.Location = new System.Drawing.Point(23, 203);
+            this.chbShowRestartButton.Location = new System.Drawing.Point(20, 165);
+            this.chbShowRestartButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chbShowRestartButton.Name = "chbShowRestartButton";
-            this.chbShowRestartButton.Size = new System.Drawing.Size(317, 40);
+            this.chbShowRestartButton.Size = new System.Drawing.Size(272, 32);
             this.chbShowRestartButton.TabIndex = 6;
             this.chbShowRestartButton.Text = "Show Restart Button";
             this.chbShowRestartButton.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
@@ -249,20 +254,20 @@
             // 
             this.btnCancel.Animated = true;
             this.btnCancel.AutoRoundedCorners = true;
-            this.btnCancel.BorderRadius = 19;
+            this.btnCancel.BorderRadius = 15;
             this.btnCancel.CheckedState.Parent = this.btnCancel;
             this.btnCancel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCancel.CustomImages.Parent = this.btnCancel;
+            this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnCancel.FillColor = System.Drawing.Color.Black;
             this.btnCancel.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnCancel.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel.ForeColor = System.Drawing.Color.White;
             this.btnCancel.HoverState.Parent = this.btnCancel;
-            this.btnCancel.Location = new System.Drawing.Point(154, 419);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCancel.Location = new System.Drawing.Point(132, 340);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.ShadowDecoration.Parent = this.btnCancel;
-            this.btnCancel.Size = new System.Drawing.Size(125, 41);
+            this.btnCancel.Size = new System.Drawing.Size(107, 33);
             this.btnCancel.TabIndex = 24;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
@@ -271,7 +276,7 @@
             // 
             this.btnApplay.Animated = true;
             this.btnApplay.AutoRoundedCorners = true;
-            this.btnApplay.BorderRadius = 19;
+            this.btnApplay.BorderRadius = 15;
             this.btnApplay.CheckedState.Parent = this.btnApplay;
             this.btnApplay.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnApplay.CustomImages.Parent = this.btnApplay;
@@ -280,20 +285,23 @@
             this.btnApplay.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnApplay.ForeColor = System.Drawing.Color.White;
             this.btnApplay.HoverState.Parent = this.btnApplay;
-            this.btnApplay.Location = new System.Drawing.Point(287, 419);
-            this.btnApplay.Margin = new System.Windows.Forms.Padding(4);
+            this.btnApplay.Location = new System.Drawing.Point(246, 340);
             this.btnApplay.Name = "btnApplay";
             this.btnApplay.ShadowDecoration.Parent = this.btnApplay;
-            this.btnApplay.Size = new System.Drawing.Size(125, 41);
+            this.btnApplay.Size = new System.Drawing.Size(107, 33);
             this.btnApplay.TabIndex = 23;
             this.btnApplay.Text = "Applay";
             this.btnApplay.Click += new System.EventHandler(this.btnApplay_Click);
             // 
             // frmView
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(418, 472);
+            this.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.CancelButton = this.btnCancel;
+            this.CausesValidation = false;
+            this.ClientSize = new System.Drawing.Size(358, 384);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnApplay);
             this.Controls.Add(this.chbShowRestartButton);
@@ -302,6 +310,10 @@
             this.Controls.Add(this.chbShowNextButton);
             this.Controls.Add(this.chbShowKeyboard);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.ImeMode = System.Windows.Forms.ImeMode.Off;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frmView";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "View Settings";

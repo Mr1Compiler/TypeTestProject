@@ -99,8 +99,6 @@
             this.btnViewSettings = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.lblVersion = new System.Windows.Forms.Label();
-            this.btnFontSettings = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.btnColorsSettings = new Guna.UI2.WinForms.Guna2GradientButton();
             this.ProgressBar = new Guna.UI2.WinForms.Guna2ProgressBar();
             this.btnfrmSettings = new Guna.UI2.WinForms.Guna2ImageButton();
             this.MenuPanel = new Guna.UI2.WinForms.Guna2Panel();
@@ -184,11 +182,10 @@
             this.KeyboardPanel.Controls.Add(this.btnNoTwo);
             this.KeyboardPanel.Controls.Add(this.btnNoOne);
             this.KeyboardPanel.Controls.Add(this.btnTilde);
-            this.KeyboardPanel.Location = new System.Drawing.Point(350, 562);
-            this.KeyboardPanel.Margin = new System.Windows.Forms.Padding(4);
+            this.KeyboardPanel.Location = new System.Drawing.Point(300, 457);
             this.KeyboardPanel.Name = "KeyboardPanel";
             this.KeyboardPanel.ShadowDecoration.Parent = this.KeyboardPanel;
-            this.KeyboardPanel.Size = new System.Drawing.Size(918, 309);
+            this.KeyboardPanel.Size = new System.Drawing.Size(787, 251);
             this.KeyboardPanel.TabIndex = 1;
             this.KeyboardPanel.Tag = " ";
             // 
@@ -201,11 +198,10 @@
             this.btnEmpty.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEmpty.ForeColor = System.Drawing.Color.Black;
             this.btnEmpty.HoverState.Parent = this.btnEmpty;
-            this.btnEmpty.Location = new System.Drawing.Point(899, 91);
-            this.btnEmpty.Margin = new System.Windows.Forms.Padding(4);
+            this.btnEmpty.Location = new System.Drawing.Point(771, 74);
             this.btnEmpty.Name = "btnEmpty";
             this.btnEmpty.ShadowDecoration.Parent = this.btnEmpty;
-            this.btnEmpty.Size = new System.Drawing.Size(12, 12);
+            this.btnEmpty.Size = new System.Drawing.Size(10, 10);
             this.btnEmpty.TabIndex = 69;
             this.btnEmpty.Text = "Empty";
             this.btnEmpty.Visible = false;
@@ -219,11 +215,10 @@
             this.btnA.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnA.ForeColor = System.Drawing.Color.Black;
             this.btnA.HoverState.Parent = this.btnA;
-            this.btnA.Location = new System.Drawing.Point(127, 127);
-            this.btnA.Margin = new System.Windows.Forms.Padding(4);
+            this.btnA.Location = new System.Drawing.Point(109, 103);
             this.btnA.Name = "btnA";
             this.btnA.ShadowDecoration.Parent = this.btnA;
-            this.btnA.Size = new System.Drawing.Size(54, 54);
+            this.btnA.Size = new System.Drawing.Size(46, 44);
             this.btnA.TabIndex = 69;
             this.btnA.Text = "A";
             // 
@@ -236,11 +231,10 @@
             this.btnWin2.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnWin2.ForeColor = System.Drawing.Color.Black;
             this.btnWin2.HoverState.Parent = this.btnWin2;
-            this.btnWin2.Location = new System.Drawing.Point(709, 250);
-            this.btnWin2.Margin = new System.Windows.Forms.Padding(4);
+            this.btnWin2.Location = new System.Drawing.Point(608, 203);
             this.btnWin2.Name = "btnWin2";
             this.btnWin2.ShadowDecoration.Parent = this.btnWin2;
-            this.btnWin2.Size = new System.Drawing.Size(63, 54);
+            this.btnWin2.Size = new System.Drawing.Size(54, 44);
             this.btnWin2.TabIndex = 68;
             this.btnWin2.Text = "WIN";
             // 
@@ -253,11 +247,10 @@
             this.btnAlt2.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAlt2.ForeColor = System.Drawing.Color.Black;
             this.btnAlt2.HoverState.Parent = this.btnAlt2;
-            this.btnAlt2.Location = new System.Drawing.Point(639, 250);
-            this.btnAlt2.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAlt2.Location = new System.Drawing.Point(548, 203);
             this.btnAlt2.Name = "btnAlt2";
             this.btnAlt2.ShadowDecoration.Parent = this.btnAlt2;
-            this.btnAlt2.Size = new System.Drawing.Size(63, 54);
+            this.btnAlt2.Size = new System.Drawing.Size(54, 44);
             this.btnAlt2.TabIndex = 67;
             this.btnAlt2.Text = "ALT";
             // 
@@ -270,11 +263,10 @@
             this.btnMenue.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMenue.ForeColor = System.Drawing.Color.Black;
             this.btnMenue.HoverState.Parent = this.btnMenue;
-            this.btnMenue.Location = new System.Drawing.Point(779, 251);
-            this.btnMenue.Margin = new System.Windows.Forms.Padding(4);
+            this.btnMenue.Location = new System.Drawing.Point(668, 204);
             this.btnMenue.Name = "btnMenue";
             this.btnMenue.ShadowDecoration.Parent = this.btnMenue;
-            this.btnMenue.Size = new System.Drawing.Size(63, 54);
+            this.btnMenue.Size = new System.Drawing.Size(54, 44);
             this.btnMenue.TabIndex = 66;
             this.btnMenue.Text = "MENU";
             // 
@@ -287,11 +279,10 @@
             this.btnControl2.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnControl2.ForeColor = System.Drawing.Color.Black;
             this.btnControl2.HoverState.Parent = this.btnControl2;
-            this.btnControl2.Location = new System.Drawing.Point(849, 250);
-            this.btnControl2.Margin = new System.Windows.Forms.Padding(4);
+            this.btnControl2.Location = new System.Drawing.Point(728, 203);
             this.btnControl2.Name = "btnControl2";
             this.btnControl2.ShadowDecoration.Parent = this.btnControl2;
-            this.btnControl2.Size = new System.Drawing.Size(63, 54);
+            this.btnControl2.Size = new System.Drawing.Size(54, 44);
             this.btnControl2.TabIndex = 65;
             this.btnControl2.Text = "CTRL";
             // 
@@ -304,11 +295,10 @@
             this.btnSpace.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSpace.ForeColor = System.Drawing.Color.Black;
             this.btnSpace.HoverState.Parent = this.btnSpace;
-            this.btnSpace.Location = new System.Drawing.Point(264, 250);
-            this.btnSpace.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSpace.Location = new System.Drawing.Point(226, 203);
             this.btnSpace.Name = "btnSpace";
             this.btnSpace.ShadowDecoration.Parent = this.btnSpace;
-            this.btnSpace.Size = new System.Drawing.Size(369, 54);
+            this.btnSpace.Size = new System.Drawing.Size(316, 44);
             this.btnSpace.TabIndex = 64;
             this.btnSpace.Text = "SPACE";
             // 
@@ -321,11 +311,10 @@
             this.btnAlt1.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAlt1.ForeColor = System.Drawing.Color.Black;
             this.btnAlt1.HoverState.Parent = this.btnAlt1;
-            this.btnAlt1.Location = new System.Drawing.Point(178, 250);
-            this.btnAlt1.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAlt1.Location = new System.Drawing.Point(153, 203);
             this.btnAlt1.Name = "btnAlt1";
             this.btnAlt1.ShadowDecoration.Parent = this.btnAlt1;
-            this.btnAlt1.Size = new System.Drawing.Size(78, 54);
+            this.btnAlt1.Size = new System.Drawing.Size(67, 44);
             this.btnAlt1.TabIndex = 63;
             this.btnAlt1.Text = "ALT";
             // 
@@ -338,11 +327,10 @@
             this.btnWin1.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnWin1.ForeColor = System.Drawing.Color.Black;
             this.btnWin1.HoverState.Parent = this.btnWin1;
-            this.btnWin1.Location = new System.Drawing.Point(92, 250);
-            this.btnWin1.Margin = new System.Windows.Forms.Padding(4);
+            this.btnWin1.Location = new System.Drawing.Point(79, 203);
             this.btnWin1.Name = "btnWin1";
             this.btnWin1.ShadowDecoration.Parent = this.btnWin1;
-            this.btnWin1.Size = new System.Drawing.Size(78, 54);
+            this.btnWin1.Size = new System.Drawing.Size(67, 44);
             this.btnWin1.TabIndex = 62;
             this.btnWin1.Text = "WIN";
             // 
@@ -355,11 +343,10 @@
             this.btnControl.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnControl.ForeColor = System.Drawing.Color.Black;
             this.btnControl.HoverState.Parent = this.btnControl;
-            this.btnControl.Location = new System.Drawing.Point(6, 250);
-            this.btnControl.Margin = new System.Windows.Forms.Padding(4);
+            this.btnControl.Location = new System.Drawing.Point(5, 203);
             this.btnControl.Name = "btnControl";
             this.btnControl.ShadowDecoration.Parent = this.btnControl;
-            this.btnControl.Size = new System.Drawing.Size(78, 54);
+            this.btnControl.Size = new System.Drawing.Size(67, 44);
             this.btnControl.TabIndex = 58;
             this.btnControl.Text = "CTRL";
             // 
@@ -372,11 +359,10 @@
             this.btnQuestionMark.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuestionMark.ForeColor = System.Drawing.Color.Black;
             this.btnQuestionMark.HoverState.Parent = this.btnQuestionMark;
-            this.btnQuestionMark.Location = new System.Drawing.Point(686, 188);
-            this.btnQuestionMark.Margin = new System.Windows.Forms.Padding(4);
+            this.btnQuestionMark.Location = new System.Drawing.Point(588, 153);
             this.btnQuestionMark.Name = "btnQuestionMark";
             this.btnQuestionMark.ShadowDecoration.Parent = this.btnQuestionMark;
-            this.btnQuestionMark.Size = new System.Drawing.Size(54, 54);
+            this.btnQuestionMark.Size = new System.Drawing.Size(46, 44);
             this.btnQuestionMark.TabIndex = 57;
             this.btnQuestionMark.Tag = "/";
             this.btnQuestionMark.Text = "?    /";
@@ -390,11 +376,10 @@
             this.btnGraterThan.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGraterThan.ForeColor = System.Drawing.Color.Black;
             this.btnGraterThan.HoverState.Parent = this.btnGraterThan;
-            this.btnGraterThan.Location = new System.Drawing.Point(626, 188);
-            this.btnGraterThan.Margin = new System.Windows.Forms.Padding(4);
+            this.btnGraterThan.Location = new System.Drawing.Point(537, 153);
             this.btnGraterThan.Name = "btnGraterThan";
             this.btnGraterThan.ShadowDecoration.Parent = this.btnGraterThan;
-            this.btnGraterThan.Size = new System.Drawing.Size(54, 54);
+            this.btnGraterThan.Size = new System.Drawing.Size(46, 44);
             this.btnGraterThan.TabIndex = 56;
             this.btnGraterThan.Tag = ".";
             this.btnGraterThan.Text = ">    .";
@@ -408,11 +393,10 @@
             this.btnLessThan.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLessThan.ForeColor = System.Drawing.Color.Black;
             this.btnLessThan.HoverState.Parent = this.btnLessThan;
-            this.btnLessThan.Location = new System.Drawing.Point(567, 188);
-            this.btnLessThan.Margin = new System.Windows.Forms.Padding(4);
+            this.btnLessThan.Location = new System.Drawing.Point(486, 153);
             this.btnLessThan.Name = "btnLessThan";
             this.btnLessThan.ShadowDecoration.Parent = this.btnLessThan;
-            this.btnLessThan.Size = new System.Drawing.Size(54, 54);
+            this.btnLessThan.Size = new System.Drawing.Size(46, 44);
             this.btnLessThan.TabIndex = 55;
             this.btnLessThan.Tag = ",";
             this.btnLessThan.Text = "<    ,";
@@ -426,11 +410,10 @@
             this.btnM.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnM.ForeColor = System.Drawing.Color.Black;
             this.btnM.HoverState.Parent = this.btnM;
-            this.btnM.Location = new System.Drawing.Point(507, 188);
-            this.btnM.Margin = new System.Windows.Forms.Padding(4);
+            this.btnM.Location = new System.Drawing.Point(435, 153);
             this.btnM.Name = "btnM";
             this.btnM.ShadowDecoration.Parent = this.btnM;
-            this.btnM.Size = new System.Drawing.Size(54, 54);
+            this.btnM.Size = new System.Drawing.Size(46, 44);
             this.btnM.TabIndex = 54;
             this.btnM.Text = "M";
             // 
@@ -443,11 +426,10 @@
             this.btnN.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnN.ForeColor = System.Drawing.Color.Black;
             this.btnN.HoverState.Parent = this.btnN;
-            this.btnN.Location = new System.Drawing.Point(448, 188);
-            this.btnN.Margin = new System.Windows.Forms.Padding(4);
+            this.btnN.Location = new System.Drawing.Point(384, 153);
             this.btnN.Name = "btnN";
             this.btnN.ShadowDecoration.Parent = this.btnN;
-            this.btnN.Size = new System.Drawing.Size(54, 54);
+            this.btnN.Size = new System.Drawing.Size(46, 44);
             this.btnN.TabIndex = 53;
             this.btnN.Text = "N";
             // 
@@ -460,11 +442,10 @@
             this.btnB.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnB.ForeColor = System.Drawing.Color.Black;
             this.btnB.HoverState.Parent = this.btnB;
-            this.btnB.Location = new System.Drawing.Point(388, 188);
-            this.btnB.Margin = new System.Windows.Forms.Padding(4);
+            this.btnB.Location = new System.Drawing.Point(333, 153);
             this.btnB.Name = "btnB";
             this.btnB.ShadowDecoration.Parent = this.btnB;
-            this.btnB.Size = new System.Drawing.Size(54, 54);
+            this.btnB.Size = new System.Drawing.Size(46, 44);
             this.btnB.TabIndex = 52;
             this.btnB.Text = "B";
             // 
@@ -477,11 +458,10 @@
             this.btnV.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnV.ForeColor = System.Drawing.Color.Black;
             this.btnV.HoverState.Parent = this.btnV;
-            this.btnV.Location = new System.Drawing.Point(329, 188);
-            this.btnV.Margin = new System.Windows.Forms.Padding(4);
+            this.btnV.Location = new System.Drawing.Point(282, 153);
             this.btnV.Name = "btnV";
             this.btnV.ShadowDecoration.Parent = this.btnV;
-            this.btnV.Size = new System.Drawing.Size(54, 54);
+            this.btnV.Size = new System.Drawing.Size(46, 44);
             this.btnV.TabIndex = 51;
             this.btnV.Text = "V";
             // 
@@ -494,11 +474,10 @@
             this.btnC.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnC.ForeColor = System.Drawing.Color.Black;
             this.btnC.HoverState.Parent = this.btnC;
-            this.btnC.Location = new System.Drawing.Point(270, 188);
-            this.btnC.Margin = new System.Windows.Forms.Padding(4);
+            this.btnC.Location = new System.Drawing.Point(231, 153);
             this.btnC.Name = "btnC";
             this.btnC.ShadowDecoration.Parent = this.btnC;
-            this.btnC.Size = new System.Drawing.Size(54, 54);
+            this.btnC.Size = new System.Drawing.Size(46, 44);
             this.btnC.TabIndex = 50;
             this.btnC.Text = "C";
             // 
@@ -511,11 +490,10 @@
             this.btnX.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnX.ForeColor = System.Drawing.Color.Black;
             this.btnX.HoverState.Parent = this.btnX;
-            this.btnX.Location = new System.Drawing.Point(210, 188);
-            this.btnX.Margin = new System.Windows.Forms.Padding(4);
+            this.btnX.Location = new System.Drawing.Point(180, 153);
             this.btnX.Name = "btnX";
             this.btnX.ShadowDecoration.Parent = this.btnX;
-            this.btnX.Size = new System.Drawing.Size(54, 54);
+            this.btnX.Size = new System.Drawing.Size(46, 44);
             this.btnX.TabIndex = 49;
             this.btnX.Text = "X";
             // 
@@ -528,11 +506,10 @@
             this.btnZ.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnZ.ForeColor = System.Drawing.Color.Black;
             this.btnZ.HoverState.Parent = this.btnZ;
-            this.btnZ.Location = new System.Drawing.Point(150, 188);
-            this.btnZ.Margin = new System.Windows.Forms.Padding(4);
+            this.btnZ.Location = new System.Drawing.Point(129, 153);
             this.btnZ.Name = "btnZ";
             this.btnZ.ShadowDecoration.Parent = this.btnZ;
-            this.btnZ.Size = new System.Drawing.Size(54, 54);
+            this.btnZ.Size = new System.Drawing.Size(46, 44);
             this.btnZ.TabIndex = 48;
             this.btnZ.Text = "Z";
             // 
@@ -545,11 +522,10 @@
             this.btnShift.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnShift.ForeColor = System.Drawing.Color.Black;
             this.btnShift.HoverState.Parent = this.btnShift;
-            this.btnShift.Location = new System.Drawing.Point(6, 188);
-            this.btnShift.Margin = new System.Windows.Forms.Padding(4);
+            this.btnShift.Location = new System.Drawing.Point(5, 153);
             this.btnShift.Name = "btnShift";
             this.btnShift.ShadowDecoration.Parent = this.btnShift;
-            this.btnShift.Size = new System.Drawing.Size(139, 54);
+            this.btnShift.Size = new System.Drawing.Size(119, 44);
             this.btnShift.TabIndex = 47;
             this.btnShift.Text = "SHIFT";
             // 
@@ -562,11 +538,10 @@
             this.btnShift2.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnShift2.ForeColor = System.Drawing.Color.Black;
             this.btnShift2.HoverState.Parent = this.btnShift2;
-            this.btnShift2.Location = new System.Drawing.Point(746, 188);
-            this.btnShift2.Margin = new System.Windows.Forms.Padding(4);
+            this.btnShift2.Location = new System.Drawing.Point(639, 153);
             this.btnShift2.Name = "btnShift2";
             this.btnShift2.ShadowDecoration.Parent = this.btnShift2;
-            this.btnShift2.Size = new System.Drawing.Size(167, 54);
+            this.btnShift2.Size = new System.Drawing.Size(143, 44);
             this.btnShift2.TabIndex = 46;
             this.btnShift2.Text = "SHIFT";
             // 
@@ -579,11 +554,10 @@
             this.btndDoubleQuotation.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btndDoubleQuotation.ForeColor = System.Drawing.Color.Black;
             this.btndDoubleQuotation.HoverState.Parent = this.btndDoubleQuotation;
-            this.btndDoubleQuotation.Location = new System.Drawing.Point(721, 127);
-            this.btndDoubleQuotation.Margin = new System.Windows.Forms.Padding(4);
+            this.btndDoubleQuotation.Location = new System.Drawing.Point(618, 103);
             this.btndDoubleQuotation.Name = "btndDoubleQuotation";
             this.btndDoubleQuotation.ShadowDecoration.Parent = this.btndDoubleQuotation;
-            this.btndDoubleQuotation.Size = new System.Drawing.Size(54, 54);
+            this.btndDoubleQuotation.Size = new System.Drawing.Size(46, 44);
             this.btndDoubleQuotation.TabIndex = 45;
             this.btndDoubleQuotation.Text = "\"           \'";
             // 
@@ -596,11 +570,10 @@
             this.btnColon.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnColon.ForeColor = System.Drawing.Color.Black;
             this.btnColon.HoverState.Parent = this.btnColon;
-            this.btnColon.Location = new System.Drawing.Point(662, 127);
-            this.btnColon.Margin = new System.Windows.Forms.Padding(4);
+            this.btnColon.Location = new System.Drawing.Point(567, 103);
             this.btnColon.Name = "btnColon";
             this.btnColon.ShadowDecoration.Parent = this.btnColon;
-            this.btnColon.Size = new System.Drawing.Size(54, 54);
+            this.btnColon.Size = new System.Drawing.Size(46, 44);
             this.btnColon.TabIndex = 44;
             this.btnColon.Text = ":            ; ";
             // 
@@ -614,11 +587,10 @@
             this.btnL.ForeColor = System.Drawing.Color.Black;
             this.btnL.HoverState.FillColor = System.Drawing.Color.Blue;
             this.btnL.HoverState.Parent = this.btnL;
-            this.btnL.Location = new System.Drawing.Point(602, 127);
-            this.btnL.Margin = new System.Windows.Forms.Padding(4);
+            this.btnL.Location = new System.Drawing.Point(516, 103);
             this.btnL.Name = "btnL";
             this.btnL.ShadowDecoration.Parent = this.btnL;
-            this.btnL.Size = new System.Drawing.Size(54, 54);
+            this.btnL.Size = new System.Drawing.Size(46, 44);
             this.btnL.TabIndex = 43;
             this.btnL.Text = "L";
             // 
@@ -631,11 +603,10 @@
             this.btnK.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnK.ForeColor = System.Drawing.Color.Black;
             this.btnK.HoverState.Parent = this.btnK;
-            this.btnK.Location = new System.Drawing.Point(542, 127);
-            this.btnK.Margin = new System.Windows.Forms.Padding(4);
+            this.btnK.Location = new System.Drawing.Point(465, 103);
             this.btnK.Name = "btnK";
             this.btnK.ShadowDecoration.Parent = this.btnK;
-            this.btnK.Size = new System.Drawing.Size(54, 54);
+            this.btnK.Size = new System.Drawing.Size(46, 44);
             this.btnK.TabIndex = 42;
             this.btnK.Text = "K";
             // 
@@ -648,11 +619,10 @@
             this.btnJ.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnJ.ForeColor = System.Drawing.Color.Black;
             this.btnJ.HoverState.Parent = this.btnJ;
-            this.btnJ.Location = new System.Drawing.Point(483, 127);
-            this.btnJ.Margin = new System.Windows.Forms.Padding(4);
+            this.btnJ.Location = new System.Drawing.Point(414, 103);
             this.btnJ.Name = "btnJ";
             this.btnJ.ShadowDecoration.Parent = this.btnJ;
-            this.btnJ.Size = new System.Drawing.Size(54, 54);
+            this.btnJ.Size = new System.Drawing.Size(46, 44);
             this.btnJ.TabIndex = 41;
             this.btnJ.Text = "J";
             // 
@@ -665,11 +635,10 @@
             this.btnH.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnH.ForeColor = System.Drawing.Color.Black;
             this.btnH.HoverState.Parent = this.btnH;
-            this.btnH.Location = new System.Drawing.Point(424, 127);
-            this.btnH.Margin = new System.Windows.Forms.Padding(4);
+            this.btnH.Location = new System.Drawing.Point(363, 103);
             this.btnH.Name = "btnH";
             this.btnH.ShadowDecoration.Parent = this.btnH;
-            this.btnH.Size = new System.Drawing.Size(54, 54);
+            this.btnH.Size = new System.Drawing.Size(46, 44);
             this.btnH.TabIndex = 40;
             this.btnH.Text = "H";
             // 
@@ -682,11 +651,10 @@
             this.btnG.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnG.ForeColor = System.Drawing.Color.Black;
             this.btnG.HoverState.Parent = this.btnG;
-            this.btnG.Location = new System.Drawing.Point(364, 127);
-            this.btnG.Margin = new System.Windows.Forms.Padding(4);
+            this.btnG.Location = new System.Drawing.Point(312, 103);
             this.btnG.Name = "btnG";
             this.btnG.ShadowDecoration.Parent = this.btnG;
-            this.btnG.Size = new System.Drawing.Size(54, 54);
+            this.btnG.Size = new System.Drawing.Size(46, 44);
             this.btnG.TabIndex = 39;
             this.btnG.Text = "G";
             // 
@@ -699,11 +667,10 @@
             this.btnF.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnF.ForeColor = System.Drawing.Color.Black;
             this.btnF.HoverState.Parent = this.btnF;
-            this.btnF.Location = new System.Drawing.Point(304, 127);
-            this.btnF.Margin = new System.Windows.Forms.Padding(4);
+            this.btnF.Location = new System.Drawing.Point(261, 103);
             this.btnF.Name = "btnF";
             this.btnF.ShadowDecoration.Parent = this.btnF;
-            this.btnF.Size = new System.Drawing.Size(54, 54);
+            this.btnF.Size = new System.Drawing.Size(46, 44);
             this.btnF.TabIndex = 38;
             this.btnF.Text = "F";
             // 
@@ -716,11 +683,10 @@
             this.btnD.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnD.ForeColor = System.Drawing.Color.Black;
             this.btnD.HoverState.Parent = this.btnD;
-            this.btnD.Location = new System.Drawing.Point(245, 127);
-            this.btnD.Margin = new System.Windows.Forms.Padding(4);
+            this.btnD.Location = new System.Drawing.Point(210, 103);
             this.btnD.Name = "btnD";
             this.btnD.ShadowDecoration.Parent = this.btnD;
-            this.btnD.Size = new System.Drawing.Size(54, 54);
+            this.btnD.Size = new System.Drawing.Size(46, 44);
             this.btnD.TabIndex = 37;
             this.btnD.Text = "D";
             // 
@@ -733,11 +699,10 @@
             this.btnS.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnS.ForeColor = System.Drawing.Color.Black;
             this.btnS.HoverState.Parent = this.btnS;
-            this.btnS.Location = new System.Drawing.Point(186, 127);
-            this.btnS.Margin = new System.Windows.Forms.Padding(4);
+            this.btnS.Location = new System.Drawing.Point(159, 103);
             this.btnS.Name = "btnS";
             this.btnS.ShadowDecoration.Parent = this.btnS;
-            this.btnS.Size = new System.Drawing.Size(54, 54);
+            this.btnS.Size = new System.Drawing.Size(46, 44);
             this.btnS.TabIndex = 36;
             this.btnS.Text = "S";
             // 
@@ -750,11 +715,10 @@
             this.btnCapsLock.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCapsLock.ForeColor = System.Drawing.Color.Black;
             this.btnCapsLock.HoverState.Parent = this.btnCapsLock;
-            this.btnCapsLock.Location = new System.Drawing.Point(6, 127);
-            this.btnCapsLock.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCapsLock.Location = new System.Drawing.Point(5, 103);
             this.btnCapsLock.Name = "btnCapsLock";
             this.btnCapsLock.ShadowDecoration.Parent = this.btnCapsLock;
-            this.btnCapsLock.Size = new System.Drawing.Size(114, 54);
+            this.btnCapsLock.Size = new System.Drawing.Size(98, 44);
             this.btnCapsLock.TabIndex = 34;
             this.btnCapsLock.Text = "CAPS LOCK";
             // 
@@ -767,11 +731,10 @@
             this.btnEnter.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEnter.ForeColor = System.Drawing.Color.Black;
             this.btnEnter.HoverState.Parent = this.btnEnter;
-            this.btnEnter.Location = new System.Drawing.Point(782, 127);
-            this.btnEnter.Margin = new System.Windows.Forms.Padding(4);
+            this.btnEnter.Location = new System.Drawing.Point(670, 103);
             this.btnEnter.Name = "btnEnter";
             this.btnEnter.ShadowDecoration.Parent = this.btnEnter;
-            this.btnEnter.Size = new System.Drawing.Size(131, 54);
+            this.btnEnter.Size = new System.Drawing.Size(112, 44);
             this.btnEnter.TabIndex = 33;
             this.btnEnter.Text = "Enter";
             // 
@@ -784,11 +747,10 @@
             this.btnTab.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTab.ForeColor = System.Drawing.Color.Black;
             this.btnTab.HoverState.Parent = this.btnTab;
-            this.btnTab.Location = new System.Drawing.Point(6, 65);
-            this.btnTab.Margin = new System.Windows.Forms.Padding(4);
+            this.btnTab.Location = new System.Drawing.Point(5, 53);
             this.btnTab.Name = "btnTab";
             this.btnTab.ShadowDecoration.Parent = this.btnTab;
-            this.btnTab.Size = new System.Drawing.Size(92, 54);
+            this.btnTab.Size = new System.Drawing.Size(79, 44);
             this.btnTab.TabIndex = 32;
             this.btnTab.Text = "TAB";
             // 
@@ -801,11 +763,10 @@
             this.btnLeftCurlyBrace.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLeftCurlyBrace.ForeColor = System.Drawing.Color.Black;
             this.btnLeftCurlyBrace.HoverState.Parent = this.btnLeftCurlyBrace;
-            this.btnLeftCurlyBrace.Location = new System.Drawing.Point(699, 65);
-            this.btnLeftCurlyBrace.Margin = new System.Windows.Forms.Padding(4);
+            this.btnLeftCurlyBrace.Location = new System.Drawing.Point(599, 53);
             this.btnLeftCurlyBrace.Name = "btnLeftCurlyBrace";
             this.btnLeftCurlyBrace.ShadowDecoration.Parent = this.btnLeftCurlyBrace;
-            this.btnLeftCurlyBrace.Size = new System.Drawing.Size(54, 54);
+            this.btnLeftCurlyBrace.Size = new System.Drawing.Size(46, 44);
             this.btnLeftCurlyBrace.TabIndex = 27;
             this.btnLeftCurlyBrace.Tag = "[";
             this.btnLeftCurlyBrace.Text = "{    [";
@@ -819,11 +780,10 @@
             this.btnVerticalBar.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVerticalBar.ForeColor = System.Drawing.Color.Black;
             this.btnVerticalBar.HoverState.Parent = this.btnVerticalBar;
-            this.btnVerticalBar.Location = new System.Drawing.Point(818, 65);
-            this.btnVerticalBar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnVerticalBar.Location = new System.Drawing.Point(701, 53);
             this.btnVerticalBar.Name = "btnVerticalBar";
             this.btnVerticalBar.ShadowDecoration.Parent = this.btnVerticalBar;
-            this.btnVerticalBar.Size = new System.Drawing.Size(94, 54);
+            this.btnVerticalBar.Size = new System.Drawing.Size(81, 44);
             this.btnVerticalBar.TabIndex = 31;
             this.btnVerticalBar.Tag = "\\";
             this.btnVerticalBar.Text = "|              \\";
@@ -837,11 +797,10 @@
             this.btnP.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnP.ForeColor = System.Drawing.Color.Black;
             this.btnP.HoverState.Parent = this.btnP;
-            this.btnP.Location = new System.Drawing.Point(639, 65);
-            this.btnP.Margin = new System.Windows.Forms.Padding(4);
+            this.btnP.Location = new System.Drawing.Point(548, 53);
             this.btnP.Name = "btnP";
             this.btnP.ShadowDecoration.Parent = this.btnP;
-            this.btnP.Size = new System.Drawing.Size(54, 54);
+            this.btnP.Size = new System.Drawing.Size(46, 44);
             this.btnP.TabIndex = 26;
             this.btnP.Text = "P";
             // 
@@ -854,11 +813,10 @@
             this.btnO.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnO.ForeColor = System.Drawing.Color.Black;
             this.btnO.HoverState.Parent = this.btnO;
-            this.btnO.Location = new System.Drawing.Point(580, 65);
-            this.btnO.Margin = new System.Windows.Forms.Padding(4);
+            this.btnO.Location = new System.Drawing.Point(497, 53);
             this.btnO.Name = "btnO";
             this.btnO.ShadowDecoration.Parent = this.btnO;
-            this.btnO.Size = new System.Drawing.Size(54, 54);
+            this.btnO.Size = new System.Drawing.Size(46, 44);
             this.btnO.TabIndex = 25;
             this.btnO.Text = "O";
             // 
@@ -871,11 +829,10 @@
             this.btnI.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnI.ForeColor = System.Drawing.Color.Black;
             this.btnI.HoverState.Parent = this.btnI;
-            this.btnI.Location = new System.Drawing.Point(520, 65);
-            this.btnI.Margin = new System.Windows.Forms.Padding(4);
+            this.btnI.Location = new System.Drawing.Point(446, 53);
             this.btnI.Name = "btnI";
             this.btnI.ShadowDecoration.Parent = this.btnI;
-            this.btnI.Size = new System.Drawing.Size(54, 54);
+            this.btnI.Size = new System.Drawing.Size(46, 44);
             this.btnI.TabIndex = 24;
             this.btnI.Text = "I";
             // 
@@ -888,11 +845,10 @@
             this.btnRightCurlyBrace.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRightCurlyBrace.ForeColor = System.Drawing.Color.Black;
             this.btnRightCurlyBrace.HoverState.Parent = this.btnRightCurlyBrace;
-            this.btnRightCurlyBrace.Location = new System.Drawing.Point(758, 65);
-            this.btnRightCurlyBrace.Margin = new System.Windows.Forms.Padding(4);
+            this.btnRightCurlyBrace.Location = new System.Drawing.Point(650, 53);
             this.btnRightCurlyBrace.Name = "btnRightCurlyBrace";
             this.btnRightCurlyBrace.ShadowDecoration.Parent = this.btnRightCurlyBrace;
-            this.btnRightCurlyBrace.Size = new System.Drawing.Size(54, 54);
+            this.btnRightCurlyBrace.Size = new System.Drawing.Size(46, 44);
             this.btnRightCurlyBrace.TabIndex = 23;
             this.btnRightCurlyBrace.Tag = "]";
             this.btnRightCurlyBrace.Text = "}    ]";
@@ -907,11 +863,10 @@
             this.btnU.ForeColor = System.Drawing.Color.Black;
             this.btnU.HoverState.FillColor = System.Drawing.SystemColors.Window;
             this.btnU.HoverState.Parent = this.btnU;
-            this.btnU.Location = new System.Drawing.Point(461, 65);
-            this.btnU.Margin = new System.Windows.Forms.Padding(4);
+            this.btnU.Location = new System.Drawing.Point(395, 53);
             this.btnU.Name = "btnU";
             this.btnU.ShadowDecoration.Parent = this.btnU;
-            this.btnU.Size = new System.Drawing.Size(54, 54);
+            this.btnU.Size = new System.Drawing.Size(46, 44);
             this.btnU.TabIndex = 22;
             this.btnU.Text = "U";
             // 
@@ -924,11 +879,10 @@
             this.btnY.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnY.ForeColor = System.Drawing.Color.Black;
             this.btnY.HoverState.Parent = this.btnY;
-            this.btnY.Location = new System.Drawing.Point(401, 65);
-            this.btnY.Margin = new System.Windows.Forms.Padding(4);
+            this.btnY.Location = new System.Drawing.Point(344, 53);
             this.btnY.Name = "btnY";
             this.btnY.ShadowDecoration.Parent = this.btnY;
-            this.btnY.Size = new System.Drawing.Size(54, 54);
+            this.btnY.Size = new System.Drawing.Size(46, 44);
             this.btnY.TabIndex = 21;
             this.btnY.Text = "Y";
             // 
@@ -941,11 +895,10 @@
             this.btnT.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnT.ForeColor = System.Drawing.Color.Black;
             this.btnT.HoverState.Parent = this.btnT;
-            this.btnT.Location = new System.Drawing.Point(342, 65);
-            this.btnT.Margin = new System.Windows.Forms.Padding(4);
+            this.btnT.Location = new System.Drawing.Point(293, 53);
             this.btnT.Name = "btnT";
             this.btnT.ShadowDecoration.Parent = this.btnT;
-            this.btnT.Size = new System.Drawing.Size(54, 54);
+            this.btnT.Size = new System.Drawing.Size(46, 44);
             this.btnT.TabIndex = 20;
             this.btnT.Text = "T";
             // 
@@ -958,11 +911,10 @@
             this.btnR.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnR.ForeColor = System.Drawing.Color.Black;
             this.btnR.HoverState.Parent = this.btnR;
-            this.btnR.Location = new System.Drawing.Point(282, 65);
-            this.btnR.Margin = new System.Windows.Forms.Padding(4);
+            this.btnR.Location = new System.Drawing.Point(242, 53);
             this.btnR.Name = "btnR";
             this.btnR.ShadowDecoration.Parent = this.btnR;
-            this.btnR.Size = new System.Drawing.Size(54, 54);
+            this.btnR.Size = new System.Drawing.Size(46, 44);
             this.btnR.TabIndex = 19;
             this.btnR.Text = "R";
             // 
@@ -975,11 +927,10 @@
             this.btnE.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnE.ForeColor = System.Drawing.Color.Black;
             this.btnE.HoverState.Parent = this.btnE;
-            this.btnE.Location = new System.Drawing.Point(223, 65);
-            this.btnE.Margin = new System.Windows.Forms.Padding(4);
+            this.btnE.Location = new System.Drawing.Point(191, 53);
             this.btnE.Name = "btnE";
             this.btnE.ShadowDecoration.Parent = this.btnE;
-            this.btnE.Size = new System.Drawing.Size(54, 54);
+            this.btnE.Size = new System.Drawing.Size(46, 44);
             this.btnE.TabIndex = 18;
             this.btnE.Text = "E";
             // 
@@ -992,11 +943,10 @@
             this.btnW.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnW.ForeColor = System.Drawing.Color.Black;
             this.btnW.HoverState.Parent = this.btnW;
-            this.btnW.Location = new System.Drawing.Point(163, 65);
-            this.btnW.Margin = new System.Windows.Forms.Padding(4);
+            this.btnW.Location = new System.Drawing.Point(140, 53);
             this.btnW.Name = "btnW";
             this.btnW.ShadowDecoration.Parent = this.btnW;
-            this.btnW.Size = new System.Drawing.Size(54, 54);
+            this.btnW.Size = new System.Drawing.Size(46, 44);
             this.btnW.TabIndex = 17;
             this.btnW.Text = "W";
             // 
@@ -1009,11 +959,10 @@
             this.btnQ.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQ.ForeColor = System.Drawing.Color.Black;
             this.btnQ.HoverState.Parent = this.btnQ;
-            this.btnQ.Location = new System.Drawing.Point(104, 65);
-            this.btnQ.Margin = new System.Windows.Forms.Padding(4);
+            this.btnQ.Location = new System.Drawing.Point(89, 53);
             this.btnQ.Name = "btnQ";
             this.btnQ.ShadowDecoration.Parent = this.btnQ;
-            this.btnQ.Size = new System.Drawing.Size(54, 54);
+            this.btnQ.Size = new System.Drawing.Size(46, 44);
             this.btnQ.TabIndex = 16;
             this.btnQ.Text = "Q";
             // 
@@ -1026,11 +975,10 @@
             this.btnBackSpace.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBackSpace.ForeColor = System.Drawing.Color.Black;
             this.btnBackSpace.HoverState.Parent = this.btnBackSpace;
-            this.btnBackSpace.Location = new System.Drawing.Point(794, 4);
-            this.btnBackSpace.Margin = new System.Windows.Forms.Padding(4);
+            this.btnBackSpace.Location = new System.Drawing.Point(681, 3);
             this.btnBackSpace.Name = "btnBackSpace";
             this.btnBackSpace.ShadowDecoration.Parent = this.btnBackSpace;
-            this.btnBackSpace.Size = new System.Drawing.Size(118, 54);
+            this.btnBackSpace.Size = new System.Drawing.Size(101, 44);
             this.btnBackSpace.TabIndex = 14;
             this.btnBackSpace.Text = "BACKSPACE";
             // 
@@ -1043,11 +991,10 @@
             this.btnMinus.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMinus.ForeColor = System.Drawing.Color.Black;
             this.btnMinus.HoverState.Parent = this.btnMinus;
-            this.btnMinus.Location = new System.Drawing.Point(673, 4);
-            this.btnMinus.Margin = new System.Windows.Forms.Padding(4);
+            this.btnMinus.Location = new System.Drawing.Point(577, 3);
             this.btnMinus.Name = "btnMinus";
             this.btnMinus.ShadowDecoration.Parent = this.btnMinus;
-            this.btnMinus.Size = new System.Drawing.Size(54, 54);
+            this.btnMinus.Size = new System.Drawing.Size(46, 44);
             this.btnMinus.TabIndex = 13;
             this.btnMinus.Tag = "-";
             this.btnMinus.Text = "_          -";
@@ -1061,11 +1008,10 @@
             this.btnNoZero.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNoZero.ForeColor = System.Drawing.Color.Black;
             this.btnNoZero.HoverState.Parent = this.btnNoZero;
-            this.btnNoZero.Location = new System.Drawing.Point(612, 4);
-            this.btnNoZero.Margin = new System.Windows.Forms.Padding(4);
+            this.btnNoZero.Location = new System.Drawing.Point(525, 3);
             this.btnNoZero.Name = "btnNoZero";
             this.btnNoZero.ShadowDecoration.Parent = this.btnNoZero;
-            this.btnNoZero.Size = new System.Drawing.Size(54, 54);
+            this.btnNoZero.Size = new System.Drawing.Size(46, 44);
             this.btnNoZero.TabIndex = 12;
             this.btnNoZero.Tag = "0";
             this.btnNoZero.Text = ")          0";
@@ -1079,11 +1025,10 @@
             this.btnNoNine.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNoNine.ForeColor = System.Drawing.Color.Black;
             this.btnNoNine.HoverState.Parent = this.btnNoNine;
-            this.btnNoNine.Location = new System.Drawing.Point(552, 4);
-            this.btnNoNine.Margin = new System.Windows.Forms.Padding(4);
+            this.btnNoNine.Location = new System.Drawing.Point(473, 3);
             this.btnNoNine.Name = "btnNoNine";
             this.btnNoNine.ShadowDecoration.Parent = this.btnNoNine;
-            this.btnNoNine.Size = new System.Drawing.Size(54, 54);
+            this.btnNoNine.Size = new System.Drawing.Size(46, 44);
             this.btnNoNine.TabIndex = 11;
             this.btnNoNine.Tag = "9";
             this.btnNoNine.Text = "(    9";
@@ -1097,11 +1042,10 @@
             this.btnNoEight.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNoEight.ForeColor = System.Drawing.Color.Black;
             this.btnNoEight.HoverState.Parent = this.btnNoEight;
-            this.btnNoEight.Location = new System.Drawing.Point(491, 4);
-            this.btnNoEight.Margin = new System.Windows.Forms.Padding(4);
+            this.btnNoEight.Location = new System.Drawing.Point(421, 3);
             this.btnNoEight.Name = "btnNoEight";
             this.btnNoEight.ShadowDecoration.Parent = this.btnNoEight;
-            this.btnNoEight.Size = new System.Drawing.Size(54, 54);
+            this.btnNoEight.Size = new System.Drawing.Size(46, 44);
             this.btnNoEight.TabIndex = 10;
             this.btnNoEight.Tag = "8";
             this.btnNoEight.Text = "*           8";
@@ -1115,11 +1059,10 @@
             this.btnPluse.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPluse.ForeColor = System.Drawing.Color.Black;
             this.btnPluse.HoverState.Parent = this.btnPluse;
-            this.btnPluse.Location = new System.Drawing.Point(734, 4);
-            this.btnPluse.Margin = new System.Windows.Forms.Padding(4);
+            this.btnPluse.Location = new System.Drawing.Point(629, 3);
             this.btnPluse.Name = "btnPluse";
             this.btnPluse.ShadowDecoration.Parent = this.btnPluse;
-            this.btnPluse.Size = new System.Drawing.Size(54, 54);
+            this.btnPluse.Size = new System.Drawing.Size(46, 44);
             this.btnPluse.TabIndex = 9;
             this.btnPluse.Tag = "=";
             this.btnPluse.Text = "+         =";
@@ -1133,11 +1076,10 @@
             this.btnNoSeven.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNoSeven.ForeColor = System.Drawing.Color.Black;
             this.btnNoSeven.HoverState.Parent = this.btnNoSeven;
-            this.btnNoSeven.Location = new System.Drawing.Point(430, 4);
-            this.btnNoSeven.Margin = new System.Windows.Forms.Padding(4);
+            this.btnNoSeven.Location = new System.Drawing.Point(369, 3);
             this.btnNoSeven.Name = "btnNoSeven";
             this.btnNoSeven.ShadowDecoration.Parent = this.btnNoSeven;
-            this.btnNoSeven.Size = new System.Drawing.Size(54, 54);
+            this.btnNoSeven.Size = new System.Drawing.Size(46, 44);
             this.btnNoSeven.TabIndex = 8;
             this.btnNoSeven.Tag = "7";
             this.btnNoSeven.Text = "&           7";
@@ -1151,11 +1093,10 @@
             this.btnNoSix.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNoSix.ForeColor = System.Drawing.Color.Black;
             this.btnNoSix.HoverState.Parent = this.btnNoSix;
-            this.btnNoSix.Location = new System.Drawing.Point(370, 4);
-            this.btnNoSix.Margin = new System.Windows.Forms.Padding(4);
+            this.btnNoSix.Location = new System.Drawing.Point(317, 3);
             this.btnNoSix.Name = "btnNoSix";
             this.btnNoSix.ShadowDecoration.Parent = this.btnNoSix;
-            this.btnNoSix.Size = new System.Drawing.Size(54, 54);
+            this.btnNoSix.Size = new System.Drawing.Size(46, 44);
             this.btnNoSix.TabIndex = 7;
             this.btnNoSix.Tag = "6";
             this.btnNoSix.Text = "^         6";
@@ -1169,11 +1110,10 @@
             this.btnNoFive.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNoFive.ForeColor = System.Drawing.Color.Black;
             this.btnNoFive.HoverState.Parent = this.btnNoFive;
-            this.btnNoFive.Location = new System.Drawing.Point(309, 4);
-            this.btnNoFive.Margin = new System.Windows.Forms.Padding(4);
+            this.btnNoFive.Location = new System.Drawing.Point(265, 3);
             this.btnNoFive.Name = "btnNoFive";
             this.btnNoFive.ShadowDecoration.Parent = this.btnNoFive;
-            this.btnNoFive.Size = new System.Drawing.Size(54, 54);
+            this.btnNoFive.Size = new System.Drawing.Size(46, 44);
             this.btnNoFive.TabIndex = 6;
             this.btnNoFive.Tag = "5";
             this.btnNoFive.Text = "%         5";
@@ -1187,11 +1127,10 @@
             this.btnNoFour.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNoFour.ForeColor = System.Drawing.Color.Black;
             this.btnNoFour.HoverState.Parent = this.btnNoFour;
-            this.btnNoFour.Location = new System.Drawing.Point(248, 4);
-            this.btnNoFour.Margin = new System.Windows.Forms.Padding(4);
+            this.btnNoFour.Location = new System.Drawing.Point(213, 3);
             this.btnNoFour.Name = "btnNoFour";
             this.btnNoFour.ShadowDecoration.Parent = this.btnNoFour;
-            this.btnNoFour.Size = new System.Drawing.Size(54, 54);
+            this.btnNoFour.Size = new System.Drawing.Size(46, 44);
             this.btnNoFour.TabIndex = 5;
             this.btnNoFour.Tag = "4";
             this.btnNoFour.Text = "$            4";
@@ -1205,11 +1144,10 @@
             this.btnNoThree.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNoThree.ForeColor = System.Drawing.Color.Black;
             this.btnNoThree.HoverState.Parent = this.btnNoThree;
-            this.btnNoThree.Location = new System.Drawing.Point(188, 4);
-            this.btnNoThree.Margin = new System.Windows.Forms.Padding(4);
+            this.btnNoThree.Location = new System.Drawing.Point(161, 3);
             this.btnNoThree.Name = "btnNoThree";
             this.btnNoThree.ShadowDecoration.Parent = this.btnNoThree;
-            this.btnNoThree.Size = new System.Drawing.Size(54, 54);
+            this.btnNoThree.Size = new System.Drawing.Size(46, 44);
             this.btnNoThree.TabIndex = 3;
             this.btnNoThree.Tag = "3";
             this.btnNoThree.Text = "#            3";
@@ -1223,11 +1161,10 @@
             this.btnNoTwo.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNoTwo.ForeColor = System.Drawing.Color.Black;
             this.btnNoTwo.HoverState.Parent = this.btnNoTwo;
-            this.btnNoTwo.Location = new System.Drawing.Point(127, 4);
-            this.btnNoTwo.Margin = new System.Windows.Forms.Padding(4);
+            this.btnNoTwo.Location = new System.Drawing.Point(109, 3);
             this.btnNoTwo.Name = "btnNoTwo";
             this.btnNoTwo.ShadowDecoration.Parent = this.btnNoTwo;
-            this.btnNoTwo.Size = new System.Drawing.Size(54, 54);
+            this.btnNoTwo.Size = new System.Drawing.Size(46, 44);
             this.btnNoTwo.TabIndex = 2;
             this.btnNoTwo.Tag = "2";
             this.btnNoTwo.Text = "@                 2";
@@ -1241,11 +1178,10 @@
             this.btnNoOne.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNoOne.ForeColor = System.Drawing.Color.Black;
             this.btnNoOne.HoverState.Parent = this.btnNoOne;
-            this.btnNoOne.Location = new System.Drawing.Point(66, 4);
-            this.btnNoOne.Margin = new System.Windows.Forms.Padding(4);
+            this.btnNoOne.Location = new System.Drawing.Point(57, 3);
             this.btnNoOne.Name = "btnNoOne";
             this.btnNoOne.ShadowDecoration.Parent = this.btnNoOne;
-            this.btnNoOne.Size = new System.Drawing.Size(54, 54);
+            this.btnNoOne.Size = new System.Drawing.Size(46, 44);
             this.btnNoOne.TabIndex = 1;
             this.btnNoOne.Tag = "1";
             this.btnNoOne.Text = "!           1";
@@ -1259,11 +1195,10 @@
             this.btnTilde.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTilde.ForeColor = System.Drawing.Color.Black;
             this.btnTilde.HoverState.Parent = this.btnTilde;
-            this.btnTilde.Location = new System.Drawing.Point(6, 4);
-            this.btnTilde.Margin = new System.Windows.Forms.Padding(4);
+            this.btnTilde.Location = new System.Drawing.Point(5, 3);
             this.btnTilde.Name = "btnTilde";
             this.btnTilde.ShadowDecoration.Parent = this.btnTilde;
-            this.btnTilde.Size = new System.Drawing.Size(54, 54);
+            this.btnTilde.Size = new System.Drawing.Size(46, 44);
             this.btnTilde.TabIndex = 0;
             this.btnTilde.Tag = "`";
             this.btnTilde.Text = "~               `";
@@ -1275,14 +1210,14 @@
             this.tbText.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbText.ForeColor = System.Drawing.Color.Black;
             this.tbText.HideSelection = false;
-            this.tbText.Location = new System.Drawing.Point(350, 230);
-            this.tbText.Margin = new System.Windows.Forms.Padding(10, 20, 0, 0);
+            this.tbText.Location = new System.Drawing.Point(300, 187);
+            this.tbText.Margin = new System.Windows.Forms.Padding(9, 16, 0, 0);
             this.tbText.Name = "tbText";
             this.tbText.ReadOnly = true;
             this.tbText.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Horizontal;
             this.tbText.ShortcutsEnabled = false;
             this.tbText.ShowSelectionMargin = true;
-            this.tbText.Size = new System.Drawing.Size(917, 274);
+            this.tbText.Size = new System.Drawing.Size(787, 223);
             this.tbText.TabIndex = 3;
             this.tbText.Text = "";
             this.tbText.UseWaitCursor = true;
@@ -1296,18 +1231,16 @@
             this.SettingsPanel.Controls.Add(this.btnViewSettings);
             this.SettingsPanel.Controls.Add(this.guna2CirclePictureBox1);
             this.SettingsPanel.Controls.Add(this.lblVersion);
-            this.SettingsPanel.Controls.Add(this.btnFontSettings);
-            this.SettingsPanel.Controls.Add(this.btnColorsSettings);
             this.SettingsPanel.FillColor = System.Drawing.Color.Transparent;
             this.SettingsPanel.FillColor2 = System.Drawing.Color.Transparent;
             this.SettingsPanel.FillColor3 = System.Drawing.Color.Transparent;
             this.SettingsPanel.FillColor4 = System.Drawing.Color.Transparent;
             this.SettingsPanel.ImeMode = System.Windows.Forms.ImeMode.Off;
-            this.SettingsPanel.Location = new System.Drawing.Point(0, 34);
-            this.SettingsPanel.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.SettingsPanel.Location = new System.Drawing.Point(0, 28);
+            this.SettingsPanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.SettingsPanel.Name = "SettingsPanel";
             this.SettingsPanel.ShadowDecoration.Parent = this.SettingsPanel;
-            this.SettingsPanel.Size = new System.Drawing.Size(244, 1703);
+            this.SettingsPanel.Size = new System.Drawing.Size(209, 1384);
             this.SettingsPanel.TabIndex = 4;
             this.SettingsPanel.Visible = false;
             // 
@@ -1316,7 +1249,7 @@
             this.btnTimeSettings.Animated = true;
             this.btnTimeSettings.AutoRoundedCorners = true;
             this.btnTimeSettings.BackColor = System.Drawing.Color.Transparent;
-            this.btnTimeSettings.BorderRadius = 22;
+            this.btnTimeSettings.BorderRadius = 18;
             this.btnTimeSettings.CheckedState.Parent = this.btnTimeSettings;
             this.btnTimeSettings.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnTimeSettings.CustomImages.Parent = this.btnTimeSettings;
@@ -1325,11 +1258,11 @@
             this.btnTimeSettings.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTimeSettings.ForeColor = System.Drawing.Color.Black;
             this.btnTimeSettings.HoverState.Parent = this.btnTimeSettings;
-            this.btnTimeSettings.Location = new System.Drawing.Point(6, 129);
-            this.btnTimeSettings.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.btnTimeSettings.Location = new System.Drawing.Point(5, 133);
+            this.btnTimeSettings.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnTimeSettings.Name = "btnTimeSettings";
             this.btnTimeSettings.ShadowDecoration.Parent = this.btnTimeSettings;
-            this.btnTimeSettings.Size = new System.Drawing.Size(233, 47);
+            this.btnTimeSettings.Size = new System.Drawing.Size(200, 38);
             this.btnTimeSettings.TabIndex = 8;
             this.btnTimeSettings.Text = "Time";
             this.btnTimeSettings.Click += new System.EventHandler(this.btnTimeSettings_Click);
@@ -1339,7 +1272,7 @@
             this.btnViewSettings.Animated = true;
             this.btnViewSettings.AutoRoundedCorners = true;
             this.btnViewSettings.BackColor = System.Drawing.Color.Transparent;
-            this.btnViewSettings.BorderRadius = 22;
+            this.btnViewSettings.BorderRadius = 18;
             this.btnViewSettings.CheckedState.Parent = this.btnViewSettings;
             this.btnViewSettings.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnViewSettings.CustomImages.Parent = this.btnViewSettings;
@@ -1348,11 +1281,11 @@
             this.btnViewSettings.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnViewSettings.ForeColor = System.Drawing.Color.Black;
             this.btnViewSettings.HoverState.Parent = this.btnViewSettings;
-            this.btnViewSettings.Location = new System.Drawing.Point(6, 78);
-            this.btnViewSettings.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.btnViewSettings.Location = new System.Drawing.Point(5, 63);
+            this.btnViewSettings.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnViewSettings.Name = "btnViewSettings";
             this.btnViewSettings.ShadowDecoration.Parent = this.btnViewSettings;
-            this.btnViewSettings.Size = new System.Drawing.Size(233, 47);
+            this.btnViewSettings.Size = new System.Drawing.Size(200, 38);
             this.btnViewSettings.TabIndex = 7;
             this.btnViewSettings.Text = "View";
             this.btnViewSettings.Click += new System.EventHandler(this.btnViewSettings_Click);
@@ -1361,12 +1294,12 @@
             // 
             this.guna2CirclePictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox1.BackgroundImage")));
             this.guna2CirclePictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(21, 11);
-            this.guna2CirclePictureBox1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(18, 9);
+            this.guna2CirclePictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
             this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CirclePictureBox1.ShadowDecoration.Parent = this.guna2CirclePictureBox1;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(38, 38);
+            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(33, 31);
             this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2CirclePictureBox1.TabIndex = 6;
             this.guna2CirclePictureBox1.TabStop = false;
@@ -1375,67 +1308,22 @@
             // 
             this.lblVersion.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblVersion.ForeColor = System.Drawing.Color.Black;
-            this.lblVersion.Location = new System.Drawing.Point(71, 18);
-            this.lblVersion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblVersion.Location = new System.Drawing.Point(61, 15);
             this.lblVersion.Name = "lblVersion";
-            this.lblVersion.Size = new System.Drawing.Size(158, 28);
+            this.lblVersion.Size = new System.Drawing.Size(135, 23);
             this.lblVersion.TabIndex = 5;
             this.lblVersion.Text = "Version 1.0";
-            // 
-            // btnFontSettings
-            // 
-            this.btnFontSettings.Animated = true;
-            this.btnFontSettings.AutoRoundedCorners = true;
-            this.btnFontSettings.BackColor = System.Drawing.Color.Transparent;
-            this.btnFontSettings.BorderRadius = 22;
-            this.btnFontSettings.CheckedState.Parent = this.btnFontSettings;
-            this.btnFontSettings.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnFontSettings.CustomImages.Parent = this.btnFontSettings;
-            this.btnFontSettings.FillColor = System.Drawing.Color.White;
-            this.btnFontSettings.FillColor2 = System.Drawing.Color.Gray;
-            this.btnFontSettings.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFontSettings.ForeColor = System.Drawing.Color.Black;
-            this.btnFontSettings.HoverState.Parent = this.btnFontSettings;
-            this.btnFontSettings.Location = new System.Drawing.Point(6, 181);
-            this.btnFontSettings.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.btnFontSettings.Name = "btnFontSettings";
-            this.btnFontSettings.ShadowDecoration.Parent = this.btnFontSettings;
-            this.btnFontSettings.Size = new System.Drawing.Size(233, 47);
-            this.btnFontSettings.TabIndex = 1;
-            this.btnFontSettings.Text = "Fonts";
-            // 
-            // btnColorsSettings
-            // 
-            this.btnColorsSettings.Animated = true;
-            this.btnColorsSettings.AutoRoundedCorners = true;
-            this.btnColorsSettings.BackColor = System.Drawing.Color.Transparent;
-            this.btnColorsSettings.BorderRadius = 22;
-            this.btnColorsSettings.CheckedState.Parent = this.btnColorsSettings;
-            this.btnColorsSettings.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnColorsSettings.CustomImages.Parent = this.btnColorsSettings;
-            this.btnColorsSettings.FillColor = System.Drawing.Color.White;
-            this.btnColorsSettings.FillColor2 = System.Drawing.Color.Gray;
-            this.btnColorsSettings.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnColorsSettings.ForeColor = System.Drawing.Color.Black;
-            this.btnColorsSettings.HoverState.Parent = this.btnColorsSettings;
-            this.btnColorsSettings.Location = new System.Drawing.Point(6, 233);
-            this.btnColorsSettings.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.btnColorsSettings.Name = "btnColorsSettings";
-            this.btnColorsSettings.ShadowDecoration.Parent = this.btnColorsSettings;
-            this.btnColorsSettings.Size = new System.Drawing.Size(233, 47);
-            this.btnColorsSettings.TabIndex = 0;
-            this.btnColorsSettings.Text = "Colors";
             // 
             // ProgressBar
             // 
             this.ProgressBar.BorderRadius = 10;
             this.ProgressBar.BorderThickness = 2;
             this.ProgressBar.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
-            this.ProgressBar.Location = new System.Drawing.Point(416, 160);
-            this.ProgressBar.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.ProgressBar.Location = new System.Drawing.Point(357, 130);
+            this.ProgressBar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ProgressBar.Name = "ProgressBar";
             this.ProgressBar.ShadowDecoration.Parent = this.ProgressBar;
-            this.ProgressBar.Size = new System.Drawing.Size(742, 30);
+            this.ProgressBar.Size = new System.Drawing.Size(636, 24);
             this.ProgressBar.TabIndex = 5;
             this.ProgressBar.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
             // 
@@ -1446,11 +1334,11 @@
             this.btnfrmSettings.CheckedState.Parent = this.btnfrmSettings;
             this.btnfrmSettings.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnfrmSettings.HoverState.Parent = this.btnfrmSettings;
-            this.btnfrmSettings.Location = new System.Drawing.Point(12, 2);
-            this.btnfrmSettings.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.btnfrmSettings.Location = new System.Drawing.Point(10, 2);
+            this.btnfrmSettings.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnfrmSettings.Name = "btnfrmSettings";
             this.btnfrmSettings.PressedState.Parent = this.btnfrmSettings;
-            this.btnfrmSettings.Size = new System.Drawing.Size(27, 34);
+            this.btnfrmSettings.Size = new System.Drawing.Size(23, 28);
             this.btnfrmSettings.TabIndex = 4;
             this.btnfrmSettings.Click += new System.EventHandler(this.btnfrmSettings_Click);
             // 
@@ -1463,21 +1351,21 @@
             this.MenuPanel.Controls.Add(this.btnfrmSettings);
             this.MenuPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.MenuPanel.Location = new System.Drawing.Point(0, 0);
-            this.MenuPanel.Margin = new System.Windows.Forms.Padding(4);
             this.MenuPanel.Name = "MenuPanel";
             this.MenuPanel.ShadowDecoration.Parent = this.MenuPanel;
-            this.MenuPanel.Size = new System.Drawing.Size(1636, 37);
+            this.MenuPanel.Size = new System.Drawing.Size(1402, 30);
             this.MenuPanel.TabIndex = 2;
             // 
             // pbAdd
             // 
             this.pbAdd.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pbAdd.Image = ((System.Drawing.Image)(resources.GetObject("pbAdd.Image")));
-            this.pbAdd.Location = new System.Drawing.Point(57, 1);
+            this.pbAdd.Location = new System.Drawing.Point(49, 1);
+            this.pbAdd.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pbAdd.Name = "pbAdd";
             this.pbAdd.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.pbAdd.ShadowDecoration.Parent = this.pbAdd;
-            this.pbAdd.Size = new System.Drawing.Size(38, 33);
+            this.pbAdd.Size = new System.Drawing.Size(33, 27);
             this.pbAdd.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbAdd.TabIndex = 9;
             this.pbAdd.TabStop = false;
@@ -1497,10 +1385,9 @@
             // lblTimer
             // 
             this.lblTimer.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 13.8F, System.Drawing.FontStyle.Bold);
-            this.lblTimer.Location = new System.Drawing.Point(1225, 159);
-            this.lblTimer.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblTimer.Location = new System.Drawing.Point(1050, 129);
             this.lblTimer.Name = "lblTimer";
-            this.lblTimer.Size = new System.Drawing.Size(90, 34);
+            this.lblTimer.Size = new System.Drawing.Size(77, 28);
             this.lblTimer.TabIndex = 6;
             this.lblTimer.Visible = false;
             // 
@@ -1508,11 +1395,10 @@
             // 
             this.pbRestart.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pbRestart.Image = ((System.Drawing.Image)(resources.GetObject("pbRestart.Image")));
-            this.pbRestart.Location = new System.Drawing.Point(351, 160);
-            this.pbRestart.Margin = new System.Windows.Forms.Padding(4);
+            this.pbRestart.Location = new System.Drawing.Point(301, 130);
             this.pbRestart.Name = "pbRestart";
             this.pbRestart.ShadowDecoration.Parent = this.pbRestart;
-            this.pbRestart.Size = new System.Drawing.Size(38, 32);
+            this.pbRestart.Size = new System.Drawing.Size(33, 26);
             this.pbRestart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbRestart.TabIndex = 7;
             this.pbRestart.TabStop = false;
@@ -1523,11 +1409,11 @@
             // 
             this.pbNextText.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pbNextText.Image = ((System.Drawing.Image)(resources.GetObject("pbNextText.Image")));
-            this.pbNextText.Location = new System.Drawing.Point(1224, 514);
-            this.pbNextText.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.pbNextText.Location = new System.Drawing.Point(1049, 418);
+            this.pbNextText.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pbNextText.Name = "pbNextText";
             this.pbNextText.ShadowDecoration.Parent = this.pbNextText;
-            this.pbNextText.Size = new System.Drawing.Size(47, 34);
+            this.pbNextText.Size = new System.Drawing.Size(40, 28);
             this.pbNextText.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbNextText.TabIndex = 8;
             this.pbNextText.TabStop = false;
@@ -1535,10 +1421,10 @@
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.ClientSize = new System.Drawing.Size(1636, 941);
+            this.ClientSize = new System.Drawing.Size(1402, 765);
             this.Controls.Add(this.pbNextText);
             this.Controls.Add(this.pbRestart);
             this.Controls.Add(this.lblTimer);
@@ -1549,7 +1435,6 @@
             this.Controls.Add(this.KeyboardPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainForm";
             this.Text = "Type Testing";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -1632,8 +1517,6 @@
         public Guna.UI2.WinForms.Guna2Button btnK;
         public Guna.UI2.WinForms.Guna2Button btnEmpty;
         public Guna.UI2.WinForms.Guna2CustomGradientPanel SettingsPanel;
-        public Guna.UI2.WinForms.Guna2GradientButton btnColorsSettings;
-        public Guna.UI2.WinForms.Guna2GradientButton btnFontSettings;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
         public System.Windows.Forms.Label lblVersion;
         public Guna.UI2.WinForms.Guna2GradientButton btnViewSettings;

@@ -122,5 +122,7 @@ namespace TypeTest.Settings
         {
             this.Close();
         }
+
+       
     }
 }

@@ -21,6 +21,8 @@ namespace TypeTest.Paragraphs
     public class clsParagraphs
     {
         MainForm form = null;
+        private char TrueChar;
+        private char EnteredChar;
         public string ShowenParagraph = "";
         private string _PrevParagraph = "";
         private int _TotalNumberOfParagraphs;
@@ -46,6 +48,8 @@ namespace TypeTest.Paragraphs
             Counter = 0;
             IsArray = true;
             NumbersOfTrueLetters = 0;
+            TrueChar = ' ';
+            EnteredChar = ' ';
             NumbersOfWrongLetters = 0;
             IsBackSpace = false;
             
@@ -200,24 +204,14 @@ namespace TypeTest.Paragraphs
         {
             return (Counter == TextLength());
         }
-        public void KeyPress(object sender, KeyPressEventArgs e)
+
+        private bool _CheckFirstLetter()
         {
-            if (Counter >= 0)
-            {
-                form.lblTimer.Visible = true;
-                form.timer1.Enabled = true;
-                form.lblTimer.Text = clsTimer.TimerValue.ToString();
-                form.pbRestart.Visible = MainForm.MyView.isShowRestartButton;
-            }
-
-            MainForm.MyKeyboard.HoverTheButton(sender, e);
-            tbText2.Select(Counter, 1);
-            char TrueChar = Convert.ToChar(tbText2.SelectedText);
-            char EnteredChar = Convert.ToChar(e.KeyChar);
-            tbText2.SelectionStart++;
-
-
-            if (e.KeyChar == '\b' )
+            return (Counter == 1);
+        }
+        public void EditCounter(KeyPressEventArgs e, char TrueChar, char EnteredChar)
+        {
+            if (e.KeyChar == '\b')
             {
                 if (Counter == 0)
                 {
@@ -236,7 +230,7 @@ namespace TypeTest.Paragraphs
                         NumbersOfWrongLetters--;
                     }
                 }
-                
+
             }
 
             else if (IsItTrue(TrueChar, EnteredChar))
@@ -252,13 +246,45 @@ namespace TypeTest.Paragraphs
                 Counter++;
                 NumbersOfWrongLetters++;
             }
+        }
 
+        public void FirstLetterEntered()
+        {
+            form.lblTimer.Visible = true;
+            form.timer1.Enabled = true;
+            form.pbRestart.Visible = MainForm.MyView.isShowRestartButton;
+        }
+
+        public void EditTextBoxColorsAfterEnteredLetters()
+        {
             TextColor();
             form.tbText.Select(Counter, 1);
             form.tbText.SelectionBackColor = MainForm.MyColors.SelectionColorOfLetter();
             form.tbText.SelectionColor = MainForm.MyColors.SelectedLetterBackColor();
             MainForm.MyTimer.ProgressBar(IsBackSpace);
             IsBackSpace = false;
+        }
+
+        public void AssignLetters(object sender, KeyPressEventArgs e, out char TrueChar, out char EnteredChar)
+        {
+
+            // Hover the button in the form
+            MainForm.MyKeyboard.HoverTheButton(sender, e);
+            tbText2.Select(Counter, 1);
+            TrueChar = Convert.ToChar(tbText2.SelectedText);
+            EnteredChar = Convert.ToChar(e.KeyChar);
+            tbText2.SelectionStart++;
+        }
+        public void KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (_CheckFirstLetter()) FirstLetterEntered();
+
+            AssignLetters(sender, e, out TrueChar, out EnteredChar);
+
+            EditCounter(e, TrueChar, EnteredChar);
+
+            EditTextBoxColorsAfterEnteredLetters();
+
             if (IsItTheLastLetter()) ShowResultsForm();
         }
         public void KeyUp(object sender, KeyEventArgs e)

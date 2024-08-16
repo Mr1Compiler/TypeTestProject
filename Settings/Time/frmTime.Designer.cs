@@ -57,10 +57,11 @@
             "1   Min",
             "Custom"});
             this.cbSelectTime.ItemsAppearance.Parent = this.cbSelectTime;
-            this.cbSelectTime.Location = new System.Drawing.Point(205, 96);
+            this.cbSelectTime.Location = new System.Drawing.Point(176, 78);
+            this.cbSelectTime.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbSelectTime.Name = "cbSelectTime";
             this.cbSelectTime.ShadowDecoration.Parent = this.cbSelectTime;
-            this.cbSelectTime.Size = new System.Drawing.Size(195, 36);
+            this.cbSelectTime.Size = new System.Drawing.Size(168, 36);
             this.cbSelectTime.TabIndex = 0;
             this.cbSelectTime.SelectedIndexChanged += new System.EventHandler(this.cbSelectTime_SelectedIndexChanged);
             // 
@@ -68,10 +69,9 @@
             // 
             this.lblSelect.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSelect.ForeColor = System.Drawing.Color.Black;
-            this.lblSelect.Location = new System.Drawing.Point(40, 104);
-            this.lblSelect.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblSelect.Location = new System.Drawing.Point(34, 84);
             this.lblSelect.Name = "lblSelect";
-            this.lblSelect.Size = new System.Drawing.Size(158, 28);
+            this.lblSelect.Size = new System.Drawing.Size(135, 23);
             this.lblSelect.TabIndex = 6;
             this.lblSelect.Text = "Select Time";
             // 
@@ -79,7 +79,7 @@
             // 
             this.btnApplay.Animated = true;
             this.btnApplay.AutoRoundedCorners = true;
-            this.btnApplay.BorderRadius = 23;
+            this.btnApplay.BorderRadius = 18;
             this.btnApplay.CheckedState.Parent = this.btnApplay;
             this.btnApplay.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnApplay.CustomImages.Parent = this.btnApplay;
@@ -88,11 +88,10 @@
             this.btnApplay.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnApplay.ForeColor = System.Drawing.Color.White;
             this.btnApplay.HoverState.Parent = this.btnApplay;
-            this.btnApplay.Location = new System.Drawing.Point(258, 470);
-            this.btnApplay.Margin = new System.Windows.Forms.Padding(4);
+            this.btnApplay.Location = new System.Drawing.Point(221, 382);
             this.btnApplay.Name = "btnApplay";
             this.btnApplay.ShadowDecoration.Parent = this.btnApplay;
-            this.btnApplay.Size = new System.Drawing.Size(145, 48);
+            this.btnApplay.Size = new System.Drawing.Size(124, 39);
             this.btnApplay.TabIndex = 21;
             this.btnApplay.Text = "Applay";
             this.btnApplay.Click += new System.EventHandler(this.btnApplay_Click);
@@ -101,7 +100,7 @@
             // 
             this.btnCancel.Animated = true;
             this.btnCancel.AutoRoundedCorners = true;
-            this.btnCancel.BorderRadius = 23;
+            this.btnCancel.BorderRadius = 18;
             this.btnCancel.CheckedState.Parent = this.btnCancel;
             this.btnCancel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCancel.CustomImages.Parent = this.btnCancel;
@@ -110,11 +109,10 @@
             this.btnCancel.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel.ForeColor = System.Drawing.Color.White;
             this.btnCancel.HoverState.Parent = this.btnCancel;
-            this.btnCancel.Location = new System.Drawing.Point(105, 470);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCancel.Location = new System.Drawing.Point(90, 382);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.ShadowDecoration.Parent = this.btnCancel;
-            this.btnCancel.Size = new System.Drawing.Size(145, 48);
+            this.btnCancel.Size = new System.Drawing.Size(124, 39);
             this.btnCancel.TabIndex = 22;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
@@ -126,10 +124,11 @@
             this.gbCustomTime.Enabled = false;
             this.gbCustomTime.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbCustomTime.ForeColor = System.Drawing.Color.Black;
-            this.gbCustomTime.Location = new System.Drawing.Point(85, 210);
+            this.gbCustomTime.Location = new System.Drawing.Point(73, 171);
+            this.gbCustomTime.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.gbCustomTime.Name = "gbCustomTime";
             this.gbCustomTime.ShadowDecoration.Parent = this.gbCustomTime;
-            this.gbCustomTime.Size = new System.Drawing.Size(331, 155);
+            this.gbCustomTime.Size = new System.Drawing.Size(284, 126);
             this.gbCustomTime.TabIndex = 25;
             this.gbCustomTime.Text = "Custom Time";
             // 
@@ -149,10 +148,11 @@
             "Sec",
             "Min"});
             this.cbSelectCustomTime.ItemsAppearance.Parent = this.cbSelectCustomTime;
-            this.cbSelectCustomTime.Location = new System.Drawing.Point(173, 72);
+            this.cbSelectCustomTime.Location = new System.Drawing.Point(148, 58);
+            this.cbSelectCustomTime.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbSelectCustomTime.Name = "cbSelectCustomTime";
             this.cbSelectCustomTime.ShadowDecoration.Parent = this.cbSelectCustomTime;
-            this.cbSelectCustomTime.Size = new System.Drawing.Size(86, 36);
+            this.cbSelectCustomTime.Size = new System.Drawing.Size(74, 36);
             this.cbSelectCustomTime.TabIndex = 27;
             this.cbSelectCustomTime.SelectedIndexChanged += new System.EventHandler(this.cbSelectCustomTime_SelectedIndexChanged);
             // 
@@ -232,19 +232,20 @@
             "58",
             "59"});
             this.cbSelectCustomNumber.ItemsAppearance.Parent = this.cbSelectCustomNumber;
-            this.cbSelectCustomNumber.Location = new System.Drawing.Point(48, 72);
+            this.cbSelectCustomNumber.Location = new System.Drawing.Point(41, 58);
+            this.cbSelectCustomNumber.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbSelectCustomNumber.Name = "cbSelectCustomNumber";
             this.cbSelectCustomNumber.ShadowDecoration.Parent = this.cbSelectCustomNumber;
-            this.cbSelectCustomNumber.Size = new System.Drawing.Size(106, 36);
+            this.cbSelectCustomNumber.Size = new System.Drawing.Size(91, 36);
             this.cbSelectCustomNumber.TabIndex = 26;
             this.cbSelectCustomNumber.SelectedIndexChanged += new System.EventHandler(this.cbSelectCustomNumber_SelectedIndexChanged);
             // 
             // frmTime
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
-            this.ClientSize = new System.Drawing.Size(497, 571);
+            this.ClientSize = new System.Drawing.Size(426, 464);
             this.Controls.Add(this.gbCustomTime);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnApplay);
@@ -252,7 +253,6 @@
             this.Controls.Add(this.cbSelectTime);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmTime";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Time Settings";

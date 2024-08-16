@@ -127,7 +127,9 @@ namespace TypeTest.Settings.View
                 }
             }
             else
+            {
                 this.Close();
+            }
         }
     }
 }

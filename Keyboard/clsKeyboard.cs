@@ -240,8 +240,11 @@ namespace TypeTest.Keyboard
                     return form.btnMinus;
                 case '=':
                     return form.btnPluse;
+                // space button
                 case ' ':
-                     return form.btnSpace;
+                    {
+                        return form.btnSpace;
+                    }
                 case '\b':
                     return form.btnBackSpace;
                 case '\'':
@@ -294,5 +297,7 @@ namespace TypeTest.Keyboard
             CuurBtn = DetermineOFFButton(sender, e);
             AssignButton();
         }
+
+      
     }
 }
