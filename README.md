@@ -2,8 +2,7 @@
 
 ![2](https://github.com/user-attachments/assets/ca9e7a1d-0e73-426a-8fd2-fb0e36959d52)
 
-![Uploading Screenshot 2024-08-17 023755.png…]()
-
+![Screenshot 2024-08-17 023755](https://github.com/user-attachments/assets/ad8ffa5a-c8b9-4e0e-8b12-253499dcf4e6)
 
 
 Watch the app: [Watch on YouTube](https://www.youtube.com/watch?v=L04ylEdflOQ)
