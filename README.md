@@ -12,7 +12,7 @@ WinForms | C# | Guna UI.
 
 You can download GUNA : [Download File](https://drive.google.com/file/d/1du6rxrivpErUh-byHmai8Nrxi-48YQ-g/view?pli=1)
 
-[Watch this video for installation](https://www.youtube.com/watch?v=L04ylEdflOQ)
+[Watch this video for installation](https://www.youtube.com/watch?v=9zfY5q874wM&t=551s)
 
 About the Project:
 This is my first application developed in C#. While I have completed several smaller C# projects for practice, this is my initial foray into a more substantial application.
