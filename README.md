@@ -1,5 +1,11 @@
 ![Thum](https://github.com/user-attachments/assets/685ecd94-5d87-444b-acb3-e7344b6005e4)
 
+![2](https://github.com/user-attachments/assets/ca9e7a1d-0e73-426a-8fd2-fb0e36959d52)
+
+![Uploading Screenshot 2024-08-17 023755.png…]()
+
+
+
 Watch the app: [Watch on YouTube](https://www.youtube.com/watch?v=L04ylEdflOQ)
 
 Technologies Used:
