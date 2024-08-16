@@ -1,4 +1,4 @@
-Adding ReadME file
+![Thum](https://github.com/user-attachments/assets/685ecd94-5d87-444b-acb3-e7344b6005e4)
 
 Check the video: [Watch on YouTube](https://www.youtube.com/watch?v=L04ylEdflOQ)
 
