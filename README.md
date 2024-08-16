@@ -1,5 +1,7 @@
 Adding ReadME file
 
+[![Watch the video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)]([https://www.youtube.com/watch?v=VIDEO_ID](https://www.youtube.com/watch?v=L04ylEdflOQ))
+
 
 About the Project:
 This is my first application developed in C#. While I have completed several smaller C# projects for practice, this is my initial foray into a more substantial application.
