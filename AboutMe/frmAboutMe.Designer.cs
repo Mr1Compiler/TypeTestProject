@@ -33,34 +33,33 @@
             this.lblAboutMe = new System.Windows.Forms.Label();
             this.lblAboutProject = new System.Windows.Forms.Label();
             this.pbYoutube = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.pbFacebook = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.pbInsta = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.pbX = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.SocialPanel = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.lblGithub = new System.Windows.Forms.Label();
             this.linkGithub = new System.Windows.Forms.LinkLabel();
             this.lblSourceCode = new System.Windows.Forms.Label();
-            this.lblContactMe = new System.Windows.Forms.Label();
             this.AboutProjectPanel = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.AboutMePanel = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.pbReddit = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbYoutube)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbFacebook)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbInsta)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbX)).BeginInit();
             this.SocialPanel.SuspendLayout();
             this.AboutProjectPanel.SuspendLayout();
             this.AboutMePanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbReddit)).BeginInit();
             this.SuspendLayout();
             // 
             // linkSourceCode
             // 
             this.linkSourceCode.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold);
+            this.linkSourceCode.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
             this.linkSourceCode.Location = new System.Drawing.Point(138, 11);
             this.linkSourceCode.Name = "linkSourceCode";
             this.linkSourceCode.Size = new System.Drawing.Size(109, 19);
             this.linkSourceCode.TabIndex = 0;
             this.linkSourceCode.TabStop = true;
             this.linkSourceCode.Text = "Click Here";
+            this.linkSourceCode.VisitedLinkColor = System.Drawing.Color.Fuchsia;
             this.linkSourceCode.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSourceCode_LinkClicked);
             // 
             // lblAboutMe
@@ -89,7 +88,7 @@
             // 
             this.pbYoutube.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pbYoutube.Image = ((System.Drawing.Image)(resources.GetObject("pbYoutube.Image")));
-            this.pbYoutube.Location = new System.Drawing.Point(234, 79);
+            this.pbYoutube.Location = new System.Drawing.Point(112, 77);
             this.pbYoutube.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pbYoutube.Name = "pbYoutube";
             this.pbYoutube.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
@@ -98,26 +97,13 @@
             this.pbYoutube.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbYoutube.TabIndex = 10;
             this.pbYoutube.TabStop = false;
-            // 
-            // pbFacebook
-            // 
-            this.pbFacebook.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pbFacebook.Image = ((System.Drawing.Image)(resources.GetObject("pbFacebook.Image")));
-            this.pbFacebook.Location = new System.Drawing.Point(178, 79);
-            this.pbFacebook.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pbFacebook.Name = "pbFacebook";
-            this.pbFacebook.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.pbFacebook.ShadowDecoration.Parent = this.pbFacebook;
-            this.pbFacebook.Size = new System.Drawing.Size(48, 33);
-            this.pbFacebook.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pbFacebook.TabIndex = 11;
-            this.pbFacebook.TabStop = false;
+            this.pbYoutube.Click += new System.EventHandler(this.pbYoutube_Click);
             // 
             // pbInsta
             // 
             this.pbInsta.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pbInsta.Image = ((System.Drawing.Image)(resources.GetObject("pbInsta.Image")));
-            this.pbInsta.Location = new System.Drawing.Point(290, 79);
+            this.pbInsta.Location = new System.Drawing.Point(167, 77);
             this.pbInsta.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pbInsta.Name = "pbInsta";
             this.pbInsta.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
@@ -126,38 +112,23 @@
             this.pbInsta.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbInsta.TabIndex = 12;
             this.pbInsta.TabStop = false;
-            // 
-            // pbX
-            // 
-            this.pbX.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pbX.Image = ((System.Drawing.Image)(resources.GetObject("pbX.Image")));
-            this.pbX.Location = new System.Drawing.Point(122, 79);
-            this.pbX.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pbX.Name = "pbX";
-            this.pbX.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.pbX.ShadowDecoration.Parent = this.pbX;
-            this.pbX.Size = new System.Drawing.Size(48, 33);
-            this.pbX.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pbX.TabIndex = 13;
-            this.pbX.TabStop = false;
+            this.pbInsta.Click += new System.EventHandler(this.pbInsta_Click);
             // 
             // SocialPanel
             // 
             this.SocialPanel.BorderRadius = 5;
             this.SocialPanel.BorderStyle = System.Drawing.Drawing2D.DashStyle.DashDot;
-            this.SocialPanel.Controls.Add(this.lblContactMe);
+            this.SocialPanel.Controls.Add(this.pbReddit);
             this.SocialPanel.Controls.Add(this.lblGithub);
             this.SocialPanel.Controls.Add(this.linkGithub);
             this.SocialPanel.Controls.Add(this.lblSourceCode);
-            this.SocialPanel.Controls.Add(this.pbX);
             this.SocialPanel.Controls.Add(this.pbInsta);
-            this.SocialPanel.Controls.Add(this.pbFacebook);
             this.SocialPanel.Controls.Add(this.linkSourceCode);
             this.SocialPanel.Controls.Add(this.pbYoutube);
-            this.SocialPanel.Location = new System.Drawing.Point(187, 415);
+            this.SocialPanel.Location = new System.Drawing.Point(222, 415);
             this.SocialPanel.Name = "SocialPanel";
             this.SocialPanel.ShadowDecoration.Parent = this.SocialPanel;
-            this.SocialPanel.Size = new System.Drawing.Size(355, 132);
+            this.SocialPanel.Size = new System.Drawing.Size(267, 121);
             this.SocialPanel.TabIndex = 14;
             // 
             // lblGithub
@@ -174,12 +145,15 @@
             // linkGithub
             // 
             this.linkGithub.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold);
+            this.linkGithub.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
             this.linkGithub.Location = new System.Drawing.Point(95, 45);
             this.linkGithub.Name = "linkGithub";
             this.linkGithub.Size = new System.Drawing.Size(112, 19);
             this.linkGithub.TabIndex = 16;
             this.linkGithub.TabStop = true;
             this.linkGithub.Text = "Click Here";
+            this.linkGithub.VisitedLinkColor = System.Drawing.Color.Fuchsia;
+            this.linkGithub.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkGithub_LinkClicked);
             // 
             // lblSourceCode
             // 
@@ -191,17 +165,6 @@
             this.lblSourceCode.Size = new System.Drawing.Size(120, 19);
             this.lblSourceCode.TabIndex = 15;
             this.lblSourceCode.Text = "Source Code :";
-            // 
-            // lblContactMe
-            // 
-            this.lblContactMe.BackColor = System.Drawing.Color.White;
-            this.lblContactMe.Font = new System.Drawing.Font("FiraCode Nerd Font Propo", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblContactMe.ForeColor = System.Drawing.Color.Black;
-            this.lblContactMe.Location = new System.Drawing.Point(12, 87);
-            this.lblContactMe.Name = "lblContactMe";
-            this.lblContactMe.Size = new System.Drawing.Size(109, 18);
-            this.lblContactMe.TabIndex = 18;
-            this.lblContactMe.Text = "Contact Me :";
             // 
             // AboutProjectPanel
             // 
@@ -225,11 +188,26 @@
             this.AboutMePanel.Size = new System.Drawing.Size(723, 132);
             this.AboutMePanel.TabIndex = 20;
             // 
+            // pbReddit
+            // 
+            this.pbReddit.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pbReddit.Image = ((System.Drawing.Image)(resources.GetObject("pbReddit.Image")));
+            this.pbReddit.Location = new System.Drawing.Point(57, 77);
+            this.pbReddit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pbReddit.Name = "pbReddit";
+            this.pbReddit.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.pbReddit.ShadowDecoration.Parent = this.pbReddit;
+            this.pbReddit.Size = new System.Drawing.Size(48, 33);
+            this.pbReddit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbReddit.TabIndex = 18;
+            this.pbReddit.TabStop = false;
+            this.pbReddit.Click += new System.EventHandler(this.pbReddit_Click);
+            // 
             // frmAboutMe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(747, 559);
+            this.ClientSize = new System.Drawing.Size(747, 543);
             this.Controls.Add(this.AboutMePanel);
             this.Controls.Add(this.AboutProjectPanel);
             this.Controls.Add(this.SocialPanel);
@@ -241,12 +219,11 @@
             this.Text = "About Me";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmAboutMe_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.pbYoutube)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbFacebook)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbInsta)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbX)).EndInit();
             this.SocialPanel.ResumeLayout(false);
             this.AboutProjectPanel.ResumeLayout(false);
             this.AboutMePanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbReddit)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -258,13 +235,11 @@
         public System.Windows.Forms.LinkLabel linkSourceCode;
         public Guna.UI2.WinForms.Guna2CustomGradientPanel SocialPanel;
         public Guna.UI2.WinForms.Guna2CirclePictureBox pbYoutube;
-        public Guna.UI2.WinForms.Guna2CirclePictureBox pbFacebook;
         public Guna.UI2.WinForms.Guna2CirclePictureBox pbInsta;
-        public Guna.UI2.WinForms.Guna2CirclePictureBox pbX;
         public System.Windows.Forms.Label lblGithub;
         public System.Windows.Forms.LinkLabel linkGithub;
-        public System.Windows.Forms.Label lblContactMe;
         public Guna.UI2.WinForms.Guna2CustomGradientPanel AboutProjectPanel;
         public Guna.UI2.WinForms.Guna2CustomGradientPanel AboutMePanel;
+        public Guna.UI2.WinForms.Guna2CirclePictureBox pbReddit;
     }
 }

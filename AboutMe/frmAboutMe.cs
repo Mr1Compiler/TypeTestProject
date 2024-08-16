@@ -23,21 +23,27 @@ namespace TypeTest.AboutMe
 
             lblAboutProject.Text = "About the Project:\r\n\nThis is my first application developed in C#. While I have completed several smaller C# projects for practice, this is my initial foray into a more substantial application.\r\n\r\nThe app is a typing practice tool that allows users to choose random paragraphs to enhance their typing speed. Users can also add their own custom paragraphs by pressing the \"+\" icon located at the top. You can edit your selections and adjust the timer duration (up to three minutes) through the settings. Additionally, you have the option to enable or disable certain features via the \"View\" settings.\r\nWhile this application has room for improvement and could benefit from additional features, \nI aimed to keep it simple to focus on practicing WinForms and C#.\r\nThank you for taking the time to check it out!";
         }
-
-
-        private void frmAboutMe_Load(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void frmAboutMe_FormClosed(object sender, FormClosedEventArgs e)
-        {
-       
-        }
-
         private void linkSourceCode_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            linkSourceCode.LinkVisited = true;
+            System.Diagnostics.Process.Start("https://github.com/Mr1Compiler/TypeTestProject");
+        }
+        private void linkGithub_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            linkGithub.LinkVisited = true;
+            System.Diagnostics.Process.Start("https://github.com/Mr1Compiler");
+        }
+        private void pbYoutube_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.youtube.com/@Mr1Compiler");
+        }
+        private void pbInsta_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.instagram.com/mr1compiler");
+        }       
+        private void pbReddit_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.reddit.com/user/Mr1Compiler/");
         }
     }
 }

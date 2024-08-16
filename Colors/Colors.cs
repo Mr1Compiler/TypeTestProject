@@ -307,11 +307,8 @@ namespace TypeTest.Colors
             frmAboutMe.lblSourceCode.ForeColor = Color.White;
             frmAboutMe.lblGithub.BackColor = Color.FromArgb(33, 37, 41);
             frmAboutMe.lblGithub.ForeColor = Color.White;
-            frmAboutMe.lblContactMe.BackColor = Color.FromArgb(33, 37, 41);
-            frmAboutMe.lblContactMe.ForeColor = Color.White;
 
-            frmAboutMe.pbX.BackColor = Color.FromArgb(33, 37, 41);
-            frmAboutMe.pbFacebook.BackColor = Color.FromArgb(33, 37, 41);
+            frmAboutMe.pbReddit.BackColor = Color.FromArgb(33, 37, 41);
             frmAboutMe.pbYoutube.BackColor = Color.FromArgb(33, 37, 41);
             frmAboutMe.pbInsta.BackColor = Color.FromArgb(33, 37, 41);
 
