@@ -52,6 +52,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AboutMe\frmAboutMe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutMe\frmAboutMe.Designer.cs">
+      <DependentUpon>frmAboutMe.cs</DependentUpon>
+    </Compile>
     <Compile Include="Colors\Colors.cs" />
     <Compile Include="Custom Paragraph\frmCustomParagraph.cs">
       <SubType>Form</SubType>
@@ -92,6 +98,9 @@
     <Compile Include="Settings\View\frmView.Designer.cs">
       <DependentUpon>frmView.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AboutMe\frmAboutMe.resx">
+      <DependentUpon>frmAboutMe.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Custom Paragraph\frmCustomParagraph.resx">
       <DependentUpon>frmCustomParagraph.cs</DependentUpon>
     </EmbeddedResource>

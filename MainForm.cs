@@ -14,6 +14,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Serialization;
+using TypeTest.AboutMe;
 using TypeTest.Colors;
 using TypeTest.Custom_Paragraph;
 using TypeTest.End_Screen;
@@ -37,6 +38,7 @@ namespace TypeTest
         public static clsView MyView;
         public frmView frmView;
         public frmTime frmTime;
+        public frmAboutMe frmAboutMe;
         frmCustomParagraph frmCustomParagraph; 
         public static bool SameText = false;
         public static bool CustomTime = false;
@@ -59,6 +61,7 @@ namespace TypeTest
             frmView = new frmView(this);
             frmTime = new frmTime(this);
             frmCustomParagraph = new frmCustomParagraph();
+            frmAboutMe = new frmAboutMe(this);
         }
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -139,6 +142,9 @@ namespace TypeTest
             frmView.ShowDialog();
         }
 
-
+        private void guna2CirclePictureBox2_Click(object sender, EventArgs e)
+        {
+            frmAboutMe.ShowDialog();
+        }
     }
 }

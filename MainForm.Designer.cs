@@ -108,6 +108,7 @@
             this.lblTimer = new System.Windows.Forms.Label();
             this.pbRestart = new Guna.UI2.WinForms.Guna2PictureBox();
             this.pbNextText = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.KeyboardPanel.SuspendLayout();
             this.SettingsPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
@@ -115,6 +116,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbAdd)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbRestart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbNextText)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // KeyboardPanel
@@ -1347,6 +1349,7 @@
             this.MenuPanel.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.MenuPanel.BackColor = System.Drawing.Color.IndianRed;
             this.MenuPanel.BorderColor = System.Drawing.Color.White;
+            this.MenuPanel.Controls.Add(this.guna2CirclePictureBox2);
             this.MenuPanel.Controls.Add(this.pbAdd);
             this.MenuPanel.Controls.Add(this.btnfrmSettings);
             this.MenuPanel.Dock = System.Windows.Forms.DockStyle.Top;
@@ -1419,6 +1422,21 @@
             this.pbNextText.TabStop = false;
             this.pbNextText.Click += new System.EventHandler(this.pbNextText_Click);
             // 
+            // guna2CirclePictureBox2
+            // 
+            this.guna2CirclePictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2CirclePictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox2.Image")));
+            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(1366, 0);
+            this.guna2CirclePictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
+            this.guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox2.ShadowDecoration.Parent = this.guna2CirclePictureBox2;
+            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(33, 30);
+            this.guna2CirclePictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2CirclePictureBox2.TabIndex = 10;
+            this.guna2CirclePictureBox2.TabStop = false;
+            this.guna2CirclePictureBox2.Click += new System.EventHandler(this.guna2CirclePictureBox2_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1447,6 +1465,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbAdd)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbRestart)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbNextText)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1530,6 +1549,7 @@
         public Guna.UI2.WinForms.Guna2PictureBox pbRestart;
         private Guna.UI2.WinForms.Guna2CirclePictureBox pbAdd;
         public Guna.UI2.WinForms.Guna2PictureBox pbNextText;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox2;
     }
 }
 

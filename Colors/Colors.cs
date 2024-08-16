@@ -13,6 +13,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Serialization;
+using TypeTest.AboutMe;
 using TypeTest.Colors;
 using TypeTest.Custom_Paragraph;
 using TypeTest.Keyboard;
@@ -294,6 +295,47 @@ namespace TypeTest.Colors
             
         }
 
-      
+        public void frmAboutMe(frmAboutMe frmAboutMe)
+        {
+            frmAboutMe.BackColor = _MainFormColors.BackColor;
+
+            frmAboutMe.lblAboutMe.BackColor = Color.FromArgb(33, 37, 41);
+            frmAboutMe.lblAboutMe.ForeColor = Color.White;
+            frmAboutMe.lblAboutProject.BackColor = Color.FromArgb(33, 37, 41);
+            frmAboutMe.lblAboutProject.ForeColor = Color.White;
+            frmAboutMe.lblSourceCode.BackColor = Color.FromArgb(33, 37, 41);
+            frmAboutMe.lblSourceCode.ForeColor = Color.White;
+            frmAboutMe.lblGithub.BackColor = Color.FromArgb(33, 37, 41);
+            frmAboutMe.lblGithub.ForeColor = Color.White;
+            frmAboutMe.lblContactMe.BackColor = Color.FromArgb(33, 37, 41);
+            frmAboutMe.lblContactMe.ForeColor = Color.White;
+
+            frmAboutMe.pbX.BackColor = Color.FromArgb(33, 37, 41);
+            frmAboutMe.pbFacebook.BackColor = Color.FromArgb(33, 37, 41);
+            frmAboutMe.pbYoutube.BackColor = Color.FromArgb(33, 37, 41);
+            frmAboutMe.pbInsta.BackColor = Color.FromArgb(33, 37, 41);
+
+            frmAboutMe.SocialPanel.FillColor = Color.FromArgb(33, 37, 41);
+            frmAboutMe.SocialPanel.FillColor2 = Color.FromArgb(33, 37, 41);
+            frmAboutMe.SocialPanel.FillColor3 = Color.FromArgb(33, 37, 41);
+            frmAboutMe.SocialPanel.FillColor4 = Color.FromArgb(33, 37, 41);
+
+            frmAboutMe.AboutMePanel.FillColor = Color.FromArgb(33, 37, 41);
+            frmAboutMe.AboutMePanel.FillColor2 = Color.FromArgb(33, 37, 41);
+            frmAboutMe.AboutMePanel.FillColor3 = Color.FromArgb(33, 37, 41);
+            frmAboutMe.AboutMePanel.FillColor4 = Color.FromArgb(33, 37, 41);
+
+            frmAboutMe.AboutProjectPanel.FillColor = Color.FromArgb(33, 37, 41);
+            frmAboutMe.AboutProjectPanel.FillColor2 = Color.FromArgb(33, 37, 41);
+            frmAboutMe.AboutProjectPanel.FillColor3 = Color.FromArgb(33, 37, 41);
+            frmAboutMe.AboutProjectPanel.FillColor4 = Color.FromArgb(33, 37, 41);
+
+            frmAboutMe.linkSourceCode.BackColor = Color.FromArgb(33, 37, 41);
+            frmAboutMe.linkSourceCode.LinkColor = Color.White;
+
+            frmAboutMe.linkGithub.BackColor = Color.FromArgb(33, 37, 41);
+            frmAboutMe.linkGithub.LinkColor = Color.White;
+        }
+
     }
 }
