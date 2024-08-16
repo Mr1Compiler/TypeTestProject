@@ -53,7 +53,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Colors\Colors.cs" />
-    <Compile Include="Custom Paragraph\clsCustomParagraph.cs" />
     <Compile Include="Custom Paragraph\frmCustomParagraph.cs">
       <SubType>Form</SubType>
     </Compile>

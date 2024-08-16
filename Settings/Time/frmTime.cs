@@ -16,9 +16,11 @@ namespace TypeTest.Settings
     {
         private bool isCustomClicked = false;
         public int Value = 0;
-        public frmTime()
+        MainForm form;
+        public frmTime(MainForm Form)
         {
             InitializeComponent();
+            form = Form;
             MainForm.MyColors.frmTimeColors(this);
         }
 
@@ -123,6 +125,11 @@ namespace TypeTest.Settings
             this.Close();
         }
 
-       
+        private void frmTime_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            form.SettingsPanel.Visible = false;
+            form.SettingsPanel.Enabled = false;
+            form.isClose = true;
+        }
     }
 }

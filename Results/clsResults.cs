@@ -51,24 +51,20 @@ namespace TypeTest.End_Screen
             form.PBWrongLetters.Value = Convert.ToInt32(WrongLettersPrec());
             form.lblWrongLettersPrec.Text = form.PBWrongLetters.Value.ToString() + "%";
         }
-
         public double WPM()
         {
             double Time = Convert.ToDouble(MainForm.MyTimer.GetCurrentTimerValue()) / 60;
 
             return Convert.ToDouble(NumOfRightWords) / Time;
         }
-
         public double Accurancy()
         {
             return ((double)NumOfRightWords / TotalWords) * 100;
         }
-
         public double CorrectLettersPrec()
         {
             return ((double)clsParagraphs.NumbersOfTrueLetters / TotalLetters ) * 100;
         }
-
         public double WrongLettersPrec()
         {
             return ((double)clsParagraphs.NumbersOfWrongLetters / TotalLetters) * 100;
@@ -80,7 +76,6 @@ namespace TypeTest.End_Screen
             MainForm.MyRestart.RestartAll();
             MainForm.SameText = false;
         }
-
         public void NextPressed()
         {
             form.Close();

@@ -253,9 +253,12 @@
             this.Controls.Add(this.cbSelectTime);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frmTime";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Time Settings";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmTime_FormClosed);
             this.Load += new System.EventHandler(this.frmTime_Load);
             this.gbCustomTime.ResumeLayout(false);
             this.ResumeLayout(false);

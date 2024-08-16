@@ -317,6 +317,7 @@
             this.Name = "frmView";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "View Settings";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmView_FormClosed);
             this.Load += new System.EventHandler(this.frmView_Load);
             this.ResumeLayout(false);
 

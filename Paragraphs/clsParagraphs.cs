@@ -267,7 +267,6 @@ namespace TypeTest.Paragraphs
 
         public void AssignLetters(object sender, KeyPressEventArgs e, out char TrueChar, out char EnteredChar)
         {
-
             // Hover the button in the form
             MainForm.MyKeyboard.HoverTheButton(sender, e);
             tbText2.Select(Counter, 1);

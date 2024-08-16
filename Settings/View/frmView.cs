@@ -123,13 +123,22 @@ namespace TypeTest.Settings.View
                 if (MessageBox.Show("Are you sure?", "Confirm", MessageBoxButtons.OKCancel) == DialogResult.OK)
                 {
                     MainForm.MyView.AssignPrevValues(this);
+                    form.SettingsPanel.Visible = false;
                     this.Close();
                 }
             }
             else
             {
+                form.SettingsPanel.Visible = false;
                 this.Close();
             }
+        }
+
+        private void frmView_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            form.SettingsPanel.Visible = false;
+            form.SettingsPanel.Enabled = false;
+            form.isClose = true;
         }
     }
 }

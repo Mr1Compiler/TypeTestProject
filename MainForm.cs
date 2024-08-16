@@ -34,8 +34,6 @@ namespace TypeTest
         public static clsTimer MyTimer;
         public static clsRestart MyRestart;
         public static clsResults MyResults;
-        public static clsCustomParagraph MyCustomParagraph;
-        public static clsCustomParagraph clsCustomParagraph;
         public static clsView MyView;
         public frmView frmView;
         public frmTime frmTime;
@@ -59,7 +57,7 @@ namespace TypeTest
         public void InitializingForms()
         {
             frmView = new frmView(this);
-            frmTime = new frmTime();
+            frmTime = new frmTime(this);
             frmCustomParagraph = new frmCustomParagraph();
         }
         private void Form1_Load(object sender, EventArgs e)
@@ -92,11 +90,13 @@ namespace TypeTest
         {
             if(isClose)
             {
+                SettingsPanel.Enabled= true;
                 SettingsPanel.Visible = true;
                 isClose = false;
             }
             else
             {
+                SettingsPanel.Enabled = false;
                 SettingsPanel.Visible = false;
                 isClose = true;
             }
@@ -104,20 +104,12 @@ namespace TypeTest
         }
         private void MainForm_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (e.KeyChar == ' ')
-            {
-                //frmView.Hide = false;
-                SettingsPanel.Visible = false;
-                frmView.Visible = false;
-                isClose = true;
-            }
-            
             this.Focus();
             MyParagraph.KeyPress(sender, e);
         }
         private void MainForm_KeyUp(object sender, KeyEventArgs e)
         {
-           MyParagraph.KeyUp(sender, e);
+            MyParagraph.KeyUp(sender, e);
         }
         private void btnTimeSettings_Click(object sender, EventArgs e)
         {
@@ -144,10 +136,7 @@ namespace TypeTest
         }
         private void btnViewSettings_Click(object sender, EventArgs e)
         {
-            //MyView = new clsView();
-            //frmView.Enabled = true;
             frmView.ShowDialog();
-            //frmView.Enabled = false;
         }
 
 
