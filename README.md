@@ -1,12 +1,13 @@
 ![Thum](https://github.com/user-attachments/assets/685ecd94-5d87-444b-acb3-e7344b6005e4)
 
-Check the video: [Watch on YouTube](https://www.youtube.com/watch?v=L04ylEdflOQ)
+Watch the app: [Watch on YouTube](https://www.youtube.com/watch?v=L04ylEdflOQ)
 
 Technologies Used:
 WinForms | C# | Guna UI.
 
 You can download GUNA : [Download File](https://drive.google.com/file/d/1du6rxrivpErUh-byHmai8Nrxi-48YQ-g/view?pli=1)
 
+[Watch this video for installation](https://www.youtube.com/watch?v=L04ylEdflOQ)
 
 About the Project:
 This is my first application developed in C#. While I have completed several smaller C# projects for practice, this is my initial foray into a more substantial application.
