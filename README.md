@@ -1,6 +1,6 @@
 Adding ReadME file
 
-[![Watch the video](https://img.youtube.com/vi/VIDEO_ID/hqdefault.jpg)]([https://www.youtube.com/watch?v=VIDEO_ID](https://www.youtube.com/watch?v=L04ylEdflOQ))
+Check the video: [Watch on YouTube]([https://www.youtube.com/watch?v=VIDEO_ID](https://www.youtube.com/watch?v=L04ylEdflOQ))
 
 
 About the Project:
