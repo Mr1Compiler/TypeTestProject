@@ -217,7 +217,6 @@
             this.Name = "frmAboutMe";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "About Me";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmAboutMe_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.pbYoutube)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbInsta)).EndInit();
             this.SocialPanel.ResumeLayout(false);

@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|e:\\projects\\typetest_colned\\typetestproject\\aboutme\\frmaboutme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|solutionrelative:aboutme\\frmaboutme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|e:\\projects\\typetest_colned\\typetestproject\\paragraphs\\clsparagraphs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|solutionrelative:paragraphs\\clsparagraphs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|e:\\projects\\typetest_colned\\typetestproject\\aboutme\\frmaboutme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|solutionrelative:aboutme\\frmaboutme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|E:\\Projects\\TypeTest_Colned\\TypeTestProject\\colors\\colors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|solutionrelative:colors\\colors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|E:\\Projects\\TypeTest_Colned\\TypeTestProject\\aboutme\\frmaboutme.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|solutionrelative:aboutme\\frmaboutme.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|E:\\Projects\\TypeTest_Colned\\TypeTestProject\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|E:\\Projects\\TypeTest_Colned\\TypeTestProject\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|e:\\projects\\typetest_colned\\typetestproject\\aboutme\\frmaboutme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|solutionrelative:aboutme\\frmaboutme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|E:\\Projects\\TypeTest_Colned\\TypeTestProject\\settings\\restart\\clsrestart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|solutionrelative:settings\\restart\\clsrestart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|E:\\Projects\\TypeTest_Colned\\TypeTestProject\\settings\\timer\\clstimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|solutionrelative:settings\\timer\\clstimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|E:\\Projects\\TypeTest_Colned\\TypeTestProject\\settings\\time\\frmtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|solutionrelative:settings\\time\\frmtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|E:\\Projects\\TypeTest_Colned\\TypeTestProject\\settings\\view\\frmview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0DEA978-B641-4E3F-B058-05A9F7903E76}|TypeTest.csproj|solutionrelative:settings\\view\\frmview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 207,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +62,32 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "clsRestart.cs",
+              "DocumentMoniker": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\Settings\\Restart\\clsRestart.cs",
+              "RelativeDocumentMoniker": "Settings\\Restart\\clsRestart.cs",
+              "ToolTip": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\Settings\\Restart\\clsRestart.cs",
+              "RelativeToolTip": "Settings\\Restart\\clsRestart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T22:14:11.888Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "frmAboutMe.Designer.cs",
+              "DocumentMoniker": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\AboutMe\\frmAboutMe.Designer.cs",
+              "RelativeDocumentMoniker": "AboutMe\\frmAboutMe.Designer.cs",
+              "ToolTip": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\AboutMe\\frmAboutMe.Designer.cs",
+              "RelativeToolTip": "AboutMe\\frmAboutMe.Designer.cs",
+              "ViewState": "AQIAAKcAAAAAAAAAAAAvwNwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T21:21:48.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "frmAboutMe.cs [Design]",
               "DocumentMoniker": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\AboutMe\\frmAboutMe.cs",
               "RelativeDocumentMoniker": "AboutMe\\frmAboutMe.cs",
@@ -62,58 +99,71 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\MainForm.cs",
-              "RelativeDocumentMoniker": "MainForm.cs",
-              "ToolTip": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\MainForm.cs [Design]",
-              "RelativeToolTip": "MainForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T22:53:27.432Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "MainForm.cs",
               "DocumentMoniker": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",
               "ToolTip": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\MainForm.cs",
               "RelativeToolTip": "MainForm.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAAwJIAAAAkAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T16:34:54.301Z"
+              "WhenOpened": "2024-08-14T16:34:54.301Z",
+              "EditorCaption": ""
             }
           ]
         },
         {
           "DockedWidth": 207,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Colors.cs",
-              "DocumentMoniker": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\Colors\\Colors.cs",
-              "RelativeDocumentMoniker": "Colors\\Colors.cs",
-              "ToolTip": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\Colors\\Colors.cs",
-              "RelativeToolTip": "Colors\\Colors.cs",
-              "ViewState": "AQIAAN4AAAAAAAAAAAAswDUBAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "clsParagraphs.cs",
+              "DocumentMoniker": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\Paragraphs\\clsParagraphs.cs",
+              "RelativeDocumentMoniker": "Paragraphs\\clsParagraphs.cs",
+              "ToolTip": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\Paragraphs\\clsParagraphs.cs",
+              "RelativeToolTip": "Paragraphs\\clsParagraphs.cs",
+              "ViewState": "AQIAAG4AAAAAAAAAAIAywMkAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T19:52:19.826Z",
+              "WhenOpened": "2024-08-16T22:08:42.897Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmAboutMe.cs",
-              "DocumentMoniker": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\AboutMe\\frmAboutMe.cs",
-              "RelativeDocumentMoniker": "AboutMe\\frmAboutMe.cs",
-              "ToolTip": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\AboutMe\\frmAboutMe.cs",
-              "RelativeToolTip": "AboutMe\\frmAboutMe.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "clsTimer.cs",
+              "DocumentMoniker": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\Settings\\Timer\\clsTimer.cs",
+              "RelativeDocumentMoniker": "Settings\\Timer\\clsTimer.cs",
+              "ToolTip": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\Settings\\Timer\\clsTimer.cs",
+              "RelativeToolTip": "Settings\\Timer\\clsTimer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T19:49:57.756Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T22:11:24.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmView.cs",
+              "DocumentMoniker": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\Settings\\View\\frmView.cs",
+              "RelativeDocumentMoniker": "Settings\\View\\frmView.cs",
+              "ToolTip": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\Settings\\View\\frmView.cs",
+              "RelativeToolTip": "Settings\\View\\frmView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T22:08:14.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmTime.cs",
+              "DocumentMoniker": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\Settings\\Time\\frmTime.cs",
+              "RelativeDocumentMoniker": "Settings\\Time\\frmTime.cs",
+              "ToolTip": "E:\\Projects\\TypeTest_Colned\\TypeTestProject\\Settings\\Time\\frmTime.cs",
+              "RelativeToolTip": "Settings\\Time\\frmTime.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T22:08:05.396Z"
             }
           ]
         }

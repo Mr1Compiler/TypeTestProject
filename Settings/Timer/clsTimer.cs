@@ -55,7 +55,7 @@ namespace TypeTest.Settings.Timer
 
             else
             {
-                return 30;
+                return 15;
             }
         }
         public void TimerTick()

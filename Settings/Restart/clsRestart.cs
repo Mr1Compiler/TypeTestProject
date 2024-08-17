@@ -25,9 +25,10 @@ namespace TypeTest.Settings.Restart
         {
             form.tbText.Enabled = true;
             form.lblTimer.Visible = false;
+            MainForm.MyTimer = new clsTimer(form);
             MainForm.MyParagraph = new clsParagraphs(form);
             MainForm.MyColors = new clsColors(form);
-            MainForm.MyTimer = new clsTimer(form);
+            
             MainForm.MyKeyboard = new clsKeyboard(form);            
         }
     }

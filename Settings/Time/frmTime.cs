@@ -127,6 +127,7 @@ namespace TypeTest.Settings
 
         private void frmTime_FormClosed(object sender, FormClosedEventArgs e)
         {
+            form.lblTimer.Visible = false;
             form.SettingsPanel.Visible = false;
             form.SettingsPanel.Enabled = false;
             form.isClose = true;

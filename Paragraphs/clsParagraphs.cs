@@ -52,7 +52,6 @@ namespace TypeTest.Paragraphs
             EnteredChar = ' ';
             NumbersOfWrongLetters = 0;
             IsBackSpace = false;
-            
 
             if (CustomText)
             {
@@ -204,10 +203,9 @@ namespace TypeTest.Paragraphs
         {
             return (Counter == TextLength());
         }
-
         private bool _CheckFirstLetter()
         {
-            return (Counter == 1);
+            return (Counter == 0);
         }
         public void EditCounter(KeyPressEventArgs e, char TrueChar, char EnteredChar)
         {
@@ -247,14 +245,16 @@ namespace TypeTest.Paragraphs
                 NumbersOfWrongLetters++;
             }
         }
-
         public void FirstLetterEntered()
         {
-            form.lblTimer.Visible = true;
             form.timer1.Enabled = true;
+            form.lblTimer.Text = MainForm.MyTimer.GetTimerValue().ToString();
+            form.lblTimer.Visible = true;
+            
+         
+            
             form.pbRestart.Visible = MainForm.MyView.isShowRestartButton;
         }
-
         public void EditTextBoxColorsAfterEnteredLetters()
         {
             TextColor();
@@ -264,7 +264,6 @@ namespace TypeTest.Paragraphs
             MainForm.MyTimer.ProgressBar(IsBackSpace);
             IsBackSpace = false;
         }
-
         public void AssignLetters(object sender, KeyPressEventArgs e, out char TrueChar, out char EnteredChar)
         {
             // Hover the button in the form
